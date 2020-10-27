@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="651E299702B447828041B1FB363607D1" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>chirag.jain.external@airbus.com</email>
+  <last_login_date>2020-09-01T13:01:18</last_login_date>
+  <login_name>chirag.jain</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="chirag jain" type="Identity">B767266AF91F40F9B970F2BBA635F189</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:31:56</pwd_is_set_on>
+  <first_name>chirag</first_name>
+  <last_name>JAIN</last_name>
+  <Relationships>
+   <Item type="Alias" id="22F4B24F78B64214B1C2DDF3608FE6AD" action="add">
+    <from_date>2017-12-13T17:37:50</from_date>
+    <related_id keyed_name="chirag jain" type="Identity">B767266AF91F40F9B970F2BBA635F189</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="chirag JAIN" type="User">651E299702B447828041B1FB363607D1</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="Action" id="42065CDA9C8C49FF859E255ADF6464E4" action="add">
+  <item_query>&lt;Item type="{@type}" action="get"&gt;&lt;id&gt;&lt;xsl:value-of select="@id" /&gt;&lt;/id&gt;&lt;/Item&gt;</item_query>
+  <label xml:lang="en">Update Discount</label>
+  <location>server</location>
+  <method keyed_name="dna_crd_discount_update" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>dna_crd_discount_update</name>
+   </Item>
+  </method>
+  <on_complete keyed_name="dna_refresh_page" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>dna_refresh_page</name>
+   </Item>
+  </on_complete>
+  <target>none</target>
+  <type>item</type>
+  <name>dna_crd_discount_update</name>
+ </Item>
+</AML>

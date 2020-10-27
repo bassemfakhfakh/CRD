@@ -1,0 +1,24 @@
+﻿<AML>
+ <Item type="Team" id="19A4692E7A3445FFABAFDC1C5705EFEC" action="add">
+  <name>ZIDCC Conf Service CPAO ZIDAI ZIDCD</name>
+  <Relationships>
+   <Item type="Team Identity" id="2AADB3F825DF4DD5A458A54A80C6D490" action="add">
+    <related_id keyed_name="ZIDCC Conf Service CPAO ZIDAI ZIDCD_Manager" type="Identity">67EF6E77E5344039ABF8AE095F214254</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ZIDCC Conf Service CPAO ZIDAI ZIDCD" type="Team">19A4692E7A3445FFABAFDC1C5705EFEC</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="2D044517ED6B45279B4DC1BB3BCEFD24" action="add">
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ZIDCC Conf Service CPAO ZIDAI ZIDCD" type="Team">19A4692E7A3445FFABAFDC1C5705EFEC</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="57F3882731BF48B39AADF0DD633D11B4" action="add">
+    <related_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ZIDCC Conf Service CPAO ZIDAI ZIDCD" type="Team">19A4692E7A3445FFABAFDC1C5705EFEC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

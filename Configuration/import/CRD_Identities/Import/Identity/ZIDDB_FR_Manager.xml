@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="Identity" id="637FE41FFC5241ADA8EDABCA9BAF8BD3" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDDB_FR_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="EAFEBEFF9E73412A8D5F2C95E2F7FCD9" action="add">
+  <related_id keyed_name="Pascal CAZAUX" type="Identity">46B3AD1E0AF0482791D30DA27FA2360C</related_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="ZIDDB_FR_Manager" type="Identity">637FE41FFC5241ADA8EDABCA9BAF8BD3</source_id>
+ </Item>
+ <Item type="Member" id="FAC8348FA61242D0A0D7C4B094E5F2F2" action="add">
+  <related_id keyed_name="Olivier GUERIN" type="Identity">2356BCC4141E4EC98FF8D95C2219D396</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="ZIDDB_FR_Manager" type="Identity">637FE41FFC5241ADA8EDABCA9BAF8BD3</source_id>
+ </Item>
+</AML>

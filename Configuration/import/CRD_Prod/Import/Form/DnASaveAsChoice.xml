@@ -1,0 +1,198 @@
+﻿<AML>
+ <Item type="Form" id="90AB95EE55FC46FFA55713D421657B16" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>DnASaveAsChoice</name>
+  <Relationships>
+   <Item type="Body" id="760FF9D99D6E427691B18B4627232E08" action="add">
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnASaveAsChoice" type="Form">90AB95EE55FC46FFA55713D421657B16</source_id>
+    <Relationships>
+     <Item type="Field" id="FC17531858D34912A0E6F4EBCFCB6E60" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Cancel</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>117</x>
+      <y>234</y>
+      <name>button0</name>
+     </Item>
+     <Item type="Field" id="C3E1E0D195734D9F8D0C1E87273EDF0A" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">OK</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>211</x>
+      <y>238</y>
+      <name>button1</name>
+     </Item>
+     <Item type="Field" id="FFB3F7AE8B544297A98B6B907D204631" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Generated CRD (PDF)</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>124</x>
+      <y>58</y>
+      <name>checkbox1</name>
+     </Item>
+     <Item type="Field" id="36E388FE001C46EEA7E15B12FC3F51D1" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Original CRD (Word)</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>133</x>
+      <y>7</y>
+      <name>checkbox2</name>
+     </Item>
+     <Item type="Field" id="2DD01C3B581246A8A6C9CD40AAD45A79" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">TRD</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>218</x>
+      <y>109</y>
+      <name>checkbox3</name>
+     </Item>
+     <Item type="Field" id="9945BC24E50B4F4AA45757FC6130F3F1" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Profitablity</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>177</x>
+      <y>133</y>
+      <name>checkbox4</name>
+     </Item>
+     <Item type="Field" id="0E57E95ABEF0405BBA55317627F34A63" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Other Attachments</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>135</x>
+      <y>158</y>
+      <name>checkbox5</name>
+     </Item>
+     <Item type="Field" id="87A7B9245DEA478FA904F2B044028759" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Signed CRD (PDF)</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <x>138</x>
+      <y>185</y>
+      <name>checkbox6</name>
+     </Item>
+     <Item type="Field" id="E69AB1FC354847D0B33BBDD609A6B13D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Complexity Matrix</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="760FF9D99D6E427691B18B4627232E08" type="Body">760FF9D99D6E427691B18B4627232E08</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>left</text_align>
+      <x>140</x>
+      <y>84</y>
+      <name>ComplexityMatrix</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,109 @@
+﻿<AML>
+ <Item type="Method" id="853E6D9813F24ADCBC14A61D4C7A0BFB" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[if (aras.Browser.isFf() && aras.Browser.getMajorVersionNumber() === 38){
+    top.aras.AlertError("Open in Office is not supported with FireFox version 38");
+    return;
+}
+
+var classification = this.getProperty("classification");
+
+var methodParams = "<classification>" + classification + "</classification>\
+                    <linkProperty>native_file_link</linkProperty>";
+
+var innovator = top.aras.newIOMInnovator();
+var reference = innovator.applyMethod("MSO_CommonSettings_GetReference", methodParams);
+
+if (reference.getItemCount() !== 1 || reference.isError()) {
+    top.aras.AlertError("MSO_Reference for current document not found");
+    return;
+}
+
+var refTypeID = reference.getProperty("reference_item_type"),
+    refTypeName = reference.getPropertyAttribute("reference_item_type", "keyed_name"),
+    refPropertyName = reference.getPropertyAttribute("reference_property", "keyed_name");
+
+if (!refPropertyName) {
+    top.aras.AlertError("MSO_Reference for native file is empty.");
+    return;
+}
+
+var type = this.getType();
+var fileId;
+
+if (refTypeName === type) {
+    var property = this.getPropertyItem(refPropertyName);
+    if (property) {
+        fileId = property.getId();
+    }
+}
+else {
+    var itemProperty = inDom.selectSingleNode("Relationships/Item/" + refPropertyName + "/Item");
+    if (itemProperty) {
+        fileId = itemProperty.getAttribute("id");
+    }
+
+    if (!fileId){
+        var property = inDom.selectSingleNode("Relationships/Item/" + refPropertyName);
+        if (property) {
+            fileId = property.text;
+        }
+    }
+}
+
+if (!fileId) {
+    top.aras.AlertError("Native file not found.");
+    return;
+}
+
+var fileItem = aras.IomInnovator.getItemById("File", fileId);
+var saveToUrl =  fileItem.getProperty("checkedout_path"),
+	fileName  =  fileItem.getProperty("keyed_name"),
+	isCurrent = fileItem.getProperty("is_current"),
+	modifiedOn  = fileItem.getProperty("modified_on"),
+	configId  = this.getProperty("config_id"),
+	version = this.getProperty("generation");
+
+var url = window.location.href;
+url = url.substring(0, url.indexOf("Client")); 
+    
+var fileUrl = aras.IomInnovator.getFileUrl(fileId, aras.Enums.UrlType.SecurityToken);
+aras.vault.SetLocalFileName(fileName);
+
+var userName = aras.getLoginName();
+var userPassHash = aras.getPassword();
+var dbName = aras.getDatabase();
+var content = "user:"+ userName + ";"+"password:"+userPassHash +";"+"dbName:"+dbName+";"+"url:"+url+";";	
+
+content += "id:" + inDom.getAttribute("id") + ";";
+content += "docType:" + type + ";";
+content += "configId:" + configId + ";";
+content += "modifiedOn:" + modifiedOn + ";";
+content += "isCurrent:" + isCurrent + ";";
+content += "fileName:" + fileName + ";";
+content += "version:" + version + ";";
+content += "fileId:" + fileId + ";";
+content += "innovatorhash";
+
+var mime = fileItem.getProperty("mimetype");
+if (aras.Browser.isIe() && mime)
+{
+    setTimeout(function () {
+        var wnd = window.open('', '_blank', 'scrollbars=yes,resizable=yes,status=no');
+        wnd.clipboardData.setData('Text', content);    
+        wnd.location.assign(fileUrl);
+        wnd.onfocus = function() {
+            wnd.close();
+        }
+    },0);
+}
+else
+{
+    var wnd = window.main || window;
+    top.aras.utils.SetClipboardData("Text", content, wnd);
+    aras.uiShowItem("File", fileId);
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>MSO_OpenInOffice</name>
+ </Item>
+</AML>

@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="List" id="9EA52576FB6646289A599CA0B938502A" action="add">
+  <name>DnA_Currency</name>
+  <Relationships>
+   <Item type="Value" id="9E44E2CF670C46D3AD70F1625D5CAE3C" action="add">
+    <label xml:lang="en">euro</label>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="DnA_Currency" type="List">9EA52576FB6646289A599CA0B938502A</source_id>
+    <value>euro</value>
+   </Item>
+   <Item type="Value" id="B7DD148B20BA4E51BB67587411E05CCC" action="add">
+    <label xml:lang="en">pound</label>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="DnA_Currency" type="List">9EA52576FB6646289A599CA0B938502A</source_id>
+    <value>pound</value>
+   </Item>
+   <Item type="Value" id="DE1EFC8BC65F49869DCAB8914A7E475D" action="add">
+    <label xml:lang="en">us-dollar</label>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="DnA_Currency" type="List">9EA52576FB6646289A599CA0B938502A</source_id>
+    <value>us-dollar</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

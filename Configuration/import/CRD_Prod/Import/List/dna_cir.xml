@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="List" id="59CA0AD36F904006B33221688E734AA0" action="add">
+  <name>dna_cir</name>
+  <Relationships>
+   <Item type="Value" id="5334FD1388E140D9AE1923399A4E24A0" action="add">
+    <label xml:lang="en">Yes</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_cir" type="List">59CA0AD36F904006B33221688E734AA0</source_id>
+    <value>Yes</value>
+   </Item>
+   <Item type="Value" id="BC57BF151A594B9F9F222C706EA21A4A" action="add">
+    <label xml:lang="en">No</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="dna_cir" type="List">59CA0AD36F904006B33221688E734AA0</source_id>
+    <value>No</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

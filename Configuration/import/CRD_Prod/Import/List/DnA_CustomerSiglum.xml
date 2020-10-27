@@ -1,0 +1,127 @@
+﻿<AML>
+ <Item type="List" id="9270E984AF94410B9116302773EED659" action="add">
+  <name>DnA_CustomerSiglum</name>
+  <Relationships>
+   <Item type="Value" id="D80EF7EED05F4C0F80ADE953634A4197" action="add">
+    <label xml:lang="en">ZIDAI</label>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDAI</value>
+   </Item>
+   <Item type="Value" id="1BA160D4F0A74D9E844744F3D17C13DF" action="add">
+    <label xml:lang="en">ZIDAL</label>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDAL</value>
+   </Item>
+   <Item type="Value" id="311B141604484885BC0BE1251BDE78A2" action="add">
+    <label xml:lang="en">ZIDAR</label>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDAR</value>
+   </Item>
+   <Item type="Value" id="5D8061E2969F4F5CB72410A2DA1B2E27" action="add">
+    <label xml:lang="en">ZIDAV</label>
+    <sort_order>40</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDAV</value>
+   </Item>
+   <Item type="Value" id="933551D460AD4A59AB41701E03D24AB4" action="add">
+    <label xml:lang="en">ZIDCB</label>
+    <sort_order>50</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDCB</value>
+   </Item>
+   <Item type="Value" id="DE016DB876F841DA82D64F022CDDDFFA" action="add">
+    <label xml:lang="en">ZIDCC</label>
+    <sort_order>60</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDCC</value>
+   </Item>
+   <Item type="Value" id="6156690E107944DDA31B6BB7C6CEAE9A" action="add">
+    <label xml:lang="en">ZIDCD</label>
+    <sort_order>70</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDCD</value>
+   </Item>
+   <Item type="Value" id="56CE72DA0BB741818234F755EB781C15" action="add">
+    <label xml:lang="en">ZIDDA</label>
+    <sort_order>80</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDDA</value>
+   </Item>
+   <Item type="Value" id="620911320F1F4AE8A9FDD2415CEE2D54" action="add">
+    <label xml:lang="en">ZIDDB</label>
+    <sort_order>90</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDDB</value>
+   </Item>
+   <Item type="Value" id="1674949B0D934FF2A6413C50E175092F" action="add">
+    <label xml:lang="en">ZIDDS</label>
+    <sort_order>100</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDDS</value>
+   </Item>
+   <Item type="Value" id="1294C57F71F0449A9E087E1B29AAE6C9" action="add">
+    <label xml:lang="en">ZIDDX</label>
+    <sort_order>110</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDDX</value>
+   </Item>
+   <Item type="Value" id="8A08B0B3471843CEB2065B1D0254F7F8" action="add">
+    <label xml:lang="en">ZIDNA</label>
+    <sort_order>120</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDNA</value>
+   </Item>
+   <Item type="Value" id="ADFB5573F3084EA686F0825C70F61C09" action="add">
+    <label xml:lang="en">ZIDNB</label>
+    <sort_order>130</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDNB</value>
+   </Item>
+   <Item type="Value" id="90DE6946A8B246E2954A111822095C29" action="add">
+    <label xml:lang="en">ZIDNC</label>
+    <sort_order>140</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDNC</value>
+   </Item>
+   <Item type="Value" id="C92C71C399244EEE998B59E7F6FC9749" action="add">
+    <label xml:lang="en">ZIDOB</label>
+    <sort_order>150</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDOB</value>
+   </Item>
+   <Item type="Value" id="160120CCF592494185217C80954A7FAE" action="add">
+    <label xml:lang="en">ZIDSA</label>
+    <sort_order>160</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDSA</value>
+   </Item>
+   <Item type="Value" id="1AE14D76596E4C3E8BD3EAC13A673907" action="add">
+    <label xml:lang="en">ZIDSC</label>
+    <sort_order>170</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDSC</value>
+   </Item>
+   <Item type="Value" id="CB084F1CA13D47BBA245D7C29F45E8D9" action="add">
+    <label xml:lang="en">ZIDSD</label>
+    <sort_order>180</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDSD</value>
+   </Item>
+   <Item type="Value" id="5694935BA98649B9943406E81E8E1814" action="add">
+    <label xml:lang="en">ZIDSN</label>
+    <sort_order>190</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDSN</value>
+   </Item>
+   <Item type="Value" id="8E6E9F0F476E4AECAFD07187805BDB3B" action="add">
+    <label xml:lang="en">ZIDSO</label>
+    <sort_order>200</sort_order>
+    <source_id keyed_name="DnA_CustomerSiglum" type="List">9270E984AF94410B9116302773EED659</source_id>
+    <value>ZIDSO</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

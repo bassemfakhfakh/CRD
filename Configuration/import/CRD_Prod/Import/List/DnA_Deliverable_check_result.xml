@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="List" id="CC555402597D455B8F2DF42963A5278B" action="add">
+  <name>DnA_Deliverable_check_result</name>
+  <Relationships>
+   <Item type="Value" id="56856CB16CD44F0793805FB303953E34" action="add">
+    <label xml:lang="en">OK</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Deliverable_check_result" type="List">CC555402597D455B8F2DF42963A5278B</source_id>
+    <value>OK</value>
+   </Item>
+   <Item type="Value" id="089F531E4B9E4E13A06EEBE7E169D208" action="add">
+    <label xml:lang="en">OK with amendements</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Deliverable_check_result" type="List">CC555402597D455B8F2DF42963A5278B</source_id>
+    <value>OK with amendments</value>
+   </Item>
+   <Item type="Value" id="98DA2877649144A78EA554CE606FB1A4" action="add">
+    <label xml:lang="en">Not OK</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Deliverable_check_result" type="List">CC555402597D455B8F2DF42963A5278B</source_id>
+    <value>Not OK</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

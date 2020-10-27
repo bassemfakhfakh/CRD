@@ -1,0 +1,17 @@
+<imports>
+  <package name="CRD_Delete" path="CRD_Delete\Import">
+    
+  </package>
+
+  <package name="CRD_Prod" path="CRD_Prod\Import">
+    <dependson name="com.aras.innovator.preferences" />
+    <dependson name="com.aras.innovator.core" />
+  </package>
+  <package name="CRD_Template" path="CRD_Template\Import" />
+  <package name="MSO_References" path="MSO_References\Import">
+    <dependson name="MSO_Standard" />
+  </package>
+  <package name="CRD_Identities" path="CRD_Identities\Import" />
+  <package name="CRD_New_Package" path="CRD_New_Package\Import" />
+  <package name="MSO_Standard" path="MSO_Standard\Import" />
+</imports>

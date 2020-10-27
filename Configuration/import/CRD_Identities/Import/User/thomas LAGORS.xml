@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="412A0DDC93244B69B151DB002019C6DB" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>thomas.lagors.external@airbus.com</email>
+  <last_login_date>2020-08-28T09:13:59</last_login_date>
+  <login_name>thomas.lagors</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="thomas LAGORS" type="Identity">4C97AEBB96B54DD2BCBAC99454EB0A62</owned_by_id>
+  <first_name>thomas</first_name>
+  <last_name>LAGORS</last_name>
+  <Relationships>
+   <Item type="Alias" id="2CF74EF5A5524294AE02EAE6F1D19544" action="add">
+    <from_date>2019-03-27T14:31:00</from_date>
+    <related_id keyed_name="thomas LAGORS" type="Identity">4C97AEBB96B54DD2BCBAC99454EB0A62</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="thomas LAGORS" type="User">412A0DDC93244B69B151DB002019C6DB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

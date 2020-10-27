@@ -1,0 +1,59 @@
+﻿<AML>
+ <Item type="Method" id="9ACC2AC6534E4FD9920164806EBD947E" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn=aras.newIOMInnovator();
+var fieldcimpa= getFieldByName("dna_resource_cimpa2");
+
+if(fieldcimpa.style.visibility==="hidden")
+{
+    i=3;
+    
+    getFieldByName("dna_resource_cimpa2").style.visibility="visible";
+    getFieldByName("dna_rescimpa2_category").style.visibility="visible";
+    getFieldByName("dna_rescimpa2_unit_price").style.visibility="visible";
+    getFieldByName("dna_rescimpa2_qty").style.visibility="visible";
+    getFieldByName("dna_rescimpa2_cost").style.visibility="visible";
+    getFieldByName("dna_resource_cimpa2").style.top= 180 + "px";
+    getFieldByName("dna_resource_cimpa2").style.left= 20 + "px";
+    getFieldByName("dna_rescimpa2_category").style.top= 180 + "px";
+    getFieldByName("dna_rescimpa2_category").style.left= 200 + "px";
+    getFieldByName("dna_rescimpa2_unit_price").style.top= 180 + "px";
+    getFieldByName("dna_rescimpa2_unit_price").style.left= 360 + "px";
+    getFieldByName("dna_rescimpa2_qty").style.top= 180 + "px";
+    getFieldByName("dna_rescimpa2_qty").style.left= 485 + "px";
+    getFieldByName("dna_rescimpa2_cost").style.top= 180 + "px";
+    getFieldByName("dna_rescimpa2_cost").style.left= 620 + "px";
+    return i;
+}
+else{
+    if(i<11)
+    {
+        
+        getFieldByName("dna_resource_cimpa"+i).style.visibility="visible";
+        getFieldByName("dna_rescimpa"+i+"_category").style.visibility="visible";
+        getFieldByName("dna_rescimpa"+i+"_unit_price").style.visibility="visible";
+        getFieldByName("dna_rescimpa"+i+"_qty").style.visibility="visible";
+        getFieldByName("dna_rescimpa"+i+"_cost").style.visibility="visible";
+        getFieldByName("dna_resource_cimpa"+i).style.top= 150 +30*(i-1) + "px";
+        getFieldByName("dna_resource_cimpa"+i).style.left= 20 + "px";
+        getFieldByName("dna_rescimpa"+i+"_category").style.top= 150 +30*(i-1) + "px";
+        getFieldByName("dna_rescimpa"+i+"_category").style.left= 200 + "px";
+        getFieldByName("dna_rescimpa"+i+"_unit_price").style.top= 150 +30*(i-1) + "px";
+        getFieldByName("dna_rescimpa"+i+"_unit_price").style.left= 360 + "px";
+        getFieldByName("dna_rescimpa"+i+"_qty").style.top= 150 +30*(i-1) + "px";
+        getFieldByName("dna_rescimpa"+i+"_qty").style.left= 485 + "px";
+        getFieldByName("dna_rescimpa"+i+"_cost").style.top= 150 +30*(i-1) + "px";
+        getFieldByName("dna_rescimpa"+i+"_cost").style.left= 620 + "px";
+        i=i+1;
+        return i;
+    }
+}
+
+ 
+        
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_profitability_rescimpa</name>
+ </Item>
+</AML>

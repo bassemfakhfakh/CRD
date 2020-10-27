@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="List" id="1332207080604095A9E74567084F3D53" action="add">
+  <name>DnA_Deliverable_Status</name>
+  <Relationships>
+   <Item type="Value" id="A37FACD101914DE0A8C5AA211D39FB25" action="add">
+    <label xml:lang="en">GO</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Status" type="List">1332207080604095A9E74567084F3D53</source_id>
+    <value>#33FF33</value>
+   </Item>
+   <Item type="Value" id="7D2E55C12DFB463E89D14B0D5489550C" action="add">
+    <label xml:lang="en">GOWA</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Status" type="List">1332207080604095A9E74567084F3D53</source_id>
+    <value>#FFA726</value>
+   </Item>
+   <Item type="Value" id="2878FC500E1D41E791FF6D0DB1B95A3A" action="add">
+    <label xml:lang="en">NOGO</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Status" type="List">1332207080604095A9E74567084F3D53</source_id>
+    <value>#E53935</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

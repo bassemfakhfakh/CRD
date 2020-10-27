@@ -1,0 +1,2355 @@
+﻿<AML>
+ <Item type="Form" id="61199ACC744240F1865E34084464D200" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>DnA_CRD_Profitability</name>
+  <Relationships>
+   <Item type="Body" id="1E685595531F43DFAC37B8A587350D4C" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="Form">61199ACC744240F1865E34084464D200</source_id>
+    <Relationships>
+     <Item type="Field" id="19AA3E9099D044499E51D098B25D24FC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Add Resources Sopra</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>8832</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>97</y>
+      <name>button_rescimpa</name>
+      <Relationships>
+       <Item type="Field Event" id="599C8768A91D4856B74773E7A66DBBC9" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_rescimpa" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_rescimpa</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="button_rescimpa" type="Field">19AA3E9099D044499E51D098B25D24FC</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="0826133B87BA411BA1AE795A86F189FF" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Add Resources Subcontractor </label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>8960</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>844</x>
+      <y>101</y>
+      <name>button_resother</name>
+      <Relationships>
+       <Item type="Field Event" id="5AC498D486C14EDFB3C40DD56216FEB3" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_resother" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_resother</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="button_resother" type="Field">0826133B87BA411BA1AE795A86F189FF</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="3AB4101A3D5C49E5B3D3D85DF02E29E8" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">CRD</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="crd_prod" type="Property">ECE0BAD573B24E84B4353994477B6A5F</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_index>3072</tab_index>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>216</x>
+      <y>6</y>
+      <name>crd_prod</name>
+      <Relationships>
+       <Item type="Field Event" id="6ACE91E9223F416F9C4A86A4D1A16C77" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="dna_profitability_number" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_number</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="crd_prod" type="Field">3AB4101A3D5C49E5B3D3D85DF02E29E8</source_id>
+       </Item>
+       <Item type="Field Event" id="165BC5CE39C44E19BF6D348AB4E55F41" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="crd_prod" type="Field">3AB4101A3D5C49E5B3D3D85DF02E29E8</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="B8BD979B5F0A47A9BB6829F3CFF39986" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Profitability number</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_prof_number" type="Property">DA0893B05B2446DCADFC57B542310CDB</propertytype_id>
+      <sort_order>8576</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>428</x>
+      <y>9</y>
+      <name>dna_prof_number</name>
+     </Item>
+     <Item type="Field" id="52D00853320F49F3A11C4B5F2D1E751B" action="add">
+      <bg_color>#ffffff</bg_color>
+      <border_width>3</border_width>
+      <container />
+      <css>background-color: orange;
+
+</css>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Profitability</label>
+      <label_position>top</label_position>
+      <legend xml:lang="en">Profitability</legend>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_profitability" type="Property">0964555519304E88B671246897FE846D</propertytype_id>
+      <sort_order>8704</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1448</x>
+      <y>609</y>
+      <name>dna_profitability</name>
+     </Item>
+     <Item type="Field" id="0CD2186817B245029314E4CD56565A14" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Rentability</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_profitability_rentability" type="Property">07D63E2B89534C27A69543405BB1AA99</propertytype_id>
+      <sort_order>13440</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1605</x>
+      <y>623</y>
+      <name>dna_profitability_rentability</name>
+     </Item>
+     <Item type="Field" id="B1C736262BD14CCA97BFF0DCA9A842F6" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Total Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_profitability_totalcost" type="Property">7B06CFA9579245299AD631436C4A2F24</propertytype_id>
+      <sort_order>8448</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1436</x>
+      <y>533</y>
+      <name>dna_profitability_totalcost</name>
+     </Item>
+     <Item type="Field" id="7CC75B105BDF44B8B54EB0F312D42787" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Project Management Daily Rate</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_projet_management_daily_rate" type="Property">74630E8AEAF347BFA4FEADD745BC17B4</propertytype_id>
+      <sort_order>9728</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1119</x>
+      <y>427</y>
+      <name>dna_project_daily_rate</name>
+      <Relationships>
+       <Item type="Field Event" id="3E157091628C47A9A91EC68BB5FD76D1" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_subcalculation" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_subcalculation</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_project_daily_rate" type="Field">7CC75B105BDF44B8B54EB0F312D42787</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="D16CB83890054F4495BD3DD3B817DF5F" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Project Management Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_project_management_cost" type="Property">7411FDC0F8054E04B848EE061976D7F3</propertytype_id>
+      <sort_order>9856</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1433</x>
+      <y>426</y>
+      <name>dna_project_management_cost</name>
+     </Item>
+     <Item type="Field" id="CB72D3AEBA9845B6B2839A4229444F06" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Project Management Qty</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_projet_management_qty" type="Property">A109D9E5A56345CC91EB8FAD63CA4CF9</propertytype_id>
+      <sort_order>9600</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1291</x>
+      <y>427</y>
+      <name>dna_projet_management_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="D3DEE6A176E2416184662CDDFBD02084" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_subcalculation" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_subcalculation</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_projet_management_qty" type="Field">CB72D3AEBA9845B6B2839A4229444F06</source_id>
+       </Item>
+       <Item type="Field Event" id="4C5D673F8E3240C494C42D691B711411" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_projet_management_qty" type="Field">CB72D3AEBA9845B6B2839A4229444F06</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="942882ED090942F29EAA9BE66B3B88B6" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Category/Year</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa1_category" type="Property">4DC28B06FD5A406498380FE489C61A15</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>198</x>
+      <y>133</y>
+      <name>dna_rescimpa1_category</name>
+      <Relationships>
+       <Item type="Field Event" id="0FAD1DE814EA4B52B50005DA399ACE88" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa1_category" type="Field">942882ED090942F29EAA9BE66B3B88B6</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="23089DC0A5CB45CB8A6EDAB6164FB5CE" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa1_cost" type="Property">902C4D198A724D42B38D85C3725504D8</propertytype_id>
+      <sort_order>3072</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>656</x>
+      <y>142</y>
+      <name>dna_rescimpa1_cost</name>
+     </Item>
+     <Item type="Field" id="E5559596DBB341AF820801DE0D3FFAD1" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Man Days / Qty</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa1_qty" type="Property">AD8EC59C1F9748C1ABCED6A741851F98</propertytype_id>
+      <sort_order>2432</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>516</x>
+      <y>138</y>
+      <name>dna_rescimpa1_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="725DC1DF555D403AB3B4031428A42F0C" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa1_qty" type="Field">E5559596DBB341AF820801DE0D3FFAD1</source_id>
+       </Item>
+       <Item type="Field Event" id="18F0CC764A844A969B27C6B6E9F72E8D" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa1_qty" type="Field">E5559596DBB341AF820801DE0D3FFAD1</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="E30E765A56984EDF924347C1A3E8A9E2" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Daily Rate</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa1_unit_price" type="Property">682B288C2BA3447FA9656C9D5A29147A</propertytype_id>
+      <sort_order>1792</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>373</x>
+      <y>139</y>
+      <name>dna_rescimpa1_unit_price</name>
+     </Item>
+     <Item type="Field" id="E8EF5E1781EE470F8B85D8CCF5A3434A" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa10_category" type="Property">4765899C4F67415C8404661AE2D57628</propertytype_id>
+      <sort_order>11392</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>213</x>
+      <y>435</y>
+      <name>dna_rescimpa10_category</name>
+      <Relationships>
+       <Item type="Field Event" id="B1D3945ECA4A401B918DBB3122025F50" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa10_category" type="Field">E8EF5E1781EE470F8B85D8CCF5A3434A</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="2D3E0BC06D3F432B892AE4132F663BFF" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa10_cost" type="Property">7B39EEC09F344898A9A9C9ABEAD03BF4</propertytype_id>
+      <sort_order>13312</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>663</x>
+      <y>432</y>
+      <name>dna_rescimpa10_cost</name>
+     </Item>
+     <Item type="Field" id="B7A6A5F6688F43FABCCD9577C4AAB7F5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa10_qty" type="Property">703961C7427D4AD99077E190740EAF50</propertytype_id>
+      <sort_order>12672</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>512</x>
+      <y>437</y>
+      <name>dna_rescimpa10_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="604E97F2F28340E3969780DA252A64C7" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa10_qty" type="Field">B7A6A5F6688F43FABCCD9577C4AAB7F5</source_id>
+       </Item>
+       <Item type="Field Event" id="BA6D22F8635246649777584390FF334B" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa10_qty" type="Field">B7A6A5F6688F43FABCCD9577C4AAB7F5</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="2289AE9BAFE24D24AB87704CA27FED31" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa10_unit_price" type="Property">C5761E839A7F45B68560973D8891B23E</propertytype_id>
+      <sort_order>12032</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>379</x>
+      <y>436</y>
+      <name>dna_rescimpa10_unit_price</name>
+     </Item>
+     <Item type="Field" id="0802EF0C086544628BBFCC60B9180F3D" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa2_category" type="Property">F93FF277F87D4763AC416F26D823A4BC</propertytype_id>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>208</x>
+      <y>187</y>
+      <name>dna_rescimpa2_category</name>
+      <Relationships>
+       <Item type="Field Event" id="21928E654B5746CDA599F41150F42236" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa2_category" type="Field">0802EF0C086544628BBFCC60B9180F3D</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="95BED7CACBE347C1869EB2AB56403C63" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa2_cost" type="Property">22CE36800A7A44A8A7B339007468CB70</propertytype_id>
+      <sort_order>3200</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>658</x>
+      <y>184</y>
+      <name>dna_rescimpa2_cost</name>
+     </Item>
+     <Item type="Field" id="F4EED4D37B1A4EFFAD4735D329032198" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa2_qty" type="Property">8D326F13D21A422CBEEA696FB3AD38AB</propertytype_id>
+      <sort_order>2560</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>522</x>
+      <y>185</y>
+      <name>dna_rescimpa2_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="327FBE52F42B448D8C936441870FD773" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa2_qty" type="Field">F4EED4D37B1A4EFFAD4735D329032198</source_id>
+       </Item>
+       <Item type="Field Event" id="A0ECB322558E4C789F0C6272DB5EECEF" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa2_qty" type="Field">F4EED4D37B1A4EFFAD4735D329032198</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="6E6D5AE60EC44097B9B791EF8369875E" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa2_unit_price" type="Property">312730D9CD7648E0BA484370F956555C</propertytype_id>
+      <sort_order>1920</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>377</x>
+      <y>190</y>
+      <name>dna_rescimpa2_unit_price</name>
+     </Item>
+     <Item type="Field" id="452EAD8AA6AC4D9D990666635B0C09E9" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa3_category" type="Property">500640B6CCC540FA9D2E962C6749AC5C</propertytype_id>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>208</x>
+      <y>222</y>
+      <name>dna_rescimpa3_category</name>
+      <Relationships>
+       <Item type="Field Event" id="4A02565F84524FB9AFDC950E3BDEE498" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa3_category" type="Field">452EAD8AA6AC4D9D990666635B0C09E9</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="A3B463B2A2EC4A02BC8CA18757EFA362" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa3_cost" type="Property">AA25CE4FBF0C4687AE9BED6BB6757553</propertytype_id>
+      <sort_order>3328</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>659</x>
+      <y>211</y>
+      <name>dna_rescimpa3_cost</name>
+     </Item>
+     <Item type="Field" id="4E27E2BECC424F808CCA5F5573424934" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa3_qty" type="Property">33761CBF7C6340818F787A3BE4E4E8EF</propertytype_id>
+      <sort_order>2688</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>521</x>
+      <y>218</y>
+      <name>dna_rescimpa3_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="71C502AAF4E841D1B53A569EEA7C4782" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa3_qty" type="Field">4E27E2BECC424F808CCA5F5573424934</source_id>
+       </Item>
+       <Item type="Field Event" id="1683B8C773584D6EA90CCB74E4D46EB9" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa3_qty" type="Field">4E27E2BECC424F808CCA5F5573424934</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="BEFF48C4D772403C9D13BD48C3641AFA" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa3_unit_price" type="Property">3E253E1DBC7A408EB29BA1F4D9D94FB9</propertytype_id>
+      <sort_order>2048</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>378</x>
+      <y>221</y>
+      <name>dna_rescimpa3_unit_price</name>
+     </Item>
+     <Item type="Field" id="E9913E6DD50E4181B843FE0B74B3442C" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa4_category" type="Property">99C712C229AE4B3E8D1B637D3BC0D331</propertytype_id>
+      <sort_order>1536</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>213</x>
+      <y>251</y>
+      <name>dna_rescimpa4_category</name>
+      <Relationships>
+       <Item type="Field Event" id="A9C65787290A4487A29F4B07176BD0C3" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa4_category" type="Field">E9913E6DD50E4181B843FE0B74B3442C</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="CC228261BE9B402AAC675BA6806883A7" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa4_cost" type="Property">18E17B0721104D47B70DED8CB082370D</propertytype_id>
+      <sort_order>3456</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>658</x>
+      <y>242</y>
+      <name>dna_rescimpa4_cost</name>
+     </Item>
+     <Item type="Field" id="D20FBD6793AC49479B3574E836CCA10F" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa4_qty" type="Property">09922F407E994542B4AC67E3C9A998F5</propertytype_id>
+      <sort_order>2816</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>522</x>
+      <y>244</y>
+      <name>dna_rescimpa4_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="A774512CBC924DA4AE76D630A6B226C7" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa4_qty" type="Field">D20FBD6793AC49479B3574E836CCA10F</source_id>
+       </Item>
+       <Item type="Field Event" id="E712CF10AEF44EBEBEC0FBD682F9566B" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa4_qty" type="Field">D20FBD6793AC49479B3574E836CCA10F</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="909EB0DAD33D4E2BB0B3288AC7C83799" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa4_unit_price" type="Property">751EA23D79174B2A9019EB99552E076C</propertytype_id>
+      <sort_order>2176</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>377</x>
+      <y>248</y>
+      <name>dna_rescimpa4_unit_price</name>
+     </Item>
+     <Item type="Field" id="702D01BB69924D48922433BD2FFD58FA" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa5_category" type="Property">35C1D2984DED416DADDD62712B94581C</propertytype_id>
+      <sort_order>1664</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>214</x>
+      <y>278</y>
+      <name>dna_rescimpa5_category</name>
+      <Relationships>
+       <Item type="Field Event" id="0DC40904FFF346F0B851DCF80D3DA54E" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa5_category" type="Field">702D01BB69924D48922433BD2FFD58FA</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="76B36EA140014125AF20DA7E0F23A686" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa5_cost" type="Property">8A068BF7B80843FC813F5ECE9ABA82DE</propertytype_id>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>657</x>
+      <y>268</y>
+      <name>dna_rescimpa5_cost</name>
+     </Item>
+     <Item type="Field" id="E819AEBED7614D5198BF5878B2074BDC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa5_qty" type="Property">FF60ED1E4AE34E8B904191A85E180AC4</propertytype_id>
+      <sort_order>2944</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>517</x>
+      <y>281</y>
+      <name>dna_rescimpa5_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="8CC08884D45B4B7D897F0BE3ED73E6B2" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa5_qty" type="Field">E819AEBED7614D5198BF5878B2074BDC</source_id>
+       </Item>
+       <Item type="Field Event" id="1A2F61CD8BED4888AEB220FA69204EC8" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa5_qty" type="Field">E819AEBED7614D5198BF5878B2074BDC</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="20EE2D8802B5490387E3ED795BD00FC8" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa5_unit_price" type="Property">C401BFAF2A8E49A1905113E8D4B3D6BE</propertytype_id>
+      <sort_order>2304</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>379</x>
+      <y>281</y>
+      <name>dna_rescimpa5_unit_price</name>
+     </Item>
+     <Item type="Field" id="3B875268577941F8B9D92D2F66CED3BE" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa6_category" type="Property">7F11EB9FBD354F96ACB47D32371E75E8</propertytype_id>
+      <sort_order>10880</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>212</x>
+      <y>309</y>
+      <name>dna_rescimpa6_category</name>
+      <Relationships>
+       <Item type="Field Event" id="DA6CF352F8B44659A0086FC90651E0AA" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa6_category" type="Field">3B875268577941F8B9D92D2F66CED3BE</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="D793290EA2A242FB9762A8D1B1568DCA" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa6_cost" type="Property">2A4B78C1EC714BCBA1AECAA7794BC9A3</propertytype_id>
+      <sort_order>12800</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>656</x>
+      <y>297</y>
+      <name>dna_rescimpa6_cost</name>
+     </Item>
+     <Item type="Field" id="1CA733D89E9F481CBDCF88DFBA35EB71" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa6_qty" type="Property">E1EF0E5C044D480FBD45ABFB059415B3</propertytype_id>
+      <sort_order>12160</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>518</x>
+      <y>308</y>
+      <name>dna_rescimpa6_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="ECB5F126DF504241B60D6251C312128C" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa6_qty" type="Field">1CA733D89E9F481CBDCF88DFBA35EB71</source_id>
+       </Item>
+       <Item type="Field Event" id="9C2F6547141D4105814FC9EFC8BBC132" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa6_qty" type="Field">1CA733D89E9F481CBDCF88DFBA35EB71</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="7C40D244E00D4E61B586459FB2E374E0" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa6_unit_price" type="Property">4AC8C0E5047845F794282BC578AC60D7</propertytype_id>
+      <sort_order>11520</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>378</x>
+      <y>306</y>
+      <name>dna_rescimpa6_unit_price</name>
+     </Item>
+     <Item type="Field" id="B371FE29434642AC92955C66D50022CF" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa7_category" type="Property">6CB5BCAAE94349B68F91F282543B2A56</propertytype_id>
+      <sort_order>11008</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>218</x>
+      <y>334</y>
+      <name>dna_rescimpa7_category</name>
+      <Relationships>
+       <Item type="Field Event" id="A753F8F9AED14413847A48109EF4C9D8" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa7_category" type="Field">B371FE29434642AC92955C66D50022CF</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="1ED50CBBD6AA4A0BB5AF9C3F350596BD" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa7_cost" type="Property">64329D8087D849559B1E4F591FEC9797</propertytype_id>
+      <sort_order>12928</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>655</x>
+      <y>332</y>
+      <name>dna_rescimpa7_cost</name>
+     </Item>
+     <Item type="Field" id="8D03B22E6B494D98948808641277AF9C" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa7_qty" type="Property">73C3822906714DE796D71863053A1C74</propertytype_id>
+      <sort_order>12288</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>513</x>
+      <y>343</y>
+      <name>dna_rescimpa7_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="F8742566573D4325A31E634C725FF79A" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa7_qty" type="Field">8D03B22E6B494D98948808641277AF9C</source_id>
+       </Item>
+       <Item type="Field Event" id="6CA2BE28096945BBA838464864A8FAB8" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa7_qty" type="Field">8D03B22E6B494D98948808641277AF9C</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="A4B2B1DB8E19428C9A66F0F7482191FB" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa7_unit_price" type="Property">1A6BD1AC6B5F4CD7ADDE6A74F3BA9287</propertytype_id>
+      <sort_order>11648</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>377</x>
+      <y>337</y>
+      <name>dna_rescimpa7_unit_price</name>
+     </Item>
+     <Item type="Field" id="E75D00D7634449CBA3A8A8FF9ED1CCDA" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa8_category" type="Property">AAF5F691F8AB434F8AEDCA619DF1B6C5</propertytype_id>
+      <sort_order>11136</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>210</x>
+      <y>366</y>
+      <name>dna_rescimpa8_category</name>
+      <Relationships>
+       <Item type="Field Event" id="63829084606B46A186AC92F66885C77F" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa8_category" type="Field">E75D00D7634449CBA3A8A8FF9ED1CCDA</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="9E29F5DB2F9942D8B05A824E53A784A5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa8_cost" type="Property">92934E28E7684FE59485D95D6C0E6B73</propertytype_id>
+      <sort_order>13056</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>655</x>
+      <y>366</y>
+      <name>dna_rescimpa8_cost</name>
+     </Item>
+     <Item type="Field" id="6002410AD9BF49E6A1813ACAFE8EA102" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa8_qty" type="Property">496B3C5118724B4C9420C49B4FC2D738</propertytype_id>
+      <sort_order>12416</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>513</x>
+      <y>371</y>
+      <name>dna_rescimpa8_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="7C8F60C777C24EEDA31882770F334EF5" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa8_qty" type="Field">6002410AD9BF49E6A1813ACAFE8EA102</source_id>
+       </Item>
+       <Item type="Field Event" id="6687CAD977D74667B7563A7616C2F99B" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa8_qty" type="Field">6002410AD9BF49E6A1813ACAFE8EA102</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="002C1C3BA33546F580168B7B6A1082A5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa8_unit_price" type="Property">5048E09D57964FC3BB4549BA98B9065F</propertytype_id>
+      <sort_order>11776</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>376</x>
+      <y>371</y>
+      <name>dna_rescimpa8_unit_price</name>
+     </Item>
+     <Item type="Field" id="A5CF78A91AF1403B81985F6A985A7D08" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa9_category" type="Property">E0679A8B4EB145AF8775BC812AC2AACF</propertytype_id>
+      <sort_order>11264</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>208</x>
+      <y>399</y>
+      <name>dna_rescimpa9_category</name>
+      <Relationships>
+       <Item type="Field Event" id="29D578C3745844969F90816DC865CB34" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa9_category" type="Field">A5CF78A91AF1403B81985F6A985A7D08</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="25F5893C2BEE43AB93C244E68CE724CF" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa9_cost" type="Property">FE26F0BC7408484F9479E0A5DA8AFFBC</propertytype_id>
+      <sort_order>13184</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>656</x>
+      <y>398</y>
+      <name>dna_rescimpa9_cost</name>
+     </Item>
+     <Item type="Field" id="85361BF8764644F89E7D6106F39B6AEE" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa9_qty" type="Property">0A74A028EA454859B27608E54FA80081</propertytype_id>
+      <sort_order>12544</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>513</x>
+      <y>403</y>
+      <name>dna_rescimpa9_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="44D68193964947D0A5A717B67E3A0969" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_rescimpa9_qty" type="Field">85361BF8764644F89E7D6106F39B6AEE</source_id>
+       </Item>
+       <Item type="Field Event" id="0902511E7DCE4F15A237EECDF5417BA4" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_rescimpa9_qty" type="Field">85361BF8764644F89E7D6106F39B6AEE</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="35067C763DA84F4B87A572DE69E16FA8" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_rescimpa9_unit_price" type="Property">9B23E3A99ED14F5785573E9BDFD7A775</propertytype_id>
+      <sort_order>11904</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>376</x>
+      <y>402</y>
+      <name>dna_rescimpa9_unit_price</name>
+     </Item>
+     <Item type="Field" id="C605B094E7094A84AED3513536ED7D0A" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother1_cost" type="Property">673EC13FA2EB4543B03E2C1C76BD10EE</propertytype_id>
+      <sort_order>6656</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1342</x>
+      <y>130</y>
+      <name>dna_resother1_cost</name>
+     </Item>
+     <Item type="Field" id="B922012129D547CE83B1160DF983EFEC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Man Days / Qty</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother1_qty" type="Property">3B85F35C6DDC4F95B91AC6CC000638F7</propertytype_id>
+      <sort_order>6016</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1195</x>
+      <y>138</y>
+      <name>dna_resother1_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="84F790963DD34BBD902172A984D2639B" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_resother1_qty" type="Field">B922012129D547CE83B1160DF983EFEC</source_id>
+       </Item>
+       <Item type="Field Event" id="42B188B65B864B29A2A8AD680B4C3C00" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_resother1_qty" type="Field">B922012129D547CE83B1160DF983EFEC</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="6A404CC32E494C289E1AA191CB069D2D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Daily Rate</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother1_unit_price" type="Property">F34095050BA1487EB1E6D43C5FC3B469</propertytype_id>
+      <sort_order>5376</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1055</x>
+      <y>138</y>
+      <name>dna_resother1_unit_price</name>
+     </Item>
+     <Item type="Field" id="FFAFE1B5595447EDB9D3E8E376295A28" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother2_cost" type="Property">427C4475FE9047B897D59468F574B618</propertytype_id>
+      <sort_order>6784</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1343</x>
+      <y>180</y>
+      <name>dna_resother2_cost</name>
+     </Item>
+     <Item type="Field" id="B6F7B3157CAD4775AE4601F8E12B99CB" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother2_qty" type="Property">258B342C07A846D9AD0D5781CF14F27A</propertytype_id>
+      <sort_order>6144</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1203</x>
+      <y>182</y>
+      <name>dna_resother2_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="607810BF6BFE4EB8A1B166ECCA7647BE" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_resother2_qty" type="Field">B6F7B3157CAD4775AE4601F8E12B99CB</source_id>
+       </Item>
+       <Item type="Field Event" id="7EDF4A0F0D344876ADC5A06A3177F806" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_resother2_qty" type="Field">B6F7B3157CAD4775AE4601F8E12B99CB</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="A3D5C3D5D3B6438FA3D1D6C39FBEB49F" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother2_unit_price" type="Property">57B290C7CEC343EE9F1DFDEB81C5BF59</propertytype_id>
+      <sort_order>5504</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1053</x>
+      <y>181</y>
+      <name>dna_resother2_unit_price</name>
+     </Item>
+     <Item type="Field" id="CB10AF98E578446A91D6B8A8DACB5760" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother3_cost" type="Property">2E8E005A92864F07AA9435541DBA862B</propertytype_id>
+      <sort_order>7168</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1343</x>
+      <y>214</y>
+      <name>dna_resother3_cost</name>
+     </Item>
+     <Item type="Field" id="994ECF281D87435A956E7B9CC87DA7AD" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother3_qty" type="Property">5CEB3CD125ED4B62A9F1B0E4C8B88F3D</propertytype_id>
+      <sort_order>7552</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1202</x>
+      <y>216</y>
+      <name>dna_resother3_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="7A7D2075E9AC4BC384C160DC8F509549" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cat_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cat_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_resother3_qty" type="Field">994ECF281D87435A956E7B9CC87DA7AD</source_id>
+       </Item>
+       <Item type="Field Event" id="10C4C078E5924178A040917CA29BB5BC" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_resother3_qty" type="Field">994ECF281D87435A956E7B9CC87DA7AD</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="18A3B67224404D1EA7414DDD505291D7" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resother3_unit_price" type="Property">BFC59D32CA5B4904BF347F7B80043A9E</propertytype_id>
+      <sort_order>5888</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1057</x>
+      <y>212</y>
+      <name>dna_resother3_unit_price</name>
+     </Item>
+     <Item type="Field" id="5F5DAF4F69B94785A1091147F81EB28A" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Cimpa Resources Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa1" type="Property">B247D4F3B8754C1E8C52C61A9EC62B8E</propertytype_id>
+      <sort_order>3840</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>18</x>
+      <y>134</y>
+      <name>dna_resource_cimpa1</name>
+     </Item>
+     <Item type="Field" id="9F0B66CA2C7E44BCAFB85F33D4C3A56A" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa10" type="Property">485463968D3E4C9286164F1E52C16CAF</propertytype_id>
+      <sort_order>10752</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>14</x>
+      <y>436</y>
+      <name>dna_resource_cimpa10</name>
+     </Item>
+     <Item type="Field" id="AC96D2E92D1B42F89243F62031FCCFC7" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa2" type="Property">983BB18E43E94157B95C0F0A5F77D957</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>180</y>
+      <name>dna_resource_cimpa2</name>
+     </Item>
+     <Item type="Field" id="0236817746BB4F279462B6B21E24BBB6" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa3" type="Property">D248B06AD5574738BA556BA61BCC39E0</propertytype_id>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>19</x>
+      <y>224</y>
+      <name>dna_resource_cimpa3</name>
+     </Item>
+     <Item type="Field" id="D937D521C4C64CF688D6C66D6D6F9181" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa4" type="Property">A9FA9D2C2FEF461A9599014BEB912D85</propertytype_id>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>257</y>
+      <name>dna_resource_cimpa4</name>
+     </Item>
+     <Item type="Field" id="F96570EFD99A4D9487080095E54B1676" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa5" type="Property">D7411EB2F46E44B7BEC9771F6F14DD13</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>19</x>
+      <y>286</y>
+      <name>dna_resource_cimpa5</name>
+     </Item>
+     <Item type="Field" id="E508E80D237645FB865815E4C8CD0B4D" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa6" type="Property">29BCBF8673B84503AA4950EB60A39A84</propertytype_id>
+      <sort_order>10240</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>23</x>
+      <y>313</y>
+      <name>dna_resource_cimpa6</name>
+     </Item>
+     <Item type="Field" id="E9066BE5D23F444CBD7E82B03D4FD37E" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa7" type="Property">3FAA10BFF0844257BDDAE252BAEDD427</propertytype_id>
+      <sort_order>10368</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>19</x>
+      <y>340</y>
+      <name>dna_resource_cimpa7</name>
+     </Item>
+     <Item type="Field" id="CA5AD26BC63F457883AC508CDBD5BDA4" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa8" type="Property">5531F507CE0D4BB0A9BC4956FC15607A</propertytype_id>
+      <sort_order>10496</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>20</x>
+      <y>373</y>
+      <name>dna_resource_cimpa8</name>
+     </Item>
+     <Item type="Field" id="73B948B17DA440CC91A1C94D25AD3D0F" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_cimpa9" type="Property">27B014197CC344928A092F2682FBE334</propertytype_id>
+      <sort_order>10624</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>18</x>
+      <y>401</y>
+      <name>dna_resource_cimpa9</name>
+     </Item>
+     <Item type="Field" id="0CD6AFB3A7094650907A8B02B307CDF6" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Subcontractor Resources Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_other1" type="Property">6C70CE25BAD2446BAF7FFA463CC518BB</propertytype_id>
+      <sort_order>7296</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>850</x>
+      <y>140</y>
+      <name>dna_resource_other1</name>
+     </Item>
+     <Item type="Field" id="3F251A372926449B83AA298A31A9E72B" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_other2" type="Property">9D439841672346AB977721EAA8BB0652</propertytype_id>
+      <sort_order>4352</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>849</x>
+      <y>180</y>
+      <name>dna_resource_other2</name>
+     </Item>
+     <Item type="Field" id="6DAE0B6E0FA14CB497489703B253C624" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_other3" type="Property">67B6D34CC905408A811EE11932C4DC23</propertytype_id>
+      <sort_order>4736</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>857</x>
+      <y>206</y>
+      <name>dna_resource_other3</name>
+     </Item>
+     <Item type="Field" id="39DB320A1A4D4838A1452BFBB4CD673B" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Resources Total Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resource_totalcost" type="Property">58F8C308E187443EABAE3B45DDD4E54F</propertytype_id>
+      <sort_order>7808</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1432</x>
+      <y>456</y>
+      <name>dna_resource_totalcost</name>
+     </Item>
+     <Item type="Field" id="6795813FBDDD49A0B80B60521465E833" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Cimpa Total Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resourcecimpa_cost" type="Property">82F039E2F5BF40D1987CF6E590D46A59</propertytype_id>
+      <sort_order>4096</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>620</x>
+      <y>470</y>
+      <name>dna_resourcecimpa_cost</name>
+     </Item>
+     <Item type="Field" id="DAB6A3EC0E4D4F0AB8E8CDCE83B4264F" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Subcontractor Total Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_resourceother_cost" type="Property">7106D9AE955B431B9BD3EF163B6D59C0</propertytype_id>
+      <sort_order>7680</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1348</x>
+      <y>257</y>
+      <name>dna_resourceother_cost</name>
+     </Item>
+     <Item type="Field" id="6329C06374214FA8AE9B22FA386C7BC9" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Risk &amp; Aleas (default: 0.02)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_risk_alea" type="Property">C0747E538A1C4B25A731F60CC802F322</propertytype_id>
+      <sort_order>8064</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1434</x>
+      <y>497</y>
+      <name>dna_risk_alea</name>
+      <Relationships>
+       <Item type="Field Event" id="C7AE63A4C93A414CADDC812FA3D8EBE3" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_riskAlea" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_riskAlea</name>
+         </Item>
+        </related_id>
+        <sort_order>350</sort_order>
+        <source_id keyed_name="dna_risk_alea" type="Field">6329C06374214FA8AE9B22FA386C7BC9</source_id>
+       </Item>
+       <Item type="Field Event" id="A94E3292E613469590A04ABC6F416EFF" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>478</sort_order>
+        <source_id keyed_name="dna_risk_alea" type="Field">6329C06374214FA8AE9B22FA386C7BC9</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="1890020B532E4E0799C9F86D8F8428F5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Transition Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_transition_cost" type="Property">2ACB9EC9822047CFAB7E1932DB3437E3</propertytype_id>
+      <sort_order>9984</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1433</x>
+      <y>387</y>
+      <name>dna_transition_cost</name>
+     </Item>
+     <Item type="Field" id="3EC2339BD76F46CDA0DD483A98379252" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Transition Daily Rate</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_transition_daily_rate" type="Property">B106467D4ABE4295A48875155990106A</propertytype_id>
+      <sort_order>9472</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1119</x>
+      <y>389</y>
+      <name>dna_transition_daily_rate</name>
+      <Relationships>
+       <Item type="Field Event" id="59F1EE33A1DE4359A7C0195E90262D8B" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_subcalculation" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_subcalculation</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_transition_daily_rate" type="Field">3EC2339BD76F46CDA0DD483A98379252</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="ECB4B3CF46E549C6B68D5B830973D3B5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Transition Qty</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_transition_qty" type="Property">C4479F1BE2C04325B098249F18EE4B6D</propertytype_id>
+      <sort_order>9344</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1291</x>
+      <y>388</y>
+      <name>dna_transition_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="2BDC284ED719473D8F74D75768DEE2EB" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_subcalculation" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_subcalculation</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_transition_qty" type="Field">ECB4B3CF46E549C6B68D5B830973D3B5</source_id>
+       </Item>
+       <Item type="Field Event" id="35C93494127D4DDA8AC5CC60C440298B" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_transition_qty" type="Field">ECB4B3CF46E549C6B68D5B830973D3B5</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="B97E8E2F8EFA44598F567CBA1F92847D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Travel Cost</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_travel_cost" type="Property">956D60F2F656442DA3CB438DEE4DC370</propertytype_id>
+      <sort_order>10112</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1433</x>
+      <y>350</y>
+      <name>dna_travel_cost</name>
+     </Item>
+     <Item type="Field" id="D6E16BA74A9649468E625B0B28A17D8C" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Travel Daily Rate</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_travel_daily_rate" type="Property">4D92B95623AC4A90950E819203E8DA0C</propertytype_id>
+      <sort_order>9216</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1119</x>
+      <y>348</y>
+      <name>dna_travel_daily_rate</name>
+      <Relationships>
+       <Item type="Field Event" id="96B99344E2524621A422AEBA4739BF43" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_subcalculation" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_subcalculation</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_travel_daily_rate" type="Field">D6E16BA74A9649468E625B0B28A17D8C</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="1C5E7230B7B1497A81459407C86729E3" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Travel Qty</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_travel_qty" type="Property">84E8CABC38444C239F317CA6BC000EBC</propertytype_id>
+      <sort_order>9088</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>1</tab_stop>
+      <text_align>center</text_align>
+      <x>1291</x>
+      <y>348</y>
+      <name>dna_travel_qty</name>
+      <Relationships>
+       <Item type="Field Event" id="CE47EDBFF5BF4338A17C113C0C3457BE" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_subcalculation" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_subcalculation</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_travel_qty" type="Field">1C5E7230B7B1497A81459407C86729E3</source_id>
+       </Item>
+       <Item type="Field Event" id="4A44C77890E44F22AF61FB3CB437DBA0" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_profitability_cost" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_profitability_cost</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_travel_qty" type="Field">1C5E7230B7B1497A81459407C86729E3</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="632E12C3FF2C478AA44191DCA4DE416A" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="1E685595531F43DFAC37B8A587350D4C" type="Body">1E685595531F43DFAC37B8A587350D4C</source_id>
+      <tab_stop>0</tab_stop>
+      <x>11</x>
+      <y>3</y>
+      <name>item_info</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="738F983099AE45CD924A1DC6419E239D" action="add">
+    <form_event>onformpopulated</form_event>
+    <related_id keyed_name="dna_profitability_displayTabs" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_profitability_displayTabs</name>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="Form">61199ACC744240F1865E34084464D200</source_id>
+   </Item>
+   <Item type="Form Event" id="873091DD29764055B24A4EFACF59DED4" action="add">
+    <form_event>onload</form_event>
+    <related_id keyed_name="dna_profitability_fields_visible" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_profitability_fields_visible</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="Form">61199ACC744240F1865E34084464D200</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

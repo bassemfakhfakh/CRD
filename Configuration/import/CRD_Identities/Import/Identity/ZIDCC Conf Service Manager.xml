@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="Identity" id="0F4C9321C31B40BE8D0387E3E64D039D" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDCC Conf Service Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="7346D4285DAE422DBFF73DD8FC26B56F" action="add">
+  <related_id keyed_name="Aristide Quenel" type="Identity">C997899B81E54FD0ABB4681803FCD50B</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="ZIDCC Conf Service Manager" type="Identity">0F4C9321C31B40BE8D0387E3E64D039D</source_id>
+ </Item>
+ <Item type="Member" id="E8A0AE9C42934862A879B3113114E963" action="add">
+  <related_id keyed_name="Pascal MALATRAY" type="Identity">2EF249AB63704EE2A5442B7A9423546C</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="ZIDCC Conf Service Manager" type="Identity">0F4C9321C31B40BE8D0387E3E64D039D</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,53 @@
+﻿<AML>
+ <Item type="Method" id="1FC7B4BDE6064C2682C72ADC0FA46E57" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = top.aras.newIOMInnovator();
+
+var dna_status_value = document.thisItem.getProperty("dna_status");
+var dna_status_field = getFieldByName("dna_status");
+if (dna_status_value === undefined)
+{
+ dna_status_field.style.visibility="hidden";
+}
+else {
+      dna_status_field.style.visibility="visible";
+}
+
+
+var dna_typedeliverable_value = document.thisItem.getProperty("dna_typedeliverable");
+var dna_typedeliverable_field = getFieldByName("dna_typedeliverable");
+if (dna_typedeliverable_value === undefined)
+{
+ dna_typedeliverable_field.style.visibility="hidden";
+}
+else {
+      dna_typedeliverable_field.style.visibility="visible";
+}
+ 
+ 
+var dna_other_com_value = document.thisItem.getProperty("dna_other_com");
+var dna_other_com_field = getFieldByName("dna_other_com");
+if (dna_other_com_value === undefined)
+{
+ dna_other_com_field.style.visibility="hidden";
+}
+else {
+      dna_other_com_field.style.visibility="visible";
+} 
+
+
+
+var dna_type_value = document.thisItem.getProperty("dna_type");
+var dna_type_field = getFieldByName("dna_type");
+if (dna_type_value === undefined)
+{
+ dna_type_field.style.visibility="hidden";
+}
+else {
+      dna_type_field.style.visibility="visible";
+} 
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_hide_unused_fields</name>
+ </Item>
+</AML>

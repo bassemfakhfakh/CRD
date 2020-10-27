@@ -1,0 +1,31 @@
+<aml>
+<Item type="DnA_CRD_Prod" action="add">
+	<classification>@1</classification>
+	<dna_cir>@2</dna_cir>
+	<dna_load_life_cycle_state>@3</dna_load_life_cycle_state>
+	<dna_number>@4</dna_number>
+	<dna_title>@5</dna_title>
+	<team_id>
+		<Item type="Team" action="get" select="id">
+			<name>@8</name>
+		</Item>
+	</team_id>
+	
+	
+	<Relationships>
+		<Item type="DnA_CRD_Prod_File_Relationship" action="add">
+			<related_id>
+				<Item type="File" action="add">
+					<actual_filename>@7</actual_filename>
+					<filename>@6</filename>
+					<Relationships>
+						<Item type="Located" action="add">
+							<related_id>67BBB9204FE84A8981ED8313049BA06C</related_id>
+						</Item>
+					</Relationships>
+				</Item>
+			</related_id>
+		</Item>
+	</Relationships>
+</Item>
+</aml>

@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="42E579ED42864F98AB4560203836FB00" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>bertrand.marteau@cimpa.com</email>
+  <last_login_date>2020-09-03T11:44:05</last_login_date>
+  <login_name>bertrand.marteau</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Bertrand MARTEAU" type="Identity">8A3E8D4E10EF46FFAB8F62E18E460FF0</owned_by_id>
+  <first_name>Bertrand</first_name>
+  <last_name>MARTEAU</last_name>
+  <Relationships>
+   <Item type="Alias" id="1AC0BF6C56BD4073A9EA23FB1F11B658" action="add">
+    <from_date>2019-05-16T09:21:16</from_date>
+    <related_id keyed_name="Bertrand MARTEAU" type="Identity">8A3E8D4E10EF46FFAB8F62E18E460FF0</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Bertrand MARTEAU" type="User">42E579ED42864F98AB4560203836FB00</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

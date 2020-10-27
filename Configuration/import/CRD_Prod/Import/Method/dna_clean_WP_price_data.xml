@@ -1,0 +1,44 @@
+﻿<AML>
+ <Item type="Method" id="D97843BA9657448590EC586A31EFAF81" action="add">
+  <comments />
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+this function cleans the workpackages data in case the quantity is null
+trigger: Object on after add
+*/
+
+Innovator inn = this.getInnovator();
+var lifecyclestate =this.getProperty("dna_load_life_cycle_state");
+var isLocked=this.getLockStatus();
+
+// if (lifecyclestate!= null )
+// // && isLocked==1) 
+// {
+//         this.lockItem();
+
+// }
+
+for(var i=1; i<7; i++)
+{
+    if((this.getProperty("dna_qty" + i)==null)||(this.getProperty("dna_qty" +i)=="")||(this.getProperty("dna_qty"+ i)=="0"))
+    {
+        this.setProperty("dna_qty" +i,"");
+        this.setProperty("dna_wp_" + i,"");
+        this.setProperty("dna_wp"+i+"_unit_price","");
+        this.setProperty("dna_price_wp"+i,"");
+        this.setProperty("dna_deliverables_wp"+i,"");
+       
+        this.apply("merge");
+    }
+}
+// isLocked=this.getLockStatus();
+// if (lifecyclestate!= null && isLocked==1 ) 
+// {
+//     this.unlockItem();
+// }
+
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>dna_clean_WP_price_data</name>
+ </Item>
+</AML>

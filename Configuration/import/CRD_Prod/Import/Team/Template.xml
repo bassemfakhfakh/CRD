@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="Team" id="9288A740DA964400BBA521405909D1C2" action="add">
+  <name>Template</name>
+  <Relationships>
+   <Item type="Team Identity" id="E9DFFEB2A9AE4CCF86001F09C6165D12" action="add">
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Template" type="Team">9288A740DA964400BBA521405909D1C2</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="6EE6A9D7F1B64C66B8B399C8CB395406" action="add">
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Template" type="Team">9288A740DA964400BBA521405909D1C2</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="6F252929D22C41C2864399F32A5EE578" action="add">
+    <related_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Template" type="Team">9288A740DA964400BBA521405909D1C2</source_id>
+    <team_role keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</team_role>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

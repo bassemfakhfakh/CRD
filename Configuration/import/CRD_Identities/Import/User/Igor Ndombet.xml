@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="71F5AA3E639C436E914E414CEFEFF87C" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>igor.ndombet.external@airbus.com</email>
+  <last_login_date>2020-07-02T17:28:47</last_login_date>
+  <login_name>igor.ndombet</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Igor Ndombet" type="Identity">D0396E711A8943C2944119206CA161A4</owned_by_id>
+  <first_name>Igor</first_name>
+  <last_name>Ndombet</last_name>
+  <Relationships>
+   <Item type="Alias" id="D2F5DED5872942EEA787BEE3C0913B24" action="add">
+    <from_date>2019-05-15T11:15:19</from_date>
+    <related_id keyed_name="Igor Ndombet" type="Identity">D0396E711A8943C2944119206CA161A4</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Igor Ndombet" type="User">71F5AA3E639C436E914E414CEFEFF87C</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

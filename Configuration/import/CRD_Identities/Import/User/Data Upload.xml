@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="BE0728C1C319450CB6DA59B5AB509CD9" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <last_login_date>2018-04-18T17:31:50</last_login_date>
+  <login_name>DataUpload</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</owned_by_id>
+  <first_name>Data</first_name>
+  <last_name>Upload</last_name>
+  <Relationships>
+   <Item type="Alias" id="2962D0070F2B47B5977BDADC154B5CB8" action="add">
+    <from_date>2018-02-23T16:45:27</from_date>
+    <related_id keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Data Upload" type="User">BE0728C1C319450CB6DA59B5AB509CD9</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,48 @@
+Version: 12.0 (build 18644)
+
+
+-----params------
+args[0]     import
+args[1]     merge
+args[2]     release=1
+args[3]     dir=C:\Git\bassem\Configuration\import
+args[4]     server=http://localhost/12SP05/
+args[5]     database=CAT_Test
+args[6]     login=admin
+args[8]     mfFile=C:\Git\bassem\Configuration\import\imports.mf
+-----params------
+
+----parsed params----
+
+server      http://localhost/12SP05/
+database    CAT_Test
+login       admin
+Dir         C:\Git\bassem\Configuration\import
+timeout     0
+Log file    C:\Git\Project CAT test\Build\log\2020-6-15.23-21.log
+Manifest    C:\Git\bassem\Configuration\import\imports.mf
+import      Import
+Fast mode   False
+merge       True
+verbose     False
+release     1
+description 
+
+----parsed params----
+Start of importing packages
+start of execution : 06/15/2020 23:22:03
+Updating 'cat.dev.pkg' package to 'inprogress' release status
+       ****Import with merge option cat.dev.pkg****
+Processing (add)   id : 4E97040FD51D4397BC7F1190672AD461    keyed_name : CAT_PackageElement_Update    type : Method  
+File full name 'C:\Git\bassem\Configuration\import\pkg\Import\Method\CAT_PackageElement_Update.xml'
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 4E97040FD51D4397BC7F1190672AD461    keyed_name : CAT_PackageElement_Update    type : Method  
+Adding item into PackageDefinition with id = 4E97040FD51D4397BC7F1190672AD461 and type = Method
+Getting config_id  of versionable item  id  4E97040FD51D4397BC7F1190672AD461 type Method
+Item successfully added in packdefinition  id  4E97040FD51D4397BC7F1190672AD461 type Method
+completed
+Updating 'cat.dev.pkg' package to success release status
+end of execution : 06/15/2020 23:22:07

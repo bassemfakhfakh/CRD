@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="E448CAB14A564D5981F56CF5A9456B37" action="add">
+  <is_alias>0</is_alias>
+  <name>DnA Reader</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="C1CF8C82202846728E3D079BF7FB0C6E" action="add">
+  <related_id keyed_name="Guillaume Moulut" type="Identity">B2B9EF5A17DE428FB67E37D82E5ACCD0</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="DnA Reader" type="Identity">E448CAB14A564D5981F56CF5A9456B37</source_id>
+ </Item>
+</AML>

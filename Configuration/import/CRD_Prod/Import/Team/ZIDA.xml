@@ -1,0 +1,30 @@
+﻿<AML>
+ <Item type="Team" id="F036436716ED4550B795D0C60E4EDF1C" action="add">
+  <name>ZIDA</name>
+  <Relationships>
+   <Item type="Team Identity" id="9431F49715E8461BBD261F2C6D7EE981" action="add">
+    <related_id keyed_name="ZIDA_Manager" type="Identity">6C235BB97D694E03B92DF0A05A29A614</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="CE6DD793B55E48BF9C13473C71F10E95" action="add">
+    <related_id keyed_name="Assistant" type="Identity">896E5F2625584AFF87ECCE7470590309</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</source_id>
+    <team_role keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</team_role>
+   </Item>
+   <Item type="Team Identity" id="CF85F2B46DA74113A26486FCD6C30AAD" action="add">
+    <related_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</source_id>
+   </Item>
+   <Item type="Team Identity" id="0A25EC5D7FA1469FAB83EF52C3A89F3B" action="add">
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

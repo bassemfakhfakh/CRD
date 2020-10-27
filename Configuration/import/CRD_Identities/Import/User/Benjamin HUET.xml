@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="User" id="896D0B91A1164668821FB913E1E1964D" action="add">
+  <company_name>CIMPA</company_name>
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>benjamin.huet@cimpa.com</email>
+  <last_login_date>2017-02-10T20:01:23</last_login_date>
+  <login_name>bhuet</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id>4F7935D6357149638CB363F4BE1C1EF4</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:31:35</pwd_is_set_on>
+  <starting_page>InBasket Task</starting_page>
+  <user_no />
+  <working_directory>c:\temp</working_directory>
+  <first_name>Benjamin</first_name>
+  <last_name>HUET</last_name>
+  <Relationships>
+   <Item type="Alias" id="77EF998E42D54DF68C8A36E9E1B81B54" action="add">
+    <from_date>2018-02-13T19:43:10</from_date>
+    <related_id keyed_name="Benjamin HUET" type="Identity">B83E861E71DC46F68D82FDABFED16242</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Benjamin HUET" type="User">896D0B91A1164668821FB913E1E1964D</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,1765 @@
+﻿<AML>
+ <Item type="ItemType" id="974F3AF5F4E547CEBF12FD3638549AD4" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>DNA_CRD_PROFITABILITY</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">CRD_Profitability</label>
+  <label_plural xml:lang="en">CRD_Profitability</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>DnA_CRD_Profitability</name>
+  <Relationships>
+   <Item type="Property" id="DA0893B05B2446DCADFC57B542310CDB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_prof_number</name>
+   </Item>
+   <Item type="Property" id="0964555519304E88B671246897FE846D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Profitability</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_profitability</name>
+   </Item>
+   <Item type="Property" id="07D63E2B89534C27A69543405BB1AA99" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>15</keyed_name_order>
+    <label xml:lang="en">Rentability</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_profitability_rentability</name>
+   </Item>
+   <Item type="Property" id="7B06CFA9579245299AD631436C4A2F24" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">CRD Total Cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>25</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_profitability_totalcost</name>
+   </Item>
+   <Item type="Property" id="7411FDC0F8054E04B848EE061976D7F3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Project Management Cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9088</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_project_management_cost</name>
+   </Item>
+   <Item type="Property" id="74630E8AEAF347BFA4FEADD745BC17B4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_projet_management_daily_rate</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10752</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_projet_management_daily_rate</name>
+   </Item>
+   <Item type="Property" id="A109D9E5A56345CC91EB8FAD63CA4CF9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_projet_management_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10624</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_projet_management_qty</name>
+   </Item>
+   <Item type="Property" id="4DC28B06FD5A406498380FE489C61A15" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa1_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa1_category</name>
+   </Item>
+   <Item type="Property" id="902C4D198A724D42B38D85C3725504D8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa1_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7168</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa1_cost</name>
+   </Item>
+   <Item type="Property" id="AD8EC59C1F9748C1ABCED6A741851F98" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa1_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6528</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa1_qty</name>
+   </Item>
+   <Item type="Property" id="682B288C2BA3447FA9656C9D5A29147A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa1_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa1_unit_price</name>
+   </Item>
+   <Item type="Property" id="4765899C4F67415C8404661AE2D57628" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa10_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12672</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa10_category</name>
+   </Item>
+   <Item type="Property" id="7B39EEC09F344898A9A9C9ABEAD03BF4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa10_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13056</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa10_cost</name>
+   </Item>
+   <Item type="Property" id="703961C7427D4AD99077E190740EAF50" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa10_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13440</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa10_qty</name>
+   </Item>
+   <Item type="Property" id="C5761E839A7F45B68560973D8891B23E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa10_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13824</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa10_unit_price</name>
+   </Item>
+   <Item type="Property" id="F93FF277F87D4763AC416F26D823A4BC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa2_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa2_category</name>
+   </Item>
+   <Item type="Property" id="22CE36800A7A44A8A7B339007468CB70" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa2_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7296</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa2_cost</name>
+   </Item>
+   <Item type="Property" id="8D326F13D21A422CBEEA696FB3AD38AB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa2_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6656</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa2_qty</name>
+   </Item>
+   <Item type="Property" id="312730D9CD7648E0BA484370F956555C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa2_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa2_unit_price</name>
+   </Item>
+   <Item type="Property" id="500640B6CCC540FA9D2E962C6749AC5C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa3_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa3_category</name>
+   </Item>
+   <Item type="Property" id="AA25CE4FBF0C4687AE9BED6BB6757553" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa3_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7424</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa3_cost</name>
+   </Item>
+   <Item type="Property" id="33761CBF7C6340818F787A3BE4E4E8EF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa3_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6784</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa3_qty</name>
+   </Item>
+   <Item type="Property" id="3E253E1DBC7A408EB29BA1F4D9D94FB9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa3_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa3_unit_price</name>
+   </Item>
+   <Item type="Property" id="99C712C229AE4B3E8D1B637D3BC0D331" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa4_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa4_category</name>
+   </Item>
+   <Item type="Property" id="18E17B0721104D47B70DED8CB082370D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa4_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7552</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa4_cost</name>
+   </Item>
+   <Item type="Property" id="09922F407E994542B4AC67E3C9A998F5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa4_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6912</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa4_qty</name>
+   </Item>
+   <Item type="Property" id="751EA23D79174B2A9019EB99552E076C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa4_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa4_unit_price</name>
+   </Item>
+   <Item type="Property" id="35C1D2984DED416DADDD62712B94581C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa5_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa5_category</name>
+   </Item>
+   <Item type="Property" id="8A068BF7B80843FC813F5ECE9ABA82DE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa5_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7680</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa5_cost</name>
+   </Item>
+   <Item type="Property" id="FF60ED1E4AE34E8B904191A85E180AC4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa5_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7040</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa5_qty</name>
+   </Item>
+   <Item type="Property" id="C401BFAF2A8E49A1905113E8D4B3D6BE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa5_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa5_unit_price</name>
+   </Item>
+   <Item type="Property" id="7F11EB9FBD354F96ACB47D32371E75E8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa6_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa6_category</name>
+   </Item>
+   <Item type="Property" id="2A4B78C1EC714BCBA1AECAA7794BC9A3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa6_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8192</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa6_cost</name>
+   </Item>
+   <Item type="Property" id="E1EF0E5C044D480FBD45ABFB059415B3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa6_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6272</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa6_qty</name>
+   </Item>
+   <Item type="Property" id="4AC8C0E5047845F794282BC578AC60D7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa6_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa6_unit_price</name>
+   </Item>
+   <Item type="Property" id="6CB5BCAAE94349B68F91F282543B2A56" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa7_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa7_category</name>
+   </Item>
+   <Item type="Property" id="64329D8087D849559B1E4F591FEC9797" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa7_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8320</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa7_cost</name>
+   </Item>
+   <Item type="Property" id="73C3822906714DE796D71863053A1C74" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa7_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6400</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa7_qty</name>
+   </Item>
+   <Item type="Property" id="1A6BD1AC6B5F4CD7ADDE6A74F3BA9287" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa7_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5760</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa7_unit_price</name>
+   </Item>
+   <Item type="Property" id="AAF5F691F8AB434F8AEDCA619DF1B6C5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa8_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12416</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa8_category</name>
+   </Item>
+   <Item type="Property" id="92934E28E7684FE59485D95D6C0E6B73" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa8_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12800</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa8_cost</name>
+   </Item>
+   <Item type="Property" id="496B3C5118724B4C9420C49B4FC2D738" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa8_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13184</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa8_qty</name>
+   </Item>
+   <Item type="Property" id="5048E09D57964FC3BB4549BA98B9065F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa8_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13568</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa8_unit_price</name>
+   </Item>
+   <Item type="Property" id="E0679A8B4EB145AF8775BC812AC2AACF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa9_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12544</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa9_category</name>
+   </Item>
+   <Item type="Property" id="FE26F0BC7408484F9479E0A5DA8AFFBC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa9_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12928</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa9_cost</name>
+   </Item>
+   <Item type="Property" id="0A74A028EA454859B27608E54FA80081" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa9_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13312</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_rescimpa9_qty</name>
+   </Item>
+   <Item type="Property" id="9B23E3A99ED14F5785573E9BDFD7A775" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_rescimpa9_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13696</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_rescimpa9_unit_price</name>
+   </Item>
+   <Item type="Property" id="3811566C5B124D6D822CC339E3525EDD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother1_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother1_category</name>
+   </Item>
+   <Item type="Property" id="673EC13FA2EB4543B03E2C1C76BD10EE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother1_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7808</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother1_cost</name>
+   </Item>
+   <Item type="Property" id="3B85F35C6DDC4F95B91AC6CC000638F7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother1_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5888</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resother1_qty</name>
+   </Item>
+   <Item type="Property" id="F34095050BA1487EB1E6D43C5FC3B469" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother1_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5248</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother1_unit_price</name>
+   </Item>
+   <Item type="Property" id="C2CDBFE3D2C1464681565B2025304718" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother2_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother2_category</name>
+   </Item>
+   <Item type="Property" id="427C4475FE9047B897D59468F574B618" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother2_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7936</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother2_cost</name>
+   </Item>
+   <Item type="Property" id="258B342C07A846D9AD0D5781CF14F27A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother2_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6016</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resother2_qty</name>
+   </Item>
+   <Item type="Property" id="57B290C7CEC343EE9F1DFDEB81C5BF59" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother2_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother2_unit_price</name>
+   </Item>
+   <Item type="Property" id="5FB6FE5B1D3746DEB8ABDA0B8B036D36" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Resource_Category">96F882521C344A97AFCD145D4CDDD750</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother3_category</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother3_category</name>
+   </Item>
+   <Item type="Property" id="2E8E005A92864F07AA9435541DBA862B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother3_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8064</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother3_cost</name>
+   </Item>
+   <Item type="Property" id="5CEB3CD125ED4B62A9F1B0E4C8B88F3D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother3_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6144</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resother3_qty</name>
+   </Item>
+   <Item type="Property" id="BFC59D32CA5B4904BF347F7B80043A9E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resother3_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resother3_unit_price</name>
+   </Item>
+   <Item type="Property" id="B247D4F3B8754C1E8C52C61A9EC62B8E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10800</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa1</name>
+    <Relationships>
+     <Item type="Grid Event" id="5BE117CEC5EE49CDB20B1BE601A35A0E" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa1" type="Property">B247D4F3B8754C1E8C52C61A9EC62B8E</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="485463968D3E4C9286164F1E52C16CAF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa10</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11270</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa10</name>
+    <Relationships>
+     <Item type="Grid Event" id="F18A892D92B64DF8A571B318FA4D3CB6" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa10" type="Property">485463968D3E4C9286164F1E52C16CAF</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="983BB18E43E94157B95C0F0A5F77D957" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10880</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa2</name>
+    <Relationships>
+     <Item type="Grid Event" id="0EE2FD27B0EB470DA201196E6E9AD253" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa2" type="Property">983BB18E43E94157B95C0F0A5F77D957</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="D248B06AD5574738BA556BA61BCC39E0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11008</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa3</name>
+    <Relationships>
+     <Item type="Grid Event" id="68DF23CC84A34CD9B65D079A00E9728E" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa3" type="Property">D248B06AD5574738BA556BA61BCC39E0</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="A9FA9D2C2FEF461A9599014BEB912D85" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11136</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa4</name>
+    <Relationships>
+     <Item type="Grid Event" id="447F1490BD3C476D898EACDB3C0C6F4F" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa4" type="Property">A9FA9D2C2FEF461A9599014BEB912D85</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="D7411EB2F46E44B7BEC9771F6F14DD13" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11264</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa5</name>
+    <Relationships>
+     <Item type="Grid Event" id="024F520A7D7B43B59DFDB76B932DC42A" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa5" type="Property">D7411EB2F46E44B7BEC9771F6F14DD13</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="29BCBF8673B84503AA4950EB60A39A84" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11265</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa6</name>
+    <Relationships>
+     <Item type="Grid Event" id="19E27BB3CFE94C068C740F425989A3C1" action="add">
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa6" type="Property">29BCBF8673B84503AA4950EB60A39A84</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="3FAA10BFF0844257BDDAE252BAEDD427" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa7</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11266</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa7</name>
+    <Relationships>
+     <Item type="Grid Event" id="73756644652F417395841C587B937D38" action="add">
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa7" type="Property">3FAA10BFF0844257BDDAE252BAEDD427</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="5531F507CE0D4BB0A9BC4956FC15607A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa8</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11267</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa8</name>
+    <Relationships>
+     <Item type="Grid Event" id="D63EAD736E1A4FD4A670ABF54A136B6D" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa8" type="Property">5531F507CE0D4BB0A9BC4956FC15607A</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="27B014197CC344928A092F2682FBE334" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_cimpa9</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11269</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_cimpa9</name>
+    <Relationships>
+     <Item type="Grid Event" id="C04D4F4986DE470AB384779150EF7ADB" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_cimpafilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_cimpafilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_cimpa9" type="Property">27B014197CC344928A092F2682FBE334</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="2D766AFDEAD641A69FEF3340B7E954CD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Resources List</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13952</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_list</name>
+   </Item>
+   <Item type="Property" id="6C70CE25BAD2446BAF7FFA463CC518BB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_other1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11392</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_other1</name>
+    <Relationships>
+     <Item type="Grid Event" id="FF4B45C369EB4592916018BCF6A82EE1" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_otherfilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_otherfilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_other1" type="Property">6C70CE25BAD2446BAF7FFA463CC518BB</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="9D439841672346AB977721EAA8BB0652" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_other2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11520</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_other2</name>
+    <Relationships>
+     <Item type="Grid Event" id="69C2E2FCD6B14FBDBBB084A443AC0AC7" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_otherfilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_otherfilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_other2" type="Property">9D439841672346AB977721EAA8BB0652</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="67B6D34CC905408A811EE11932C4DC23" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_resource_other3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11648</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resource_other3</name>
+    <Relationships>
+     <Item type="Grid Event" id="D3D58C407CEA4414A1A672BCFFDD4D37" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="dna_prof_otherfilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>dna_prof_otherfilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_resource_other3" type="Property">67B6D34CC905408A811EE11932C4DC23</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="58F8C308E187443EABAE3B45DDD4E54F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Resource Total Cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8704</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resource_totalcost</name>
+   </Item>
+   <Item type="Property" id="82F039E2F5BF40D1987CF6E590D46A59" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resourcecimpa_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8448</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resourcecimpa_cost</name>
+   </Item>
+   <Item type="Property" id="7106D9AE955B431B9BD3EF163B6D59C0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_resourceother_cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8576</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_resourceother_cost</name>
+   </Item>
+   <Item type="Property" id="DE64715546F64AE4AA11171CD4AD0BAD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Resources List</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14080</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_resources_list</name>
+   </Item>
+   <Item type="Property" id="C0747E538A1C4B25A731F60CC802F322" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Risk &amp; Alea Cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8960</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_risk_alea</name>
+   </Item>
+   <Item type="Property" id="2ACB9EC9822047CFAB7E1932DB3437E3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Transition cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9216</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_transition_cost</name>
+   </Item>
+   <Item type="Property" id="B106467D4ABE4295A48875155990106A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_transition_daily_rate</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10496</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_transition_daily_rate</name>
+   </Item>
+   <Item type="Property" id="C4479F1BE2C04325B098249F18EE4B6D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_transition_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10240</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_transition_qty</name>
+   </Item>
+   <Item type="Property" id="956D60F2F656442DA3CB438DEE4DC370" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Travel cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8832</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_travel_cost</name>
+   </Item>
+   <Item type="Property" id="4D92B95623AC4A90950E819203E8DA0C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_travel_daily_rate</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10368</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_travel_daily_rate</name>
+   </Item>
+   <Item type="Property" id="84E8CABC38444C239F317CA6BC000EBC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_travel_qty</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9984</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>dna_travel_qty</name>
+   </Item>
+   <Item type="View" id="700C67B5362D43E9AF531302CE124CFA" action="add">
+    <client>js</client>
+    <related_id keyed_name="DnA_CRD_Profitability" type="Form">61199ACC744240F1865E34084464D200</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="TOC Access" id="DD0611FB74DF4E949AD4744CA8671637" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <category>DnA Bundle</category>
+   </Item>
+   <Item type="Can Add" id="CD0CE9B1F2F2477699F7FFDA68859CDB" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="82C82CEC858740CCAADD3C2B72F8DF05" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="974F3AF5F4E547CEBF12FD3638549AD4" action="edit">
+  <Relationships>
+   <Item type="Property" id="ECE0BAD573B24E84B4353994477B6A5F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>1</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <item_behavior>float</item_behavior>
+    <keyed_name_order>2</keyed_name_order>
+    <label xml:lang="en">CRD</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="DnA_CRD_Profitability" type="ItemType" name="DnA_CRD_Profitability">974F3AF5F4E547CEBF12FD3638549AD4</source_id>
+    <track_history>0</track_history>
+    <name>crd_prod</name>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

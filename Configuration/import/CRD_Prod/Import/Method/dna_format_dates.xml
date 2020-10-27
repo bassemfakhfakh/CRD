@@ -1,0 +1,49 @@
+﻿<AML>
+ <Item type="Method" id="04195BF92D9048D7B9443121FF26900F" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = top.aras.newIOMInnovator();
+
+var startdate= document.thisItem.getProperty("dna_startdate");
+var enddate= document.thisItem.getProperty("dna_enddate");
+var createdondate= document.thisItem.getProperty("created_on");
+var modifiedondate= document.thisItem.getProperty("modified_on");
+var indexOfTtime;
+var dateNoTime;
+var dateParts;
+if (startdate!== undefined){
+ indexOfTtime = startdate.indexOf("T");
+ dateNoTime = startdate.substring(0,indexOfTtime);
+ dateParts =dateNoTime.split('-');
+  //var year = startdate.getFullYear();
+
+handleItemChange("dna_startdate_string",dateParts[2] +"/"+ dateParts[1]+ "/"+ dateParts[0]);
+}
+
+if(enddate!==undefined){
+indexOfTtime = enddate.indexOf("T");
+dateNoTime = enddate.substring(0,indexOfTtime);
+dateParts =dateNoTime.split('-');
+  //var year = startdate.getFullYear();
+
+handleItemChange("dna_enddate_string",dateParts[2] +"/"+ dateParts[1]+ "/"+ dateParts[0]);
+}
+
+// indexOfTtime = createdondate.indexOf("T");
+// dateNoTime = createdondate.substring(0,indexOfTtime);
+// dateParts =dateNoTime.split('-');
+//   //var year = startdate.getFullYear();
+
+// handleItemChange("dna_created_on_string",dateParts[2] +"/"+ dateParts[1]+ "/"+ dateParts[0]);
+
+
+// indexOfTtime = modifiedondate.indexOf("T");
+// dateNoTime = modifiedondate.substring(0,indexOfTtime);
+// dateParts =dateNoTime.split('-');
+//   //var year = startdate.getFullYear();
+
+// handleItemChange("dna_modified_on_string",dateParts[2] +"/"+ dateParts[1]+ "/"+ dateParts[0]);
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_format_dates</name>
+ </Item>
+</AML>

@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="489EE90CE7B44189A8B43712ACF31162" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDSC_FR_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="777748A447484FB6A8555137C7C3E512" action="add">
+  <related_id keyed_name="Bertrand MARTEAU" type="Identity">8A3E8D4E10EF46FFAB8F62E18E460FF0</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="ZIDSC_FR_Manager" type="Identity">489EE90CE7B44189A8B43712ACF31162</source_id>
+ </Item>
+</AML>

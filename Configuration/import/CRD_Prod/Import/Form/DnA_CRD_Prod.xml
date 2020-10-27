@@ -1,0 +1,3558 @@
+﻿<AML>
+ <Item type="Form" id="D7A083DF6075464F89394B6A2CD3C94B" action="add">
+  <category_form>0</category_form>
+  <height>1028</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>DnA_CRD_Prod</name>
+  <Relationships>
+   <Item type="Body" id="AA6334364855416C81F5CF30CA42FF6B" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Form">D7A083DF6075464F89394B6A2CD3C94B</source_id>
+    <Relationships>
+     <Item type="Field" id="770E643B755E48268BABD7DF269AADBD" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>button</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Add service</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>absolute</positioning>
+      <sort_order>6400</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>0</tab_stop>
+      <x>654</x>
+      <y>283</y>
+      <name>button0</name>
+      <Relationships>
+       <Item type="Field Event" id="DDEF956E789F4EA8ABAF195EB8420525" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="DnA_SetVisibleWP_Line" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>DnA_SetVisibleWP_Line</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="button0" type="Field">770E643B755E48268BABD7DF269AADBD</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="BD1DF8E8836E42FFA636B47D8491F661" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">created by</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>6912</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>640</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>3</x>
+      <y>233</y>
+      <name>created_by_id</name>
+     </Item>
+     <Item type="Field" id="A5E56A5C25164FBD8CC8D9281FC9B1A5" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">created_on</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>6784</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>512</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>3</x>
+      <y>146</y>
+      <name>created_on</name>
+     </Item>
+     <Item type="Field" id="62243366309644F5A08A90DEC89016C3" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">CRD State</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>6656</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>1280</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>3</x>
+      <y>104</y>
+      <name>current_state</name>
+     </Item>
+     <Item type="Field" id="B3B9B25AB4CE4BEA9D0EA7DE0B88F3B9" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>label</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Discount</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>19712</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>605</x>
+      <y>338</y>
+      <name>discount</name>
+     </Item>
+     <Item type="Field" id="7DF4454AAAF5490B91E7984F69A9D6CE" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Attach Complexity Matrix</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_attach_complexity" type="Property">56BE792C196F47DEBBDF67BE71A22DFE</propertytype_id>
+      <sort_order>4608</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>3200</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>1181</x>
+      <y>7</y>
+      <name>dna_attach_complexity</name>
+     </Item>
+     <Item type="Field" id="5079BABB99BD4170AFB0C18AC3192C66" action="add">
+      <border_width>0</border_width>
+      <display_length>150</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Attach Profitability</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_attach_profitability" type="Property">C0D1529B349F4E29956EF853A1583523</propertytype_id>
+      <sort_order>18688</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1190</x>
+      <y>71</y>
+      <name>dna_attach_profitability</name>
+      <Relationships>
+       <Item type="Field Event" id="14F2206708E94B31B661B7D4F27DB1C9" action="add">
+        <related_id keyed_name="dna_crd_profitability" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_crd_profitability</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_attach_profitability" type="Field">5079BABB99BD4170AFB0C18AC3192C66</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="108D330033FC49DE9232F8515D4A9B91" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Attach TRD</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_attach_trd" type="Property">625ED2B1D8274132B5C3BF9D25294514</propertytype_id>
+      <sort_order>4992</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>3456</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>1189</x>
+      <y>117</y>
+      <name>dna_attach_trd</name>
+     </Item>
+     <Item type="Field" id="787510DB22454B20AD970AF989173373" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Other Attachments</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_attachments" type="Property">5D701DE54BA1413BA6E80CC27737E240</propertytype_id>
+      <sort_order>5120</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>3712</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>1190</x>
+      <y>150</y>
+      <name>dna_attachments</name>
+     </Item>
+     <Item type="Field" id="42C316AC87054B0EABF65C8641BA8359" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">CIR</label>
+      <label_position>top</label_position>
+      <list_no_blank>1</list_no_blank>
+      <propertytype_id keyed_name="dna_cir" type="Property">55EBD77902194AD8B48E17439018BD41</propertytype_id>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>3840</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>352</x>
+      <y>113</y>
+      <name>dna_cir</name>
+     </Item>
+     <Item type="Field" id="896F244A495C4FF4A6EB926A1AEDDB71" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Complexity</label>
+      <label_position>top</label_position>
+      <list_no_blank>1</list_no_blank>
+      <propertytype_id keyed_name="dna_complexity" type="Property">3F501DC83D0F4796896E75222C846DEB</propertytype_id>
+      <sort_order>1664</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>3968</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>194</x>
+      <y>305</y>
+      <name>dna_complexity</name>
+      <Relationships>
+       <Item type="Field Event" id="63C3140B181843118561AB58A93B0032" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_complexity" type="Field">896F244A495C4FF4A6EB926A1AEDDB71</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="A21FA4BD64EA43C8BF7A09952C2E85E8" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Generated CRD (PDF)</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_crd_attach" type="Property">E4B2B153EA01437FB398A8D6650B5015</propertytype_id>
+      <sort_order>4736</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4096</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>1190</x>
+      <y>37</y>
+      <name>dna_crd_attach</name>
+     </Item>
+     <Item type="Field" id="751AEBB980A64D0B8BFDF616694A6A68" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">CRD Fist Time Sent To customer</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_crd_first_sent" type="Property">4B1D6394871846299CEAE8B0606D3583</propertytype_id>
+      <sort_order>7680</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10496</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>585</x>
+      <y>171</y>
+      <name>dna_crd_first_sent</name>
+     </Item>
+     <Item type="Field" id="7B79ED75DFB74802A69DEA38628FA412" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Customer Signed CRD (PDF)</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_crd_signed" type="Property">A515DCA090304268BE40E68326F2F533</propertytype_id>
+      <sort_order>7808</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10624</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>1190</x>
+      <y>182</y>
+      <name>dna_crd_signed</name>
+     </Item>
+     <Item type="Field" id="5001F75BEC3549D0A23FF223C12FE100" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">CRD sent to customer</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_crdsent" type="Property">B62DB8CA46C54907B91C2D62E6CE4CE8</propertytype_id>
+      <sort_order>4480</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4224</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>585</x>
+      <y>50</y>
+      <name>dna_crdsent</name>
+     </Item>
+     <Item type="Field" id="C5B59EB46A5B4707926EF3A27C422585" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Service launching</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_crdservicelaunching" type="Property">977D8D0CEBCE4C9FA36045F340843252</propertytype_id>
+      <sort_order>6144</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4352</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>585</x>
+      <y>0</y>
+      <name>dna_crdservicelaunching</name>
+     </Item>
+     <Item type="Field" id="61ACB5EAC24340369DA952C4069246EA" action="add">
+      <border_width>0</border_width>
+      <display_length>250</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Customer Requestor Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_customername" type="Property">A1848EB0914A49C6A34DCED8D1E290D2</propertytype_id>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4608</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>182</x>
+      <y>189</y>
+      <name>dna_customername</name>
+     </Item>
+     <Item type="Field" id="92F8653C0AFE4518AF15AFD9DA816DA1" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Siglum</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_customersiglum" type="Property">6E343A052E834B0C910CDA16159E6040</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4736</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>445</x>
+      <y>201</y>
+      <name>dna_customersiglum</name>
+     </Item>
+     <Item type="Field" id="8800FE95EDA84695A2A0DFB42F22AA56" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Deliverables</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_deliverables_wp1" type="Property">981586A17144458CAB4594736F8AC7C5</propertytype_id>
+      <sort_order>70</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10112</tab_index>
+      <tab_stop>0</tab_stop>
+      <textarea_cols>200</textarea_cols>
+      <textarea_rows>40</textarea_rows>
+      <x>653</x>
+      <y>318</y>
+      <name>dna_deliverables_wp1</name>
+     </Item>
+     <Item type="Field" id="6923F270AC1A49BAA4BB7FC8CC084E51" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_deliverables_wp2" type="Property">519F3427E00B4F2688388AC222F634A3</propertytype_id>
+      <sort_order>70</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10240</tab_index>
+      <tab_stop>0</tab_stop>
+      <textarea_cols>200</textarea_cols>
+      <textarea_rows>40</textarea_rows>
+      <x>658</x>
+      <y>389</y>
+      <name>dna_deliverables_wp2</name>
+     </Item>
+     <Item type="Field" id="27842702B3B54D07A873CBF9B36F9DB1" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_deliverables_wp3" type="Property">B33E3A790F064C429EAFD473671732A7</propertytype_id>
+      <sort_order>70</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10468</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>200</textarea_cols>
+      <textarea_rows>40</textarea_rows>
+      <x>657</x>
+      <y>446</y>
+      <name>dna_deliverables_wp3</name>
+     </Item>
+     <Item type="Field" id="A7D033ABEC17486E8BAD670E2F3EC284" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_deliverables_wp4" type="Property">94F642F8655846CD91087A0EB7E3020E</propertytype_id>
+      <sort_order>70</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10368</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>200</textarea_cols>
+      <textarea_rows>40</textarea_rows>
+      <x>656</x>
+      <y>507</y>
+      <name>dna_deliverables_wp4</name>
+     </Item>
+     <Item type="Field" id="3524B18879A64596AE8E31023A2130A5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Discount (%)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_discount_precentage" type="Property">D5F7B4BA51C64E99951327077806B459</propertytype_id>
+      <sort_order>19968</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23680</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>4</x>
+      <y>278</y>
+      <name>dna_discount_precentage</name>
+     </Item>
+     <Item type="Field" id="280EA22181EA459A878EAB8FF0AD57F3" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Domain Manager</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_dmanager" type="Property">1E9F7EA35A4C43D4B5783E0F02F58C3B</propertytype_id>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4864</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>182</x>
+      <y>144</y>
+      <name>dna_dmanager</name>
+     </Item>
+     <Item type="Field" id="4FBE67A248AE4DAE87BD043B1A6C95BB" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Activities End Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_enddate" type="Property">0105107B290047FB8E3E810F2C876D3E</propertytype_id>
+      <sort_order>1536</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>4992</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>585</x>
+      <y>240</y>
+      <name>dna_enddate</name>
+      <Relationships>
+       <Item type="Field Event" id="FFCA8FB4F9924E9CA0CC69F531BA8636" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="dna_format_dates" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_format_dates</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_enddate" type="Field">4FBE67A248AE4DAE87BD043B1A6C95BB</source_id>
+       </Item>
+       <Item type="Field Event" id="441CA85F797C4610A1134E38D7EA7EC9" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="dna_crd_missionDate" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_crd_missionDate</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_enddate" type="Field">4FBE67A248AE4DAE87BD043B1A6C95BB</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="2DEB69F3306D426E85C35D21A2D93F51" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Focal Point Phone</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_focal_poin_phone" type="Property">59CC3F426ECA4D16A08BE296788A787B</propertytype_id>
+      <sort_order>8192</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>11136</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>322</x>
+      <y>31</y>
+      <name>dna_focal_poin_phone</name>
+     </Item>
+     <Item type="Field" id="AB4BDD0CCB6F4DFEB6DE5869BBCACE97" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Supplier Focal Point</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_focal_point" type="Property">41ED779567ED4E80B0F2E8EFE88CB050</propertytype_id>
+      <sort_order>8064</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10880</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>182</x>
+      <y>32</y>
+      <name>dna_focal_point</name>
+     </Item>
+     <Item type="Field" id="C464FFC8B8C1403EABEB2E9228A11448" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Focal Point email</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_focal_point_email" type="Property">B4FC28F1B67C4830ABE0D8D55B18F06C</propertytype_id>
+      <sort_order>8320</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>11008</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>452</x>
+      <y>32</y>
+      <name>dna_focal_point_email</name>
+     </Item>
+     <Item type="Field" id="04E8856A2D6F45CBBD68EEC689D22349" action="add">
+      <border_width>0</border_width>
+      <container>ReviewClassifCol1Row1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Internal review date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_internalreviewdate" type="Property">2B8FE695BAB4486DBEE874087A851B46</propertytype_id>
+      <sort_order>3712</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>5120</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>588</x>
+      <y>150</y>
+      <name>dna_internalreviewdate</name>
+     </Item>
+     <Item type="Field" id="C97EE7623F7344F4B732E46639E00C93" action="add">
+      <border_width>0</border_width>
+      <container>ReviewClassifCol1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Internal review remark</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_internalreviewremark" type="Property">C3A62CD9E77B4236AD9010B768B4AF8D</propertytype_id>
+      <sort_order>3968</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>5248</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>300</textarea_cols>
+      <textarea_rows>50</textarea_rows>
+      <x>190</x>
+      <y>273</y>
+      <name>dna_internalreviewremark</name>
+     </Item>
+     <Item type="Field" id="B685F8A8E50B4811B187295CE5EFB3E0" action="add">
+      <border_width>0</border_width>
+      <container>ReviewClassifCol1Row1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Internal review status</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_internalreviewstatus" type="Property">A45FE7A0B1834FBE8175B3E0D931ED7D</propertytype_id>
+      <sort_order>3840</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>5376</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>184</x>
+      <y>15</y>
+      <name>dna_internalreviewstatus</name>
+     </Item>
+     <Item type="Field" id="66B7E0D4952249FEB39806F82907495D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Methodology</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_methodology" type="Property">0EE75D767D2848398685FDAA472B1A9B</propertytype_id>
+      <sort_order>7936</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>10752</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>469</x>
+      <y>73</y>
+      <name>dna_methodology</name>
+     </Item>
+     <Item type="Field" id="7C2EC6A42763432C8B40CC513740AF4C" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Number</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_number" type="Property">2DCCA4D8499E4D36AA542E669571CF2D</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>5760</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>182</x>
+      <y>0</y>
+      <name>dna_number</name>
+     </Item>
+     <Item type="Field" id="190508E54B71409C94DB5251A88D9408" action="add">
+      <border_width>0</border_width>
+      <container>SCBCol2</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">PO date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_podate" type="Property">143579CFA8F145C4AC35C188FBE98576</propertytype_id>
+      <sort_order>6016</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>5888</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>408</y>
+      <name>dna_podate</name>
+     </Item>
+     <Item type="Field" id="88E922C9F1EA42CABB597C0DC457662A" action="add">
+      <border_width>0</border_width>
+      <container>SCBCol2</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">PO number</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_ponumber" type="Property">8D4E3F2403334787B914DF0159EA9168</propertytype_id>
+      <sort_order>5888</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6016</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>358</y>
+      <name>dna_ponumber</name>
+     </Item>
+     <Item type="Field" id="87B68381FC184981BFAB29D747597AF3" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">(Temporary)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp1" type="Property">FDEA4173F1BA4FCA9ECC2F28CFA60129</propertytype_id>
+      <sort_order>40</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6144</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>550</x>
+      <y>336</y>
+      <name>dna_price_wp1</name>
+     </Item>
+     <Item type="Field" id="087FFD7AD820418F8025BB53A980F6E6" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Price (€)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp1_discount" type="Property">40DECD6851E24F1FA6581C3397EF9B66</propertytype_id>
+      <sort_order>60</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23040</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>633</y>
+      <name>dna_price_wp1_discount</name>
+      <Relationships>
+       <Item type="Field Event" id="A77C875C4B2A4F8A8A28EADAAB6FE043" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_manual_update_price_discount" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_manual_update_price_discount</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_price_wp1_discount" type="Field">087FFD7AD820418F8025BB53A980F6E6</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="6C89512217F7412D82901D8C538E9B91" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp2" type="Property">AA1A10CBE64C4EFAB91E208FDDEEB5A9</propertytype_id>
+      <sort_order>40</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6272</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>558</x>
+      <y>404</y>
+      <name>dna_price_wp2</name>
+     </Item>
+     <Item type="Field" id="FB1D688611474450AE04A75407A8BFDA" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp2_discount" type="Property">40F8768DBD534858B37835ED4728C824</propertytype_id>
+      <sort_order>60</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23168</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>633</y>
+      <name>dna_price_wp2_discount</name>
+      <Relationships>
+       <Item type="Field Event" id="65940F0B4CD04481BA3D36BCBB420DB8" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_manual_update_price_discount" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_manual_update_price_discount</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_price_wp2_discount" type="Field">FB1D688611474450AE04A75407A8BFDA</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="429982F8F00D44B09D1B21F0CDD5C490" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp3" type="Property">22992E42B1BE421D87D341728713F0DA</propertytype_id>
+      <sort_order>40</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6300</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>563</x>
+      <y>464</y>
+      <name>dna_price_wp3</name>
+     </Item>
+     <Item type="Field" id="2F21D5FAC7B642D6A710B1A63A3448E6" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp3_discount" type="Property">5DB845F0CF3148D297F16D81D85D69B6</propertytype_id>
+      <sort_order>60</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23296</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>633</y>
+      <name>dna_price_wp3_discount</name>
+      <Relationships>
+       <Item type="Field Event" id="D2BC4292D2E842079D8A9A9FEDF7874A" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_manual_update_price_discount" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_manual_update_price_discount</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_price_wp3_discount" type="Field">2F21D5FAC7B642D6A710B1A63A3448E6</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="CD05F3153A7F417F835C605AAAEDEB1D" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp4" type="Property">63F5BB0740A14B8F926C6674E8342BC0</propertytype_id>
+      <sort_order>40</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6400</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>556</x>
+      <y>521</y>
+      <name>dna_price_wp4</name>
+     </Item>
+     <Item type="Field" id="72BF71188AAF48869304CE2A505A0A6A" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_price_wp4_discount" type="Property">5EF7AAFE381E4121989FE4FF542FD554</propertytype_id>
+      <sort_order>60</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23424</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>642</y>
+      <name>dna_price_wp4_discount</name>
+      <Relationships>
+       <Item type="Field Event" id="9854C51465924A34B12143388DFDB6ED" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_manual_update_price_discount" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_manual_update_price_discount</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_price_wp4_discount" type="Field">72BF71188AAF48869304CE2A505A0A6A</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="6A7825596A2D46AA9F4EABB8DE395598" action="add">
+      <border_width>2</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <legend xml:lang="en">PSA</legend>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <sort_order>20096</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>208</x>
+      <y>239</y>
+      <name>dna_psa_box</name>
+     </Item>
+     <Item type="Field" id="3CFDBE379293443E8194981F9D0FAAB8" action="add">
+      <border_width>0</border_width>
+      <container>dna_psa_box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_psa_list" type="Property">41BD8075027F4ACD9C7E46E9F6DF55EB</propertytype_id>
+      <sort_order>1</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23808</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>268</x>
+      <y>232</y>
+      <name>dna_psa_list</name>
+      <Relationships>
+       <Item type="Field Event" id="C3EC72F1307649C9BE9A0DB55010FEA4" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_update_psa" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_update_psa</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_psa_list" type="Field">3CFDBE379293443E8194981F9D0FAAB8</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="196023F311474F2B80F76A193FACF40E" action="add">
+      <border_width>0</border_width>
+      <container>dna_psa_box</container>
+      <display_length>60</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_psa_number" type="Property">9333C77F5DA9481F84A52D594266195C</propertytype_id>
+      <sort_order>7552</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>9472</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>349</x>
+      <y>251</y>
+      <name>dna_psa_number</name>
+     </Item>
+     <Item type="Field" id="FA8BBE7B779C420FAB1CA42C4DF25234" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Qntity</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty1" type="Property">535429A2C8BC44C4A440F305BC318762</propertytype_id>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6528</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>500</x>
+      <y>336</y>
+      <name>dna_qty1</name>
+      <Relationships>
+       <Item type="Field Event" id="3AE40D2044C140DE89BFC92A1ABB1A9F" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_qty1" type="Field">FA8BBE7B779C420FAB1CA42C4DF25234</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="10D5B0D8E0194DB79B89C1A6D62F54C4" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Qty</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty1_discount" type="Property">F60E7503031F41E3BDA8E46C20B1F479</propertytype_id>
+      <sort_order>50</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>22528</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>451</y>
+      <name>dna_qty1_discount</name>
+     </Item>
+     <Item type="Field" id="A73E912BD3EA4D07B55A9CA81754EC33" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty2" type="Property">2463BC4F28564B08ADBAD418C8037191</propertytype_id>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6656</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>510</x>
+      <y>405</y>
+      <name>dna_qty2</name>
+      <Relationships>
+       <Item type="Field Event" id="4BBAFB02D6EC46D5B5E5B99757E3694F" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_qty2" type="Field">A73E912BD3EA4D07B55A9CA81754EC33</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="6B1650F2265E433DA4FC2899ABEF39B2" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty2_discount" type="Property">314F1447EAD3420CA2D2D6BE0D5043D0</propertytype_id>
+      <sort_order>50</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>22656</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>583</y>
+      <name>dna_qty2_discount</name>
+     </Item>
+     <Item type="Field" id="D9D80F682DA545829E7727EE7C0A7A25" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty3" type="Property">4518C293FF5D44A1BCF6E9CBEBE14E7F</propertytype_id>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6784</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>507</x>
+      <y>463</y>
+      <name>dna_qty3</name>
+      <Relationships>
+       <Item type="Field Event" id="AC91824EE0074EE18C9B36E4DC72EAFB" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_qty3" type="Field">D9D80F682DA545829E7727EE7C0A7A25</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="9A7B56A07CC54F848D4708A720221B31" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty3_discount" type="Property">4A2AA1F82B384DFBB064FABD426C4BE6</propertytype_id>
+      <sort_order>50</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>22784</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>583</y>
+      <name>dna_qty3_discount</name>
+     </Item>
+     <Item type="Field" id="BF4DAEC31B614A2ABCE18613DE809B7E" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty4" type="Property">4D8238429F0B4C2AA7F0C86C977C32BC</propertytype_id>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6800</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>507</x>
+      <y>521</y>
+      <name>dna_qty4</name>
+      <Relationships>
+       <Item type="Field Event" id="666B262A02A14A13857719A06FDBEC1E" action="add">
+        <field_event>onblur</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_qty4" type="Field">BF4DAEC31B614A2ABCE18613DE809B7E</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="1DC1837EE6A4412DA6C2DFFBF4E9DF95" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_qty4_discount" type="Property">1898B0F819954D40A420DC91DF7312C5</propertytype_id>
+      <sort_order>50</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>22912</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>590</y>
+      <name>dna_qty4_discount</name>
+     </Item>
+     <Item type="Field" id="6862D41F334C40B8A1EAA12ABCB70A99" action="add">
+      <border_width>0</border_width>
+      <container>SCBCol1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">SCB date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_scbdate" type="Property">F4B79B150B5749258889D4B94C80AC25</propertytype_id>
+      <sort_order>5504</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>6912</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>408</x>
+      <y>622</y>
+      <name>dna_scbdate</name>
+     </Item>
+     <Item type="Field" id="FAD605A400154904B90C4F1284FDFD02" action="add">
+      <border_width>0</border_width>
+      <container>SCBCol1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">SCB remark</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_scbremark" type="Property">C463BAE2C6D04849BEF0CAD54ADBC659</propertytype_id>
+      <sort_order>5760</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7040</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>1224</x>
+      <y>280</y>
+      <name>dna_scbremark</name>
+     </Item>
+     <Item type="Field" id="37F36E710E424887A0AF3851250E225D" action="add">
+      <border_width>0</border_width>
+      <container>SCBCol1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">SCB status</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_scbstatus" type="Property">A7FB9E5221704566915CCCFEF670AAC5</propertytype_id>
+      <sort_order>5632</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7168</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>258</y>
+      <name>dna_scbstatus</name>
+     </Item>
+     <Item type="Field" id="300E1E66245C418D9253C5B5EF16B4C2" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Activities Start Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_startdate" type="Property">2C8DD25212C94291BEF127519A090B4D</propertytype_id>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7296</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>430</x>
+      <y>238</y>
+      <name>dna_startdate</name>
+      <Relationships>
+       <Item type="Field Event" id="C7BC98CE03D642BF81571CBC4F7D6B1A" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="dna_format_dates" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_format_dates</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_startdate" type="Field">300E1E66245C418D9253C5B5EF16B4C2</source_id>
+       </Item>
+       <Item type="Field Event" id="A9D3E1045DE74CF2ACDD12D7580306AA" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="dna_crd_missionDate" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_crd_missionDate</name>
+         </Item>
+        </related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="dna_startdate" type="Field">300E1E66245C418D9253C5B5EF16B4C2</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="7020AD3269B84612AD85140CB36D9EB1" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Title</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_title" type="Property">127EFE2403CE4169B62BE9B51A7002A1</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7424</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>250</textarea_cols>
+      <x>182</x>
+      <y>65</y>
+      <name>dna_title</name>
+     </Item>
+     <Item type="Field" id="4E902600318D4503941C8DDA6CB3AA7E" action="add">
+      <border_width>0</border_width>
+      <container>tot_price2_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">(Temporary)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_total_cost" type="Property">0396D45C506E49D88C5F14E1A08506BA</propertytype_id>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7552</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>511</x>
+      <y>569</y>
+      <name>dna_total_cost</name>
+     </Item>
+     <Item type="Field" id="C48C3DCD1FAA41AFA74AC874A879AFE0" action="add">
+      <border_width>0</border_width>
+      <container>tot_price2_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Total Price</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_total_cost_discount" type="Property">C38E188666A948E7BB346A6C62D2EBD9</propertytype_id>
+      <sort_order>40</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>23552</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>664</x>
+      <y>567</y>
+      <name>dna_total_cost_discount</name>
+     </Item>
+     <Item type="Field" id="C671777818D64185B714FB3BB23631B1" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">TRD received</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_trdreceived" type="Property">27CE7760FC9748F4B4A89921873578F0</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7808</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>585</x>
+      <y>124</y>
+      <name>dna_trdreceived</name>
+     </Item>
+     <Item type="Field" id="C64F24501DEA4E9B8D89FB0D8EA7CF92" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>200</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Workpackages</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_1" type="Property">DF82FD0094744A9B88A687D925EE4AD5</propertytype_id>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>7936</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>111</x>
+      <y>355</y>
+      <name>dna_wp_1</name>
+      <Relationships>
+       <Item type="Field Event" id="7CFF308DFBAA47F99BF32FF31663263B" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_wp_1" type="Field">C64F24501DEA4E9B8D89FB0D8EA7CF92</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="A8AD5DDFBC2D40A2837DFD00EA4B613E" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>200</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_2" type="Property">49AF35CEC1224219BD434C432E6206CD</propertytype_id>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>0</tab_stop>
+      <x>237</x>
+      <y>406</y>
+      <name>dna_wp_2</name>
+      <Relationships>
+       <Item type="Field Event" id="55ADFE0931424B74BA40A957CD72EBF1" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_wp_2" type="Field">A8AD5DDFBC2D40A2837DFD00EA4B613E</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="5D58634C34F04422971250C2E87DEE99" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>200</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_3" type="Property">709D82A7CEA34C2EA463EF1B401E296F</propertytype_id>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>177</x>
+      <y>518</y>
+      <name>dna_wp_3</name>
+      <Relationships>
+       <Item type="Field Event" id="AB3685E1EDC3403092DAA16A540FFE96" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_wp_3" type="Field">5D58634C34F04422971250C2E87DEE99</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="927C1B7C59464715824C270709013B9B" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>200</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_4" type="Property">C48753E2BF174BB59D9689C69C2B5E69</propertytype_id>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>191</x>
+      <y>521</y>
+      <name>dna_wp_4</name>
+      <Relationships>
+       <Item type="Field Event" id="1F31070F25E440E68197C7C6CDDC7D21" action="add">
+        <field_event>onclick</field_event>
+        <related_id keyed_name="dna_calculate_wp_price" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_calculate_wp_price</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="dna_wp_4" type="Field">927C1B7C59464715824C270709013B9B</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="15E73E4A7C23436D8CB2D04F0C3B84B1" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr1_1" type="Property">A626DCAC885A48FCACDAC683408686CA</propertytype_id>
+      <sort_order>80</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>877</x>
+      <y>339</y>
+      <name>dna_wp_gr1_1</name>
+     </Item>
+     <Item type="Field" id="82B0500B76D34ECAB9B79D921C99ABE0" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr1_2" type="Property">59304F73F6954968B77E182F9E7D510D</propertytype_id>
+      <sort_order>80</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>876</x>
+      <y>398</y>
+      <name>dna_wp_gr1_2</name>
+     </Item>
+     <Item type="Field" id="5B367066D44B4725A51F10A0A146C95C" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr1_3" type="Property">ACCED660F7E14CBC963DDA411330941C</propertytype_id>
+      <sort_order>80</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>886</x>
+      <y>464</y>
+      <name>dna_wp_gr1_3</name>
+     </Item>
+     <Item type="Field" id="D0906085E24F4F80A595965A691045ED" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr1_4" type="Property">43EEC694DC5048EFBC5F6E9F4E05B4C1</propertytype_id>
+      <sort_order>80</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>881</x>
+      <y>523</y>
+      <name>dna_wp_gr1_4</name>
+     </Item>
+     <Item type="Field" id="37BE637CF9494C55B8A44873C1BC1A36" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr10_1" type="Property">93004D97D81B44C9A7618307A018B93F</propertytype_id>
+      <sort_order>170</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1326</x>
+      <y>337</y>
+      <name>dna_wp_gr10_1</name>
+     </Item>
+     <Item type="Field" id="362251ACA45945EEA971C344D8B72353" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr10_2" type="Property">BD9428765E704CCD9A2EC7C90F584DF7</propertytype_id>
+      <sort_order>170</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1336</x>
+      <y>399</y>
+      <name>dna_wp_gr10_2</name>
+     </Item>
+     <Item type="Field" id="8730E7DA99544355977C151D95727E3D" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr10_3" type="Property">BD85B74E97A3422D95E04A263C9EEE49</propertytype_id>
+      <sort_order>170</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1329</x>
+      <y>464</y>
+      <name>dna_wp_gr10_3</name>
+     </Item>
+     <Item type="Field" id="B50196DD7DF947569A465232D97D3D4F" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr10_4" type="Property">3DB21C40C4FD45D6A48BADA824FF58A0</propertytype_id>
+      <sort_order>170</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1326</x>
+      <y>516</y>
+      <name>dna_wp_gr10_4</name>
+     </Item>
+     <Item type="Field" id="F52D743749664119962C888AB75C73F5" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr11_1" type="Property">17F733856D5D4EB68E00DA34E0BD448F</propertytype_id>
+      <sort_order>180</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1374</x>
+      <y>334</y>
+      <name>dna_wp_gr11_1</name>
+     </Item>
+     <Item type="Field" id="19D195DC20EB48C5A0D8D05E728C6985" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr11_2" type="Property">27DF9936B95D49469BA179BC39E8B0BE</propertytype_id>
+      <sort_order>180</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1372</x>
+      <y>394</y>
+      <name>dna_wp_gr11_2</name>
+     </Item>
+     <Item type="Field" id="7874DEA00D494442A5EAE78EEE3714D2" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr11_3" type="Property">C23A784D538B437EB9C75E860BD9C716</propertytype_id>
+      <sort_order>180</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1379</x>
+      <y>463</y>
+      <name>dna_wp_gr11_3</name>
+     </Item>
+     <Item type="Field" id="A94C0C23184C43739A0F1E50E1B7AA63" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr11_4" type="Property">4ABA55AEDABD448E9C4697F8AF8E1AE2</propertytype_id>
+      <sort_order>180</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1374</x>
+      <y>516</y>
+      <name>dna_wp_gr11_4</name>
+     </Item>
+     <Item type="Field" id="E45175D7BD5E497A8A79DD958ECE90ED" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr12_1" type="Property">AD8D7464600044749A2B1BBA527B54E8</propertytype_id>
+      <sort_order>190</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1423</x>
+      <y>334</y>
+      <name>dna_wp_gr12_1</name>
+     </Item>
+     <Item type="Field" id="980BFA7377D94CC3B45F36F84005F24A" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr12_2" type="Property">BF963D9936294B90B89DA0D51D81DAB6</propertytype_id>
+      <sort_order>190</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1420</x>
+      <y>393</y>
+      <name>dna_wp_gr12_2</name>
+     </Item>
+     <Item type="Field" id="129AF0859874467381215130B5251FB2" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr12_3" type="Property">373123ECF61F4B59BD483FD09A146E54</propertytype_id>
+      <sort_order>190</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1428</x>
+      <y>462</y>
+      <name>dna_wp_gr12_3</name>
+     </Item>
+     <Item type="Field" id="18D07903AE1E451BAA15CD323F9AD909" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr12_4" type="Property">08558E1570F941B0B151DB1429AC6B89</propertytype_id>
+      <sort_order>190</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1428</x>
+      <y>516</y>
+      <name>dna_wp_gr12_4</name>
+     </Item>
+     <Item type="Field" id="A062ED802BD2492494692EAD98333903" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr2_1" type="Property">F1AEF1CF7B8D43A48FEA50FFA88BB053</propertytype_id>
+      <sort_order>90</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>926</x>
+      <y>339</y>
+      <name>dna_wp_gr2_1</name>
+     </Item>
+     <Item type="Field" id="3F1A969BC7A54111BCE99B40B9EA0AC1" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr2_2" type="Property">20EC47B862B14AED8D1B0D19E3FDB493</propertytype_id>
+      <sort_order>90</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>929</x>
+      <y>397</y>
+      <name>dna_wp_gr2_2</name>
+     </Item>
+     <Item type="Field" id="200F7EE5B1B54D9CB069E0DC675C9E75" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr2_3" type="Property">7F16C4244B514ADD82AD3058049A89EF</propertytype_id>
+      <sort_order>90</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>985</x>
+      <y>466</y>
+      <name>dna_wp_gr2_3</name>
+     </Item>
+     <Item type="Field" id="7393379410034C69801AB556C5C761CC" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr2_4" type="Property">B840D4BB41A84F059D9B129A823A9F6A</propertytype_id>
+      <sort_order>90</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>935</x>
+      <y>522</y>
+      <name>dna_wp_gr2_4</name>
+     </Item>
+     <Item type="Field" id="DDC1BB5AA8A1499C86106C7DC29CC626" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr3_1" type="Property">752A1CE547D145A9A16E78FC8C5C7092</propertytype_id>
+      <sort_order>100</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1026</x>
+      <y>338</y>
+      <name>dna_wp_gr3_1</name>
+     </Item>
+     <Item type="Field" id="A5605910EE7C4CD2B45B069784ABA9E1" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr3_2" type="Property">489DC296ADBD4F3DA0A10392C4E1DBB3</propertytype_id>
+      <sort_order>100</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>976</x>
+      <y>399</y>
+      <name>dna_wp_gr3_2</name>
+     </Item>
+     <Item type="Field" id="9E928F9DD03848E695A07926B4032C65" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr3_3" type="Property">0237237D54CA4A2C9D959EAAE1392AB4</propertytype_id>
+      <sort_order>100</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>985</x>
+      <y>466</y>
+      <name>dna_wp_gr3_3</name>
+     </Item>
+     <Item type="Field" id="EEE48D0BC73C4F13ABB142F0FC36CA2A" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr3_4" type="Property">18C61D9DA9004963A7C6EF4A8875D1BD</propertytype_id>
+      <sort_order>100</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>983</x>
+      <y>520</y>
+      <name>dna_wp_gr3_4</name>
+     </Item>
+     <Item type="Field" id="3C2F1AE43B084F64A6753AD09D232615" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr4_1" type="Property">84EF12801FE14405825DFABC52408BE5</propertytype_id>
+      <sort_order>110</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1076</x>
+      <y>340</y>
+      <name>dna_wp_gr4_1</name>
+     </Item>
+     <Item type="Field" id="75C20E77DE314B5480CD9A04C3C96B8E" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr4_2" type="Property">346B27C1D57C4B10BF71C4253C2FF4F6</propertytype_id>
+      <sort_order>110</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1026</x>
+      <y>399</y>
+      <name>dna_wp_gr4_2</name>
+     </Item>
+     <Item type="Field" id="D97BC100C2474FBC9C89487997AD331D" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr4_3" type="Property">0F2973AE6D0F40B4A81121FAB1923242</propertytype_id>
+      <sort_order>110</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1032</x>
+      <y>466</y>
+      <name>dna_wp_gr4_3</name>
+     </Item>
+     <Item type="Field" id="D349A4AF3A9646C9A0715FBC746CB5F7" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr4_4" type="Property">46230D97B05F469A8C2F9B991578B20B</propertytype_id>
+      <sort_order>110</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1034</x>
+      <y>516</y>
+      <name>dna_wp_gr4_4</name>
+     </Item>
+     <Item type="Field" id="37CACAF07A404AFB99B885A40E3B68C5" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr5_1" type="Property">22E6B1E535224268AAFA06CEA411F8B0</propertytype_id>
+      <sort_order>120</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1076</x>
+      <y>340</y>
+      <name>dna_wp_gr5_1</name>
+     </Item>
+     <Item type="Field" id="4261646CD34D417F87286756369667B8" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr5_2" type="Property">19D22148E3F24F6390D5581AB91BCCAA</propertytype_id>
+      <sort_order>120</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1074</x>
+      <y>400</y>
+      <name>dna_wp_gr5_2</name>
+     </Item>
+     <Item type="Field" id="03F3C1F18BCF4D4496ADFEFCD21BFC71" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr5_3" type="Property">AE1FF3AEC0114217B0B435FD216FAF08</propertytype_id>
+      <sort_order>120</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1080</x>
+      <y>465</y>
+      <name>dna_wp_gr5_3</name>
+     </Item>
+     <Item type="Field" id="2DAC9744C0DB424582E73B9E9852CED2" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr5_4" type="Property">E9702F028C2F4F75B4820C0DAB04DCEF</propertytype_id>
+      <sort_order>120</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1129</x>
+      <y>515</y>
+      <name>dna_wp_gr5_4</name>
+     </Item>
+     <Item type="Field" id="660381051CE8463EA14800D23F45325A" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr6_1" type="Property">F23A0F0CEB7945CCB85F7A921A4E29A2</propertytype_id>
+      <sort_order>130</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1130</x>
+      <y>339</y>
+      <name>dna_wp_gr6_1</name>
+     </Item>
+     <Item type="Field" id="BCC132C41A594DF7816146DBDBC5A07C" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr6_2" type="Property">E5A608F0953147D3968BF16A4FB45246</propertytype_id>
+      <sort_order>130</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1126</x>
+      <y>400</y>
+      <name>dna_wp_gr6_2</name>
+     </Item>
+     <Item type="Field" id="92CC9DE9332A4DA0AD948A768B62BBE2" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr6_3" type="Property">B0E643B16E204C169A9922122F20DA67</propertytype_id>
+      <sort_order>130</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1128</x>
+      <y>465</y>
+      <name>dna_wp_gr6_3</name>
+     </Item>
+     <Item type="Field" id="2E0CC79EBB4D4A0BB4065F830E25B798" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr6_4" type="Property">26AA34DFE8C54510815EA8EA2D3C24C8</propertytype_id>
+      <sort_order>130</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1129</x>
+      <y>515</y>
+      <name>dna_wp_gr6_4</name>
+     </Item>
+     <Item type="Field" id="6CF3511276B34D0AB636798CF72ECAD7" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr7_1" type="Property">BC0CB068C2264E949438C3AF05EE5191</propertytype_id>
+      <sort_order>140</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1181</x>
+      <y>339</y>
+      <name>dna_wp_gr7_1</name>
+     </Item>
+     <Item type="Field" id="11EF980A9A7648A5A17DB9CC3CEB8DDC" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr7_2" type="Property">95A67ACE996847E5A1DBB9E38FA3B065</propertytype_id>
+      <sort_order>140</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1187</x>
+      <y>399</y>
+      <name>dna_wp_gr7_2</name>
+     </Item>
+     <Item type="Field" id="03DCFCE8AA6C49BE904B67FB3875A58C" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr7_3" type="Property">782D7A66ECC243A18AB580C0F5183E8D</propertytype_id>
+      <sort_order>140</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1179</x>
+      <y>463</y>
+      <name>dna_wp_gr7_3</name>
+     </Item>
+     <Item type="Field" id="2AB90A10204A465A835763B95BC9C53B" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr7_4" type="Property">443F814A5C7F4FFCB29F76D9144E4871</propertytype_id>
+      <sort_order>140</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1179</x>
+      <y>516</y>
+      <name>dna_wp_gr7_4</name>
+     </Item>
+     <Item type="Field" id="0E24B233E4B6494FB51DF8097F2C5FE4" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr8_1" type="Property">8DF87A1B64774BCD82008B3E81D44582</propertytype_id>
+      <sort_order>150</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1232</x>
+      <y>339</y>
+      <name>dna_wp_gr8_1</name>
+     </Item>
+     <Item type="Field" id="C7134C00F161483ABE4DF35059326E1B" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr8_2" type="Property">944C034D80C34E369FEDF71B3F020CCD</propertytype_id>
+      <sort_order>150</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1237</x>
+      <y>399</y>
+      <name>dna_wp_gr8_2</name>
+     </Item>
+     <Item type="Field" id="5A522C7E3B214659ADC4C97B4720EEA1" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr8_3" type="Property">3955C053545847329C9132225C19AF5D</propertytype_id>
+      <sort_order>150</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1228</x>
+      <y>463</y>
+      <name>dna_wp_gr8_3</name>
+     </Item>
+     <Item type="Field" id="ED0EDDB9052D42D095F59912C6D7C597" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr8_4" type="Property">62AC7482D1D448DDB9BFABABF9C0DC7E</propertytype_id>
+      <sort_order>150</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1276</x>
+      <y>512</y>
+      <name>dna_wp_gr8_4</name>
+     </Item>
+     <Item type="Field" id="E02ECC02E220456B9D3E5A949F1D3CA4" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Month</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr9_1" type="Property">8D95179027F94BD7ABC6A7361701161C</propertytype_id>
+      <sort_order>160</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1288</x>
+      <y>340</y>
+      <name>dna_wp_gr9_1</name>
+     </Item>
+     <Item type="Field" id="03124CE2164A4084BD98DE8EDB6F10D4" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr9_2" type="Property">3049D34501CB42139A809585D6497969</propertytype_id>
+      <sort_order>160</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1284</x>
+      <y>403</y>
+      <name>dna_wp_gr9_2</name>
+     </Item>
+     <Item type="Field" id="9F936B968FB64FFFB269C69955C691E8" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr9_3" type="Property">2666654318A345519669C7DDDAD449BC</propertytype_id>
+      <sort_order>160</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1277</x>
+      <y>464</y>
+      <name>dna_wp_gr9_3</name>
+     </Item>
+     <Item type="Field" id="BF7A8193DAED4F6D9821A6BB9C6B5826" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp_gr9_4" type="Property">F0F5C230727F42AE9C258600E80A6E03</propertytype_id>
+      <sort_order>160</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1276</x>
+      <y>512</y>
+      <name>dna_wp_gr9_4</name>
+     </Item>
+     <Item type="Field" id="CB80F1A63A90417BA425D123BBC66962" action="add">
+      <border_width>0</border_width>
+      <container>wp1_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">WP Unit Price</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp1_unit_price" type="Property">95D250C0B1254649BBA55CA767A495A0</propertytype_id>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>400</x>
+      <y>335</y>
+      <name>dna_wp1_unit_price</name>
+     </Item>
+     <Item type="Field" id="F9DD09B8CCA641E88720B0541DB36139" action="add">
+      <border_width>0</border_width>
+      <container>wp2_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp2_unit_price" type="Property">A29B7B1FD2BD4A9AB950A2102ABDFEB9</propertytype_id>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>425</x>
+      <y>421</y>
+      <name>dna_wp2_unit_price</name>
+     </Item>
+     <Item type="Field" id="45F5117A1D73477482D8F5D3AAB7A0F5" action="add">
+      <border_width>0</border_width>
+      <container>wp3_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp3_unit_price" type="Property">B8BCAE93741D47B0A4926917DB320860</propertytype_id>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>8576</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>408</x>
+      <y>462</y>
+      <name>dna_wp3_unit_price</name>
+     </Item>
+     <Item type="Field" id="C0ADB6B3C86342CF9B3AFD90152AE07A" action="add">
+      <border_width>0</border_width>
+      <container>wp4_box</container>
+      <display_length>80</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="dna_wp4_unit_price" type="Property">67731D8C1749494FB4F72C117F5BB8CF</propertytype_id>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>8600</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>408</x>
+      <y>522</y>
+      <name>dna_wp4_unit_price</name>
+     </Item>
+     <Item type="Field" id="2D69896179D5468B8570E10D81E14406" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+     <Item type="Field" id="AAF4FCFF8C7D448899849D57EFBC777C" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Last Modification Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>7040</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>1024</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>3</x>
+      <y>192</y>
+      <name>modified_on</name>
+     </Item>
+     <Item type="Field" id="688738A80F954C48A5A2E5789CE47A2E" action="add">
+      <border_width>2</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <legend xml:lang="en">Internal Review</legend>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <sort_order>3328</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>770</x>
+      <y>16</y>
+      <name>ReviewClassif</name>
+     </Item>
+     <Item type="Field" id="80C92A43EE28439B8299A0668A7E751E" action="add">
+      <border_width>0</border_width>
+      <container>ReviewClassif</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>vertical</orientation>
+      <positioning>static</positioning>
+      <sort_order>3456</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>968</x>
+      <y>73</y>
+      <name>ReviewClassifCol1</name>
+     </Item>
+     <Item type="Field" id="03A4DBBBA7124D0B87121D861D1B54A9" action="add">
+      <border_width>0</border_width>
+      <container>ReviewClassifCol1</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <positioning>static</positioning>
+      <sort_order>1</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>1352</x>
+      <y>276</y>
+      <name>ReviewClassifCol1Row1</name>
+     </Item>
+     <Item type="Field" id="663D6484D29C4603BD4152FCC6FF257E" action="add">
+      <border_width>0</border_width>
+      <container>ReviewClassif</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>vertical</orientation>
+      <positioning>static</positioning>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>123</y>
+      <name>ReviewClassifCol2</name>
+     </Item>
+     <Item type="Field" id="A6DA56F9B6E041E1AF4A191A1BDDF9E4" action="add">
+      <border_width>2</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <legend xml:lang="en">SCB</legend>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <sort_order>5376</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>769</x>
+      <y>150</y>
+      <name>SCB</name>
+     </Item>
+     <Item type="Field" id="DA04DA3D100D4760B8FAA3D970A8B977" action="add">
+      <border_width>0</border_width>
+      <container>SCB</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>vertical</orientation>
+      <positioning>static</positioning>
+      <sort_order>1</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>382</y>
+      <name>SCBCol1</name>
+     </Item>
+     <Item type="Field" id="21076483EFA74A69B6F31CD9784109E3" action="add">
+      <border_width>0</border_width>
+      <container>SCB</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>vertical</orientation>
+      <positioning>static</positioning>
+      <sort_order>2</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>382</y>
+      <name>SCBCol2</name>
+     </Item>
+     <Item type="Field" id="FB7272228DA5447B9F8285B89757C4B7" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Domain</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_index>2944</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>182</x>
+      <y>111</y>
+      <name>team_id</name>
+      <Relationships>
+       <Item type="Field Event" id="F08D774FC01B450B8098C485CC507104" action="add">
+        <field_event>onchange</field_event>
+        <related_id keyed_name="DnA_Autofill_Domain_Mgr" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>DnA_Autofill_Domain_Mgr</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="team_id" type="Field">FB7272228DA5447B9F8285B89757C4B7</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+     <Item type="Field" id="D2BBD62E58E4456F858F55909723F2D0" action="add">
+      <border_width>0</border_width>
+      <container>tot_price1_box</container>
+      <display_length>348</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>0</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>0</x>
+      <y>413</y>
+      <name>text_vide</name>
+     </Item>
+     <Item type="Field" id="FF9CCC7AB1EE4A1DACC9B74F5B53262D" action="add">
+      <border_width>0</border_width>
+      <container>tot_price2_box</container>
+      <display_length>348</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>0</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>394</x>
+      <y>600</y>
+      <name>textvide2</name>
+     </Item>
+     <Item type="Field" id="2BDF822B7C3F413BA4F2F263505D196D" action="add">
+      <border_width>0</border_width>
+      <container>tot_price2_box</container>
+      <display_length>30</display_length>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>0</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>808</x>
+      <y>597</y>
+      <name>textvide3</name>
+     </Item>
+     <Item type="Field" id="00EBD23FA6D247B19C7839DC55B57543" action="add">
+      <border_width>0</border_width>
+      <container>WP_all_Box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <positioning>static</positioning>
+      <sort_order>50</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>141</x>
+      <y>532</y>
+      <name>tot_price1_box</name>
+     </Item>
+     <Item type="Field" id="993AD236974F477CAC2BC3217E056FF3" action="add">
+      <border_width>0</border_width>
+      <container>WP_all_Box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <positioning>static</positioning>
+      <sort_order>60</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>135</x>
+      <y>551</y>
+      <name>tot_price2_box</name>
+     </Item>
+     <Item type="Field" id="62501D9F5660414F97E1AEC8C7791AD7" action="add">
+      <border_width>0</border_width>
+      <container>tot_price1_box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>label</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Total Price</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <sort_order>19840</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>515</x>
+      <y>552</y>
+      <name>total_price</name>
+     </Item>
+     <Item type="Field" id="82ED8C024A684003A46A57E8799A6C2C" action="add">
+      <border_width>0</border_width>
+      <css />
+      <display_length_unit>px</display_length_unit>
+      <field_type>label</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Price (€)</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>19456</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>508</x>
+      <y>338</y>
+      <name>toto</name>
+     </Item>
+     <Item type="Field" id="3D1AB316F13C4934BC021622B2AD4C37" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>vertical</orientation>
+      <sort_order>19584</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>121</x>
+      <y>355</y>
+      <name>WP_all_Box</name>
+     </Item>
+     <Item type="Field" id="2140577E2DF84152BE86DB1D53F00863" action="add">
+      <border_width>0</border_width>
+      <container>WP_all_Box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <positioning>static</positioning>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>127</x>
+      <y>379</y>
+      <name>wp1_box</name>
+     </Item>
+     <Item type="Field" id="29C8ACCC97BE45F2A3EAD98E2AE88606" action="add">
+      <border_width>0</border_width>
+      <container>WP_all_Box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <orientation>horizontal</orientation>
+      <positioning>static</positioning>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>127</x>
+      <y>442</y>
+      <name>wp2_box</name>
+     </Item>
+     <Item type="Field" id="4DCF2EFEE2504C70A3247C32F2D0BA2B" action="add">
+      <border_width>0</border_width>
+      <container>WP_all_Box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>125</x>
+      <y>490</y>
+      <name>wp3_box</name>
+     </Item>
+     <Item type="Field" id="46922F401C9548F89AF9AA550605D0B6" action="add">
+      <border_width>0</border_width>
+      <container>WP_all_Box</container>
+      <display_length_unit>px</display_length_unit>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <sort_order>40</sort_order>
+      <source_id keyed_name="AA6334364855416C81F5CF30CA42FF6B" type="Body">AA6334364855416C81F5CF30CA42FF6B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>123</x>
+      <y>533</y>
+      <name>wp4_box</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="A6BF363946944587B78E1D3AC3E91BC3" action="add">
+    <form_event>onformpopulated</form_event>
+    <related_id keyed_name="DnA_CRD_Prod_Number" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>DnA_CRD_Prod_Number</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Form">D7A083DF6075464F89394B6A2CD3C94B</source_id>
+   </Item>
+   <Item type="Form Event" id="0D35260C58A440B295EC6D6B9BC46042" action="add">
+    <form_event>onload</form_event>
+    <related_id keyed_name="dna_set_WP_fields_visible" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_set_WP_fields_visible</name>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Form">D7A083DF6075464F89394B6A2CD3C94B</source_id>
+   </Item>
+   <Item type="Form Event" id="55778B4C4599494A8A2ACF393EA91E03" action="add">
+    <form_event>onload</form_event>
+    <related_id keyed_name="dna_displayTabs" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_displayTabs</name>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Form">D7A083DF6075464F89394B6A2CD3C94B</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="BD1DF8E8836E42FFA636B47D8491F661" action="edit">
+  <!-- Please note: this AML depends on the "DnA_CRD_Prod" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_by_id</name>
+    <source_id type="ItemType" keyed_name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="A5E56A5C25164FBD8CC8D9281FC9B1A5" action="edit">
+  <!-- Please note: this AML depends on the "DnA_CRD_Prod" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_on</name>
+    <source_id type="ItemType" keyed_name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="62243366309644F5A08A90DEC89016C3" action="edit">
+  <!-- Please note: this AML depends on the "DnA_CRD_Prod" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>current_state</name>
+    <source_id type="ItemType" keyed_name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="AAF4FCFF8C7D448899849D57EFBC777C" action="edit">
+  <!-- Please note: this AML depends on the "DnA_CRD_Prod" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>modified_on</name>
+    <source_id type="ItemType" keyed_name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="FB7272228DA5447B9F8285B89757C4B7" action="edit">
+  <!-- Please note: this AML depends on the "DnA_CRD_Prod" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>team_id</name>
+    <source_id type="ItemType" keyed_name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

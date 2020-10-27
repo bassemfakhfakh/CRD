@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="CCF37115501044098536099836DA1495" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDCC SSI 3DX_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="1B6A13E20C0540D1AEA3867257C19F39" action="add">
+  <related_id keyed_name="Igor Ndombet" type="Identity">D0396E711A8943C2944119206CA161A4</related_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="ZIDCC SSI 3DX_Manager" type="Identity">CCF37115501044098536099836DA1495</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="94055C61C160442191321A7170E4CA60" action="add">
+  <item_query>&lt;Item type="{@type}" action="get"&gt;&lt;id&gt;&lt;xsl:value-of select="@id" /&gt;&lt;/id&gt;&lt;/Item&gt;</item_query>
+  <label xml:lang="en">Save As</label>
+  <location>server</location>
+  <method keyed_name="DnA_SaveAsCRD" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>DnA_SaveAsCRD</name>
+   </Item>
+  </method>
+  <target>one window</target>
+  <type>item</type>
+  <name>Save AS CRD</name>
+ </Item>
+</AML>

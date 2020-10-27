@@ -1,0 +1,86 @@
+﻿<AML>
+ <Item type="Method" id="5E90B70205E7432EAA3DA8F82BA975A2" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn=top.aras.newIOMInnovator();
+
+//rule: user can only chose CRDs from the domains where he is manager of
+// as a domain (team) memeber, he should have a link with the domain manager role (team manager)
+
+//get the domain manager role
+var teamManager = inn.newItem("Identity","get");
+
+teamManager.setProperty("name","Team Manager");
+teamManager=teamManager.apply();
+
+// get the connected user identity
+var myAlias = inn.newItem("Alias","get");
+myAlias.setProperty("source_id", inn.getUserID());
+myAlias = myAlias.apply();
+var aliasId = myAlias.getItemByIndex(0).getProperty("related_id");
+var aliasIdentity = inn.getItemById("Identity",aliasId);
+
+
+//get the groupe the user is member of
+var groups = inn.newItem("Identity","get");
+var member = inn.newItem("Member","get");
+member.setProperty("related_id",aliasId);
+groups.addRelationship(member);
+groups=groups.apply();
+
+
+var idlist3="";
+
+//for each group, get the related domains (teams)
+for(var i=0;i<groups.getItemCount();i++)
+{
+    var groupid = groups.getItemByIndex(i).getProperty("id");
+   
+    var domaines = inn.newItem("Team","get");
+    var teammember = inn.newItem("Team Identity","get");
+
+    teammember.setProperty("related_id",groupid);
+    //the user has to be manager of the team (domain)
+    teammember.setProperty("team_role",teamManager.getItemByIndex(0).getProperty("id"))
+    domaines.addRelationship(teammember);
+    domaines=domaines.apply();
+
+    for(var j=0;j<domaines.getItemCount();j++)
+        {
+            //top.aras.AlertSuccess(domaines.getItemByIndex(j).getProperty("name"));
+            var actualDomain = domaines.getItemByIndex(j)
+            var crds= inn.newItem("DnA_CRD","get");
+            crds.setProperty("team_id",domaines.getItemByIndex(j).getProperty("id"));
+            //crds.addRelationship(actualDomain);
+            crds=crds.apply();
+            for(var k=0;k<crds.getItemCount();k++) 
+              {
+
+                    if (idlist3==="")
+                        {
+                        idlist3+="'"+crds.getItemByIndex(k).getProperty("id")+"'";
+                        
+                    }
+                    else
+                        {
+                        idlist3+=",'"+crds.getItemByIndex(k).getProperty("id")+"'";
+                    }
+            }
+    }
+    
+}
+
+
+
+
+//top.aras.AlertSuccess(idlist3);
+if (idlist3==="") {
+    inArgs.QryItem.setCriteria("classification", "'toto'", "in"); //use "in" to allow search filtering
+}else{
+inArgs.QryItem.setCriteria("id", idlist3, "in"); //use "in" to allow search filtering    
+}
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_CRD_Filter_On_User_Domain</name>
+ </Item>
+</AML>

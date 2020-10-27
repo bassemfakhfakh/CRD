@@ -1,0 +1,171 @@
+﻿<AML>
+ <Item type="Method" id="0F7D9A46C5FC47AC9F94363D8D721737" action="add">
+  <comments />
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+this function updates and calculates the different costs
+NB: the workpackage drop down lists option names are equal to the display values, hence the 1st pqrt of the function: conversion to key names.
+this is due to the MSOffice connector that displays the option names and not the values
+trigger:
+- complexity, dna_wp_1, dna_wp_2, dna_wp_3 field (on click)
+- dna_qty1, dna_qty3, dna_qty3 on blur
+*/
+//debugger;
+var inn = top.aras.newIOMInnovator();
+
+// get the different discounts:dqsdqdq
+var discounts = inn.NewItem("DnA_CRD_Discount", "get");
+discounts=discounts.apply();
+
+var creation_date = document.thisItem.getProperty("created_on",new Date());
+var dna_number = document.thisItem.getProperty("dna_number","");
+var my_discount = "0";
+for (var i = 0; i <discounts.getItemCount(); i++){
+    var actual_discount = discounts.getItemByIndex(i);
+    
+    var i18n = inn.getI18NSessionContext();
+var localStartDate = i18n.ConvertToNeutral(actual_discount.getProperty("dna_start_date",""),"date");
+var localStartDate_toDate = new Date (localStartDate);
+var localEndDate = i18n.ConvertToNeutral(actual_discount.getProperty("dna_end_date",""),"date");
+var localEndDate_toDate = new Date (localEndDate);
+var localcreation_date_toDate = new Date (creation_date); 
+
+    var disc_start = actual_discount.getProperty("dna_start_date", "");
+    var disc_end = actual_discount.getProperty("dna_end_date", "");
+    var disc_crd = actual_discount.getProperty("dna_crd_nbr", "");
+    var disc_discount = actual_discount.getProperty("dna_percentage", "");
+
+//test:
+// if discount on crd nbr get the discount and exit loop
+if ((disc_crd !== "")&& (dna_number == disc_crd)){
+    
+    my_discount = disc_discount;
+    break;
+}
+if (disc_start!==""){
+    if (+localcreation_date_toDate >=+localStartDate_toDate){
+        if ((disc_end ==="")||+(localcreation_date_toDate <= +localEndDate_toDate)){
+            my_discount = disc_discount;
+            //break;
+        }
+    }
+}else{
+    if ((disc_end!=="")&&(localcreation_date_toDate <=+localEndDate_toDate)){
+         my_discount = disc_discount;
+            //break;
+    }
+}
+    
+}
+
+var my_discount_float = (100 - parseFloat(my_discount)) / 100;
+var total_cost= document.thisItem.getProperty("dna_total_cost","0");
+total_cost=0;
+
+var total_cost_discount= document.thisItem.getProperty("dna_total_cost_discount","0");
+total_cost_discount=0;
+
+
+var dna_complexity = document.thisItem.getProperty("dna_complexity");
+
+ handleItemChange("dna_discount_precentage",my_discount);
+for (var i=1; i<7; i++)
+{
+    
+    var selected_wp = document.thisItem.getProperty("dna_wp_"+i);
+    var quantity = parseFloat(document.thisItem.getProperty("dna_qty" + i));
+    
+    if (selected_wp=="WP1 - Architecture & Design") selected_wp = "WP1";
+    if (selected_wp=="WP2 - Acceptance & Testing") selected_wp = "WP2";
+    if (selected_wp=="WP2 - Acceptance & Testing - Code review Sign-off") selected_wp = "WP2Option";
+    if (selected_wp=="WP4 - Portfolio / Service Management") selected_wp = "WP4";
+    if (selected_wp=="WP5 - Project Management") selected_wp = "WP5";
+    if (selected_wp=="AS1 - Development") selected_wp = "AS1";
+    if (selected_wp=="AS2 - Incident Management") selected_wp = "AS2";
+    if (selected_wp=="AS3 - Support ZID") selected_wp = "AS3";
+    if (selected_wp=="AS4 - Business support") selected_wp = "AS4";
+    if (selected_wp=="AS5 - Service component Management") selected_wp = "AS5";
+    
+    var prices = [];
+    prices ["WP1"]= 35593.19;
+
+    prices ["WP2-Easy"]= 11723.01;
+    prices ["WP2-Medium"]= 25587.85;
+    prices ["WP2-Difficult"]= 46739.37;
+
+    prices ["WP2Option-Easy"]= 1302.56;
+    prices ["WP2Option-Medium"]= 2020.09;
+    prices ["WP2Option-Difficult"]= 3540.86;
+
+    prices ["WP4-Easy"]= 19754.09;
+    prices ["WP4-Medium"]= 40988.39;
+    prices ["WP4-Difficult"]= 115393.96;
+
+    prices ["WP5-Easy"]= 33434.26;
+    prices ["WP5-Medium"]= 70275.49;
+    prices ["WP5-Difficult"]= 129961.58;
+
+    prices ["AS1"]= 558.83;
+    prices ["AS2"]= 558.83;
+    prices ["AS3"]= 558.83;
+    prices ["AS4"]= 558.83;
+    prices ["AS5"]= 558.83;
+        
+    var unit_price= "";
+    var price_value=0;
+    if ((selected_wp== "WP2")||(selected_wp == "WP2Option")||(selected_wp == "WP4")||(selected_wp == "WP5")){
+    unit_price=selected_wp+"-"+dna_complexity;
+    }else{
+        unit_price=selected_wp;
+    }
+
+    if (prices [unit_price]===undefined) {
+        price_value=0;
+    }else{
+        price_value=parseFloat(prices [unit_price]).toFixed(2);
+    }
+
+    handleItemChange("dna_wp"+i+"_unit_price",price_value.toString());
+    
+    var price_value_qty_discount = 0;
+    var quantity_discount = 0;
+    var price_value_qty=0;
+    
+    if (quantity>0) 
+    {
+        price_value_qty=(price_value*quantity).toFixed(2);
+        //price_value_qty_discount =  Number(Math.round((price_value*quantity * my_discount_float)+'e2')+'e-2');
+       
+        
+        //quantity_discount =  (quantity * my_discount_float).toFixed(2)
+        //quantity_discount =Number(Math.round((quantity * my_discount_float)+'e2')+'e-2').toFixed(2);
+        quantity_discount =(Math.ceil(quantity * my_discount_float*100)/100).toFixed(2);
+         price_value_qty_discount =  (price_value*quantity_discount).toFixed(2);
+    }
+    else{
+        price_value_qty=0;
+    } 
+    
+    handleItemChange("dna_price_wp"+i,price_value_qty.toString());
+     handleItemChange("dna_price_wp"+i+"_discount",price_value_qty_discount.toString());
+     handleItemChange("dna_qty"+i+"_discount",quantity_discount.toString());
+    
+    if(parseFloat(document.thisItem.getProperty("dna_price_wp"+i)) !==0)
+    {
+        total_cost= parseFloat(total_cost)+ parseFloat(document.thisItem.getProperty("dna_price_wp"+i));
+        total_cost_discount= parseFloat(total_cost_discount)+ parseFloat(document.thisItem.getProperty("dna_price_wp"+i+"_discount"));
+    }
+    else
+    {
+        total_cost= parseFloat(total_cost);
+        total_cost_discount= parseFloat(total_cost_discount);
+    }
+    
+    handleItemChange("dna_total_cost", parseFloat(total_cost).toFixed(2).toString());
+    //handleItemChange("dna_total_cost_discount", Number(Math.round((total_cost_discount)+'e2')+'e-2').toString());
+    handleItemChange("dna_total_cost_discount", (Math.ceil(total_cost_discount*100)/100).toFixed(2).toString());
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_calculate_wp_price</name>
+ </Item>
+</AML>

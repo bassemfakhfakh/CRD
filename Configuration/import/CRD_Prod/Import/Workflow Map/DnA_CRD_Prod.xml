@@ -1,0 +1,512 @@
+﻿<AML>
+ <Item type="Workflow Map" id="97C17C41F7B04FDBA2EB21EC25ABBB04" action="add">
+  <description xml:lang="en" />
+  <label xml:lang="en">DnA_CRD_Prod</label>
+  <node_bg_color>       </node_bg_color>
+  <node_label1_color>       </node_label1_color>
+  <node_label1_font />
+  <node_label2_color>       </node_label2_color>
+  <node_label2_font />
+  <node_name_color>       </node_name_color>
+  <node_name_font />
+  <node_size />
+  <process_owner keyed_name="Creator" type="Identity">
+   <Item type="Identity" action="get" select="id">
+    <name>Creator</name>
+   </Item>
+  </process_owner>
+  <transition_line_color>       </transition_line_color>
+  <transition_name_color>       </transition_name_color>
+  <transition_name_font />
+  <name>DnA_CRD_Prod</name>
+  <Relationships>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="End" type="Activity Template">
+     <Item type="Activity Template" id="AB0250B6D3A44665B6D440B31C10C56A" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Delete.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Workflow End</message>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>511</x>
+      <y>292</y>
+      <name>End</name>
+      <Relationships>
+       <Item type="Activity Template Transition" id="121983BC5140469D9CD65B92675B2626" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="C584CAF8039C406D87EE405A6AEC6A03" type="Life Cycle Transition">C584CAF8039C406D87EE405A6AEC6A03</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="End" type="Activity Template">AB0250B6D3A44665B6D440B31C10C56A</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="BD27D0430BE04C3CB6C369138E043406" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="04F1B798628641DE8FE5BE6ACEEF6483" type="Life Cycle Transition">04F1B798628641DE8FE5BE6ACEEF6483</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="End" type="Activity Template">AB0250B6D3A44665B6D440B31C10C56A</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="03E84363314C4A1C937175979E526284" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="9DF907DF762143D4953F08788172CEDD" type="Life Cycle Transition">9DF907DF762143D4953F08788172CEDD</related_id>
+        <sort_order>384</sort_order>
+        <source_id keyed_name="End" type="Activity Template">AB0250B6D3A44665B6D440B31C10C56A</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="E0EE0DFC4DC749C089DDA6FE747DDB2D" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="69A2394A97FB489DA174CA8FE4E45991" type="Life Cycle Transition">69A2394A97FB489DA174CA8FE4E45991</related_id>
+        <sort_order>512</sort_order>
+        <source_id keyed_name="End" type="Activity Template">AB0250B6D3A44665B6D440B31C10C56A</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="5FED8D2728364C66858313A7B85A96A1" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="55351ECDB5F3465F862205BC6E2CE343" type="Life Cycle Transition">55351ECDB5F3465F862205BC6E2CE343</related_id>
+        <sort_order>640</sort_order>
+        <source_id keyed_name="End" type="Activity Template">AB0250B6D3A44665B6D440B31C10C56A</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="89478CD8E1EF4B43A217D0CCAD26E78C" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/WorkflowStart.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message xml:lang="en">Workflow Start</message>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>18</x>
+      <y>112</y>
+      <name>Start</name>
+      <Relationships>
+       <Item type="Workflow Map Path" id="B8AB3A8338D0455FA872BEF291FA187C" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>[none]</name>
+        <related_id>E61787F2EDB44E95AA8C9DF248EF4687</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">89478CD8E1EF4B43A217D0CCAD26E78C</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">
+     <Item type="Activity Template" id="E61787F2EDB44E95AA8C9DF248EF4687" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Send the CRD to Bundle Manager for Internal Review</message>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>244</x>
+      <y>118</y>
+      <name>Send CRD to Bundle Manager</name>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="577870D449094649A17D80773664699C" action="add">
+        <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+        <is_required>0</is_required>
+        <for_all_members>0</for_all_members>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Method" id="FBF318ED42C84CD9A734F4E22EAF4532" action="add">
+        <event>on_close</event>
+        <related_id keyed_name="dna_crd_sent_to_customer" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_crd_sent_to_customer</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+       </Item>
+       <Item type="Activity Template Task" id="3EEDF6AB3D774AF58899066B12066253" action="add">
+        <description xml:lang="en">Check if CRD (PDF Version) is coreect and up to date</description>
+        <is_required>0</is_required>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="A6062ABFF59F4B48A41E2C14A22BC7F1" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="5513CD09C0E7498B8EBC57FFB66C13C8" type="Life Cycle Transition">5513CD09C0E7498B8EBC57FFB66C13C8</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="F6AE81507E83486F865DC3039962BDA8" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="09EB90C9343A458B95E219DF285569BD" type="Life Cycle Transition">09EB90C9343A458B95E219DF285569BD</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="54F22DF2E6744A4CA398E9E245481178" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="9260D0A3CD454C6BA9E021FF506C262C" type="Life Cycle Transition">9260D0A3CD454C6BA9E021FF506C262C</related_id>
+        <sort_order>384</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="2EFC3528DA2446C6820A9BCB7398F044" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="B9C2C0A467A948318C6AD59FD719B14E" type="Life Cycle Transition">B9C2C0A467A948318C6AD59FD719B14E</related_id>
+        <sort_order>512</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="69495357733B4028B439DD11F54C1132" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Cancel CRD</name>
+        <related_id>AB0250B6D3A44665B6D440B31C10C56A</related_id>
+        <segments>258,298</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+        <x>1</x>
+        <y>96</y>
+       </Item>
+       <Item type="Workflow Map Path" id="11859F0F478C4F90A0815CCD4FC4DEB2" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Send To Bundle Manager</name>
+        <related_id>B416898E1CB845248E8EAF88407DE614</related_id>
+        <segments>406,127</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Send CRD to Bundle Manager" type="Activity Template">E61787F2EDB44E95AA8C9DF248EF4687</source_id>
+        <x>17</x>
+        <y>-20</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="CRD Internal Validation" type="Activity Template">
+     <Item type="Activity Template" id="B416898E1CB845248E8EAF88407DE614" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Validate the CRD</message>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>513</x>
+      <y>116</y>
+      <name>CRD Internal Validation</name>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="8B0BE6742AEA4E05B1A1DAA6145EE392" action="add">
+        <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="CRD Internal Validation" type="Activity Template">B416898E1CB845248E8EAF88407DE614</source_id>
+        <is_required>0</is_required>
+        <for_all_members>0</for_all_members>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Method" id="EA1C5351E7224E809361CC0093AD053A" action="add">
+        <event>on_close</event>
+        <related_id keyed_name="dna_update_workflow_decision" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_update_workflow_decision</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="CRD Internal Validation" type="Activity Template">B416898E1CB845248E8EAF88407DE614</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="FF08078DE56742999DD376146AB40385" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="FF9288672CD040FABADEF35D9C2B8E0D" type="Life Cycle Transition">FF9288672CD040FABADEF35D9C2B8E0D</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="CRD Internal Validation" type="Activity Template">B416898E1CB845248E8EAF88407DE614</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="6336D74D083841719666FC27953AD35A" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Rework</name>
+        <related_id>E61787F2EDB44E95AA8C9DF248EF4687</related_id>
+        <segments>522,82|257,82</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="CRD Internal Validation" type="Activity Template">B416898E1CB845248E8EAF88407DE614</source_id>
+        <x>-47</x>
+        <y>-23</y>
+       </Item>
+       <Item type="Workflow Map Path" id="0D3BBA43F6DA4DBE9DC3BB30D3B10567" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Cancel CRD</name>
+        <related_id>AB0250B6D3A44665B6D440B31C10C56A</related_id>
+        <segments>522,250</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="CRD Internal Validation" type="Activity Template">B416898E1CB845248E8EAF88407DE614</source_id>
+        <x>-31</x>
+        <y>113</y>
+       </Item>
+       <Item type="Workflow Map Path" id="A6AB8FB992054D5380A238C6909BB1E9" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Validate</name>
+        <related_id>2F00F835605B44F2B69D7924C501DA6F</related_id>
+        <segments />
+        <sort_order>384</sort_order>
+        <source_id keyed_name="CRD Internal Validation" type="Activity Template">B416898E1CB845248E8EAF88407DE614</source_id>
+        <x>33</x>
+        <y>-11</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="Send to Customer" type="Activity Template">
+     <Item type="Activity Template" id="2F00F835605B44F2B69D7924C501DA6F" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Pleaes Send the CRD to distribution List</message>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>689</x>
+      <y>116</y>
+      <name>Send to Customer</name>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="4BA874B26CC44040A65D10EFBA64B420" action="add">
+        <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+        <is_required>0</is_required>
+        <for_all_members>0</for_all_members>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Method" id="0CF282229D504F39B0BEC5A1708452A7" action="add">
+        <event>on_close</event>
+        <related_id keyed_name="dna_crd_sent_to_customer" type="Method">
+         <Item type="Method" action="get" select="id">
+          <name>dna_crd_sent_to_customer</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+       </Item>
+       <Item type="Activity Template Task" id="4D9384B642964E1AB2D13C5B7B24B9A1" action="add">
+        <description xml:lang="en">Check if CRD (PDF and Word Versions) are coreect and up to date</description>
+        <is_required>0</is_required>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="FB15001F54D642599362EF8EBE58497B" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="68CA0FC5CB2143238CD4658745D10892" type="Life Cycle Transition">68CA0FC5CB2143238CD4658745D10892</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="E0B3742571774CE68DC17ACEAA7BED74" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Cancel CRD</name>
+        <related_id>AB0250B6D3A44665B6D440B31C10C56A</related_id>
+        <segments>699,240</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+        <x>-39</x>
+        <y>94</y>
+       </Item>
+       <Item type="Workflow Map Path" id="E5A5E6BF33DD493FB2BA44923AFAA6AC" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Rework</name>
+        <related_id>E61787F2EDB44E95AA8C9DF248EF4687</related_id>
+        <segments>699,58|236,58</segments>
+        <sort_order>384</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+        <x>-29</x>
+        <y>-36</y>
+       </Item>
+       <Item type="Workflow Map Path" id="772CBD391C5D4FE1939B63F4F510E9BF" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Ready for customer Validation</name>
+        <related_id>9EC0B2B94C784AAF82BC3C32F58E486E</related_id>
+        <segments>961,130</segments>
+        <sort_order>512</sort_order>
+        <source_id keyed_name="Send to Customer" type="Activity Template">2F00F835605B44F2B69D7924C501DA6F</source_id>
+        <x>59</x>
+        <y>-8</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="SCB Validation" type="Activity Template">
+     <Item type="Activity Template" id="9EC0B2B94C784AAF82BC3C32F58E486E" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Pleqse inform the CSB Validation</message>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>1077</x>
+      <y>119</y>
+      <name>SCB Validation</name>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="EF7B2222CD8B4CA9BA3EBA1BAE4B0B1F" action="add">
+        <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="SCB Validation" type="Activity Template">9EC0B2B94C784AAF82BC3C32F58E486E</source_id>
+        <is_required>0</is_required>
+        <for_all_members>0</for_all_members>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Transition" id="EC38E9B2BC3E4DDA83B6CD6A66317CEC" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="40C66EB69DC1492D8FE1B84714597A3C" type="Life Cycle Transition">40C66EB69DC1492D8FE1B84714597A3C</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="SCB Validation" type="Activity Template">9EC0B2B94C784AAF82BC3C32F58E486E</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="B9C51499F99E416093D5430B6BAA311A" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Not Validated - Cancel CRD</name>
+        <related_id>AB0250B6D3A44665B6D440B31C10C56A</related_id>
+        <segments>1087,296</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="SCB Validation" type="Activity Template">9EC0B2B94C784AAF82BC3C32F58E486E</source_id>
+        <x>-78</x>
+        <y>63</y>
+       </Item>
+       <Item type="Workflow Map Path" id="0EDBF493C37E4B139267ED091F70477E" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Not Validated - Rework</name>
+        <related_id>E61787F2EDB44E95AA8C9DF248EF4687</related_id>
+        <segments>1088,15|167,16</segments>
+        <sort_order>384</sort_order>
+        <source_id keyed_name="SCB Validation" type="Activity Template">9EC0B2B94C784AAF82BC3C32F58E486E</source_id>
+        <x>-64</x>
+        <y>-33</y>
+       </Item>
+       <Item type="Workflow Map Path" id="201E70B4D4E24571BFA02A602B6A12FB" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Validated</name>
+        <related_id>E78DE00F83934FF0A61D906DFED2612C</related_id>
+        <segments>1295,129</segments>
+        <sort_order>512</sort_order>
+        <source_id keyed_name="SCB Validation" type="Activity Template">9EC0B2B94C784AAF82BC3C32F58E486E</source_id>
+        <x>110</x>
+        <y>-43</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" action="add">
+    <related_id keyed_name="In Production" type="Activity Template">
+     <Item type="Activity Template" id="E78DE00F83934FF0A61D906DFED2612C" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Workflow End</message>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>1410</x>
+      <y>120</y>
+      <name>In Production</name>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="A4C6EC2AC80746C590109E4F25FE9A7C" action="add">
+        <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="In Production" type="Activity Template">E78DE00F83934FF0A61D906DFED2612C</source_id>
+        <is_required>0</is_required>
+        <for_all_members>0</for_all_members>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Transition" id="B37F024EA2E04C5E9E9A311D20047D9F" action="add">
+        <controlled_itemtype keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="0CB97661DF8443EDAF1D115A9556B524" type="Life Cycle Transition">0CB97661DF8443EDAF1D115A9556B524</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="In Production" type="Activity Template">E78DE00F83934FF0A61D906DFED2612C</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

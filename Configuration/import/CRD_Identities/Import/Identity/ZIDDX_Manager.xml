@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="Identity" id="9FC27066B3914487816537FB30F4DEF9" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDDX_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="ADCA81C5507940C59291B8157463B4C5" action="add">
+  <related_id keyed_name="Cecile Bizet" type="Identity">6CE3DE08ED9A48EE9AF8290E5AA97DD7</related_id>
+  <sort_order>512</sort_order>
+  <source_id keyed_name="ZIDDX_Manager" type="Identity">9FC27066B3914487816537FB30F4DEF9</source_id>
+ </Item>
+ <Item type="Member" id="F0573ACED1294CDC8D27DBB72F005DA1" action="add">
+  <related_id keyed_name="Cedric Lebault" type="Identity">ABF90C3D2A734AD69A981E0E68475C3E</related_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="ZIDDX_Manager" type="Identity">9FC27066B3914487816537FB30F4DEF9</source_id>
+ </Item>
+</AML>

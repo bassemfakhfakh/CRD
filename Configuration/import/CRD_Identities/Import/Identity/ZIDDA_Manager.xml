@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="Identity" id="D6762C8C2483450C8B25B602AADF9A1F" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDDA_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="3FD05C3372994E0EAAC2A62E59E00004" action="add">
+  <related_id keyed_name="Franck MILLET" type="Identity">423E2597758D4945958A901AA9B72156</related_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="ZIDDA_Manager" type="Identity">D6762C8C2483450C8B25B602AADF9A1F</source_id>
+ </Item>
+ <Item type="Member" id="84D6B18020974566B17745D6507AD8CE" action="add">
+  <related_id keyed_name="Luc LATAPIE" type="Identity">0DAE16908CB94F169F0D50EE80CF7496</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="ZIDDA_Manager" type="Identity">D6762C8C2483450C8B25B602AADF9A1F</source_id>
+ </Item>
+</AML>

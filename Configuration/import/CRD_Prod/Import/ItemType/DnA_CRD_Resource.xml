@@ -1,0 +1,424 @@
+﻿<AML>
+ <Item type="ItemType" id="575FB13DC09F40D782719F75023C155C" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>DNA_CRD_RESOURCE</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">CRD_Resource</label>
+  <label_plural xml:lang="en">CRD_Resource</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>DnA_CRD_Resource</name>
+  <Relationships>
+   <Item type="Property" id="5AE98DFDD6A5418E968BD0FD6BC23AE1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Active</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_res_activity</name>
+   </Item>
+   <Item type="Property" id="06766C5D82F140B7AC926FA702E41078" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_res_duplicate</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_res_duplicate</name>
+   </Item>
+   <Item type="Property" id="D3CC1C6B67594F57B42AAFF532405861" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Firstname</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <stored_length>120</stored_length>
+    <track_history>0</track_history>
+    <name>dna_res_firstname</name>
+   </Item>
+   <Item type="Property" id="84678E5912774EB79E3570D316406EC3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>2</keyed_name_order>
+    <label xml:lang="en">Lastname</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <stored_length>120</stored_length>
+    <track_history>0</track_history>
+    <name>dna_res_lastname</name>
+   </Item>
+   <Item type="Property" id="BF337E02E22147959073B5A0822DE7EC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Society</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <stored_length>120</stored_length>
+    <track_history>0</track_history>
+    <name>dna_society</name>
+   </Item>
+   <Item type="Property" id="9C9B0156823F4FA598548E87EECCD2C8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDA</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team1</name>
+   </Item>
+   <Item type="Property" id="15E15599473A4EBF91A4C16D44369739" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDN FR</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team10</name>
+   </Item>
+   <Item type="Property" id="171A2144CC7F42A592350C6FF26E193B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDOB</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5248</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team11</name>
+   </Item>
+   <Item type="Property" id="0D45FF5F6BB6472080BC355756E9A973" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDS FR</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team12</name>
+   </Item>
+   <Item type="Property" id="BCB4FFADF6654325804BAFE719D86DAA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDS GE</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team13</name>
+   </Item>
+   <Item type="Property" id="8D06E4B7F9E54800B5927531F664711B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDS UK</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5760</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team14</name>
+   </Item>
+   <Item type="Property" id="58D00A36DBD146F1AFD897A0AAD11CBD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZILO</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team15</name>
+   </Item>
+   <Item type="Property" id="F73522240432446D88FE2CD5E6CC056C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Template</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5888</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team16</name>
+   </Item>
+   <Item type="Property" id="5F9F2CF0B2BD463CAA12BF7D41C873AF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDCC 3DX</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team2</name>
+   </Item>
+   <Item type="Property" id="727E1ABFE1854503A548D57BD062368C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDCC Conf Service CPAO ZIDAI ZIDCD</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team3</name>
+   </Item>
+   <Item type="Property" id="D2488FF4345E44F7A7BF81134B0C27D8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDCC SSI</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team4</name>
+   </Item>
+   <Item type="Property" id="46B1DA6955B34B87BD37C3DC92B52100" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDDA</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team5</name>
+   </Item>
+   <Item type="Property" id="E71B86B4669A4F33910DC928B7E07000" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDDB FR</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team6</name>
+   </Item>
+   <Item type="Property" id="56ABBD6AA8C34386B06C97FC08CEFA8E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDDB GE</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team7</name>
+   </Item>
+   <Item type="Property" id="2AD72D86D6B14230BF5BAF1D4E482424" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDDS</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team8</name>
+   </Item>
+   <Item type="Property" id="EC042510072046F191590730C54B6D44" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">ZIDDX</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <track_history>0</track_history>
+    <name>dna_team9</name>
+   </Item>
+   <Item type="View" id="2CBC148DA13345BF89D017FCD587EDA3" action="add">
+    <client>js</client>
+    <related_id keyed_name="DnA_CRD_Resource" type="Form">099087CAC22542888F260406D4BA785E</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="TOC Access" id="2D490943A4A84B74A2D96ED3C6F9EE2A" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+    <category>DnA Bundle</category>
+   </Item>
+   <Item type="Can Add" id="B448F66D57684264AB61C6C55156AC75" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="BBF7F4031E824F00B1858CADCC56E04C" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="ItemType" name="DnA_CRD_Resource">575FB13DC09F40D782719F75023C155C</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,150 @@
+﻿<AML>
+ <Item type="Method" id="9E659A30F8BE473FA517BAFC38187130" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[Innovator innovator = this.getInnovator();
+
+//var relatedCRDs = innovator.newItem("Part","add");
+//relatedCRDs.setProperty("source_id",this.getProperty("id"));
+
+//relatedCRDs=relatedCRDs.apply();
+
+
+ var newPart = this.apply("copyAsNew");
+ 
+ 
+ newPart.setAction("edit");
+//  var crddoctemplate = innovator.newItem("DnA_CRD_Prod","get");
+// crddoctemplate.setProperty("dna_number","CRD-000001");
+// crddoctemplate.setProperty("is_current","1");
+
+// var TemplateFileItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","get");
+// crddoctemplate.addRelationship(TemplateFileItem);
+
+
+// crddoctemplate=crddoctemplate.apply();
+
+// TemplateFileItem=crddoctemplate.getRelationships("DnA_CRD_Prod_File_Relationship");
+// var TemplateFileItemNb1 = TemplateFileItem.getItemByIndex(0);
+// var fileItem =TemplateFileItemNb1.getRelatedItem();
+
+// // Duplicate File Item as files should be 1 to 1
+// var newFile = fileItem.apply("copyAsNew");
+// // Create the relationship between the Document and File
+// var relItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","add");
+
+// //
+// relItem.setRelatedItem(newFile);
+// newPart.addRelationship(relItem);
+
+// newPart.apply();
+
+// var sqlrequest = "UPDATE [innovator].[FILE] SET [FILENAME] = '" + newPart.getProperty("dna_number") +" totot - "+ newPart.getProperty("dna_title")  +".docx' where [id]='" + newFile.getProperty("id")+ "'";
+// var qry = innovator.applySQL(sqlrequest);
+
+ 
+ 
+ 
+  //newPart.setAction("edit");
+
+ var nextseq = innovator.getNextSequence("DnA_CRD_Prod");
+ newPart.setProperty("dna_number", nextseq);
+ 
+ newPart.setProperty("dna_load_life_cycle_state", "");
+ newPart.setProperty("dna_attach_complexity", "");
+ newPart.setProperty("dna_crd_attach", "");
+ newPart.setProperty("dna_attach_trd", "");
+ newPart.setProperty("dna_attach_profitability", "");
+ newPart.setProperty("dna_attachments", "");
+ newPart.setProperty("dna_crd_signed", "");
+
+
+DateTime thisDay = DateTime.Now;
+
+newPart.setProperty("dna_created_on_string",thisDay.ToString("dd/MM/yyyy"));
+
+
+ newPart.setProperty("dna_scbdate", "");
+ newPart.setProperty("dna_scbstatus", "");
+ newPart.setProperty("dna_scbremark", "");
+ newPart.setProperty("dna_podate", "");
+ 
+ 
+ newPart.setProperty("dna_ponumber", "");
+ newPart.setProperty("dna_ponumber", "");
+ newPart.setProperty("dna_internalreviewdate", "");
+ newPart.setProperty("dna_internalreviewstatus", "");
+ newPart.setProperty("dna_crd_signed", "");
+
+//remove the relationship with the word doc
+//newPart.removeRelationship(relation);
+
+
+
+var crddoctemplate = innovator.newItem("DnA_CRD_Prod","get");
+crddoctemplate.setProperty("dna_number","CRD-000001");
+crddoctemplate.setProperty("is_current","1");
+
+var TemplateFileItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","get");
+crddoctemplate.addRelationship(TemplateFileItem);
+
+
+crddoctemplate=crddoctemplate.apply();
+
+TemplateFileItem=crddoctemplate.getRelationships("DnA_CRD_Prod_File_Relationship");
+var TemplateFileItemNb1 = TemplateFileItem.getItemByIndex(0);
+var fileItem =TemplateFileItemNb1.getRelatedItem();
+
+// Duplicate File Item as files should be 1 to 1
+var newFile = fileItem.apply("copyAsNew");
+// Create the relationship between the Document and File
+var relItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","add");
+
+//
+relItem.setRelatedItem(newFile);
+newPart.addRelationship(relItem);
+
+//newPart.apply();
+
+//var sqlrequest = "UPDATE [innovator].[FILE] SET [FILENAME] = '" + newPart.getProperty("dna_number") +" - "+ newPart.getProperty("dna_title")  +".docx' where [id]='" + newFile.getProperty("id")+ "'";
+//var qry = innovator.applySQL(sqlrequest);
+
+
+
+
+
+
+
+
+
+
+
+ newPart = newPart.apply();
+if (newPart.isError()){
+innovator.newError(newPart.getErrorString());
+}
+
+ var relation=this.getRelationships("DnA_CRD_Prod_File_Relationship").getItemByIndex(0);
+ var relationId= relation.getProperty("id","");
+    //newPart.unlockItem();
+ 
+ //this.promote("SCB Validation","CRD creation");
+ newPart.promote("WIP","CRD creation");
+
+
+    Item itm = this.newItem("Workflow Map", "get");
+itm.setAttribute("select", "id");
+itm.setProperty("name", "DnA_CRD_Prod");
+itm = itm.apply();
+string wf_id = itm.getID();
+Item wf_process = newPart.instantiateWorkflow(wf_id);
+wf_process.apply("startWorkflow");
+ 
+
+ //var relatedCRDs = innovator.newItem("Part","edit");
+//relatedCRDs.setProperty("source_id",this.getProperty("id"));
+innovator.newResult(" New CRD Created " + newPart.getProperty("dna_number",""));
+ return innovator.newResult(" New CRD Created " + newPart.getProperty("dna_number","") + " Copy of Original CRD "  +this.getProperty("dna_number",""));;]]></method_code>
+  <method_type>C#</method_type>
+  <name>DnA_Copy_CRD_Form_Only</name>
+ </Item>
+</AML>

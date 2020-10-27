@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Innovator>
+  <UI-Tailoring product_name="Aras Innovator" />
+  <operating_parameter key="debug_log_flag" value="True" />
+  <operating_parameter key="debug_log_limit" value="10" />
+  <Mail SMTPServer="cimpa.smtp.com" />
+  <Email2 SMTPServer="cimpa.smtp.com" />
+  <toto>
+    <tatat />
+  </toto>
+</Innovator>

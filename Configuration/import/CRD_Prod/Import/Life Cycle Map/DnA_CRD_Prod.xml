@@ -1,0 +1,448 @@
+﻿<AML>
+ <Item type="Life Cycle Map" id="D270BC02AF0141A88A93AAE9C18D8152" action="add">
+  <description>DnA_CRD_Prod</description>
+  <start_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</start_state>
+  <name>DnA_CRD_Prod</name>
+  <Relationships>
+   <Item type="Life Cycle State" id="A0FE44AFC3C541D89CA3F1D2334ACC3C" action="add">
+    <image>../Images/Delete.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>472</x>
+    <y>380</y>
+    <name>Cancelled</name>
+   </Item>
+   <Item type="Life Cycle State" id="99FE7B2FC81C46F1B4A1B56A9251402A" action="add">
+    <image>../Images/Flag.svg</image>
+    <set_is_released>1</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>1158</x>
+    <y>160</y>
+    <name>Closed</name>
+   </Item>
+   <Item type="Life Cycle State" id="3AC92B3BD0DA41A384DF01EC3C7B8D92" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>42</x>
+    <y>143</y>
+    <name>Creation</name>
+   </Item>
+   <Item type="Life Cycle State" id="B1E0BF4AF317437F9DF0E9202ED0053C" action="add">
+    <image>../Images/ClaimedByAnyone.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>851</x>
+    <y>157</y>
+    <name>SCB Validation</name>
+   </Item>
+   <Item type="Life Cycle State" id="807168FFE4BE4318B87CDA4AB265F06F" action="add">
+    <image>../Images/EMailMessage.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>500</x>
+    <y>151</y>
+    <name>Send To Customer</name>
+   </Item>
+   <Item type="Life Cycle State" id="F3476097C1ED47529FFAD27A610C6810" action="add">
+    <image>../Images/CreatedBy.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>695</x>
+    <y>155</y>
+    <name>Under customer Validation</name>
+   </Item>
+   <Item type="Life Cycle State" id="2D13CB5E6AD14EF2B566D5F95897611E" action="add">
+    <image>../Images/PartFamily.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>342</x>
+    <y>151</y>
+    <name>Under Internal Review</name>
+   </Item>
+   <Item type="Life Cycle State" id="74E053F83C444B398D3E44582495EB97" action="add">
+    <image>../Images/Manufacturer.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>1007</x>
+    <y>159</y>
+    <name>Validated in SCB</name>
+   </Item>
+   <Item type="Life Cycle State" id="944CD074C83D4DBFB40F9BDA1EE82E82" action="add">
+    <image>../Images/Tool.svg</image>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <x>145</x>
+    <y>144</y>
+    <name>WIP</name>
+   </Item>
+   <Item type="Life Cycle Transition" id="371FC71166644597856B1AACC197C31C" action="add">
+    <from_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</role>
+    <segments>950,445</segments>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</to_state>
+    <x>378</x>
+    <y>218</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="5012355A3B6847988328EDD7A4109022" action="add">
+    <from_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</role>
+    <segments>667,452</segments>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</to_state>
+    <x>211</x>
+    <y>262</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="5513CD09C0E7498B8EBC57FFB66C13C8" action="add">
+    <from_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</role>
+    <segments>350,119|212,118</segments>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</to_state>
+    <x>-71</x>
+    <y>-21</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="68CA0FC5CB2143238CD4658745D10892" action="add">
+    <from_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</role>
+    <segments />
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</to_state>
+    <x>28</x>
+    <y>11</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="C584CAF8039C406D87EE405A6AEC6A03" action="add">
+    <from_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="0551A7778DC84BB3AEB271A44C55DF49" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</role>
+    <segments>55,506|356,504</segments>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</to_state>
+    <x>3</x>
+    <y>146</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="408462F40ECA49168B77E01115D59C45" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <segments>106,153</segments>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="62DA9F87BFC94FA7A8A21137E9007F8F" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</role>
+    <segments>54,508|707,499</segments>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Under customer Validation" type="Life Cycle State">F3476097C1ED47529FFAD27A610C6810</to_state>
+    <x>2</x>
+    <y>174</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="6502E17E11E341F1A726B536A65AF627" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</role>
+    <segments>54,507|864,501</segments>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="75D775BF16134A75922CB610FF6BF799" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</role>
+    <segments>54,508|1023,498</segments>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</to_state>
+    <x>3</x>
+    <y>131</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="D9F4AC2C66224399ADFF523CC08A374F" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</role>
+    <segments>56,507|510,503</segments>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</to_state>
+    <x>2</x>
+    <y>161</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="F89920601BD4468797A2294012498904" action="add">
+    <from_state keyed_name="Creation" type="Life Cycle State">3AC92B3BD0DA41A384DF01EC3C7B8D92</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Data Upload" type="Identity">47D72F5707D94DC5B712D06E7493BA76</role>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="83E31C06864B45EA90BE04305A3D96DE" action="add">
+    <from_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</role>
+    <segments>1158,79</segments>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Closed" type="Life Cycle State">99FE7B2FC81C46F1B4A1B56A9251402A</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="A516971CCCB34BE2BE4AC2DBAD4E054B" action="add">
+    <from_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments />
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Closed" type="Life Cycle State">99FE7B2FC81C46F1B4A1B56A9251402A</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="04F1B798628641DE8FE5BE6ACEEF6483" action="add">
+    <from_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="09EB90C9343A458B95E219DF285569BD" action="add">
+    <from_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments>510,96|185,96</segments>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</to_state>
+    <x>-41</x>
+    <y>-38</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="1BFE1ACB91E748509975A65069A281EB" action="add">
+    <from_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</role>
+    <segments>1179,411</segments>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="40C66EB69DC1492D8FE1B84714597A3C" action="add">
+    <from_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments>765,98</segments>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</to_state>
+    <x>238</x>
+    <y>-55</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="7B716DFF69874DFCBE16B432DFB1BE4B" action="add">
+    <from_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments>544,160</segments>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Under customer Validation" type="Life Cycle State">F3476097C1ED47529FFAD27A610C6810</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="E281C3F80B144571B69BB31F92C18C6E" action="add">
+    <from_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</role>
+    <segments>833,312</segments>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</to_state>
+    <x>204</x>
+    <y>138</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="05A00B9E9000481A89ADF23EC0C77FD6" action="add">
+    <from_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</role>
+    <segments>30,23|1055,20</segments>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</to_state>
+    <x>776</x>
+    <y>-140</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="86A1E662297F4F768137FB6D240FD18B" action="add">
+    <from_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</role>
+    <segments>30,23|736,21</segments>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Under customer Validation" type="Life Cycle State">F3476097C1ED47529FFAD27A610C6810</to_state>
+    <x>429</x>
+    <y>-140</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="9DF907DF762143D4953F08788172CEDD" action="add">
+    <from_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="BA661E03E1984DA38E07251A88E4E6C5" action="add">
+    <from_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</role>
+    <segments>29,23|537,20</segments>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Send To Customer" type="Life Cycle State">807168FFE4BE4318B87CDA4AB265F06F</to_state>
+    <x>-7</x>
+    <y>-139</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="BD6A9541D5804D0791DA83F2E6D60D1E" action="add">
+    <from_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</role>
+    <segments>30,23|898,20</segments>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</to_state>
+    <x>613</x>
+    <y>-139</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="FF9288672CD040FABADEF35D9C2B8E0D" action="add">
+    <from_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments />
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Under Internal Review" type="Life Cycle State">2D13CB5E6AD14EF2B566D5F95897611E</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="985DF397203C4B22AF03DB2686AF17BC" action="add">
+    <from_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</from_state>
+    <get_comment>0</get_comment>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="028CA3FFAB7E40A4B1E27F1007D8950E" action="add">
+    <from_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</role>
+    <segments>989,77</segments>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="0CB97661DF8443EDAF1D115A9556B524" action="add">
+    <from_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments>925,164</segments>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Validated in SCB" type="Life Cycle State">74E053F83C444B398D3E44582495EB97</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="69A2394A97FB489DA174CA8FE4E45991" action="add">
+    <from_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="9260D0A3CD454C6BA9E021FF506C262C" action="add">
+    <from_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments>861,43|91,41</segments>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</to_state>
+    <x>0</x>
+    <y>0</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="55351ECDB5F3465F862205BC6E2CE343" action="add">
+    <from_state keyed_name="Under customer Validation" type="Life Cycle State">F3476097C1ED47529FFAD27A610C6810</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">A0FE44AFC3C541D89CA3F1D2334ACC3C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="AEE95C812CAE469AA7C9A62B6D862E0D" action="add">
+    <from_state keyed_name="Under customer Validation" type="Life Cycle State">F3476097C1ED47529FFAD27A610C6810</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="SCB Validation" type="Life Cycle State">B1E0BF4AF317437F9DF0E9202ED0053C</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="B9C2C0A467A948318C6AD59FD719B14E" action="add">
+    <from_state keyed_name="Under customer Validation" type="Life Cycle State">F3476097C1ED47529FFAD27A610C6810</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</role>
+    <segments>705,69|153,68</segments>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</source_id>
+    <to_state keyed_name="WIP" type="Life Cycle State">944CD074C83D4DBFB40F9BDA1EE82E82</to_state>
+    <x>-80</x>
+    <y>-109</y>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,37 @@
+﻿<AML>
+ <Item type="List" id="E88A4BB15DC14F1EB112D08249843180" action="add">
+  <name>dna_SCBstatus</name>
+  <Relationships>
+   <Item type="Value" id="827D8D6C668C49A88B5FCD57858671AC" action="add">
+    <label xml:lang="en">Validated</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_SCBstatus" type="List">E88A4BB15DC14F1EB112D08249843180</source_id>
+    <value>Validated</value>
+   </Item>
+   <Item type="Value" id="14AF6F58C9EE4769AA450DCECDD9C79D" action="add">
+    <label xml:lang="en">Not Validated</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="dna_SCBstatus" type="List">E88A4BB15DC14F1EB112D08249843180</source_id>
+    <value>Not Validated</value>
+   </Item>
+   <Item type="Value" id="E91C8C166B464446949F21CE97E69780" action="add">
+    <label xml:lang="en">Rework</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="dna_SCBstatus" type="List">E88A4BB15DC14F1EB112D08249843180</source_id>
+    <value>Rework</value>
+   </Item>
+   <Item type="Value" id="548DFEE82F5541AB875D5508FA7EB97B" action="add">
+    <label xml:lang="en">Cancelled</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="dna_SCBstatus" type="List">E88A4BB15DC14F1EB112D08249843180</source_id>
+    <value>Cancelled</value>
+   </Item>
+   <Item type="Value" id="694F1962BE94443ABD407517CCF89C83" action="add">
+    <label xml:lang="en">Pending</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="dna_SCBstatus" type="List">E88A4BB15DC14F1EB112D08249843180</source_id>
+    <value>Pending</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

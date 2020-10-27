@@ -1,0 +1,29 @@
+﻿<AML>
+ <Item type="Method" id="5E86751ED0094DDEBDABEB80382EB833" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+this function sets visible the 3rd workpackage fields
+trigger: "+" button of workpackage 2 (on click)
+*/
+
+var inn = top.aras.newIOMInnovator();
+var dna_wp_3_field = getFieldByName("dna_wp_3");
+dna_wp_3_field.style.visibility="visible";
+
+var dna_wp3_unit_price_field = getFieldByName("dna_wp3_unit_price");
+dna_wp3_unit_price_field.style.visibility="visible";
+
+var dna_qty3_field = getFieldByName("dna_qty3");
+dna_qty3_field.style.visibility="visible";
+
+var dna_price_wp3_field = getFieldByName("dna_price_wp3");
+dna_price_wp3_field.style.visibility="visible";
+
+var dna_deliverables_wp3_field = getFieldByName("dna_deliverables_wp3");
+dna_deliverables_wp3_field.style.visibility="visible";
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_SetVisibleWP_Line3</name>
+ </Item>
+</AML>

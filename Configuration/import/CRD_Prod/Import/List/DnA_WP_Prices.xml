@@ -1,0 +1,115 @@
+﻿<AML>
+ <Item type="List" id="7B6BBB2DA011434E9635BD06AB59247D" action="add">
+  <name>DnA_WP_Prices</name>
+  <Relationships>
+   <Item type="Value" id="5A6DCC3B282D4A69898FA699C47B2B56" action="add">
+    <label xml:lang="en">WP1</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>35593.19</value>
+   </Item>
+   <Item type="Value" id="A442BC92A3C34DE0BCA26CF4634AE172" action="add">
+    <label xml:lang="en">WP2-Easy</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>11723.01</value>
+   </Item>
+   <Item type="Value" id="56C5D928998945A7ACB7A6DA1DA56EBB" action="add">
+    <label xml:lang="en">WP2-Medium</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>25587.85</value>
+   </Item>
+   <Item type="Value" id="5987F07C51264DBCB60D992B3CEFC00C" action="add">
+    <label xml:lang="en">WP2-Difficult</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>46739.37</value>
+   </Item>
+   <Item type="Value" id="30E861511B28478A9E8A68B08FEF1F9F" action="add">
+    <label xml:lang="en">WP2Option-Easy</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>1302.56</value>
+   </Item>
+   <Item type="Value" id="0823DFB87A9A491397A6194EE8C170A5" action="add">
+    <label xml:lang="en">WP2Option-Medium</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>2020.09</value>
+   </Item>
+   <Item type="Value" id="4B05495476734CD9B8D0A7134C0C4D1C" action="add">
+    <label xml:lang="en">WP2Option-Difficult</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>3540.86</value>
+   </Item>
+   <Item type="Value" id="9BB62E7C977F4A89BB2B11785E1E0466" action="add">
+    <label xml:lang="en">WP4-Easy</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>19754.09</value>
+   </Item>
+   <Item type="Value" id="26E85EBAA04440719A27ADCE4727DDE1" action="add">
+    <label xml:lang="en">WP4-Medium</label>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>40988.39</value>
+   </Item>
+   <Item type="Value" id="54C8A0E857004233A0ED386740658854" action="add">
+    <label xml:lang="en">WP4-Difficult</label>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>115393.96</value>
+   </Item>
+   <Item type="Value" id="E517B724E850487AB88A77DCBB142539" action="add">
+    <label xml:lang="en">WP5-Easy</label>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>33434.26</value>
+   </Item>
+   <Item type="Value" id="11E3932F01114E62BECEFE9257282BE7" action="add">
+    <label xml:lang="en">WP5-Medium</label>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>70275.49</value>
+   </Item>
+   <Item type="Value" id="B3274C38E14443168B8729EB191D791B" action="add">
+    <label xml:lang="en">WP5-Difficult</label>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>129961.58</value>
+   </Item>
+   <Item type="Value" id="6498862DC4A0483EA535E10C3314FF7A" action="add">
+    <label xml:lang="en">AS1</label>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>558.83</value>
+   </Item>
+   <Item type="Value" id="E7DDB0D50AC34691898FCC56A5B365F3" action="add">
+    <label xml:lang="en">AS2</label>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>558.83</value>
+   </Item>
+   <Item type="Value" id="2BA31E87DC774A048CEA874EB6C68762" action="add">
+    <label xml:lang="en">AS3</label>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>558.83</value>
+   </Item>
+   <Item type="Value" id="E2113F89A56549B5826E374A4C6BB5F6" action="add">
+    <label xml:lang="en">AS4</label>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>558.83</value>
+   </Item>
+   <Item type="Value" id="5A3F3038F90044EEB3070329E9CC69F3" action="add">
+    <label xml:lang="en">AS5</label>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="DnA_WP_Prices" type="List">7B6BBB2DA011434E9635BD06AB59247D</source_id>
+    <value>558.83</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

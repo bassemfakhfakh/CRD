@@ -1,0 +1,89 @@
+﻿<AML>
+ <Item type="Permission" id="AD9312C0BE8547CDB88963EB54BB6F97" action="add">
+  <is_private>0</is_private>
+  <name>DnA_Team_CRD</name>
+  <Relationships>
+   <Item type="Access" id="0B3556E9D4B841C4BB9C416AFA4C7906" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+   <Item type="Access" id="2A01568A21CC4D3CA949598818366AB8" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+   <Item type="Access" id="2DAA495A05F04C6CBB45EFA77EA28EFA" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="dna_Team_bundle_Manager" type="Identity">8C8CF65FD8FA444481346A5A2C395C6C</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+   <Item type="Access" id="4ADE8765D0CA48AC8425CC34B7A64430" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Assistant" type="Identity">896E5F2625584AFF87ECCE7470590309</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+   <Item type="Access" id="5E41E969C577451FA2647F252B550F46" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+   <Item type="Access" id="6A76EC34FE244C59BBAB7698C767D0D7" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+   <Item type="Access" id="B09A01545A334DAB920AEFDC1647F837" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="Team" type="Identity">275764859FDE49AF817571E8BFD8CBB5</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

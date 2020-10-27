@@ -1,0 +1,136 @@
+﻿<AML>
+ <Item type="ItemType" id="80AB02C926D84618A7C3E1D3E4A2692C" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>DNA_CRD_DISCOUNT</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">CRD Discount</label>
+  <label_plural xml:lang="en">CRD Discounts</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs off</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>DnA_CRD_Discount</name>
+  <Relationships>
+   <Item type="Property" id="A5471B80A4894647A865C9EA2B0C23DB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">CRD number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <stored_length>16</stored_length>
+    <track_history>0</track_history>
+    <name>dna_crd_nbr</name>
+   </Item>
+   <Item type="Property" id="AAE767D9D4AA46FEA1EA62AAFA245EF1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">End Date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <track_history>0</track_history>
+    <name>dna_end_date</name>
+   </Item>
+   <Item type="Property" id="FFA9D6CA43214816B48A4E0939940985" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Discount Percentage</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <track_history>0</track_history>
+    <name>dna_percentage</name>
+   </Item>
+   <Item type="Property" id="233EB7298D284C46B6B265D95C4E3E48" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Start Date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <track_history>0</track_history>
+    <name>dna_start_date</name>
+   </Item>
+   <Item type="View" id="D30A16E446D044AE9E07FF7ED76D5AC0" action="add">
+    <client>js</client>
+    <related_id keyed_name="CRD_Discount" type="Form">4D476D15CAD94C5E833707F9C7D014B7</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="View" id="FDC2D9D25A23495C94B573A66A2B916D" action="add">
+    <client>js</client>
+    <related_id keyed_name="DnA_CRD_Discount" type="Form">28E4AB8E7509458498091162F10309B9</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="TOC Access" id="38574ED1461641409D51178186029B59" action="add">
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+    <category>Administration</category>
+   </Item>
+   <Item type="Can Add" id="A2BEAB2CA29F4932A25682A3F148DBDE" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="B0233FA4734A478A8E6C425A5FBB7F37" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Administrators" type="Permission">5BE54C871FB14F6EBC11596D1A010D26</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Discount" type="ItemType" name="DnA_CRD_Discount">80AB02C926D84618A7C3E1D3E4A2692C</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

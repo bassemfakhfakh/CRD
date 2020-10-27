@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="0C30FA12D4E14583BABE1D7A96D2C7AD" action="add">
+  <is_alias>0</is_alias>
+  <name>IDDS_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="2DF58E1ADF0F4EEAA043C82403C31540" action="add">
+  <related_id keyed_name="Nicolas REUILLE" type="Identity">A2A44742C96A40009A387464CD8EB89C</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="IDDS_Manager" type="Identity">0C30FA12D4E14583BABE1D7A96D2C7AD</source_id>
+ </Item>
+</AML>

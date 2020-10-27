@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="194C5CD0F21546C081A42509A87B918B" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>thierry.dauty@cimpa.com</email>
+  <last_login_date>2018-03-21T10:08:27</last_login_date>
+  <login_name>thierry.dauty</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Thierry DAUTY" type="Identity">AB52AB4D92E740CE91DA3083267B5232</owned_by_id>
+  <telephone>+33532110157</telephone>
+  <first_name>Thierry</first_name>
+  <last_name>DAUTY</last_name>
+  <Relationships>
+   <Item type="Alias" id="4B02FB1BF54141F58672C2F9819C744B" action="add">
+    <from_date>2018-03-14T10:41:09</from_date>
+    <related_id keyed_name="Thierry DAUTY" type="Identity">AB52AB4D92E740CE91DA3083267B5232</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Thierry DAUTY" type="User">194C5CD0F21546C081A42509A87B918B</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

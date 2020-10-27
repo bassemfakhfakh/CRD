@@ -1,0 +1,67 @@
+﻿<AML>
+ <Item type="Permission" id="8346C8AC18E44DC1B1E88E60AECB38DC" action="add">
+  <is_private>0</is_private>
+  <name>DnA CRD_Deliverable</name>
+  <Relationships>
+   <Item type="Access" id="13B0EF0D562F42F2AA6711945FA13AFC" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA CRD_Deliverable" type="Permission">8346C8AC18E44DC1B1E88E60AECB38DC</source_id>
+   </Item>
+   <Item type="Access" id="222DC60032EE416FBD400E7740848BD0" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="DnA Assistant" type="Identity">31B1539C7D98424DA4632E3DEC99F201</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA CRD_Deliverable" type="Permission">8346C8AC18E44DC1B1E88E60AECB38DC</source_id>
+   </Item>
+   <Item type="Access" id="231CF55B63334870A75E294F11C6DA15" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Creator" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Creator</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA CRD_Deliverable" type="Permission">8346C8AC18E44DC1B1E88E60AECB38DC</source_id>
+   </Item>
+   <Item type="Access" id="2D00CA3A71A3454DBA40EBFBAB1C6A65" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA CRD_Deliverable" type="Permission">8346C8AC18E44DC1B1E88E60AECB38DC</source_id>
+   </Item>
+   <Item type="Access" id="B22BC715F18C42A587A282A271E2B74F" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="DnA Quality" type="Identity">7C23A3F8088046CCBE99ECDFF73E3608</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA CRD_Deliverable" type="Permission">8346C8AC18E44DC1B1E88E60AECB38DC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

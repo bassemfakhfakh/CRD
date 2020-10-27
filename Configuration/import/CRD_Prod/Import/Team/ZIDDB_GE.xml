@@ -1,0 +1,35 @@
+﻿<AML>
+ <Item type="Team" id="4B763004C35A4497BEF2DD702CAEDE38" action="add">
+  <name>ZIDDB_GE</name>
+  <Relationships>
+   <Item type="Team Identity" id="617ACF4C4DA941C2AED128DBCA9A5C5E" action="add">
+    <related_id keyed_name="ZIDDB_GE_Manager" type="Identity">2B3678A61173473EBE19F1B800F409EE</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ZIDDB_GE" type="Team">4B763004C35A4497BEF2DD702CAEDE38</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="277CE6A3BFC14D2FAB959D639DFA5F3B" action="add">
+    <related_id keyed_name="Assistant" type="Identity">896E5F2625584AFF87ECCE7470590309</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ZIDDB_GE" type="Team">4B763004C35A4497BEF2DD702CAEDE38</source_id>
+    <team_role keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</team_role>
+   </Item>
+   <Item type="Team Identity" id="B3DC9A8DD1474611AE94DC2976F3C569" action="add">
+    <related_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ZIDDB_GE" type="Team">4B763004C35A4497BEF2DD702CAEDE38</source_id>
+   </Item>
+   <Item type="Team Identity" id="08242989AC9E42B2B920BCF117B499AB" action="add">
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="ZIDDB_GE" type="Team">4B763004C35A4497BEF2DD702CAEDE38</source_id>
+   </Item>
+   <Item type="Team Identity" id="C3C21BBE78A04002A89360C603586BF6" action="add">
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="ZIDDB_GE" type="Team">4B763004C35A4497BEF2DD702CAEDE38</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

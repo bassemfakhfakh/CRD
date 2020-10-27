@@ -1,0 +1,78 @@
+﻿<AML>
+ <Item type="Method" id="229C2345E4274486A19550300DC718EC" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[//calculate the travel provision, the project management, and the transition
+var inn= aras.newIOMInnovator();
+
+var travel_qty= document.thisItem.getProperty("dna_travel_qty");
+var travel_daily= document.thisItem.getProperty("dna_travel_daily_rate");
+var travel_cost= document.thisItem.getProperty("dna_travel_cost","0");
+travel_cost=0;
+
+var transition_qty= document.thisItem.getProperty("dna_transition_qty");
+var transition_daily= document.thisItem.getProperty("dna_transition_daily_rate");
+var transition_cost= document.thisItem.getProperty("dna_transition_cost","0");
+transition_cost=0;
+
+var projet_management_qty= document.thisItem.getProperty("dna_projet_management_qty");
+var projet_management_daily= document.thisItem.getProperty("dna_projet_management_daily_rate");
+var project_management_cost= document.thisItem.getProperty("dna_project_management_cost","0");
+project_management_cost=0;
+
+var price_value_travel=0
+var price_value_transition=0;
+var price_value_projet_management=0;
+
+
+if(travel_qty>0 )
+{
+    var price_value_travel = travel_qty*parseFloat(travel_daily);
+}
+else
+{
+    price_value_travel=0;
+}
+handleItemChange("dna_travel_cost", parseFloat(price_value_travel).toFixed(2).toString());
+
+if(transition_qty>0 )
+{
+    var price_value_transition= transition_qty*parseFloat(transition_daily);
+}
+else
+{
+    price_value_transition=0;
+}
+ handleItemChange("dna_transition_cost", parseFloat(price_value_transition).toFixed(2).toString());
+
+if(projet_management_qty>0 )
+{
+    var price_value_projet_management= projet_management_qty*parseFloat(projet_management_daily);
+}
+else
+{
+    price_value_projet_management=0;
+}
+handleItemChange("dna_project_management_cost", parseFloat(price_value_projet_management).toFixed(2).toString());
+
+var subcalculation= 0;
+subcalculation= parseFloat(document.thisItem.getProperty("dna_travel_cost"))
++parseFloat(document.thisItem.getProperty("dna_transition_cost"))+parseFloat(document.thisItem.getProperty("dna_project_management_cost"));
+
+var profitability_totalcost= parseFloat(document.thisItem.getProperty("dna_profitability_totalcost"));
+var resource_totalcost=parseFloat(document.thisItem.getProperty("dna_resource_totalcost"));
+var riskAlea= parseFloat(document.thisItem.getProperty("dna_risk_alea"));
+profitability_totalcost=0;
+
+if(subcalculation>0)
+{
+    profitability_totalcost= profitability_totalcost+ subcalculation + resource_totalcost + riskAlea;
+}
+else{
+    profitability_totalcost= profitability_totalcost + resource_totalcost + riskAlea;
+}
+
+handleItemChange("dna_profitability_totalcost", parseFloat(profitability_totalcost).toFixed(2).toString());]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_profitability_subcalculation</name>
+ </Item>
+</AML>

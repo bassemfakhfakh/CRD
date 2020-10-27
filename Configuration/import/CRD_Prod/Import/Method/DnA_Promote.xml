@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="Method" id="75B3DF528736438580DED1E93960A67D" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[this.promote("In Work","loaded lifecycle state");
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>DnA_Promote</name>
+ </Item>
+</AML>

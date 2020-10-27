@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="MSO_Reference" id="A4EA1B284F2944BD8D999884D849F46E" action="add">
+  <description>Part - Document Relationship</description>
+  <reference_item_type keyed_name="Part Document" type="ItemType" name="Part Document">BFE7AD9711A547FBB05827B5169493CE</reference_item_type>
+  <reference_property keyed_name="related_id" type="Property">6099350AEAF646A8B76C1DEA6BFCAE38</reference_property>
+  <label>Part</label>
+ </Item>
+</AML>

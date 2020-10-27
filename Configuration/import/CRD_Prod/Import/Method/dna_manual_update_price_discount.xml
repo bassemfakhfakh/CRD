@@ -1,0 +1,22 @@
+﻿<AML>
+ <Item type="Method" id="E9D7F066693446EEB3F83EEED0AFCC38" action="add">
+  <comments />
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[debugger;
+var inn = top.aras.newIOMInnovator();
+var total_cost_discount = 0;
+for (var i=1; i<7; i++)
+{
+if(document.thisItem.getProperty("dna_price_wp"+i+"_discount", "") !=="")
+    {
+        
+        
+        total_cost_discount= parseFloat(total_cost_discount)+ parseFloat(document.thisItem.getProperty("dna_price_wp"+i+"_discount"));
+    }
+    
+}
+handleItemChange("dna_total_cost_discount", Number(Math.round((total_cost_discount)+'e2')+'e-2').toString());]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_manual_update_price_discount</name>
+ </Item>
+</AML>

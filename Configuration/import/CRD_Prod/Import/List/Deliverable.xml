@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="List" id="00AA7446E7414F2ABA325A7DFDBB2EEA" action="add">
+  <name>Deliverable</name>
+  <Relationships>
+   <Item type="Value" id="8E8D6AA31F5B4D1BB13151CB2F5CCB55" action="add">
+    <label xml:lang="en">Document</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Deliverable" type="List">00AA7446E7414F2ABA325A7DFDBB2EEA</source_id>
+    <value>B88C14B99EF449828C5D926E39EE8B89</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

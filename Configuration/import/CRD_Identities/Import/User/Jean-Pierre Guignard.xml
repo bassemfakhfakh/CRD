@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="CBA9F6925E3D45F58D878B4D31DF1DB6" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>jean-pierre.guignard@cimpa.com</email>
+  <last_login_date>2019-02-13T15:31:54</last_login_date>
+  <login_name>jean-pierre.guignard</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Jean-Pierre Guignard" type="Identity">13BCE1CADDA640CEA98451FC806F4D83</owned_by_id>
+  <first_name>Jean-Pierre</first_name>
+  <last_name>Guignard</last_name>
+  <Relationships>
+   <Item type="Alias" id="AA9A9D2E42B5488BB243CECD41A17D92" action="add">
+    <from_date>2018-05-24T09:38:12</from_date>
+    <related_id keyed_name="Jean-Pierre Guignard" type="Identity">13BCE1CADDA640CEA98451FC806F4D83</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Jean-Pierre Guignard" type="User">CBA9F6925E3D45F58D878B4D31DF1DB6</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

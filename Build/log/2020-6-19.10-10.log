@@ -1,0 +1,48 @@
+Version: 12.0 (build 18644)
+
+
+-----params------
+args[0]     import
+args[1]     merge
+args[2]     release=001
+args[3]     dir=C:\Git\Project CAT test\Configuration\import
+args[4]     server=http://localhost/12SP05/
+args[5]     database=CAT_Test
+args[6]     login=admin
+args[8]     mfFile=C:\Git\Project CAT test\Configuration\import\imports.mf
+-----params------
+
+----parsed params----
+
+server      http://localhost/12SP05/
+database    CAT_Test
+login       admin
+Dir         C:\Git\Project CAT test\Configuration\import
+timeout     0
+Log file    C:\Git\Project CAT test\Build\log\2020-6-19.10-10.log
+Manifest    C:\Git\Project CAT test\Configuration\import\imports.mf
+import      Import
+Fast mode   False
+merge       True
+verbose     False
+release     001
+description 
+
+----parsed params----
+Start of importing packages
+start of execution : 06/19/2020 10:11:55
+Updating 'cat.dev.pkg' package to 'inprogress' release status
+       ****Import with merge option cat.dev.pkg****
+Processing (add)   id : 4E97040FD51D4397BC7F1190672AD461    keyed_name : CAT_PackageElement_Update    type : Method  
+File full name 'C:\Git\Project CAT test\Configuration\import\pkg\Import\Method\CAT_PackageElement_Update.xml'
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 4E97040FD51D4397BC7F1190672AD461    keyed_name : CAT_PackageElement_Update    type : Method  
+Adding item into PackageDefinition with id = 4E97040FD51D4397BC7F1190672AD461 and type = Method
+Getting config_id  of versionable item  id  4E97040FD51D4397BC7F1190672AD461 type Method
+Item already exist in packdefinition  id  4E97040FD51D4397BC7F1190672AD461 type Method
+completed
+Updating 'cat.dev.pkg' package to success release status
+end of execution : 06/19/2020 10:11:59

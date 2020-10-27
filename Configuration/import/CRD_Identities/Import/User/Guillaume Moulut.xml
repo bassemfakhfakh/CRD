@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="FE7B391022674166BEFDB330AFD6C874" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>guillaume.moulut@cimpa.com</email>
+  <last_login_date>2018-12-04T15:34:30</last_login_date>
+  <login_name>guillaume.moulut</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Guillaume Moulut" type="Identity">B2B9EF5A17DE428FB67E37D82E5ACCD0</owned_by_id>
+  <first_name>Guillaume</first_name>
+  <last_name>Moulut</last_name>
+  <Relationships>
+   <Item type="Alias" id="4EB0F28881034C6CAAC4C09680C35581" action="add">
+    <from_date>2018-12-04T15:05:16</from_date>
+    <related_id keyed_name="Guillaume Moulut" type="Identity">B2B9EF5A17DE428FB67E37D82E5ACCD0</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Guillaume Moulut" type="User">FE7B391022674166BEFDB330AFD6C874</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,87 @@
+﻿<AML>
+ <Item type="Method" id="2F956FB35F77480B959F76BA67B6BD8A" action="add">
+  <comments />
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn=aras.newIOMInnovator();
+
+var Filter={};
+
+Filter["dna_res_activity"]={ filterValue:1, isFilterFixed: true};
+Filter["dna_society"]={ filterValue:"Other*", isFilterFixed: true};
+
+//rule: user can only see resource from the domains where he is manager of
+//get the domain manager role
+var teamManager = inn.newItem("Identity","get");
+
+teamManager.setProperty("name","Team Manager");
+teamManager=teamManager.apply();
+
+// get the connected user identity
+var myAlias = inn.newItem("Alias","get");
+myAlias.setProperty("source_id", inn.getUserID());
+myAlias = myAlias.apply();
+var aliasId = myAlias.getItemByIndex(0).getProperty("related_id");
+var aliasIdentity = inn.getItemById("Identity",aliasId);
+
+
+//get the groupe the user is member of
+var groups = inn.newItem("Identity","get");
+var member = inn.newItem("Member","get");
+member.setProperty("related_id",aliasId);
+groups.addRelationship(member);
+groups=groups.apply();
+
+
+//On récupère le nom des propriétés de l'itemType DnA_CRD_Resource
+var aml= this.newItem("ItemType","get"); 
+aml.setProperty("name","DnA_CRD_Resource ");
+aml=aml.apply();
+
+var property=this.newItem("Property","get");
+property.setProperty("source_id",aml.getItemByIndex(0).getID());
+properties= property.apply();
+
+ 
+//for each group, get the related domains (teams)
+for(var i=0;i<groups.getItemCount();i++)
+{
+    var groupid = groups.getItemByIndex(i).getProperty("id");
+   
+    var domaines = inn.newItem("Team","get");
+    var teammember = inn.newItem("Team Identity","get");
+   
+    teammember.setProperty("related_id",groupid);
+    
+    //the user has to be manager of the team (domain)
+    teammember.setProperty("team_role",teamManager.getItemByIndex(0).getProperty("id"))
+    domaines.addRelationship(teammember);
+    domaines=domaines.apply(); 
+    
+    for(var j=0;j<domaines.getItemCount();j++)
+    {
+       
+       var domaine_name=domaines.getItemByIndex(j).getProperty("name");
+        //top.aras.AlertSuccess(domaines.getItemByIndex(j).getProperty("name"));
+        var actualDomain = domaines.getItemByIndex(j);
+        
+        //This renvoit à la searchDialog. Comment accéder aux ressources?
+        for(var k=1;k<17;k++) 
+        { 
+            for(var l=0; l<properties.getItemCount(); l++)
+            {
+                property_label= properties.getItemByIndex(l).getProperty("label");
+                property_name= properties.getItemByIndex(l).getProperty("name");
+                if(property_label==domaine_name)
+                {
+                    Filter[property_name]={ filterValue: 1, isFilterFixed:true};
+                }
+            }
+            
+        }
+    }
+}
+return Filter;]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_prof_otherfilter</name>
+ </Item>
+</AML>

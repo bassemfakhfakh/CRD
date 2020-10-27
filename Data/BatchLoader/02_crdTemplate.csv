@@ -1,0 +1,2 @@
+classification;dna_cir;dna_load_life_cycle_state;dna_number;dna_title;filename;filepath;domain
+CRD;Yes;WIP;CRD-000001;Template CRD;CRD-000001 - Template CRD.docx;$($config.project.data.batchloader)/Content/CRD-000001 - Template CRD.docx;Template

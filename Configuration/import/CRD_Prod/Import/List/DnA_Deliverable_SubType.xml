@@ -1,0 +1,112 @@
+﻿<AML>
+ <Item type="List" id="C8AE093C57F64A868236B0D14F7A1BF7" action="add">
+  <name>DnA_Deliverable_SubType</name>
+  <Relationships>
+   <Item type="Filter Value" id="E3535B01B1704E46AEE42D1CC1EA7198" action="add">
+    <filter>DO</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>Document</value>
+   </Item>
+   <Item type="Filter Value" id="9C6C7CFB72214252BC02ED54DAFD5195" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M3</label>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M3</value>
+   </Item>
+   <Item type="Filter Value" id="CDDBCCE4AB0D46BF85A37FEB871CABAA" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M5</label>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M5</value>
+   </Item>
+   <Item type="Filter Value" id="DEB088791F0D4529BFEC0E4101EE343B" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M7</label>
+    <sort_order>40</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M7</value>
+   </Item>
+   <Item type="Filter Value" id="FFA3C1A255E34682971C4265A141CA1C" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M9</label>
+    <sort_order>50</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M9</value>
+   </Item>
+   <Item type="Filter Value" id="1AF47DD3A4A0449490B708882384D95A" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M10</label>
+    <sort_order>60</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M10</value>
+   </Item>
+   <Item type="Filter Value" id="6EE26D52E5C2478EBA170770494DEEB1" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M10a</label>
+    <sort_order>70</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M10a</value>
+   </Item>
+   <Item type="Filter Value" id="97443C47FCC14D13A6F14C117AF5A093" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M11</label>
+    <sort_order>80</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M11</value>
+   </Item>
+   <Item type="Filter Value" id="72BA2D86FEA94190A6BF8EC273299054" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M12</label>
+    <sort_order>90</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M12</value>
+   </Item>
+   <Item type="Filter Value" id="39F722B0E55B42EFA83E850272417815" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M13</label>
+    <sort_order>100</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M13</value>
+   </Item>
+   <Item type="Filter Value" id="C1B68663A935487299D531BE9A450B88" action="add">
+    <filter>MI</filter>
+    <label xml:lang="en">M14</label>
+    <sort_order>110</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>M14</value>
+   </Item>
+   <Item type="Filter Value" id="253FCAC7CF834DF2BD6371F0843DC61E" action="add">
+    <filter>QG</filter>
+    <label xml:lang="en">QG BRD</label>
+    <sort_order>120</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>QG BRD</value>
+   </Item>
+   <Item type="Filter Value" id="F51F30FB6DEB4BF89C9B3CCE33465D62" action="add">
+    <filter>QG</filter>
+    <label xml:lang="en">QG ARD</label>
+    <sort_order>130</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>QG ARD</value>
+   </Item>
+   <Item type="Filter Value" id="D51F67602113473BA27325EDEE4785B3" action="add">
+    <filter>QG</filter>
+    <label xml:lang="en">QG TD</label>
+    <sort_order>140</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>QG TD</value>
+   </Item>
+   <Item type="Filter Value" id="EFFF593769344C4EB7F101A14044DBCA" action="add">
+    <filter>QG</filter>
+    <label xml:lang="en">QG MIP</label>
+    <sort_order>150</sort_order>
+    <source_id keyed_name="DnA_Deliverable_SubType" type="List">C8AE093C57F64A868236B0D14F7A1BF7</source_id>
+    <value>QG MIP</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

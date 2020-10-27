@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="Identity" id="D4D379EAC64F4A8E8C4B209B2038E82A" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDN_GE_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="3C6FD949172E401C8F484FA585B95F9D" action="add">
+  <related_id keyed_name="Gesine Nagel" type="Identity">796FA8F75753409FACF6D826A1340612</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="ZIDN_GE_Manager" type="Identity">D4D379EAC64F4A8E8C4B209B2038E82A</source_id>
+ </Item>
+ <Item type="Member" id="8142EC66BC5C40AC8B4006BE2005EBD9" action="add">
+  <related_id keyed_name="chirag jain" type="Identity">B767266AF91F40F9B970F2BBA635F189</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="ZIDN_GE_Manager" type="Identity">D4D379EAC64F4A8E8C4B209B2038E82A</source_id>
+ </Item>
+</AML>

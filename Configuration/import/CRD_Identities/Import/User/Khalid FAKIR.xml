@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="3127CA6981A742C785B9BA2A361CBF9D" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>khalid.k.fakir.external@airbus.com</email>
+  <last_login_date>2019-05-31T14:10:57</last_login_date>
+  <login_name>khalid.fakir</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Khalid FAKIR" type="Identity">74DD4007684F41D4893FE401B6403AA0</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:32:24</pwd_is_set_on>
+  <first_name>Khalid</first_name>
+  <last_name>FAKIR</last_name>
+  <Relationships>
+   <Item type="Alias" id="E1F0DDE4EF8E425A859422405982212B" action="add">
+    <from_date>2017-12-13T17:36:09</from_date>
+    <related_id keyed_name="Khalid FAKIR" type="Identity">74DD4007684F41D4893FE401B6403AA0</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Khalid FAKIR" type="User">3127CA6981A742C785B9BA2A361CBF9D</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

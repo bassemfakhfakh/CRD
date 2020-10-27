@@ -1,0 +1,43 @@
+﻿<AML>
+ <Item type="List" id="8F26F86BA8D54CA18B7CF6881B864767" action="add">
+  <name>DnA_Methodology</name>
+  <Relationships>
+   <Item type="Value" id="ED75128120B64029AB8E1F27BCC77C85" action="add">
+    <label xml:lang="en">Agile</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Methodology" type="List">8F26F86BA8D54CA18B7CF6881B864767</source_id>
+    <value>Agile</value>
+   </Item>
+   <Item type="Value" id="A97701EF95E94FD39D86978F3E639457" action="add">
+    <label xml:lang="en">SAFe</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Methodology" type="List">8F26F86BA8D54CA18B7CF6881B864767</source_id>
+    <value>SAFe</value>
+   </Item>
+   <Item type="Value" id="EF5453BB6DD844829C003C87BB91D32F" action="add">
+    <label xml:lang="en">GPP Waterfall</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Methodology" type="List">8F26F86BA8D54CA18B7CF6881B864767</source_id>
+    <value>GPP Waterfall</value>
+   </Item>
+   <Item type="Value" id="4F283299264D44CFA8B4C1FA6C169B70" action="add">
+    <label xml:lang="en">GPP Light</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_Methodology" type="List">8F26F86BA8D54CA18B7CF6881B864767</source_id>
+    <value>GPP Light</value>
+   </Item>
+   <Item type="Value" id="3000934FAD63464BB93EFD97D9DA12A5" action="add">
+    <label xml:lang="en">Fast Track</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_Methodology" type="List">8F26F86BA8D54CA18B7CF6881B864767</source_id>
+    <value>Fast Track</value>
+   </Item>
+   <Item type="Value" id="55A694FC4B88412394CC8D8EFA0C74F1" action="add">
+    <label xml:lang="en">N/A</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_Methodology" type="List">8F26F86BA8D54CA18B7CF6881B864767</source_id>
+    <value>N/A</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

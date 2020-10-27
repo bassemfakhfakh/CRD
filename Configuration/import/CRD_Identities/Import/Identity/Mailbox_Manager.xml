@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="0179F76B22AE4190A0E7C26834949F31" action="add">
+  <is_alias>0</is_alias>
+  <name>Mailbox_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="9873C93B4FF547F9B293C1353AB6C8DC" action="add">
+  <related_id keyed_name="Karine DECRETTE" type="Identity">57663444224549DDA0511735E264D272</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="Mailbox_Manager" type="Identity">0179F76B22AE4190A0E7C26834949F31</source_id>
+ </Item>
+</AML>

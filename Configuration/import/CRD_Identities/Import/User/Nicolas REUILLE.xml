@@ -1,0 +1,22 @@
+﻿<AML>
+ <Item type="User" id="AB96338DD3694618A53288118F7158C9" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>nicolas.reuille.external@airbus.com</email>
+  <last_login_date>2020-09-02T09:31:03</last_login_date>
+  <login_name>nicolas.reuille</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Nicolas REUILLE" type="Identity">A2A44742C96A40009A387464CD8EB89C</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:33:46</pwd_is_set_on>
+  <working_directory>c:</working_directory>
+  <first_name>Nicolas</first_name>
+  <last_name>REUILLE</last_name>
+  <Relationships>
+   <Item type="Alias" id="967BD995EC404026AA49917119D04F41" action="add">
+    <from_date>2017-12-13T17:40:07</from_date>
+    <related_id keyed_name="Nicolas REUILLE" type="Identity">A2A44742C96A40009A387464CD8EB89C</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Nicolas REUILLE" type="User">AB96338DD3694618A53288118F7158C9</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

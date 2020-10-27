@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="2F90DB7655B14B21A6AF139806222C55" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>stephane.delbosque.external@airbus.com</email>
+  <last_login_date>2019-06-03T14:06:53</last_login_date>
+  <login_name>Stephane.delbosque</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Stephane DELBOSQUE" type="Identity">6CAE0F31C78A42628F3FD57EF222CCF8</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:34:50</pwd_is_set_on>
+  <first_name>Stephane</first_name>
+  <last_name>DELBOSQUE</last_name>
+  <Relationships>
+   <Item type="Alias" id="970FFCE7C46946C293313C205E9D5BA0" action="add">
+    <from_date>2017-12-13T17:34:11</from_date>
+    <related_id keyed_name="Stephane DELBOSQUE" type="Identity">6CAE0F31C78A42628F3FD57EF222CCF8</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Stephane DELBOSQUE" type="User">2F90DB7655B14B21A6AF139806222C55</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

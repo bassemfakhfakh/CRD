@@ -1,0 +1,151 @@
+﻿<AML>
+ <Item type="List" id="20A3E4B1F2634CF7BF1495D21ED1C766" action="add">
+  <name>FileContainerItems</name>
+  <Relationships>
+   <Item type="Value" id="EA6B2F62C83141BE88B41ECD7C7491BA" action="add">
+    <label xml:lang="en">SystemFileContainer</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>83EBCDAE9D834E169ABC95CC0C7CCB28</value>
+   </Item>
+   <Item type="Value" id="B767042074B14DC2AFD4048AD22E5BFD" action="add">
+    <label xml:lang="en">SecureMessageAudio</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>56C80A4B7A774848824BA91BBB1065D5</value>
+   </Item>
+   <Item type="Value" id="D81C6903112E41A1BBE413889A1D2A40" action="add">
+    <label xml:lang="en">SecureMessageVideo</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>9F7E6D76DB664D44AE13769DBF007571</value>
+   </Item>
+   <Item type="Value" id="A4B3E7C33C4C4299AA37DCA2AD82CF80" action="add">
+    <label xml:lang="en">FileGroup File</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>EEC427EA9E754FD9BE93D1C6C72F2F2E</value>
+   </Item>
+   <Item type="Value" id="93B083022CCC47CC84CB3C6F6BCAC404" action="add">
+    <label xml:lang="en">File Exchange Package File</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>EA473F6BF22F4F34807F2FA03497147F</value>
+   </Item>
+   <Item type="Value" id="358127561F2943698D38331CF4E9D682" action="add">
+    <label xml:lang="en">DatabaseUpgradeLogFile</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>D3E6C97153E1408FB218FA34D8B65A3D</value>
+   </Item>
+   <Item type="Value" id="43B8A6D942DA4E0383252281E724D0F3" action="add">
+    <label xml:lang="en">Export To Excel Configuration</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>B228811F241240FE8962E14AD584F2AD</value>
+   </Item>
+   <Item type="Value" id="F0469A8A42EC43E68896D27CA29ED265" action="add">
+    <label xml:lang="en">Self-Service Report</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>A46890D3535C41D4A5D79240B8C373B0</value>
+   </Item>
+   <Item type="Value" id="CE6F3BC99B1A447E9C99425D146DAF5C" action="add">
+    <label xml:lang="en">CAD Document</label>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>CCF205347C814DD1AF056875E0A880AC</value>
+   </Item>
+   <Item type="Value" id="91F5D339F8564A739BAD4DE625FDD2B0" action="add">
+    <label xml:lang="en">CADFiles</label>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>15FF1A4262FA4164B45A8A97BCE20CD4</value>
+   </Item>
+   <Item type="Value" id="E288BD9A732145E19B1F3AE3451DAF08" action="add">
+    <label xml:lang="en">Document File</label>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>653C8EE5DDDF4932B75E5CDF04F0CD42</value>
+   </Item>
+   <Item type="Value" id="F9C6E8F12B7D439B8F54BCE6AF08FE97" action="add">
+    <label xml:lang="en">ECN File</label>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>4976DD959B424173B6C2490225BED5DE</value>
+   </Item>
+   <Item type="Value" id="E90E523A86BF48A4A4D23767FF723276" action="add">
+    <label xml:lang="en">ECR File</label>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>C04406118D4F494CAB7AB924FB658E0A</value>
+   </Item>
+   <Item type="Value" id="425E568A73C84235913AAE4574A2249A" action="add">
+    <label xml:lang="en">Express DCO File</label>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>92881989370D4992BD053B6ADC12F708</value>
+   </Item>
+   <Item type="Value" id="96AAF9CE0D2445EC9D5E1B7116C03293" action="add">
+    <label xml:lang="en">Express ECO File</label>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>CBFCC2B7EC174750AFFF8D1EE0A82E34</value>
+   </Item>
+   <Item type="Value" id="3B9D04CD58584FEFAA3A29A685ADA818" action="add">
+    <label xml:lang="en">Manufacturer Part File</label>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>40E21F80C9D34E86BADA03D47D4D6B39</value>
+   </Item>
+   <Item type="Value" id="01D8DCD33F014364AB37B45804581BB8" action="add">
+    <label xml:lang="en">PR File</label>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>83A3BAE2F58644ADB83EE7CA9C4C3E83</value>
+   </Item>
+   <Item type="Value" id="0E1E0A59E1954F858CDC00408A8D373F" action="add">
+    <label xml:lang="en">Simple ECO File</label>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>D8D8AF203DF043DE97940186864EB869</value>
+   </Item>
+   <Item type="Value" id="AC0AEA69E98F4C6BA0AE65F260AD89BB" action="add">
+    <label xml:lang="en">Simple MCO File</label>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>B4F5037E307B45B3838CC512BBFC0DE4</value>
+   </Item>
+   <Item type="Value" id="EE3708361C1B4B64BC5428BB3AA075E7" action="add">
+    <label xml:lang="en">Activity2 Comments</label>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>2AED1CA849DB4D4382B2472569BFAD31</value>
+   </Item>
+   <Item type="Value" id="FA64BDD209E74FB49E6A440B70CB2108" action="add">
+    <label xml:lang="en">CRD_Prod</label>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>735F707390FE49AC9FEE753CB2FDE82C</value>
+   </Item>
+   <Item type="Value" id="593C839C92854227AF2ACECC43D1E6AD" action="add">
+    <label xml:lang="en">DnA_CRD_Prod_File_Relationship</label>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>29966268370A4E0AA1B691D6E315E118</value>
+   </Item>
+   <Item type="Value" id="3E854BBE7DEF4238B60D1320162C47CF" action="add">
+    <label xml:lang="en">Export CRD</label>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>AD1C8BC1E24344A492AC2BC6473D8EAD</value>
+   </Item>
+   <Item type="Value" id="9F04B28362DE41BA97A18A19DF7E9603" action="add">
+    <label xml:lang="en">CRD_Profitability</label>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="FileContainerItems" type="List">20A3E4B1F2634CF7BF1495D21ED1C766</source_id>
+    <value>974F3AF5F4E547CEBF12FD3638549AD4</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

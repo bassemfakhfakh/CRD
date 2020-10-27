@@ -1,0 +1,107 @@
+﻿<AML>
+ <Item type="Form" id="08F1F27C06304E34AFF0D14496568845" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>dna_exportCRD</name>
+  <Relationships>
+   <Item type="Body" id="1B9077EE95D346B08E3B68A1BCB4CE08" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="Form">08F1F27C06304E34AFF0D14496568845</source_id>
+    <Relationships>
+     <Item type="Field" id="675500FDFBF04E37A5A40D94069D2789" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Comment</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_comment" type="Property">11E9DF1BB4C44DB4BC55A40B1F176AD4</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="1B9077EE95D346B08E3B68A1BCB4CE08" type="Body">1B9077EE95D346B08E3B68A1BCB4CE08</source_id>
+      <tab_index>3200</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>250</textarea_cols>
+      <textarea_rows>50</textarea_rows>
+      <x>192</x>
+      <y>94</y>
+      <name>dna_comment</name>
+     </Item>
+     <Item type="Field" id="73353F6EADEC431E8A59C9A845FDF51E" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>file item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Export File</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_export_file" type="Property">4EE78EB3B90347CB953479B4209FFF21</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="1B9077EE95D346B08E3B68A1BCB4CE08" type="Body">1B9077EE95D346B08E3B68A1BCB4CE08</source_id>
+      <tab_index>3328</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>615</x>
+      <y>47</y>
+      <name>dna_export_file</name>
+     </Item>
+     <Item type="Field" id="5DA1E46AB11B4B4FB61831ACB4872797" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_label" type="Property">C214E84A574C4923A88EFED398E5D2D4</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="1B9077EE95D346B08E3B68A1BCB4CE08" type="Body">1B9077EE95D346B08E3B68A1BCB4CE08</source_id>
+      <tab_index>3072</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>50</y>
+      <name>dna_label</name>
+     </Item>
+     <Item type="Field" id="F7D86AC44A7D4CC2AE9BF60FEE3C0FE5" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="1B9077EE95D346B08E3B68A1BCB4CE08" type="Body">1B9077EE95D346B08E3B68A1BCB4CE08</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

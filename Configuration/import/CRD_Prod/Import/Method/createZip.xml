@@ -1,0 +1,67 @@
+﻿<AML>
+ <Item type="Method" id="8BBEC279115343E4B3AC3347218D9DEC" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[
+// var filename = "C:'\'temp'\'tata.zip";
+//         //Create the header of the Zip File 
+//         System.Text.ASCIIEncoding Encoder = new System.Text.ASCIIEncoding();
+//         string sHeader = "PK" + (char)5 + (char)6;
+//         sHeader = sHeader.PadRight(22, (char)0);
+//         //Convert to byte array
+//         byte[] baHeader = System.Text.Encoding.ASCII.GetBytes(sHeader);
+
+//         //Save File - Make sure your file ends with .zip!
+//         FileStream fs = File.Create(filename);
+//         fs.Write(baHeader, 0, baHeader.Length);
+//         fs.Flush();
+//         fs.Close();
+//         fs = null;
+
+
+
+
+
+// Shell32.Shell Shell = new Shell32.Shell();
+        
+//         //Create our Zip File
+//         CreateZipFile(Filename);
+
+//         //Copy the file or folder to it
+//         Shell.NameSpace(Filename).CopyHere(Input,0);
+          
+//         //If you can write the code to wait for the code to finish, please let me know
+//         System.Threading.Thread.Sleep(2000);
+
+//Create an empty zip file
+// byte[] emptyzip = new byte[]{80,75,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+
+// var source="C:'\'temp'\'CRD Extract";
+// var dest = "C:'\'temp'\'toto.zip";
+// FileStream fs = File.Create(dest);
+// fs.Write(emptyzip, 0, emptyzip.Length);
+// fs.Flush();
+// fs.Close();
+// fs = null;
+
+//Copy a folder and its contents into the newly created zip file
+// Shell32.ShellClass sc = new Shell32.ShellClass();
+// Shell32.Folder SrcFlder = sc.NameSpace(source);
+// Shell32.Folder DestFlder = sc.NameSpace(dest); 
+// Shell32.FolderItems items = SrcFlder.Items();
+// DestFlder.CopyHere(items, 20);
+
+// System.Threading.Thread.Sleep(1000);
+
+
+string startPath = @"C:\temp\CRD Extract";           
+string zipPath = @"C:\temp\toto.zip";            
+//string extractPath = @"c:\example\extract";            
+System.IO.Compression.ZipFile.CreateFromDirectory(startPath, zipPath);            
+//ZipFile.ExtractToDirectory(zipPath, extractPath);
+return this;
+
+]]></method_code>
+  <method_type>C#</method_type>
+  <name>createZip</name>
+ </Item>
+</AML>

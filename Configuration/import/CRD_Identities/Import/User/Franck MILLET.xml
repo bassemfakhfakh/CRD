@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="FC613A91D30E45109A279A169FCF9037" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>franck.millet.external@airbus.com</email>
+  <last_login_date>2020-09-03T10:15:50</last_login_date>
+  <login_name>franck.millet</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Franck MILLET" type="Identity">423E2597758D4945958A901AA9B72156</owned_by_id>
+  <pwd_is_set_on>2019-05-10T09:50:07</pwd_is_set_on>
+  <first_name>Franck</first_name>
+  <last_name>MILLET</last_name>
+  <Relationships>
+   <Item type="Alias" id="D12FA5D1698A45D0B76BFA2F7D0AD8DE" action="add">
+    <from_date>2019-03-28T15:18:41</from_date>
+    <related_id keyed_name="Franck MILLET" type="Identity">423E2597758D4945958A901AA9B72156</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Franck MILLET" type="User">FC613A91D30E45109A279A169FCF9037</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

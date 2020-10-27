@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="Permission" id="9B0B15CA4B714841BC8B2433456DB235" action="add">
+  <is_private>0</is_private>
+  <name>Dna Assistant</name>
+  <Relationships>
+   <Item type="Access" id="27395F8CEBAC4CAD98BFDC8FC5E0D98F" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>0</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="DnA Assistant" type="Identity">31B1539C7D98424DA4632E3DEC99F201</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Dna Assistant" type="Permission">9B0B15CA4B714841BC8B2433456DB235</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

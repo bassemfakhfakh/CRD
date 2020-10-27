@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="C80FA9E6EF0141BAB16F1227BDC347D2" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <last_login_date>2019-08-12T16:11:36</last_login_date>
+  <login_name>bfakh</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="b fakh" type="Identity">5B00F5011F4D469EA70FF66CAE978D7E</owned_by_id>
+  <first_name>b</first_name>
+  <last_name>fakh</last_name>
+  <Relationships>
+   <Item type="Alias" id="3DFA3F21DDEA42FC98F96746793073E4" action="add">
+    <from_date>2019-08-12T15:56:54</from_date>
+    <related_id keyed_name="b fakh" type="Identity">5B00F5011F4D469EA70FF66CAE978D7E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="b fakh" type="User">C80FA9E6EF0141BAB16F1227BDC347D2</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

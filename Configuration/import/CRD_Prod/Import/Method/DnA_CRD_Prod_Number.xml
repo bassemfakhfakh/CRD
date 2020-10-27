@@ -1,0 +1,35 @@
+﻿<AML>
+ <Item type="Method" id="53EB9EE3D110496485A1D1238C6630BE" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+This function calculated the next sequence for the CRD number
+trigger: CRD form On load
+*/
+var inn = top.aras.newIOMInnovator();
+
+var existingNumber = document.thisItem.getProperty("dna_number");
+//check if the CRD number is stil empty (prevents from executing the function everytime the CRD is updated)
+if (existingNumber === undefined ||existingNumber==="" || existingNumber === null){
+    //check the existence of an other CRD with the same number
+    while (true){
+        var nextseq = inn.getNextSequence("DnA_CRD_Prod");
+        
+        var qry1 = inn.newItem("DnA_CRD_Prod", "get");
+        
+        qry1.setProperty("dna_number",nextseq);
+        var res = qry1.apply();
+        
+        //if item master result is empty
+        
+        if (res.isEmpty()){
+            handleItemChange("dna_number",nextseq);
+            break;
+        }
+    
+    }
+
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_CRD_Prod_Number</name>
+ </Item>
+</AML>

@@ -1,0 +1,67 @@
+﻿<AML>
+ <Item type="Method" id="EECF99E35AFD42DCA7C6E76687B79296" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = aras.newIOMInnovator();
+
+var taux_riskAlea= document.thisItem.getProperty("dna_risk_alea");
+
+var riskAlea=0;
+riskAlea= parseFloat(document.thisItem.getProperty("dna_resource_totalcost"))*parseFloat(taux_riskAlea);
+handleItemChange("dna_risk_alea", parseFloat(riskAlea).toFixed(2).toString());
+
+/**
+ * Add resource cost and alea to the total cost
+ */
+var profitability_totalcost=0;
+var resource_total_cost= parseFloat(document.thisItem.getProperty("dna_resource_totalcost"));
+var travel_cost=parseFloat(document.thisItem.getProperty("dna_travel_cost"));
+var transition_cost= parseFloat(document.thisItem.getProperty("dna_transition_cost"));
+var project_management_cost= parseFloat(document.thisItem.getProperty("dna_project_management_cost"));
+var subcalculation= 0;
+
+if(isNaN(travel_cost))
+{
+    travel_cost= document.thisItem.getProperty("dna_travel_cost","0");
+    travel_cost=0;
+}
+else{
+    travel_cost=travel_cost;
+}
+
+if(isNaN(transition_cost))
+{
+    transition_cost= document.thisItem.getProperty("dna_transition_cost","0");
+    transition_cost=0;
+}
+else
+{
+    transition_cost= transition_cost;
+}
+
+if(isNaN(project_management_cost))
+{
+    project_management_cost= document.thisItem.getProperty("dna_project_management_cost","0");
+    project_management_cost=0;
+}
+else{
+    project_management_cost= project_management_cost;
+}
+
+subcalculation= travel_cost
+                +transition_cost
+                +project_management_cost;
+                
+if(resource_total_cost>0)
+{
+    profitability_totalcost= profitability_totalcost+ riskAlea+ resource_total_cost+ subcalculation;
+}
+else
+{
+    profitability_totalcost= profitability_totalcost + subcalculation;
+}
+
+handleItemChange("dna_profitability_totalcost", parseFloat(profitability_totalcost).toFixed(2).toString());]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_profitability_riskAlea</name>
+ </Item>
+</AML>

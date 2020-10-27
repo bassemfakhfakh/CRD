@@ -1,0 +1,40 @@
+﻿<AML>
+ <Item type="Method" id="A2E11F50D2CB43E9A22D1047DD0055BC" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn= aras.newIOMInnovator();
+
+var profitability= document.thisItem.getProperty("dna_profitability","0");
+profitability=0;
+var rentability= document.thisItem.getProperty("dna_profitability_rentability","0");
+rentability=0;
+//Retrieve the cost of all resources + travel+ management+ transition
+var total_cost= document.thisItem.getProperty("dna_profitability_totalcost");
+
+//Retrieve the total price of the CRD
+var crd = inn.newItem("DnA_CRD_Prod","get");
+var crd_id= document.thisItem.getProperty("crd_prod").toString();
+
+crd.setProperty("id", crd_id);
+crd= crd.apply();
+
+var total_price= crd.getItemByIndex(0).getProperty("dna_total_cost");
+
+//Calculate the profitability
+if(total_cost >0)
+{
+    rentability= (1-total_cost/total_price)*100;
+    profitability= total_price - total_cost;
+    
+}
+else
+{
+    rentability= 100;
+    profitability= total_price
+}
+
+handleItemChange("dna_profitability",parseFloat(profitability).toFixed(2).toString());
+handleItemChange("dna_profitability_rentability",parseFloat(rentability).toFixed(2).toString());]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_profitability_cost</name>
+ </Item>
+</AML>

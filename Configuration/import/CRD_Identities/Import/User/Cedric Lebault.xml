@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="85636B6E06D346309ACFDC92EA5971D7" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>cedric.c.lebault.external@airbus.com</email>
+  <last_login_date>2020-06-26T16:52:19</last_login_date>
+  <login_name>cedric.lebault</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Cedric Lebault" type="Identity">ABF90C3D2A734AD69A981E0E68475C3E</owned_by_id>
+  <first_name>Cedric</first_name>
+  <last_name>Lebault</last_name>
+  <Relationships>
+   <Item type="Alias" id="0C890DB1A6724E4C87890D307292A292" action="add">
+    <from_date>2018-05-23T10:46:54</from_date>
+    <related_id keyed_name="Cedric Lebault" type="Identity">ABF90C3D2A734AD69A981E0E68475C3E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Cedric Lebault" type="User">85636B6E06D346309ACFDC92EA5971D7</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

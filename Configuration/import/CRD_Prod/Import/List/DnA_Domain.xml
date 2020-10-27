@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="List" id="49694A42504A422AAF529CB2D62F5FB2" action="add">
+  <name>DnA_Domain</name>
+  <Relationships>
+   <Item type="Value" id="575015F500F4445CBB38C93E16CE4215" action="add">
+    <label xml:lang="en">A350 VPN</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Domain" type="List">49694A42504A422AAF529CB2D62F5FB2</source_id>
+    <value>A350 VPN</value>
+   </Item>
+   <Item type="Value" id="FE03C2CF004F483A990D14A04388C5A8" action="add">
+    <label xml:lang="en">CAD Obsolescence</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Domain" type="List">49694A42504A422AAF529CB2D62F5FB2</source_id>
+    <value>CAD Obsolescence</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

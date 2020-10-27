@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="Action" id="16FCF4126ABE4168B1E17EA4F81B833F" action="add">
+  <item_query>___is_new___</item_query>
+  <location>server</location>
+  <method keyed_name="DnA_SaveAsCRD" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>DnA_SaveAsCRD</name>
+   </Item>
+  </method>
+  <target>window</target>
+  <type>item</type>
+  <name>Copy CRD </name>
+ </Item>
+</AML>

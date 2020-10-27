@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="F36EBA8514B34219B196248F17D51FDF" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>olivier.o.pellat.external@airbus.com</email>
+  <last_login_date>2018-06-08T18:14:01</last_login_date>
+  <login_name>olivier.pellat</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Olivier Pellat" type="Identity">6AD0813CC7D648929CDF34FBB14443AF</owned_by_id>
+  <first_name>Olivier</first_name>
+  <last_name>Pellat</last_name>
+  <Relationships>
+   <Item type="Alias" id="A13CE21538874B7080C920831B79B832" action="add">
+    <from_date>2018-05-16T11:53:29</from_date>
+    <related_id keyed_name="Olivier Pellat" type="Identity">6AD0813CC7D648929CDF34FBB14443AF</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Olivier Pellat" type="User">F36EBA8514B34219B196248F17D51FDF</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

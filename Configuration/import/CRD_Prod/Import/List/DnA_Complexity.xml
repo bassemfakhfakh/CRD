@@ -1,0 +1,31 @@
+﻿<AML>
+ <Item type="List" id="C2029B103C934E33AE2ACA0FF47A3B2F" action="add">
+  <name>DnA_Complexity</name>
+  <Relationships>
+   <Item type="Value" id="BC3CA14B333B44DC98587D0A6990D953" action="add">
+    <label xml:lang="en">Easy</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Complexity" type="List">C2029B103C934E33AE2ACA0FF47A3B2F</source_id>
+    <value>Easy</value>
+   </Item>
+   <Item type="Value" id="3F1FA5BCA0634C08A9B63C6F8CFFE84E" action="add">
+    <label xml:lang="en">Medium</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Complexity" type="List">C2029B103C934E33AE2ACA0FF47A3B2F</source_id>
+    <value>Medium</value>
+   </Item>
+   <Item type="Value" id="E290CDB9438E4DFE9BA6B9CF96D88D36" action="add">
+    <label xml:lang="en">Difficult</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_Complexity" type="List">C2029B103C934E33AE2ACA0FF47A3B2F</source_id>
+    <value>Difficult</value>
+   </Item>
+   <Item type="Value" id="FF5161A8D2BA469DBDC2C63E33B61818" action="add">
+    <label xml:lang="en">N/A</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_Complexity" type="List">C2029B103C934E33AE2ACA0FF47A3B2F</source_id>
+    <value>NA</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,3216 @@
+﻿<AML>
+ <Item type="ItemType" id="735F707390FE49AC9FEE753CB2FDE82C" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <class_structure><![CDATA[<class id="735F707390FE49AC9FEE753CB2FDE82C"><class id="5E94362F67A443EAA15D160162C2446A" name="CRD" /></class>]]></class_structure>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>DNA_CRD_PROD</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">CRD_Prod</label>
+  <label_plural xml:lang="en">CRD_Prod</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs min</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>DnA_CRD_Prod</name>
+  <Relationships>
+   <Item type="Property" id="001EEE4B0A814399A17E8613F16A6162" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Authoring Tools">11A953CA5A5E4BCD8EC9758C7E4B6E92</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">Microsoft Word</default_value>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">authoring_tool</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8704</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>authoring_tool</name>
+   </Item>
+   <Item type="Property" id="8E7B3264ACF64CDF978CFD8F610611B0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Actual Cost</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_actualcost</name>
+   </Item>
+   <Item type="Property" id="56BE792C196F47DEBBDF67BE71A22DFE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <keyed_name_order>11</keyed_name_order>
+    <label xml:lang="en">Attach Complexity Matrix</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>22400</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_attach_complexity</name>
+   </Item>
+   <Item type="Property" id="C0D1529B349F4E29956EF853A1583523" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Attach Profitability</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_attach_profitability</name>
+   </Item>
+   <Item type="Property" id="625ED2B1D8274132B5C3BF9D25294514" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Attach TRD</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_attach_trd</name>
+   </Item>
+   <Item type="Property" id="8524A076432B4B6FB2C8ABFFEEC3B3A2" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Attach word doc</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_attach_word</name>
+   </Item>
+   <Item type="Property" id="5D701DE54BA1413BA6E80CC27737E240" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">dna_attachments</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_attachments</name>
+   </Item>
+   <Item type="Property" id="55EBD77902194AD8B48E17439018BD41" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="dna_cir">59CA0AD36F904006B33221688E734AA0</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">Yes</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">CIR</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>200</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_cir</name>
+   </Item>
+   <Item type="Property" id="3F501DC83D0F4796896E75222C846DEB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Complexity">C2029B103C934E33AE2ACA0FF47A3B2F</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">NA</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Complexity</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>170</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_complexity</name>
+   </Item>
+   <Item type="Property" id="E4B2B153EA01437FB398A8D6650B5015" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Attach CRD</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>190</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_crd_attach</name>
+   </Item>
+   <Item type="Property" id="4B1D6394871846299CEAE8B0606D3583" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_crd_first_sent</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10496</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_crd_first_sent</name>
+   </Item>
+   <Item type="Property" id="A515DCA090304268BE40E68326F2F533" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Signed CRD</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10624</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_crd_signed</name>
+   </Item>
+   <Item type="Property" id="B62DB8CA46C54907B91C2D62E6CE4CE8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">CRD Sent To Customer</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>210</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_crdsent</name>
+   </Item>
+   <Item type="Property" id="977D8D0CEBCE4C9FA36045F340843252" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Service launching</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>220</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_crdservicelaunching</name>
+   </Item>
+   <Item type="Property" id="5E26D5D6F3A845CE88F20674C802DAA2" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_created_on_string</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9856</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_created_on_string</name>
+   </Item>
+   <Item type="Property" id="A0A60C54CDE74A7697449E2C8DDABB18" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Currency">9EA52576FB6646289A599CA0B938502A</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_currency</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_currency</name>
+   </Item>
+   <Item type="Property" id="A1848EB0914A49C6A34DCED8D1E290D2" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Customer Requestor Name</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>150</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_customername</name>
+   </Item>
+   <Item type="Property" id="6E343A052E834B0C910CDA16159E6040" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CustomerSiglum">9270E984AF94410B9116302773EED659</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Customer Siglum</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>160</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_customersiglum</name>
+   </Item>
+   <Item type="Property" id="981586A17144458CAB4594736F8AC7C5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_deliverables_wp1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10112</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_deliverables_wp1</name>
+   </Item>
+   <Item type="Property" id="519F3427E00B4F2688388AC222F634A3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_deliverables_wp2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10240</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_deliverables_wp2</name>
+   </Item>
+   <Item type="Property" id="B33E3A790F064C429EAFD473671732A7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_deliverables_wp3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10368</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_deliverables_wp3</name>
+   </Item>
+   <Item type="Property" id="94F642F8655846CD91087A0EB7E3020E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_deliverables_wp4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12800</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_deliverables_wp4</name>
+   </Item>
+   <Item type="Property" id="860AAC1521C44E0FB62B9F57FFDB6DDE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_deliverables_wp5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12928</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_deliverables_wp5</name>
+   </Item>
+   <Item type="Property" id="73E7567EAC6F41C283072F1A32C29031" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_deliverables_wp6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13056</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_deliverables_wp6</name>
+   </Item>
+   <Item type="Property" id="D5F7B4BA51C64E99951327077806B459" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <default_value xml:lang="en">0</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Discount (%)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>23680</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>10</stored_length>
+    <track_history>0</track_history>
+    <name>dna_discount_precentage</name>
+   </Item>
+   <Item type="Property" id="1E9F7EA35A4C43D4B5783E0F02F58C3B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Domain Manager</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>40</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_dmanager</name>
+    <Relationships>
+     <Item type="Grid Event" id="B09741FEF26649099DF6003A71C078DA" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="DnA_DomainManagerFilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>DnA_DomainManagerFilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="dna_dmanager" type="Property">1E9F7EA35A4C43D4B5783E0F02F58C3B</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Property" id="0105107B290047FB8E3E810F2C876D3E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Activities End Date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>70</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_enddate</name>
+   </Item>
+   <Item type="Property" id="A5C9B4F73CB74C5F87E6CF9DE482E2A1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_enddate_string</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9728</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_enddate_string</name>
+   </Item>
+   <Item type="Property" id="59CC3F426ECA4D16A08BE296788A787B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Focal Point Phone</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11136</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>dna_focal_poin_phone</name>
+   </Item>
+   <Item type="Property" id="41ED779567ED4E80B0F2E8EFE88CB050" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Supplier Focal Point</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10880</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>dna_focal_point</name>
+   </Item>
+   <Item type="Property" id="B4FC28F1B67C4830ABE0D8D55B18F06C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Focal Point email</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11008</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>dna_focal_point_email</name>
+   </Item>
+   <Item type="Property" id="2B8FE695BAB4486DBEE874087A851B46" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Internal review date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_internalreviewdate</name>
+   </Item>
+   <Item type="Property" id="C3A62CD9E77B4236AD9010B768B4AF8D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Internal review remark</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5248</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_internalreviewremark</name>
+   </Item>
+   <Item type="Property" id="A45FE7A0B1834FBE8175B3E0D931ED7D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="dna_Internalreviewstatus">54F0424BB82B45C282A50C3C6D1D0860</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Internal review status</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_internalreviewstatus</name>
+   </Item>
+   <Item type="Property" id="2D89F09A4F0143DB9AF36818DE17634A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Link iShare</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_linkishare</name>
+   </Item>
+   <Item type="Property" id="586992A0C6744CD99BBF07796EDF4BBC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_load_life_cycle_state</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>dna_load_life_cycle_state</name>
+   </Item>
+   <Item type="Property" id="0EE75D767D2848398685FDAA472B1A9B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_Methodology">8F26F86BA8D54CA18B7CF6881B864767</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Methodology</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10752</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_methodology</name>
+   </Item>
+   <Item type="Property" id="3D7776C7D0D64531A6573088DA81FBF8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_modified_on_string</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9984</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_modified_on_string</name>
+   </Item>
+   <Item type="Property" id="2DCCA4D8499E4D36AA542E669571CF2D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_number</name>
+   </Item>
+   <Item type="Property" id="143579CFA8F145C4AC35C188FBE98576" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">PO date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>120</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_podate</name>
+   </Item>
+   <Item type="Property" id="8D4E3F2403334787B914DF0159EA9168" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">PO number</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>130</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_ponumber</name>
+   </Item>
+   <Item type="Property" id="FDEA4173F1BA4FCA9ECC2F28CFA60129" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6144</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp1</name>
+   </Item>
+   <Item type="Property" id="40DECD6851E24F1FA6581C3397EF9B66" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp1_discount</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>23040</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp1_discount</name>
+   </Item>
+   <Item type="Property" id="AA1A10CBE64C4EFAB91E208FDDEEB5A9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6272</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp2</name>
+   </Item>
+   <Item type="Property" id="40F8768DBD534858B37835ED4728C824" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp2_discount</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>23168</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp2_discount</name>
+   </Item>
+   <Item type="Property" id="22992E42B1BE421D87D341728713F0DA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>6400</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp3</name>
+   </Item>
+   <Item type="Property" id="5DB845F0CF3148D297F16D81D85D69B6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp3_discount</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>23296</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp3_discount</name>
+   </Item>
+   <Item type="Property" id="63F5BB0740A14B8F926C6674E8342BC0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12416</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp4</name>
+   </Item>
+   <Item type="Property" id="5EF7AAFE381E4121989FE4FF542FD554" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp4_discount</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>23424</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp4_discount</name>
+   </Item>
+   <Item type="Property" id="7C18C71B21D34B27B6BE7C262F2D4482" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12544</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp5</name>
+   </Item>
+   <Item type="Property" id="90D4B1546A674C8C8DC2190E2C7A2DC8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_price_wp6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12672</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_price_wp6</name>
+   </Item>
+   <Item type="Property" id="41BD8075027F4ACD9C7E46E9F6DF55EB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_PSA">A07E64964BB445378DA550184F369A57</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">PSA</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>23808</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_psa_list</name>
+   </Item>
+   <Item type="Property" id="9333C77F5DA9481F84A52D594266195C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <default_value xml:lang="en" />
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">PSA</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>140</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>16</stored_length>
+    <track_history>0</track_history>
+    <name>dna_psa_number</name>
+   </Item>
+   <Item type="Property" id="535429A2C8BC44C4A440F305BC318762" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity (Item 1)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>240</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty1</name>
+   </Item>
+   <Item type="Property" id="F60E7503031F41E3BDA8E46C20B1F479" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity Discount (Item 1)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>250</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty1_discount</name>
+   </Item>
+   <Item type="Property" id="2463BC4F28564B08ADBAD418C8037191" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity (Item 2)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>270</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty2</name>
+   </Item>
+   <Item type="Property" id="314F1447EAD3420CA2D2D6BE0D5043D0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity Discount (Item 2)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>280</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty2_discount</name>
+   </Item>
+   <Item type="Property" id="4518C293FF5D44A1BCF6E9CBEBE14E7F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity (Item 3)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>300</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty3</name>
+   </Item>
+   <Item type="Property" id="4A2AA1F82B384DFBB064FABD426C4BE6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity Discount (Item 3)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>310</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty3_discount</name>
+   </Item>
+   <Item type="Property" id="4D8238429F0B4C2AA7F0C86C977C32BC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity (Item 4)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>330</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty4</name>
+   </Item>
+   <Item type="Property" id="1898B0F819954D40A420DC91DF7312C5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Quantity Discount (Item 4)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>340</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty4_discount</name>
+   </Item>
+   <Item type="Property" id="6E4736E5030541B297DE67AB4543659D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_qty5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12160</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty5</name>
+   </Item>
+   <Item type="Property" id="D5BD3F62BB754E8594C3F8733E222D45" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_qty6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>12288</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_qty6</name>
+   </Item>
+   <Item type="Property" id="F4B79B150B5749258889D4B94C80AC25" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">SCB date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>80</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_scbdate</name>
+   </Item>
+   <Item type="Property" id="C463BAE2C6D04849BEF0CAD54ADBC659" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">SCB remark</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>90</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_scbremark</name>
+   </Item>
+   <Item type="Property" id="A7FB9E5221704566915CCCFEF670AAC5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="dna_SCBstatus">E88A4BB15DC14F1EB112D08249843180</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">SCB status</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>110</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_scbstatus</name>
+   </Item>
+   <Item type="Property" id="2C8DD25212C94291BEF127519A090B4D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Activities Start Date</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>60</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_startdate</name>
+   </Item>
+   <Item type="Property" id="5E01834461F94C90BE9E6502F041FC60" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_startdate_string</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>50</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_startdate_string</name>
+   </Item>
+   <Item type="Property" id="127EFE2403CE4169B62BE9B51A7002A1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Title</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>100</stored_length>
+    <track_history>0</track_history>
+    <name>dna_title</name>
+   </Item>
+   <Item type="Property" id="0396D45C506E49D88C5F14E1A08506BA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Total Temporary</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>135</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_total_cost</name>
+   </Item>
+   <Item type="Property" id="C38E188666A948E7BB346A6C62D2EBD9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Total Price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>55</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_total_cost_discount</name>
+   </Item>
+   <Item type="Property" id="F13E4071AC884E5F9756E6CF7CCD6936" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Total Order Volume on SCB</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7680</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_totalordervolumescb</name>
+   </Item>
+   <Item type="Property" id="27CE7760FC9748F4B4A89921873578F0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">TRD received</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>7808</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>dna_trdreceived</name>
+   </Item>
+   <Item type="Property" id="DF82FD0094744A9B88A687D925EE4AD5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_WorkPackages">EF074E1C47DD4F46AFE4E0B3C3C91126</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">WP Name (Item 1)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>230</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_1</name>
+   </Item>
+   <Item type="Property" id="49AF35CEC1224219BD434C432E6206CD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_WorkPackages">EF074E1C47DD4F46AFE4E0B3C3C91126</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">WP Name (Item 2)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>260</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_2</name>
+   </Item>
+   <Item type="Property" id="709D82A7CEA34C2EA463EF1B401E296F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_WorkPackages">EF074E1C47DD4F46AFE4E0B3C3C91126</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">WP Name (Item 3)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>290</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_3</name>
+   </Item>
+   <Item type="Property" id="C48753E2BF174BB59D9689C69C2B5E69" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_WorkPackages">EF074E1C47DD4F46AFE4E0B3C3C91126</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">WP Name (Item 4)</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>320</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_4</name>
+   </Item>
+   <Item type="Property" id="7A5BA1ECEF65431FAAA41F712F5FF80C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_WorkPackages">EF074E1C47DD4F46AFE4E0B3C3C91126</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11392</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_5</name>
+   </Item>
+   <Item type="Property" id="DBBC24526859474AB28B0980ABD00EE3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_WorkPackages">EF074E1C47DD4F46AFE4E0B3C3C91126</data_source>
+    <data_type>list</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11520</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_6</name>
+   </Item>
+   <Item type="Property" id="A626DCAC885A48FCACDAC683408686CA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr1_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13184</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr1_1</name>
+   </Item>
+   <Item type="Property" id="59304F73F6954968B77E182F9E7D510D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr1_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14720</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr1_2</name>
+   </Item>
+   <Item type="Property" id="ACCED660F7E14CBC963DDA411330941C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr1_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16256</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr1_3</name>
+   </Item>
+   <Item type="Property" id="43EEC694DC5048EFBC5F6E9F4E05B4C1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr1_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17792</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr1_4</name>
+   </Item>
+   <Item type="Property" id="421A76C53359460196487A8B487BBE2B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr1_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19328</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr1_5</name>
+   </Item>
+   <Item type="Property" id="1F9D75D002AF41DA8AB24D27246FA6B4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr1_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20864</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr1_6</name>
+   </Item>
+   <Item type="Property" id="93004D97D81B44C9A7618307A018B93F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr10_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13952</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr10_1</name>
+   </Item>
+   <Item type="Property" id="BD9428765E704CCD9A2EC7C90F584DF7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr10_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15872</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr10_2</name>
+   </Item>
+   <Item type="Property" id="BD85B74E97A3422D95E04A263C9EEE49" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr10_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17408</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr10_3</name>
+   </Item>
+   <Item type="Property" id="3DB21C40C4FD45D6A48BADA824FF58A0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr10_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18944</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr10_4</name>
+   </Item>
+   <Item type="Property" id="0266752AEFD441A4A904C165F2F0C922" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr10_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20480</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr10_5</name>
+   </Item>
+   <Item type="Property" id="8B873C14D41D4B3098D1E034F8868B5C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr10_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>22016</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr10_6</name>
+   </Item>
+   <Item type="Property" id="17F733856D5D4EB68E00DA34E0BD448F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr11_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14080</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr11_1</name>
+   </Item>
+   <Item type="Property" id="27DF9936B95D49469BA179BC39E8B0BE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr11_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16000</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr11_2</name>
+   </Item>
+   <Item type="Property" id="C23A784D538B437EB9C75E860BD9C716" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr11_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17536</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr11_3</name>
+   </Item>
+   <Item type="Property" id="4ABA55AEDABD448E9C4697F8AF8E1AE2" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr11_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19072</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr11_4</name>
+   </Item>
+   <Item type="Property" id="999E98001CCA4D6297015398BEA46057" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr11_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20608</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr11_5</name>
+   </Item>
+   <Item type="Property" id="C53F139E655945479443D75155EAAE1E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr11_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>22144</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr11_6</name>
+   </Item>
+   <Item type="Property" id="AD8D7464600044749A2B1BBA527B54E8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr12_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14208</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr12_1</name>
+   </Item>
+   <Item type="Property" id="BF963D9936294B90B89DA0D51D81DAB6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr12_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr12_2</name>
+   </Item>
+   <Item type="Property" id="373123ECF61F4B59BD483FD09A146E54" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr12_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17664</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr12_3</name>
+   </Item>
+   <Item type="Property" id="08558E1570F941B0B151DB1429AC6B89" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr12_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19200</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr12_4</name>
+   </Item>
+   <Item type="Property" id="069D178BA91F4F74B1CC7F0843ABCFAD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr12_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20736</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr12_5</name>
+   </Item>
+   <Item type="Property" id="9070B5F107764423B5C2C8F648B79C77" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr12_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>22272</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr12_6</name>
+   </Item>
+   <Item type="Property" id="F1AEF1CF7B8D43A48FEA50FFA88BB053" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr2_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14336</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr2_1</name>
+   </Item>
+   <Item type="Property" id="20EC47B862B14AED8D1B0D19E3FDB493" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr2_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14848</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr2_2</name>
+   </Item>
+   <Item type="Property" id="7F16C4244B514ADD82AD3058049A89EF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr2_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr2_3</name>
+   </Item>
+   <Item type="Property" id="B840D4BB41A84F059D9B129A823A9F6A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr2_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17920</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr2_4</name>
+   </Item>
+   <Item type="Property" id="347B41D6F9CF4232B720BDEA929545DA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr2_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19456</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr2_5</name>
+   </Item>
+   <Item type="Property" id="4FBB7670C7254B50B9FBC759BDF3E48B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr2_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20992</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr2_6</name>
+   </Item>
+   <Item type="Property" id="752A1CE547D145A9A16E78FC8C5C7092" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr3_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14464</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr3_1</name>
+   </Item>
+   <Item type="Property" id="489DC296ADBD4F3DA0A10392C4E1DBB3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr3_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14976</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr3_2</name>
+   </Item>
+   <Item type="Property" id="0237237D54CA4A2C9D959EAAE1392AB4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr3_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16512</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr3_3</name>
+   </Item>
+   <Item type="Property" id="18C61D9DA9004963A7C6EF4A8875D1BD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr3_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18048</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr3_4</name>
+   </Item>
+   <Item type="Property" id="5C813AC2F0B54629A564CC1F40159263" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr3_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19584</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr3_5</name>
+   </Item>
+   <Item type="Property" id="220B181648FD4155A05400C577F85B15" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr3_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21120</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr3_6</name>
+   </Item>
+   <Item type="Property" id="84EF12801FE14405825DFABC52408BE5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr4_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>14592</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr4_1</name>
+   </Item>
+   <Item type="Property" id="346B27C1D57C4B10BF71C4253C2FF4F6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr4_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15104</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr4_2</name>
+   </Item>
+   <Item type="Property" id="0F2973AE6D0F40B4A81121FAB1923242" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr4_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr4_3</name>
+   </Item>
+   <Item type="Property" id="46230D97B05F469A8C2F9B991578B20B" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr4_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18176</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr4_4</name>
+   </Item>
+   <Item type="Property" id="87325EE495554B8CA425F3792AA3D574" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr4_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19712</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr4_5</name>
+   </Item>
+   <Item type="Property" id="C7A744BE814A49C59C28A72930BD2B2D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr4_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21248</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr4_6</name>
+   </Item>
+   <Item type="Property" id="22E6B1E535224268AAFA06CEA411F8B0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr5_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13312</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr5_1</name>
+   </Item>
+   <Item type="Property" id="19D22148E3F24F6390D5581AB91BCCAA" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr5_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15232</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr5_2</name>
+   </Item>
+   <Item type="Property" id="AE1FF3AEC0114217B0B435FD216FAF08" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr5_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16768</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr5_3</name>
+   </Item>
+   <Item type="Property" id="E9702F028C2F4F75B4820C0DAB04DCEF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr5_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18304</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr5_4</name>
+   </Item>
+   <Item type="Property" id="80EDEB3584D14CB0A641C293A8B06EA1" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr5_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19840</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr5_5</name>
+   </Item>
+   <Item type="Property" id="5D30FAC595BA44EAB4D741FDC6AC15DB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr5_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21376</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr5_6</name>
+   </Item>
+   <Item type="Property" id="F23A0F0CEB7945CCB85F7A921A4E29A2" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr6_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13440</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr6_1</name>
+   </Item>
+   <Item type="Property" id="E5A608F0953147D3968BF16A4FB45246" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr6_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15360</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr6_2</name>
+   </Item>
+   <Item type="Property" id="B0E643B16E204C169A9922122F20DA67" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr6_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>16896</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr6_3</name>
+   </Item>
+   <Item type="Property" id="26AA34DFE8C54510815EA8EA2D3C24C8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr6_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18432</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr6_4</name>
+   </Item>
+   <Item type="Property" id="E42659997AEB42E78C0B3152E66F858F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr6_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>19968</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr6_5</name>
+   </Item>
+   <Item type="Property" id="04157A9D77A14679A14710D6B48C0476" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr6_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21504</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr6_6</name>
+   </Item>
+   <Item type="Property" id="BC0CB068C2264E949438C3AF05EE5191" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr7_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13568</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr7_1</name>
+   </Item>
+   <Item type="Property" id="95A67ACE996847E5A1DBB9E38FA3B065" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr7_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15488</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr7_2</name>
+   </Item>
+   <Item type="Property" id="782D7A66ECC243A18AB580C0F5183E8D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr7_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17024</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr7_3</name>
+   </Item>
+   <Item type="Property" id="443F814A5C7F4FFCB29F76D9144E4871" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr7_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18560</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr7_4</name>
+   </Item>
+   <Item type="Property" id="ABFFB3A5C0FF4483BE32A687A03DBB83" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr7_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20096</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr7_5</name>
+   </Item>
+   <Item type="Property" id="4E8861DE342040AB92E47319298B95C8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr7_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21632</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr7_6</name>
+   </Item>
+   <Item type="Property" id="8DF87A1B64774BCD82008B3E81D44582" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr8_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13696</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr8_1</name>
+   </Item>
+   <Item type="Property" id="944C034D80C34E369FEDF71B3F020CCD" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr8_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15616</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr8_2</name>
+   </Item>
+   <Item type="Property" id="3955C053545847329C9132225C19AF5D" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr8_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17152</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr8_3</name>
+   </Item>
+   <Item type="Property" id="62AC7482D1D448DDB9BFABABF9C0DC7E" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr8_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18688</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr8_4</name>
+   </Item>
+   <Item type="Property" id="3611882511224CA8ABABFC9DBCA44A36" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr8_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20224</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr8_5</name>
+   </Item>
+   <Item type="Property" id="9E5BCAAEC23B477DB2F0BA19C86117D8" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr8_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21760</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr8_6</name>
+   </Item>
+   <Item type="Property" id="8D95179027F94BD7ABC6A7361701161C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr9_1</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>13824</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr9_1</name>
+   </Item>
+   <Item type="Property" id="3049D34501CB42139A809585D6497969" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr9_2</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>15744</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr9_2</name>
+   </Item>
+   <Item type="Property" id="2666654318A345519669C7DDDAD449BC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr9_3</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>17280</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr9_3</name>
+   </Item>
+   <Item type="Property" id="F0F5C230727F42AE9C258600E80A6E03" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr9_4</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>18816</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr9_4</name>
+   </Item>
+   <Item type="Property" id="9722521D14B547189FBE3F4CB6A467EB" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr9_5</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>20352</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr9_5</name>
+   </Item>
+   <Item type="Property" id="0D334202461B45BB843801D35534B211" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp_gr9_6</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>21888</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp_gr9_6</name>
+   </Item>
+   <Item type="Property" id="95D250C0B1254649BBA55CA767A495A0" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp1_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8320</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp1_unit_price</name>
+   </Item>
+   <Item type="Property" id="A29B7B1FD2BD4A9AB950A2102ABDFEB9" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp2_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8448</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp2_unit_price</name>
+   </Item>
+   <Item type="Property" id="B8BCAE93741D47B0A4926917DB320860" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp3_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8576</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp3_unit_price</name>
+   </Item>
+   <Item type="Property" id="67731D8C1749494FB4F72C117F5BB8CF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp4_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11648</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp4_unit_price</name>
+   </Item>
+   <Item type="Property" id="2A9CB740EA0C4F0C886C822DF0B4AEF6" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp5_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11776</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp5_unit_price</name>
+   </Item>
+   <Item type="Property" id="769B7F3FC77B4339A62D4C8940677E13" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">dna_wp6_unit_price</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>11904</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+    <name>dna_wp6_unit_price</name>
+   </Item>
+   <Item type="Property" id="D21ABE0363714BFAA0AD003C6A618352" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">external_id</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8832</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>external_id</name>
+   </Item>
+   <Item type="Property" id="463B0C10D6BE4A20AD1BD6CCBAC06274" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">external_owner</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>8960</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>external_owner</name>
+   </Item>
+   <Item type="Property" id="FF4D838505974BCAB20ABCA2EF890422" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">external_type</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9088</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+    <name>external_type</name>
+   </Item>
+   <Item type="Property" id="0381B5517E704877A22F95EE9F8AF14C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">From Template</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9216</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>from_template</name>
+   </Item>
+   <Item type="Property" id="3732FD8DB2294315AB678D2DD3793119" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Template</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>9344</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>is_template</name>
+   </Item>
+   <Item type="View" id="681227BD0EE843459C81304702BECBA6" action="add">
+    <client>js</client>
+    <related_id keyed_name="DnA_CRD_Prod" type="Form">D7A083DF6075464F89394B6A2CD3C94B</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="Server Event" id="EC4DA897180C42D299AE1E7E642D7AA8" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="dna_clean_WP_price_data" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_clean_WP_price_data</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Server Event" id="0353B67B062348C5A653073C48A0CF5B" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="DnA_generate_CRD_Prod_Word" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>DnA_generate_CRD_Prod_Word</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Server Event" id="E95DF998E7C74C6EA4E51A0BC253DB4B" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="DnA_Load_CRD_Promote_State" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>DnA_Load_CRD_Promote_State</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Server Event" id="E5E244A553C145D783140C3EA71B29D3" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="DnA_Update_CRD_file_Name" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>DnA_Update_CRD_file_Name</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterUpdate</server_event>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Server Event" id="9C01EC0A29C241C39AF01923083A1C33" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="DnA_attach_CRD_Prod_pdf_file" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>DnA_attach_CRD_Prod_pdf_file</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterUpdate</server_event>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Server Event" id="75BB745DFF3C48CA8C440F8DDA884033" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="dna_format_creation_date_server" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_format_creation_date_server</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeAdd</server_event>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Server Event" id="AF0A0E9E94AF425F843ADC940FB55762" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="dna_format_modif_date_server" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_format_modif_date_server</name>
+     </Item>
+    </related_id>
+    <server_event>onBeforeUpdate</server_event>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Item Action" id="092B3915F90949F6976071E7E209B178" action="add">
+    <related_id keyed_name="Copy CRD " type="Action">16FCF4126ABE4168B1E17EA4F81B833F</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Item Action" id="A0791EE15DC642E087491D98EE2165BD" action="add">
+    <related_id keyed_name="dna_crd_discount_update" type="Action">42065CDA9C8C49FF859E255ADF6464E4</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Item Action" id="21F5ECC1C32A4E9AA190DB35F07333D8" action="add">
+    <related_id keyed_name="dna_copy_client" type="Action">4906FB4A4F06439D8D7FD2AF0DDE472D</related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="ItemType Life Cycle" id="A8F8A7340D684E2395A3326543570370" action="add">
+    <related_id keyed_name="DnA_CRD_Prod" type="Life Cycle Map">D270BC02AF0141A88A93AAE9C18D8152</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="2C9B00F78DCD4BEFAC5F0F6D69A51AEA" action="add">
+    <is_default>0</is_default>
+    <related_id keyed_name="DnA_CRD_Prod" type="Workflow Map">97C17C41F7B04FDBA2EB21EC25ABBB04</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="TOC Access" id="BE4C276D30AC490DAC848515E5824F3E" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <category>DnA Bundle</category>
+   </Item>
+   <Item type="TOC View" id="8B0AD38723764FE38952384D7706C320" action="add">
+    <related_id keyed_name="Agnes BOCCACINO" type="Identity">33D7B04AF41C4DBAB8CD69B74CD60FD6</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Can Add" id="F3101F28DDF14890A6D8DED684361402" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="844DC088BE7D4341ABADDE116635C8CE" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="DnA_Team_CRD" type="Permission">AD9312C0BE8547CDB88963EB54BB6F97</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="735F707390FE49AC9FEE753CB2FDE82C" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='735F707390FE49AC9FEE753CB2FDE82C' and name='created_by_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Created By</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>created_by_id</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='735F707390FE49AC9FEE753CB2FDE82C' and name='created_on'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Created On</label>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>180</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>created_on</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='735F707390FE49AC9FEE753CB2FDE82C' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Iteration</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>generation</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='735F707390FE49AC9FEE753CB2FDE82C' and name='major_rev'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Version</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <stored_length>8</stored_length>
+    <track_history>0</track_history>
+    <name>major_rev</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='735F707390FE49AC9FEE753CB2FDE82C' and name='team_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Team" type="ItemType" name="Team">CC23F9130F574E7D99DF9659F27590A6</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Domain</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>30</sort_order>
+    <source_id keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</source_id>
+    <track_history>0</track_history>
+    <name>team_id</name>
+    <Relationships>
+     <Item type="Grid Event" id="C80232D7B2EB42BBBF7D873FACF431CF" action="add">
+      <grid_event>onsearchdialog</grid_event>
+      <related_id keyed_name="DnA_domainFilter" type="Method">
+       <Item type="Method" action="get" select="id">
+        <name>DnA_domainFilter</name>
+       </Item>
+      </related_id>
+      <sort_order>128</sort_order>
+      <source_id>
+       <Item type="Property" action="get" select="id">
+        <name>team_id</name>
+        <source_id>735F707390FE49AC9FEE753CB2FDE82C</source_id>
+       </Item>
+      </source_id>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

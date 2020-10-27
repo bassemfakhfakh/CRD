@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="6C235BB97D694E03B92DF0A05A29A614" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDA_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="D3322668BC1B4174A2E150432BB6B6DB" action="add">
+  <related_id keyed_name="Nathalie CARREAU" type="Identity">7442943C170246D2A319CC8A7D760FD6</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="ZIDA_Manager" type="Identity">6C235BB97D694E03B92DF0A05A29A614</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="MSO_Reference" id="AA853CFE3AE449A1A77D0665A3B58175" action="add">
+  <description>WBS - Deliverable Relationship</description>
+  <reference_item_type keyed_name="WBS Deliverable" type="ItemType" name="WBS Deliverable">0DD81C6BBA094CB69A949CC26EE45664</reference_item_type>
+  <reference_property keyed_name="related_id" type="Property">C2152ABFBDEF4540956917898C82051F</reference_property>
+  <label>WBS Element</label>
+ </Item>
+</AML>

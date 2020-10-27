@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="Identity" id="FDF2B8FF01164AD0AEAB395E4F66885B" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDCC SSI 3DX Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="8C8B33F247304032A0F4C368DB2CDD2D" action="add">
+  <related_id keyed_name="Aristide Quenel" type="Identity">C997899B81E54FD0ABB4681803FCD50B</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="ZIDCC SSI 3DX Manager" type="Identity">FDF2B8FF01164AD0AEAB395E4F66885B</source_id>
+ </Item>
+ <Item type="Member" id="ECCD3B4027264B2DBD300FDBB2B03D55" action="add">
+  <related_id keyed_name="Pascal MALATRAY" type="Identity">2EF249AB63704EE2A5442B7A9423546C</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="ZIDCC SSI 3DX Manager" type="Identity">FDF2B8FF01164AD0AEAB395E4F66885B</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,487 @@
+﻿<AML>
+ <Item type="Form" id="099087CAC22542888F260406D4BA785E" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>DnA_CRD_Resource</name>
+  <Relationships>
+   <Item type="Body" id="E61DC4D5E7F54635B2F507204DD4ED4B" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="Form">099087CAC22542888F260406D4BA785E</source_id>
+    <Relationships>
+     <Item type="Field" id="2EF59C0D69014CB29739121DFD15AEFC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Society</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_society" type="Property">BF337E02E22147959073B5A0822DE7EC</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>3456</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>166</y>
+      <name>crd_res_cat</name>
+     </Item>
+     <Item type="Field" id="39FCC22D25CE46919AADEAE0165F4DEC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Firstname</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_res_firstname" type="Property">D3CC1C6B67594F57B42AAFF532405861</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>3328</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>130</y>
+      <name>crd_res_firstname</name>
+     </Item>
+     <Item type="Field" id="5A2B9B3E6CDF4A8E97F5377BFB9D11F1" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Lastname</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_res_lastname" type="Property">84678E5912774EB79E3570D316406EC3</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>3200</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>90</y>
+      <name>crd_res_lastname</name>
+     </Item>
+     <Item type="Field" id="7DB8E5A8E9894FE58AA6675E0E96B81A" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Active</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_res_activity" type="Property">5AE98DFDD6A5418E968BD0FD6BC23AE1</propertytype_id>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>194</x>
+      <y>213</y>
+      <name>dna_res_activity</name>
+     </Item>
+     <Item type="Field" id="6583F533D2F04176982D5FC33BE4FDCF" action="add">
+      <border_width>0</border_width>
+      <container />
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDA</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team1" type="Property">9C9B0156823F4FA598548E87EECCD2C8</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>412</x>
+      <y>73</y>
+      <name>dna_team1</name>
+     </Item>
+     <Item type="Field" id="633F33CAB8F24B9AA19EFE84196C0BFA" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDN FR</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team10" type="Property">15E15599473A4EBF91A4C16D44369739</propertytype_id>
+      <sort_order>2176</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5120</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>640</x>
+      <y>106</y>
+      <name>dna_team10</name>
+     </Item>
+     <Item type="Field" id="EF8D73B87B5C4D5BA234F8DC58623FDB" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDOB</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team11" type="Property">171A2144CC7F42A592350C6FF26E193B</propertytype_id>
+      <sort_order>2304</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5248</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>641</x>
+      <y>139</y>
+      <name>dna_team11</name>
+     </Item>
+     <Item type="Field" id="18562216E7A14AB581ED4DEE9406CA15" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDS FR</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team12" type="Property">0D45FF5F6BB6472080BC355756E9A973</propertytype_id>
+      <sort_order>2432</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5376</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>637</x>
+      <y>174</y>
+      <name>dna_team12</name>
+     </Item>
+     <Item type="Field" id="0979ECFDC00446C198AC48625ED0BF2B" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDS GE</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team13" type="Property">BCB4FFADF6654325804BAFE719D86DAA</propertytype_id>
+      <sort_order>2560</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5632</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>640</x>
+      <y>206</y>
+      <name>dna_team13</name>
+     </Item>
+     <Item type="Field" id="0CE82BF9F91649EB877D52C70062C9E5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDS UK</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team14" type="Property">8D06E4B7F9E54800B5927531F664711B</propertytype_id>
+      <sort_order>2688</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5760</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>641</x>
+      <y>238</y>
+      <name>dna_team14</name>
+     </Item>
+     <Item type="Field" id="E2940D2AC728440FBE2B7F14942262FB" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZILO</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team15" type="Property">58D00A36DBD146F1AFD897A0AAD11CBD</propertytype_id>
+      <sort_order>2816</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5504</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>644</x>
+      <y>273</y>
+      <name>dna_team15</name>
+     </Item>
+     <Item type="Field" id="68F84E65779C4BEA97F69863D72DA340" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Template</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team16" type="Property">F73522240432446D88FE2CD5E6CC056C</propertytype_id>
+      <sort_order>2944</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>5888</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>642</x>
+      <y>308</y>
+      <name>dna_team16</name>
+     </Item>
+     <Item type="Field" id="9067E4AC730241188271BC4CBA690667" action="add">
+      <border_width>0</border_width>
+      <container />
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDCC 3DX</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team2" type="Property">5F9F2CF0B2BD463CAA12BF7D41C873AF</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_stop>1</tab_stop>
+      <x>411</x>
+      <y>106</y>
+      <name>dna_team2</name>
+     </Item>
+     <Item type="Field" id="BD6E378FD6EE46FFAE32E5E1A9A04DCC" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDCC Conf Service CPAO ZIDAI ZIDCD</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team3" type="Property">727E1ABFE1854503A548D57BD062368C</propertytype_id>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4224</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>412</x>
+      <y>139</y>
+      <name>dna_team3</name>
+     </Item>
+     <Item type="Field" id="A60369FEBF2B47D8A8999CAF49B1B341" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDCC SSI</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team4" type="Property">D2488FF4345E44F7A7BF81134B0C27D8</propertytype_id>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4352</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>413</x>
+      <y>170</y>
+      <name>dna_team4</name>
+     </Item>
+     <Item type="Field" id="1D765710C4DF40E687CDB4CE41450407" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDDA</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team5" type="Property">46B1DA6955B34B87BD37C3DC92B52100</propertytype_id>
+      <sort_order>1536</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4480</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>413</x>
+      <y>203</y>
+      <name>dna_team5</name>
+     </Item>
+     <Item type="Field" id="C4077C376BE34FE68AEF4D1E9658E2E5" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDDB FR</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team6" type="Property">E71B86B4669A4F33910DC928B7E07000</propertytype_id>
+      <sort_order>1664</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4608</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>411</x>
+      <y>239</y>
+      <name>dna_team6</name>
+     </Item>
+     <Item type="Field" id="D0E267068FCD4D79B143303D74ECE6F9" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDDB GE</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team7" type="Property">56ABBD6AA8C34386B06C97FC08CEFA8E</propertytype_id>
+      <sort_order>1792</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4736</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>411</x>
+      <y>276</y>
+      <name>dna_team7</name>
+     </Item>
+     <Item type="Field" id="6634A9F1BE964F529545383F7A2F4000" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDDS</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team8" type="Property">2AD72D86D6B14230BF5BAF1D4E482424</propertytype_id>
+      <sort_order>1920</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4864</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>411</x>
+      <y>308</y>
+      <name>dna_team8</name>
+     </Item>
+     <Item type="Field" id="57E5FDE0775D455BB14E2F17889BB21D" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>1</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">ZIDDX</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="dna_team9" type="Property">EC042510072046F191590730C54B6D44</propertytype_id>
+      <sort_order>2048</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_index>4992</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>641</x>
+      <y>74</y>
+      <name>dna_team9</name>
+     </Item>
+     <Item type="Field" id="9FBAAE2BD709401ABADDC85B41C93C49" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="E61DC4D5E7F54635B2F507204DD4ED4B" type="Body">E61DC4D5E7F54635B2F507204DD4ED4B</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Form Event" id="D8A75A2957A7439080E773C3F11C6C51" action="add">
+    <related_id keyed_name="dna_resource_select" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dna_resource_select</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_CRD_Resource" type="Form">099087CAC22542888F260406D4BA785E</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

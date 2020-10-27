@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="Method" id="C9DE4E7AAC2E442A926C72701D5C6535" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[  var inn = top.aras.newIOMInnovator()
+  var crd = inn.newItem("DnA_CRD", "get");
+  crd.setProperty("id", document.thisItem.getProperty("dna_crdid"));
+  crd = crd.apply();
+  
+  var team_id = crd.getProperty("team_id");
+  handleItemChange("team_id", team_id);
+//   document.thisItem.setProperty("team_id", team_id);
+return;]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_setTeam</name>
+ </Item>
+</AML>

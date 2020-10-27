@@ -1,0 +1,30 @@
+﻿<AML>
+ <Item type="Team" id="CF92DFE68BAC4FD697662474B42E9D93" action="add">
+  <name>ZIDCC SSI</name>
+  <Relationships>
+   <Item type="Team Identity" id="28306C9A358D4D38ADC8080CB6F93C11" action="add">
+    <related_id keyed_name="ZIDCC - SSI_Manager" type="Identity">479EA99D6A614DAEAADB242B4C8746FA</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="ZIDCC SSI" type="Team">CF92DFE68BAC4FD697662474B42E9D93</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="AA20CE72616B4B068824220A248B8130" action="add">
+    <related_id keyed_name="Assistant" type="Identity">896E5F2625584AFF87ECCE7470590309</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="ZIDCC SSI" type="Team">CF92DFE68BAC4FD697662474B42E9D93</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="6B87DDEDDE864369BC127615F2A3EA9F" action="add">
+    <related_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="ZIDCC SSI" type="Team">CF92DFE68BAC4FD697662474B42E9D93</source_id>
+   </Item>
+   <Item type="Team Identity" id="CC83378C420545CCA4648FACB4ADCE92" action="add">
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="ZIDCC SSI" type="Team">CF92DFE68BAC4FD697662474B42E9D93</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

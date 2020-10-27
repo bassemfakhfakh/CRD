@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="2DD48E18E6A14491907930FE093B4F4A" action="add">
+  <item_query>___is_new___</item_query>
+  <label xml:lang="en">saveas</label>
+  <location>server</location>
+  <method keyed_name="DnA_SaveAsCRD" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>DnA_SaveAsCRD</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>item</type>
+  <name>save as</name>
+ </Item>
+</AML>

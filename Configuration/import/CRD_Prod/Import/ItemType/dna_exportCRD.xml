@@ -1,0 +1,150 @@
+﻿<AML>
+ <Item type="ItemType" id="AD1C8BC1E24344A492AC2BC6473D8EAD" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>DNA_EXPORTCRD</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Export CRD</label>
+  <label_plural xml:lang="en">Export CRD</label_plural>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs on</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>dna_exportCRD</name>
+  <Relationships>
+   <Item type="Property" id="11E9DF1BB4C44DB4BC55A40B1F176AD4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Comment</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+    <track_history>0</track_history>
+    <name>dna_comment</name>
+   </Item>
+   <Item type="Property" id="4EE78EB3B90347CB953479B4209FFF21" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="File" type="ItemType" name="File">8052A558B9084D41B9F11805E464F443</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Export File</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+    <track_history>0</track_history>
+    <name>dna_export_file</name>
+   </Item>
+   <Item type="Property" id="C214E84A574C4923A88EFED398E5D2D4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Name</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>dna_label</name>
+   </Item>
+   <Item type="View" id="06CAD3AEE6C0411E8172A33D2FF8D52D" action="add">
+    <client>js</client>
+    <related_id keyed_name="dna_exportCRD" type="Form">08F1F27C06304E34AFF0D14496568845</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="Server Event" id="FF80290D5B95499295980E9BE28EF26E" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="dnaCreateExportZip" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dnaCreateExportZip</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterAdd</server_event>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+   </Item>
+   <Item type="Server Event" id="7F34A3A3F9314C18B665CF1E90B9E394" action="add">
+    <event_version>version_1</event_version>
+    <is_required>0</is_required>
+    <related_id keyed_name="dnaCreateExportZip" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>dnaCreateExportZip</name>
+     </Item>
+    </related_id>
+    <server_event>onAfterUpdate</server_event>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+   </Item>
+   <Item type="TOC Access" id="BD0308478040486E9263E2D1D4EC8E99" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+    <category>DnA Bundle</category>
+   </Item>
+   <Item type="TOC View" id="53704F09B9DA47998C102C6CE17C97C3" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+   </Item>
+   <Item type="Can Add" id="9DAF024785AE4FEE98BEB6906CAF40FD" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="B40326CE729A47B1B171DD1E3D9A3C66" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="World Can Get" type="Permission">93AB06D37FC84328A314324DC45DB574</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_exportCRD" type="ItemType" name="dna_exportCRD">AD1C8BC1E24344A492AC2BC6473D8EAD</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

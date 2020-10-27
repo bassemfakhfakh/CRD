@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="9A1207D10F734FAC9B7DEEF6ECCFFF48" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>pascal.cazaux.external@airbus.com</email>
+  <last_login_date>2020-07-02T09:55:33</last_login_date>
+  <login_name>pascal.cazaux</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Pascal CAZAUX" type="Identity">46B3AD1E0AF0482791D30DA27FA2360C</owned_by_id>
+  <pwd_is_set_on>2019-06-12T17:03:24</pwd_is_set_on>
+  <first_name>Pascal</first_name>
+  <last_name>CAZAUX</last_name>
+  <Relationships>
+   <Item type="Alias" id="6DC40569EC314198898D5A3B8952167E" action="add">
+    <from_date>2019-06-12T16:58:42</from_date>
+    <related_id keyed_name="Pascal CAZAUX" type="Identity">46B3AD1E0AF0482791D30DA27FA2360C</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Pascal CAZAUX" type="User">9A1207D10F734FAC9B7DEEF6ECCFFF48</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

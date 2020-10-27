@@ -1,0 +1,196 @@
+﻿<AML>
+ <Item type="Method" id="82AC585F430644B0A06DF521DBC158E7" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[//This method set the form when it pops: field organization
+
+/**
+ * Set the visibility of a tab by its tab label name.
+ */
+function setECOTabVisibility(tabName, isVisible) {
+    var tabbar = parent.relationships.relTabbar;
+    var tabId = tabbar.GetTabId(tabName);
+    if(tabId == null) tabId = getHiddenTab(tabName, tabbar);
+
+    tabbar.SetTabVisible(tabId, isVisible);
+    try {
+        parent.relationshipsControl.onloaded();
+        // Retrieving ordered tabs
+        var tabs = tabbar.getTabOrder().split(",");
+        // Re build of ordered tabs list, removing all invalid(hidden?) ones
+        var orderedTabs = [];
+        for(i=0; i<tabs.length; ++i) {
+            var tabLabel = tabbar.GetTabLabel(tabs[i]);
+            if (tabLabel != null) orderedTabs.push(tabs[i]);
+        }
+        if(isVisible) tabbar.SetTabOrder(orderedTabs.join(",")); // Prevent disordering Tabs.
+    } catch(e) {
+        console.log(e);
+    }
+}
+
+/**
+ * Checks if the tabbar is ready to be manipulating.
+ */
+function isTabbarReady() {
+    if (parent.relationships === undefined)
+        return false;
+    
+    var isReady = Boolean(!parent.relationships ||
+        !parent.relationships.relTabbarReady ||
+        parent.relationships.relTabbar.GetTabOrder("|") !== "");
+    return isReady;
+}
+
+/**
+ * Retrieves the ID of a hidden by its label name.
+ */
+function getHiddenTab(tabName, tabbar) {
+	for (var i = 0; i < tabbar._hiddentabs.length; i++) {
+		if (tabbar._hiddentabs[i].title == tabName) {
+			return tabbar._hiddentabs[i].tabID;
+		}
+	}
+	return null;
+}
+
+
+function showTypeOfPartEvolutionTab() {
+    if (!isTabbarReady()) {
+        setTimeout(showTypeOfPartEvolutionTab, 50);
+    } else {
+        setECOTabVisibility("Sign Off", true);
+        setECOTabVisibility("CRD", true);
+    }
+}
+function hideTypeOfPartEvolutionTab() {
+    if (!isTabbarReady()) {
+        setTimeout(hideTypeOfPartEvolutionTab, 50);
+    } else {
+        
+        setECOTabVisibility("Sign Off", false);
+        
+    }
+}
+
+var inn = top.aras.newIOMInnovator();
+var currentCRD = document.thisItem;
+var state = currentCRD.getProperty("state", "");
+var isReviewActivityActive = false;
+if (state !=""){
+    isReviewActivityActive = true;
+}
+
+				
+if (isReviewActivityActive) {
+    showTypeOfPartEvolutionTab();
+} else {
+    hideTypeOfPartEvolutionTab();
+}
+
+
+//On rend invisible tous les champs de 2 à 6
+for (i=2;i<5;i++)
+{
+    if(document.thisItem.getProperty("dna_qty"+i) == null)
+    {
+        var dna_qty= getFieldByName("dna_qty" + i );
+        dna_qty.style.visibility="hidden";
+        
+        var dna_wp_field=getFieldByName("dna_wp_" + i);
+        dna_wp_field.style.visibility="hidden";
+        
+        var dna_wp_unit_price_field = getFieldByName("dna_wp" +i+"_unit_price");
+        dna_wp_unit_price_field.style.visibility="hidden";
+    
+        var dna_qty_field = getFieldByName("dna_qty" +i);
+        dna_qty_field.style.visibility="hidden";
+    
+        var dna_price_wp_field = getFieldByName("dna_price_wp" + i);
+        dna_price_wp_field.style.visibility="hidden";
+        
+              var dna_qty_discount_field = getFieldByName("dna_qty"+i+"_discount");
+        dna_qty_discount_field.style.visibility="hidden";
+   
+         var dna_price_wp_discount_field = getFieldByName("dna_price_wp"+i+"_discount");
+        dna_price_wp_discount_field.style.visibility="hidden";
+   
+        var dna_deliverables_wp_field = getFieldByName("dna_deliverables_wp" +i);
+        dna_deliverables_wp_field.style.visibility="hidden";
+    }
+}
+
+//On rend invisible tous les GR
+for(var k=1; k<5; k++)
+{
+    for(var j=1; j<13; j++)
+    {
+        if(document.thisItem.getProperty("dna_wp_gr"+ j +"_"+ k) == null)
+        {
+            var dna_wp_gr_field= getFieldByName("dna_wp_gr"+ j +"_"+ k);
+            dna_wp_gr_field.style.visibility="hidden";
+            // dna_wp_gr_field.getElementsByTagName("input")[0].disabled= true;
+        }
+    }
+    
+}
+
+// //On affiche la première ligne des GR
+// for(k=1; k<13; k++)
+// {
+//     var dna_wp_gr_field= getFieldByName("dna_wp_gr"+ k +"_1");
+//     dna_wp_gr_field.style.visibility="visible";
+//     dna_wp_gr_field.getElementsByTagName("input")[0].disabled= true;
+// }
+
+//On nomme les mois de l'année:
+const monthNames = ["Jan.", "Feb.", "March", "Apr.", "May", "June",
+  "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+
+for(l=1;l<13;l++)
+{
+    var grField= getFieldByName("dna_wp_gr"+ l +"_1");
+    var label = grField.getElementsByClassName("sys_f_label");
+                        label[0].innerHTML= monthNames[l-1];
+    
+}
+
+//On positionne toutes les lignes
+for (var l=1; l<5; l++)
+{
+
+    getFieldByName("dna_wp_"+l).style.top= 335+ 70*(l-1) +"px";
+    getFieldByName("dna_wp_"+l).style.left= 180+"px";
+    
+    getFieldByName("dna_wp" +l+"_unit_price").style.top= 335+ 70*(l-1) + "px";
+    getFieldByName("dna_wp" +l+"_unit_price").style.left= 400+ "px";
+    
+    getFieldByName("dna_qty" +l).style.top= 335+ 70*(l-1) + "px";
+    getFieldByName("dna_qty" +l).style.left= 500+"px";
+    
+    getFieldByName("dna_price_wp" + l).style.top= 335+ 70*(l-1) + "px";
+    getFieldByName("dna_price_wp" + l).style.left= 550 + "px";
+    
+    getFieldByName("dna_deliverables_wp" +l).style.top= 320 + 70*(l-1) +"px";
+    getFieldByName("dna_deliverables_wp" +l).style.left= 650+ "px";
+    
+    for(var m=1; m<13; m++)
+    {
+        getFieldByName("dna_wp_gr"+ m +"_"+ l).style.top= 335 + 70*(l-1) +"px";
+        getFieldByName("dna_wp_gr"+ m +"_"+ l).style.left= 873 + 49*(m-1) +"px";
+    }
+}
+
+//Profitability INACTIVE FOR NOW
+// var profitabilities= inn.newItem("DnA_CRD_Profitability","get");
+// var CRDname=document.thisItem.getProperty("dna_number");
+// profitabilities.setProperty("dna_prof_number", CRDname+"_Profitability");
+// profitability= profitabilities.apply();
+
+// if (profitability.isError())
+// {
+//     getFieldByName("dna_attach_profitability").style.visibility="hidden";
+// }]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_displayTabs</name>
+ </Item>
+</AML>

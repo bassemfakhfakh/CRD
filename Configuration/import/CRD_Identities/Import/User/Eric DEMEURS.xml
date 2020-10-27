@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="FDDF6A862D014260A89BA3AE40352C65" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>eric.demeurs@cimpa.com</email>
+  <last_login_date>2018-03-14T10:51:54</last_login_date>
+  <login_name>eric.demeurs</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Eric DEMEURS" type="Identity">452E3E8351A143E3BEAADCAA20D86774</owned_by_id>
+  <first_name>Eric</first_name>
+  <last_name>DEMEURS</last_name>
+  <Relationships>
+   <Item type="Alias" id="294B94193EFC40BF9467C4E238898E0F" action="add">
+    <from_date>2018-03-14T10:45:29</from_date>
+    <related_id keyed_name="Eric DEMEURS" type="Identity">452E3E8351A143E3BEAADCAA20D86774</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Eric DEMEURS" type="User">FDDF6A862D014260A89BA3AE40352C65</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="5DA9FE9DC6E746F2AAF4D928DCEF4FE4" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>pascal.malatray.external@airbus.com</email>
+  <last_login_date>2019-05-15T10:39:29</last_login_date>
+  <login_name>pascal.malatray</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Pascal MALATRAY" type="Identity">2EF249AB63704EE2A5442B7A9423546C</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:34:29</pwd_is_set_on>
+  <first_name>Pascal</first_name>
+  <last_name>MALATRAY</last_name>
+  <Relationships>
+   <Item type="Alias" id="472E7D9A0FDC414DB23EE57845675DCE" action="add">
+    <from_date>2017-12-13T17:39:23</from_date>
+    <related_id keyed_name="Pascal MALATRAY" type="Identity">2EF249AB63704EE2A5442B7A9423546C</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Pascal MALATRAY" type="User">5DA9FE9DC6E746F2AAF4D928DCEF4FE4</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

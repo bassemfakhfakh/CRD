@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="MSO_Reference" id="C4DD86A27E0F4B4280D1B8FCD64CD3C1" action="add">
+  <description>Activity2 - Deliverable Relationship</description>
+  <reference_item_type keyed_name="Activity2 Deliverable" type="ItemType" name="Activity2 Deliverable">0CCA05E05A104F2E88CF123EF4F5171E</reference_item_type>
+  <reference_property keyed_name="related_id" type="Property">8D386EE556FE450FAC92999AA0E0DB9F</reference_property>
+  <label>Activity</label>
+ </Item>
+</AML>

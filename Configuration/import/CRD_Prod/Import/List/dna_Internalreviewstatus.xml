@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="List" id="54F0424BB82B45C282A50C3C6D1D0860" action="add">
+  <name>dna_Internalreviewstatus</name>
+  <Relationships>
+   <Item type="Value" id="0404EBDBFE4443C0BE59BF65B40176E6" action="add">
+    <label xml:lang="en">Validate</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="dna_Internalreviewstatus" type="List">54F0424BB82B45C282A50C3C6D1D0860</source_id>
+    <value>Validate</value>
+   </Item>
+   <Item type="Value" id="56D7A19B66884314A26BA0A574C7C691" action="add">
+    <label xml:lang="en">Rework</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="dna_Internalreviewstatus" type="List">54F0424BB82B45C282A50C3C6D1D0860</source_id>
+    <value>Rework</value>
+   </Item>
+   <Item type="Value" id="9914629B0DCB494BB30B155508B8EED1" action="add">
+    <label xml:lang="en">Cancel CRD</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="dna_Internalreviewstatus" type="List">54F0424BB82B45C282A50C3C6D1D0860</source_id>
+    <value>Cancel CRD</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

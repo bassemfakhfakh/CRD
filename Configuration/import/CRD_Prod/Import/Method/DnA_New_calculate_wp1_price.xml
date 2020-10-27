@@ -1,0 +1,213 @@
+﻿<AML>
+ <Item type="Method" id="F7594BB90930434A8BB6D53B83AFFCA3" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = top.aras.newIOMInnovator();
+
+var selected_wp1 = document.thisItem.getProperty("dna_wp_1");
+var selected_wp2 = document.thisItem.getProperty("dna_wp_2");
+var selected_wp3 = document.thisItem.getProperty("dna_wp_3");
+var quantity1 = parseFloat(document.thisItem.getProperty("dna_qty1"));
+var quantity2 = parseFloat(document.thisItem.getProperty("dna_qty2"));
+var quantity3 = parseFloat(document.thisItem.getProperty("dna_qty3"));
+var dna_complexity = document.thisItem.getProperty("dna_complexity");
+
+if (selected_wp1=="WP1 - Architecture & Design") selected_wp1 = "WP1";
+if (selected_wp1=="WP2 - Acceptance & Testing") selected_wp1 = "WP2";
+if (selected_wp1=="WP2 - Acceptance & Testing - Code review Sign-off") selected_wp1 = "WP2Option";
+if (selected_wp1=="WP4 - Portfolio / Service Management") selected_wp1 = "WP4";
+if (selected_wp1=="WP5 - Project Management") selected_wp1 = "WP5";
+if (selected_wp1=="AS1 - Development") selected_wp1 = "AS1";
+if (selected_wp1=="AS2 - Incident Management") selected_wp1 = "AS2";
+if (selected_wp1=="AS3 - Support ZID") selected_wp1 = "AS3";
+if (selected_wp1=="AS4 - Business support") selected_wp1 = "AS4";
+if (selected_wp1=="AS5 - Service component Management") selected_wp1 = "AS5";
+
+if (selected_wp2=="WP1 - Architecture & Design") selected_wp2 = "WP1";
+if (selected_wp2=="WP2 - Acceptance & Testing") selected_wp2 = "WP2";
+if (selected_wp2=="WP2 - Acceptance & Testing - Code review Sign-off") selected_wp2 = "WP2Option";
+if (selected_wp2=="WP4 - Portfolio / Service Management") selected_wp2 = "WP4";
+if (selected_wp2=="WP5 - Project Management") selected_wp2 = "WP5";
+if (selected_wp2=="AS1 - Development") selected_wp2 = "AS1";
+if (selected_wp2=="AS2 - Incident Management") selected_wp2 = "AS2";
+if (selected_wp2=="AS3 - Support ZID") selected_wp2 = "AS3";
+if (selected_wp2=="AS4 - Business support") selected_wp2 = "AS4";
+if (selected_wp2=="AS5 - Service component Management") selected_wp2 = "AS5";
+
+if (selected_wp3=="WP1 - Architecture & Design") selected_wp3 = "WP1";
+if (selected_wp3=="WP2 - Acceptance & Testing") selected_wp3 = "WP2";
+if (selected_wp3=="WP2 - Acceptance & Testing - Code review Sign-off") selected_wp3 = "WP2Option";
+if (selected_wp3=="WP4 - Portfolio / Service Management") selected_wp3 = "WP4";
+if (selected_wp3=="WP5 - Project Management") selected_wp3 = "WP5";
+if (selected_wp3=="AS1 - Development") selected_wp3 = "AS1";
+if (selected_wp3=="AS2 - Incident Management") selected_wp3 = "AS2";
+if (selected_wp3=="AS3 - Support ZID") selected_wp3 = "AS3";
+if (selected_wp3=="AS4 - Business support") selected_wp3 = "AS4";
+if (selected_wp3=="AS5 - Service component Management") selected_wp3 = "AS5";
+
+
+var prices = [];
+prices ["WP1"]= 35593.19;
+
+prices ["WP2-Easy"]= 11723.01;
+prices ["WP2-Medium"]= 25587.85;
+prices ["WP2-Difficult"]= 46739.37;
+
+prices ["WP2Option-Easy"]= 1302.56;
+prices ["WP2Option-Medium"]= 2020.09;
+prices ["WP2Option-Difficult"]= 3540.86;
+
+prices ["WP4-Easy"]= 19754.09;
+prices ["WP4-Medium"]= 40988.39;
+prices ["WP4-Difficult"]= 115393.96;
+
+prices ["WP5-Easy"]= 33434.26;
+prices ["WP5-Medium"]= 70275.49;
+prices ["WP5-Difficult"]= 129961.58;
+
+prices ["AS1"]= 558.83;
+prices ["AS2"]= 558.83;
+prices ["AS3"]= 558.83;
+prices ["AS4"]= 558.83;
+prices ["AS5"]= 558.83;
+
+
+var unit_price1 = "";
+var price_value1=0;
+if ((selected_wp1 == "WP2")||(selected_wp1 == "WP2Option")||(selected_wp1 == "WP4")||(selected_wp1 == "WP5")){
+    unit_price1=selected_wp1+ "-"+dna_complexity;
+}else{
+    unit_price1=selected_wp1;
+}
+
+if (prices [unit_price1]===undefined) {
+    price_value1=0;
+}else{
+    price_value1=parseFloat(prices [unit_price1]).toFixed(2);
+}
+handleItemChange("dna_price_wp1",((price_value1*quantity1).toFixed(2)).toString());
+handleItemChange("dna_wp1_unit_price",price_value1.toString());
+
+/////////////////////////////////
+
+var unit_price2 = "";
+var price_value2=0;
+if ((selected_wp2 == "WP2")||(selected_wp2 == "WP2Option")||(selected_wp2 == "WP4")||(selected_wp2 == "WP5")){
+    unit_price2=selected_wp2+ "-"+dna_complexity;
+}else{
+    unit_price2=selected_wp2;
+}
+
+if (prices [unit_price2]===undefined) {
+    price_value2=0;
+}else{
+    price_value2=parseFloat(prices [unit_price2]).toFixed(2);
+}
+
+handleItemChange("dna_wp2_unit_price",price_value2.toString());
+var price_value2_qty=0;
+if(quantity2>0) price_value2_qty=(price_value2*quantity2).toFixed(2);
+else price_value2_qty=0
+handleItemChange("dna_price_wp2",price_value2_qty.toString());
+
+
+/////////////////////////////////
+
+var unit_price3 = "";
+var price_value3=0;
+if ((selected_wp3 == "WP2")||(selected_wp3 == "WP2Option")||(selected_wp3 == "WP4")||(selected_wp3 == "WP5")){
+    unit_price3=selected_wp3+ "-"+dna_complexity;
+}else{
+    unit_price3=selected_wp3;
+}
+
+if (prices [unit_price3]===undefined) {
+    price_value3=0;
+}else{
+    price_value3=parseFloat(prices [unit_price3]).toFixed(2);
+}
+
+handleItemChange("dna_wp3_unit_price",price_value3.toString());
+var price_value3_qty=0;
+if (quantity3>0) price_value3_qty=(price_value3*quantity3).toFixed(2);
+else price_value3_qty=0;
+handleItemChange("dna_price_wp3",price_value3_qty.toString());
+
+handleItemChange("dna_total_cost" ,(parseFloat(parseFloat(price_value1*quantity1)+parseFloat(price_value2_qty)+parseFloat(price_value3_qty)).toFixed(2)).toString());
+handleItemChange("dna_actualcost" ,(parseFloat(parseFloat(price_value1*quantity1)+parseFloat(price_value2_qty)+parseFloat(price_value3_qty)).toFixed(2)).toString());
+
+
+// switch (selected_wp1){
+//     case "WP1":
+    
+//     handleItemChange("dna_price_wp1",0.00);    
+        
+//     handleItemChange("dna_price_wp1",(prices ["WP1"])*quantity);
+//     handleItemChange("dna_customername",(prices ["WP1"]));
+//     //alert (selected_wp1);
+//     break;
+    
+//     case "WP2":
+        
+//     handleItemChange("dna_price_wp1",0.00);
+    
+//      if (dna_complexity=="Easy"){
+//         handleItemChange("dna_price_wp1",11723.01*quantity);
+//     }
+//     if (dna_complexity=="Medium"){
+//         handleItemChange("dna_price_wp1",25587.85*quantity);
+//     }
+//      if (dna_complexity=="Difficult"){
+//         handleItemChange("dna_price_wp1",46739.37*quantity);
+//     }
+//     break;
+
+//     case "WP2Option":
+    
+//     handleItemChange("dna_price_wp1",0.00);
+    
+//      if (dna_complexity=="Easy"){
+//         handleItemChange("dna_price_wp1",1302.56*quantity);
+//     }
+//     if (dna_complexity=="Medium"){
+//         handleItemChange("dna_price_wp1",2020.09*quantity);
+//     }
+//      if (dna_complexity=="Difficult"){
+//         handleItemChange("dna_price_wp1",3540.86*quantity);
+//     }
+//     break;
+    
+//     case "WP4":
+    
+//     handleItemChange("dna_price_wp1",0.00);
+    
+//      if (dna_complexity=="Easy"){
+//         handleItemChange("dna_price_wp1",19754.09*quantity);
+//     }
+//     if (dna_complexity=="Medium"){
+//         handleItemChange("dna_price_wp1",40988.39*quantit);
+//     }
+//      if (dna_complexity=="Difficult"){
+//         handleItemChange("dna_price_wp1",115393.96*quantity);
+//     }
+//     break;
+//     case "WP5":
+//     handleItemChange("dna_price_wp1",0.00);
+    
+//      if (dna_complexity=="Easy"){
+//         handleItemChange("dna_price_wp1",33434.26*quantity);
+//     }
+//     if (dna_complexity=="Medium"){
+//         handleItemChange("dna_price_wp1",70275.49*quantity);
+//     }
+//      if (dna_complexity=="Difficult"){
+//         handleItemChange("dna_price_wp1",129961.58*quantity);
+//     }
+//     break;
+//     default:
+//      handleItemChange("dna_price_wp1",0.00);
+    
+// }]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_New_calculate_wp1_price</name>
+ </Item>
+</AML>

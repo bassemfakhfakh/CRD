@@ -1,0 +1,79 @@
+﻿<AML>
+ <Item type="Method" id="4399BE1BBA5240519A64755F89A37822" action="add">
+  <comments />
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn = top.aras.newIOMInnovator();
+
+//get the domain manager role
+var teamManager = inn.newItem("Identity","get");
+
+teamManager.setProperty("name","Team Manager");
+teamManager=teamManager.apply();
+
+var related_domain_id = parent.thisItem.getProperty("team_id");
+
+var domain = inn.newItem("Team","get");
+domain.setProperty("id",related_domain_id);
+
+var teammember = inn.newItem("Team Identity","get");
+teammember.setProperty("team_role",teamManager.getItemByIndex(0).getProperty("id"))
+
+domain.addRelationship(teammember);
+
+domain=domain.apply();
+
+//members (object type "member") of the domain that have "Team Manager" role
+teammember=domain.getRelationships("Team Identity");
+
+
+var idlist3="";
+
+for(var i=0;i<teammember.getItemCount();i++)
+{
+    // ID of the real team member (object type "Identity") (group)
+    var teammember_identityID = teammember.getItemByIndex(i).getProperty("related_id");
+    
+    var teammemberObject = inn.newItem("Identity","get");
+    var member = inn.newItem("Member","get");
+    
+
+    teammemberObject.setProperty("id",teammember_identityID);
+    
+    teammemberObject.addRelationship(member);
+    teammemberObject=teammemberObject.apply();
+    
+    member=teammemberObject.getRelationships("Member");
+    // get the name of the group (member of theam)        
+    var teammeberName = teammemberObject.getItemByIndex(0).getProperty("name");
+    
+    
+   // if(teammeberName !== "DnA Bundle Manager"){
+        var userid="";
+        for (var j=0;j<member.getItemCount();j++){
+            
+        
+            if (idlist3==="")
+                {
+                idlist3+="'"+member.getItemByIndex(j).getProperty("related_id")+"'";
+            }
+            else
+                {
+                idlist3+=",'"+member.getItemByIndex(j).getProperty("related_id")+"'";
+            }
+        
+        }
+    
+   // }
+}
+
+
+if (idlist3==="") {
+    inArgs.QryItem.setCriteria("classification", "'toto'", "in"); //use "in" to allow search filtering
+}else{
+inArgs.QryItem.setCriteria("id", idlist3, "in"); //use "in" to allow search filtering    
+}
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_DomainManagerFilter</name>
+ </Item>
+</AML>

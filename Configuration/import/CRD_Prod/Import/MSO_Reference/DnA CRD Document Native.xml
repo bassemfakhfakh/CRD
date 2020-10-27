@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="MSO_Reference" id="B3C6EEE3F94E4D6A83C3DC42AB188D74" action="add">
+  <reference_item_type keyed_name="DnA_CRD_Prod_File_Relationship" type="ItemType" name="DnA_CRD_Prod_File_Relationship">29966268370A4E0AA1B691D6E315E118</reference_item_type>
+  <reference_property keyed_name="related_id" type="Property">1B8C390C95F14E138E51A7FFB97A1E23</reference_property>
+  <label>DnA CRD Document Native</label>
+ </Item>
+</AML>

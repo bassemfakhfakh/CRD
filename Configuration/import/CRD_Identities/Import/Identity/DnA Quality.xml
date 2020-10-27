@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="7C23A3F8088046CCBE99ECDFF73E3608" action="add">
+  <is_alias>0</is_alias>
+  <name>DnA Quality</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="EC3209E1DE6B47BFBD2F59C292DC0369" action="add">
+  <related_id keyed_name="Hans-Juergen LUEKEN" type="Identity">DF7207FF008E4798BCFA6973BC6CDC24</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="DnA Quality" type="Identity">7C23A3F8088046CCBE99ECDFF73E3608</source_id>
+ </Item>
+</AML>

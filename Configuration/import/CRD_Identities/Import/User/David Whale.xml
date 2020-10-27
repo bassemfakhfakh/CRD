@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="6F68634160E44E8FBEDF9F3C2F88C5E6" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>david.whale@cimpa.com</email>
+  <last_login_date>2020-08-20T15:14:50</last_login_date>
+  <login_name>david.whale</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="David Whale" type="Identity">D52AF11DB5774C0397354839634E0949</owned_by_id>
+  <pwd_is_set_on>2020-01-14T16:00:28</pwd_is_set_on>
+  <first_name>David</first_name>
+  <last_name>Whale</last_name>
+  <Relationships>
+   <Item type="Alias" id="95975D6B67824A77AF1EC8693DE27EEF" action="add">
+    <from_date>2020-01-14T15:13:45</from_date>
+    <related_id keyed_name="David Whale" type="Identity">D52AF11DB5774C0397354839634E0949</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="David Whale" type="User">6F68634160E44E8FBEDF9F3C2F88C5E6</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

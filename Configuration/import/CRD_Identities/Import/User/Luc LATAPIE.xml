@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="DCE1EACEE5C44F13849E7E2C22C152DC" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>luc.latapie.external@airbus.com</email>
+  <last_login_date>2019-09-02T11:29:46</last_login_date>
+  <login_name>luc.latapie</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Luc LATAPIE" type="Identity">0DAE16908CB94F169F0D50EE80CF7496</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:33:02</pwd_is_set_on>
+  <first_name>Luc</first_name>
+  <last_name>LATAPIE</last_name>
+  <Relationships>
+   <Item type="Alias" id="DA1ACBEA8F6C4BBFA13F4BC73DE57624" action="add">
+    <from_date>2017-12-13T17:38:41</from_date>
+    <related_id keyed_name="Luc LATAPIE" type="Identity">0DAE16908CB94F169F0D50EE80CF7496</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Luc LATAPIE" type="User">DCE1EACEE5C44F13849E7E2C22C152DC</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

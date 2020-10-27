@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="AC796480004A4BA6B31FEE2173340DB7" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>gesine.nagel@cimpa.com</email>
+  <last_login_date>2020-07-02T16:59:24</last_login_date>
+  <login_name>gesine.nagel</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Gesine Nagel" type="Identity">796FA8F75753409FACF6D826A1340612</owned_by_id>
+  <first_name>Gesine</first_name>
+  <last_name>Nagel</last_name>
+  <Relationships>
+   <Item type="Alias" id="ED57EF09504C4F13A930D24D4888DEB3" action="add">
+    <from_date>2018-03-09T15:16:14</from_date>
+    <related_id keyed_name="Gesine Nagel" type="Identity">796FA8F75753409FACF6D826A1340612</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Gesine Nagel" type="User">AC796480004A4BA6B31FEE2173340DB7</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

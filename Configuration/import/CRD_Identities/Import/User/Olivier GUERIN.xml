@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="A68A77D170F248C3808F66D33F4F68DF" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>olivier.guerin.external@airbus.com</email>
+  <last_login_date>2019-05-23T16:54:06</last_login_date>
+  <login_name>olivier.guerin</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Olivier GUERIN" type="Identity">2356BCC4141E4EC98FF8D95C2219D396</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:34:10</pwd_is_set_on>
+  <first_name>Olivier</first_name>
+  <last_name>GUERIN</last_name>
+  <Relationships>
+   <Item type="Alias" id="7915120247434A42B586FD8112EFEEFF" action="add">
+    <from_date>2017-12-13T17:37:02</from_date>
+    <related_id keyed_name="Olivier GUERIN" type="Identity">2356BCC4141E4EC98FF8D95C2219D396</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Olivier GUERIN" type="User">A68A77D170F248C3808F66D33F4F68DF</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

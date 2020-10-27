@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="MSO_Reference" id="C0FB990B83044ECAB350D6360F92B0AD" action="add">
+  <description>Project - Document Relationship</description>
+  <reference_item_type keyed_name="Project Docs" type="ItemType" name="Project Docs">2C0B66D4CD2B40E1907AC4664C46FA69</reference_item_type>
+  <reference_property keyed_name="related_id" type="Property">4A16CDD97C554A93A636D7F79DD3CF7B</reference_property>
+  <label>Project</label>
+ </Item>
+</AML>

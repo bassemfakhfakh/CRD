@@ -1,0 +1,39 @@
+﻿<AML>
+ <Item type="Method" id="94C762E2C8FC48D4B7E20BE6EAE56F79" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[string configId = this.getProperty("config_id");
+string itemTypeName = this.getProperty("type");
+
+Innovator innovator = this.getInnovator();
+
+Item method = innovator.newItem("Method", "get");
+method.setProperty("name", "GetReleasedMaxGenerationRelGrid");
+method = method.apply();
+
+if (method.isEmpty()) 
+{
+	// Aras 11 Sp 8 does not containe 'GetReleasedMaxGenerationRelGrid' method
+	// should be removed when 11 Sp 8 version will not be supported
+	string generationSql = String.Format(CultureInfo.InvariantCulture,
+		"SELECT MAX(generation) FROM [{0}] maxreleasedinset WHERE maxreleasedinset.config_id=[{0}].config_id AND " +
+		"maxreleasedinset.is_released='1' AND maxreleasedinset.is_current='0'", itemTypeName);
+
+	Item query = innovator.newItem(itemTypeName, "get");
+	query.setAttribute("type", itemTypeName);
+	query.setProperty("config_id", configId);
+	query.setProperty("generation", generationSql);
+	query.setPropertyAttribute("generation", "condition", "in");
+	Item result = query.apply();
+	return result;
+}
+else
+{
+	Item releasedItem = innovator.newItem(itemTypeName, "GetReleasedMaxGenerationRelGrid");
+	releasedItem.setProperty("config_id", configId);
+	releasedItem.setProperty("instance_data", itemTypeName);
+	return releasedItem.apply();
+}]]></method_code>
+  <method_type>C#</method_type>
+  <name>MSO_GetMaxReleasedTemplate</name>
+ </Item>
+</AML>

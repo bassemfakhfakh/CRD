@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="SavedSearch" id="8C97BFECB161427F82B0307C2694D068" action="add">
+  <auto_saved>0</auto_saved>
+  <criteria>&lt;Item type="DnA_CRD_Prod" action="get" page="1" select="dna_cir,dna_complexity,dna_crd_attach,dna_crdsent,dna_crdservicelaunching,dna_customername,dna_customersiglum,dna_dmanager,dna_enddate,dna_number,dna_podate,dna_ponumber,dna_psa_number,dna_scbdate,dna_scbremark,dna_scbstatus,dna_startdate,dna_startdate_string,dna_title,dna_total_cost,dna_trdreceived,team_id,created_by_id,created_on,modified_by_id,modified_on,locked_by_id,major_rev,css,current_state,keyed_name" pagesize="" maxRecords=""&gt;&lt;team_id&gt;&lt;Item type="Team" action="get"&gt;&lt;keyed_name condition="eq"&gt;ZIDDB_GE&lt;/keyed_name&gt;&lt;/Item&gt;&lt;/team_id&gt;&lt;/Item&gt;</criteria>
+  <itname>DnA_CRD_Prod</itname>
+  <label xml:lang="en">ZIDDB_GE</label>
+  <location>Main Grid</location>
+  <managed_by_id keyed_name="Super User" type="Identity">6B14D33C4A7D41C188CCF2BC15BD01A3</managed_by_id>
+  <owned_by_id keyed_name="Super User" type="Identity">6B14D33C4A7D41C188CCF2BC15BD01A3</owned_by_id>
+  <search_mode keyed_name="Simple" type="SearchMode">BD84BCA3EC064D77BF3772A9D93308B6</search_mode>
+  <show_on_toc>1</show_on_toc>
+ </Item>
+</AML>

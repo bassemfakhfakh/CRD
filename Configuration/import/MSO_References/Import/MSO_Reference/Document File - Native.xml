@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="MSO_Reference" id="8D97E4F4D019435F9682AFD054E21AF0" action="add">
+  <description>Native Office files stored on Documents</description>
+  <reference_item_type keyed_name="Document File" type="ItemType" name="Document File">653C8EE5DDDF4932B75E5CDF04F0CD42</reference_item_type>
+  <reference_property keyed_name="related_id" type="Property">8142B179279745A4AF930429C63D484A</reference_property>
+  <label>Document File - Native</label>
+ </Item>
+</AML>

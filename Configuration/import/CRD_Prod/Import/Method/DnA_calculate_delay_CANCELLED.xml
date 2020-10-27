@@ -1,0 +1,42 @@
+﻿<AML>
+ <Item type="Method" id="56CA9321ADC740E38C28F74E7953B43A" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[//this function is not used
+
+//trigger: onChange of form field dna_delay
+
+var delay = "";
+var date_expected = document.thisItem.getProperty("dna_edeliverydate");
+var date_effective = document.thisItem.getProperty("dna_rdeliverydate");
+
+if(date_expected!=="" && date_effective!==""){
+    var d1 = new Date(date_expected);
+    var d2 = new Date(date_effective);
+    delay = dateDiff(d1,d2);
+}
+handleItemChange("dna_delay",delay.day);
+
+
+function dateDiff(date1, date2){
+    var diff = {};                           // Initialisation du retour
+    var tmp = date2 - date1;
+ 
+    tmp = Math.floor(tmp/1000);             // Nombre de secondes entre les 2 dates
+    diff.sec = tmp % 60;                    // Extraction du nombre de secondes
+ 
+    tmp = Math.floor((tmp-diff.sec)/60);    // Nombre de minutes (partie entière)
+    diff.min = tmp % 60;                    // Extraction du nombre de minutes
+ 
+    tmp = Math.floor((tmp-diff.min)/60);    // Nombre d'heures (entières)
+    diff.hour = tmp % 24;                   // Extraction du nombre d'heures
+     
+    tmp = Math.floor((tmp-diff.hour)/24);   // Nombre de jours restants
+    diff.day = tmp;
+     
+    return diff;
+}
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_calculate_delay_CANCELLED</name>
+ </Item>
+</AML>

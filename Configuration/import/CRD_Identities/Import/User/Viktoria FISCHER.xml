@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="User" id="A8A0F728D6FC4A1D8C4A132FF763E5E3" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>Viktoria.Fischer@cimpa.com</email>
+  <last_login_date>2018-04-25T13:45:14</last_login_date>
+  <login_name>Viktoria.fischer</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Viktoria FISCHER" type="Identity">B38B0A8724AA4207830EB08E0191DC87</owned_by_id>
+  <first_name>Viktoria</first_name>
+  <last_name>FISCHER</last_name>
+  <Relationships>
+   <Item type="Alias" id="F55E3C3D26A545E2A937C96C511EABC7" action="add">
+    <from_date>2018-03-26T10:55:28</from_date>
+    <related_id keyed_name="Viktoria FISCHER" type="Identity">B38B0A8724AA4207830EB08E0191DC87</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Viktoria FISCHER" type="User">A8A0F728D6FC4A1D8C4A132FF763E5E3</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

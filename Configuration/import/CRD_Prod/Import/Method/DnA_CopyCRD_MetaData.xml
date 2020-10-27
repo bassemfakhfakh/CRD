@@ -1,0 +1,35 @@
+﻿<AML>
+ <Item type="Method" id="54EDC786A1B6498380EAAA5C86D12D44" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[Innovator innovator = this.getInnovator();
+
+var newPart= innovator.newItem("DnA_CRD_Prod", "add");
+ var nextseq = innovator.getNextSequence("DnA_CRD_Prod");
+ newPart.setProperty("dna_number", nextseq);
+
+newPart.setProperty("dna_title", this.getProperty("dna_title"));
+newPart.setProperty("team_id", this.getProperty("dna_title"));
+newPart.setProperty("dna_dmanager", this.getProperty("dna_dmanager"));
+newPart = newPart.apply();
+
+ //this.promote("SCB Validation","CRD creation");
+ newPart.promote("WIP","CRD creation");
+
+
+    Item itm = this.newItem("Workflow Map", "get");
+itm.setAttribute("select", "id");
+itm.setProperty("name", "DnA_CRD_Prod");
+itm = itm.apply();
+string wf_id = itm.getID();
+Item wf_process = newPart.instantiateWorkflow(wf_id);
+wf_process.apply("startWorkflow");
+ 
+
+ //var relatedCRDs = innovator.newItem("Part","edit");
+//relatedCRDs.setProperty("source_id",this.getProperty("id"));
+innovator.newResult(" New CRD Created " + newPart.getProperty("dna_number",""));
+ return innovator.newResult(" New CRD Created " + newPart.getProperty("dna_number",""));]]></method_code>
+  <method_type>C#</method_type>
+  <name>DnA_CopyCRD_MetaData</name>
+ </Item>
+</AML>

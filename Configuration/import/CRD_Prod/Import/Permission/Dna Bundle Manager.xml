@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="Permission" id="396DBF28957A420A879C78EA48AC9575" action="add">
+  <is_private>0</is_private>
+  <name>Dna Bundle Manager</name>
+  <Relationships>
+   <Item type="Access" id="3CD85C6A25DA4B0A9309727FD96914CA" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Dna Bundle Manager" type="Permission">396DBF28957A420A879C78EA48AC9575</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,86 @@
+﻿<AML>
+ <Item type="Method" id="43639A27178E4F45A390DCDFF43511BF" action="add">
+  <comments />
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn=aras.newIOMInnovator();
+
+
+//rule: user can only chose CRDs from the domains where he is manager of
+
+//get the domain manager role
+var teamManager = inn.newItem("Identity","get");
+
+teamManager.setProperty("name","Team Manager");
+teamManager=teamManager.apply();
+
+// get the connected user identity
+var myAlias = inn.newItem("Alias","get");
+myAlias.setProperty("source_id", inn.getUserID());
+myAlias = myAlias.apply();
+var aliasId = myAlias.getItemByIndex(0).getProperty("related_id");
+var aliasIdentity = inn.getItemById("Identity",aliasId);
+
+
+//get the groupe the user is member of
+var groups = inn.newItem("Identity","get");
+var member = inn.newItem("Member","get");
+member.setProperty("related_id",aliasId);
+groups.addRelationship(member);
+groups=groups.apply();
+
+
+
+//for each group, get the related domains (teams)
+for(var i=0;i<groups.getItemCount();i++)
+{
+    var groupid = groups.getItemByIndex(i).getProperty("id");
+   
+    var domaines = inn.newItem("Team","get");
+    var teammember = inn.newItem("Team Identity","get");
+    
+    
+    teammember.setProperty("related_id",groupid);
+    //the user has to be manager of the team (domain)
+    teammember.setProperty("team_role",teamManager.getItemByIndex(0).getProperty("id"))
+    domaines.addRelationship(teammember);
+    domaines=domaines.apply();
+
+   
+   
+    //domain_name=domaines.getItemByIndex(j).getProperty("name");
+        for(var j=0;j<domaines.getItemCount();j++)
+        { 
+            var actualDomain = domaines.getItemByIndex(j)
+            var teamplate=false;
+            if(actualDomain.getProperty("name")=="Template")
+            {
+                template= true;
+            }
+            for(var k=1;k<17;k++) 
+            {
+                
+                var check_label= getFieldByName("dna_team"+k).getElementsByClassName("sys_f_label")[0].innerHTML;
+                if(actualDomain.getProperty("name")==check_label )
+                // || actualDomain.getProperty("name") == "Template")
+                {
+                    getFieldByName("dna_team"+k).getElementsByTagName("input")[0].disabled= false;
+                }
+                else
+                {
+                    if(getFieldByName("dna_team"+k).getElementsByTagName("input")[0].disabled== false)
+                    {
+                      getFieldByName("dna_team"+k).getElementsByTagName("input")[0].disabled= false;
+                    }
+                    else
+                    {
+                        getFieldByName("dna_team"+k).getElementsByTagName("input")[0].disabled= true;
+                    }
+                }
+            }
+    }
+}
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_resource_select</name>
+ </Item>
+</AML>

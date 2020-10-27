@@ -1,0 +1,120 @@
+﻿<AML>
+ <Item type="Method" id="DFEF8B7FF1C74399823CE0216D6A5120" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[Innovator inn = this.getInnovator();
+var discounts = inn.newItem("DnA_CRD_Discount", "get");
+discounts = discounts.apply();
+
+var crd_to_catchup = inn.newItem("DnA_CRD_Prod", "get");
+crd_to_catchup.setPropertyAttribute("dna_total_cost_discount", "condition", "is null");
+//do not get the CRD-00001 (the template): domain id 
+//crd_to_catchup.setProperty("team_id","9288A740DA964400BBA521405909D1C2");
+//crd_to_catchup.setPropertyAttribute("team_id","condition","ne");
+crd_to_catchup = crd_to_catchup.apply();
+
+
+
+for (int j = 0; j < crd_to_catchup.getItemCount(); j++) {
+    var catual_crd = crd_to_catchup.getItemByIndex(j);
+    var creation_date = catual_crd.getProperty("created_on", "");
+    var dna_number = catual_crd.getProperty("dna_number", "");
+
+    var localcreation_date_toDate = DateTime.Parse(creation_date).Date;
+
+    var localEndDate_toDate = DateTime.Now;
+
+    var my_discount = "";
+    for (var i = 0; i < discounts.getItemCount(); i++) {
+        var actual_discount = discounts.getItemByIndex(i);
+
+
+
+
+
+
+
+
+
+        var disc_start = actual_discount.getProperty("dna_start_date", "");
+        var disc_end = actual_discount.getProperty("dna_end_date", "");
+        var disc_crd = actual_discount.getProperty("dna_crd_nbr", "");
+        var disc_discount = actual_discount.getProperty("dna_percentage", "");
+
+        //test:
+        // if discount on crd nbr get the discount and exit loop
+        if ((!disc_crd.Equals("")) && (dna_number.Equals(disc_crd))) {
+
+            my_discount = disc_discount;
+            break;
+        }
+        if (!disc_start.Equals("")) {
+            var localStartDate_toDate = DateTime.Parse(actual_discount.getProperty("dna_start_date", ""));
+            //int res = DateTime.Compare(d1, d2);int res = DateTime.Compare(d1, d2);
+            if (DateTime.Compare(localcreation_date_toDate, localStartDate_toDate) >= 0) {
+                if ((disc_end.Equals(""))) {
+                    my_discount = disc_discount;
+                    break;
+                } else {
+                    localEndDate_toDate = DateTime.Parse(actual_discount.getProperty("dna_end_date", ""));
+                    if ((DateTime.Compare(localcreation_date_toDate, localEndDate_toDate) <= 0)) {
+                        my_discount = disc_discount;
+                        break;
+                    }
+                }
+            }
+        } else {
+            if ((!disc_end.Equals(""))) {
+                localEndDate_toDate = DateTime.Parse(actual_discount.getProperty("dna_end_date", ""));
+                if ((DateTime.Compare(localcreation_date_toDate, localEndDate_toDate) <= 0)) {
+                    my_discount = disc_discount;
+                    break;
+                }
+            }
+        }
+
+    }
+
+
+    //update discount price
+    /*
+    "dna_price_wp"+i+"_discount"
+    "dna_qty"+i+"_discount"
+    dna_total_cost_discount
+    Number(Math.round((total_cost_discount)+'e2')+'e-2').toString()
+    quantity_discount =  (quantity * my_discount_float).toFixed(2)
+
+
+
+    */
+    if (my_discount==""){
+        my_discount="0";
+    }
+    if (float.Parse(my_discount)>=0){
+        for (int k = 0; k < 4; k++) {
+            var qty_k_discount = "0";
+            var price_k_discount = "0";
+            var qty_k= catual_crd.getProperty("dna_qty"+k, "0");
+            var price_k= catual_crd.getProperty("dna_price_wp"+k, "0");
+            if (float.Parse(qty_k)>0){
+                qty_k_discount =  (Math.Round((float.Parse(qty_k)*(100 -float.Parse(my_discount))/100),2, MidpointRounding.AwayFromZero)).ToString();
+                price_k_discount =  (Math.Round((float.Parse(price_k)*(100-float.Parse(my_discount))/100),2, MidpointRounding.AwayFromZero)).ToString();
+                
+                var sqlRequest = "UPDATE DnA_CRD_Prod set dna_price_wp"+k.ToString() +"_discount = '"+price_k_discount+"', dna_qty"+k.ToString()+"_discount = '"+qty_k_discount+ "'  where id = '" + catual_crd.getID() + "'";
+                inn.applySQL(sqlRequest);
+            }
+        }
+        var price_total= catual_crd.getProperty("dna_total_cost", "0");
+        var price_total_discount = (Math.Round((float.Parse(price_total)*(100 -float.Parse(my_discount))/100),2, MidpointRounding.AwayFromZero)).ToString();
+        var sqlRequest_total = "UPDATE DnA_CRD_Prod set dna_total_cost_discount = '"+price_total_discount+"', dna_discount_precentage = '"+ my_discount+ "' where id = '" + catual_crd.getID() + "'";
+                inn.applySQL(sqlRequest_total);
+    }
+}
+
+
+
+
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>dna_database_catchup_discount</name>
+ </Item>
+</AML>

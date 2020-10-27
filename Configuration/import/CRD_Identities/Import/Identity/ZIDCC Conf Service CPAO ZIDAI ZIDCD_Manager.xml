@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="67EF6E77E5344039ABF8AE095F214254" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDCC Conf Service CPAO ZIDAI ZIDCD_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="A18C789AFF8F428B9405EDDB8B5B32C6" action="add">
+  <related_id keyed_name="thomas LAGORS" type="Identity">4C97AEBB96B54DD2BCBAC99454EB0A62</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="ZIDCC Conf Service CPAO ZIDAI ZIDCD_Manager" type="Identity">67EF6E77E5344039ABF8AE095F214254</source_id>
+ </Item>
+</AML>

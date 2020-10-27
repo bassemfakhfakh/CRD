@@ -1,0 +1,87 @@
+﻿<AML>
+ <Item type="MSO_Preferences" id="B7284AD3F5C542B1980B8F6683C8B265" action="add">
+  <related_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_Poly">
+   <Item type="MSO_CommonSettings" id="4BF26B53A815455DB1FBC8BAF0D9DFBB" action="add">
+    <generate_viewable_on>10</generate_viewable_on>
+    <remove_local_file_on_close>0</remove_local_file_on_close>
+    <Relationships>
+     <Item type="MSO_DefaultFileTypes" id="0B816AFBC5BB4062B06ED5A18543D724" action="add">
+      <default_file_type>12</default_file_type>
+      <office_application>Word</office_application>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+      <viewable_file>1</viewable_file>
+      <viewable_file_type>17</viewable_file_type>
+     </Item>
+     <Item type="MSO_DefaultFileTypes" id="45DE5A1F0A184C6CB9B73D02C5300423" action="add">
+      <default_file_type>1051</default_file_type>
+      <office_application>Excel</office_application>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+      <viewable_file>1</viewable_file>
+      <viewable_file_type>1000</viewable_file_type>
+     </Item>
+     <Item type="MSO_DefaultFileTypes" id="E11D2F5AAF264E24861F28B0E506B723" action="add">
+      <default_file_type>10024</default_file_type>
+      <office_application>PowerPoint</office_application>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+      <viewable_file>1</viewable_file>
+      <viewable_file_type>10032</viewable_file_type>
+     </Item>
+     <Item type="MSO_DefaultFileTypes" id="32004788DB9F40FCB21D50A029A679CC" action="add">
+      <default_file_type>100009</default_file_type>
+      <office_application>Outlook</office_application>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+      <viewable_file>0</viewable_file>
+     </Item>
+     <Item type="MSO_DocumentType" id="80E80731C8CC44F494F87422588A2434" action="add">
+      <allow_promote>0</allow_promote>
+      <document_type>CRD</document_type>
+      <link_required>0</link_required>
+      <master_item_type keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</master_item_type>
+      <native_file_link keyed_name="DnA CRD Document Native" type="MSO_Reference">B3C6EEE3F94E4D6A83C3DC42AB188D74</native_file_link>
+      <property_mapping>Click to view mappings</property_mapping>
+      <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+      <template_required>0</template_required>
+      <valid_linked_items />
+      <viewable_file_link keyed_name="DnA CRD Document Viewable" type="MSO_Reference">3F155C560C53421287104C1324F706EC</viewable_file_link>
+      <label>CRD_Prod / CRD</label>
+     </Item>
+     <Item type="MSO_EmailDocumentType" id="B94D6CF5C86341D095F19FCD02AC043F" action="add">
+      <document_numbering>Method</document_numbering>
+      <document_numbering_method keyed_name="MSO_Email_Numbering" type="Method">DAD2D4049EB946B19D9063AE1A022A90</document_numbering_method>
+      <document_type>Email</document_type>
+      <label>Document / Email</label>
+      <link_required>0</link_required>
+      <master_item_type keyed_name="Document" type="ItemType" name="Document">B88C14B99EF449828C5D926E39EE8B89</master_item_type>
+      <native_file_link keyed_name="Document File - Native" type="MSO_Reference">8D97E4F4D019435F9682AFD054E21AF0</native_file_link>
+      <property_for_message />
+      <property_mapping>Click to view mappings</property_mapping>
+      <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+      <valid_linked_items>Activity,Part,Project</valid_linked_items>
+      <viewable_file_link keyed_name="Document File - Viewable" type="MSO_Reference">3A7007CEA7694BFB895F123CFE4D2D28</viewable_file_link>
+      <Relationships>
+       <Item type="MSO_EmailDocType Reference" id="FCFA2DBF3F8148F3BD875918FE1C878C" action="add">
+        <related_id keyed_name="Activity" type="MSO_Reference">C4DD86A27E0F4B4280D1B8FCD64CD3C1</related_id>
+       </Item>
+       <Item type="MSO_EmailDocType Reference" id="9F361DAD18F3491F8DA36DA021471EDF" action="add">
+        <related_id keyed_name="Part" type="MSO_Reference">A4EA1B284F2944BD8D999884D849F46E</related_id>
+       </Item>
+       <Item type="MSO_EmailDocType Reference" id="470172237E034B7B9B4F62A2F1034DE5" action="add">
+        <related_id keyed_name="Project" type="MSO_Reference">C0FB990B83044ECAB350D6360F92B0AD</related_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+  </related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="World" type="Preference">507A16AA36F94513AD7EC1F948B5B48F</source_id>
+ </Item>
+</AML>

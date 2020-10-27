@@ -1,0 +1,51 @@
+﻿<AML>
+ <Item type="Method" id="9ACDB30CDCF5455282158D65930AC71F" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+this function updates the CRD attached file names when the user changes the crd number (in order to always have files having the same name as the crd number)
+trigger: object on after update
+*/
+Innovator innovator = this.getInnovator();
+var lifecyclestate =this.getProperty("dna_load_life_cycle_state","");
+if (lifecyclestate== "") 
+{
+
+    var updatednumber = this.getProperty("dna_number");
+    
+    
+    var crddoctemplate = innovator.newItem("DnA_CRD_Prod","get");
+    crddoctemplate.setProperty("id",this.getProperty("id"));
+    crddoctemplate.setProperty("is_current","1");
+    
+    var TemplateFileItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","get");
+    crddoctemplate.addRelationship(TemplateFileItem);
+    
+    
+    crddoctemplate=crddoctemplate.apply();
+    
+    TemplateFileItem=crddoctemplate.getRelationships("DnA_CRD_Prod_File_Relationship");
+    
+    if (TemplateFileItem.getItemCount() >0)
+    {
+        var TemplateFileItemNb1 = TemplateFileItem.getItemByIndex(0);
+        var fileItem =TemplateFileItemNb1.getRelatedItem();
+         //innovator.getConnection().DownloadFile(fileItem, "c:/temp/"+ this.getProperty("dna_number") +" - "+ this.getProperty("dna_title")  +".docx",false);
+        var sqlrequest = "UPDATE [innovator].[FILE] SET [FILENAME] = '" + this.getProperty("dna_number") +" - "+ this.getProperty("dna_title")  +".docx', [KEYED_NAME]='" + this.getProperty("dna_number") +" - "+ this.getProperty("dna_title")  +".docx' where [id]='" + fileItem.getProperty("id")+ "'";
+        
+        var qry = innovator.applySQL(sqlrequest);
+    
+    }
+    
+    //dna_crd_attach
+    var sqlrequest2 = "UPDATE [innovator].[FILE] SET [FILENAME] = '" + this.getProperty("dna_number") +" - "+ this.getProperty("dna_title")  +".pdf', [KEYED_NAME]='" + this.getProperty("dna_number") +" - "+ this.getProperty("dna_title")  +".pdf' where [id]='" + this.getProperty("dna_crd_attach")+ "'";
+    
+    var qry2 = innovator.applySQL(sqlrequest2);
+}
+
+return this;
+
+]]></method_code>
+  <method_type>C#</method_type>
+  <name>DnA_Update_CRD_file_Name</name>
+ </Item>
+</AML>

@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="SavedSearch" id="75176A04F1B24A2E8269997D15F2AADB" action="add">
+  <auto_saved>1</auto_saved>
+  <criteria>&lt;Item type="dna_exportCRD" action="get" page="1" select="dna_comment,dna_export_file,dna_label,created_by_id,created_on,modified_by_id,modified_on,locked_by_id,major_rev,css,current_state,keyed_name" pagesize="240" maxRecords=""&gt;&lt;dna_label condition="eq"&gt;Order 12 (2019)&lt;/dna_label&gt;&lt;/Item&gt;</criteria>
+  <itname>dna_exportCRD</itname>
+  <label xml:lang="en">test</label>
+  <location>Main Grid</location>
+  <managed_by_id keyed_name="Innovator Admin" type="Identity">DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+  <owned_by_id keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</owned_by_id>
+  <search_mode keyed_name="Simple" type="SearchMode">BD84BCA3EC064D77BF3772A9D93308B6</search_mode>
+  <show_on_toc>1</show_on_toc>
+ </Item>
+</AML>

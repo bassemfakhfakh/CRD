@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="BA299EFA43054D43A44DEC5EA09B07DA" action="add">
+  <is_alias>0</is_alias>
+  <name>Others_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="824D36425CFB42979ED76C4F4B50A857" action="add">
+  <related_id keyed_name="Karine DECRETTE" type="Identity">57663444224549DDA0511735E264D272</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="Others_Manager" type="Identity">BA299EFA43054D43A44DEC5EA09B07DA</source_id>
+ </Item>
+</AML>

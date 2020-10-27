@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="4A2CEF36B9D1407FB170AA177D465ABF" action="add">
+  <is_alias>0</is_alias>
+  <name>DnA Group IDDX</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="046E8B31F78941FBA333B6837A2A09FE" action="add">
+  <related_id keyed_name="DnA Manager Group IDDX" type="Identity">C722283381424E99A5D5D6D15D8DBB3A</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="DnA Group IDDX" type="Identity">4A2CEF36B9D1407FB170AA177D465ABF</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,1299 @@
+﻿<AML>
+ <Item type="MSO_DocumentType" id="80E80731C8CC44F494F87422588A2434" action="add">
+  <allow_promote>0</allow_promote>
+  <document_type>CRD</document_type>
+  <link_required>0</link_required>
+  <master_item_type keyed_name="DnA_CRD_Prod" type="ItemType" name="DnA_CRD_Prod">735F707390FE49AC9FEE753CB2FDE82C</master_item_type>
+  <native_file_link keyed_name="DnA CRD Document Native" type="MSO_Reference">B3C6EEE3F94E4D6A83C3DC42AB188D74</native_file_link>
+  <property_mapping>Click to view mappings</property_mapping>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>768</sort_order>
+  <source_id keyed_name="4BF26B53A815455DB1FBC8BAF0D9DFBB" type="MSO_CommonSettings">4BF26B53A815455DB1FBC8BAF0D9DFBB</source_id>
+  <template_required>0</template_required>
+  <valid_linked_items />
+  <viewable_file_link keyed_name="DnA CRD Document Viewable" type="MSO_Reference">3F155C560C53421287104C1324F706EC</viewable_file_link>
+  <label>CRD_Prod / CRD</label>
+  <Relationships>
+   <Item type="MSO_DocumentType PropertyMap" id="24F2200D9AFA4D6A921E9708E27BC5FC" action="add">
+    <aras_property>dna_customername</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Requestor</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="962BD54FBF534441A7E0B70792AF4B52" action="add">
+    <aras_property>dna_customersiglum</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Requestor_Siglum</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="7368A26CE3CB46B58959FB568C0C22E7" action="add">
+    <aras_property>dna_complexity</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras_complexity</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="BE0E91BF418D4533B6F6424291EA5471" action="add">
+    <aras_property>dna_number</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras_CRD_number</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="41207EB4F0144095B533269A6861EE8D" action="add">
+    <aras_property>dna_created_on_string</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras Created On</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="D9A84809EC0C4143BD302AF730FF2ADB" action="add">
+    <aras_property>dna_title</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras_CRD_title</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="330F08F4547A4A9E9624BD0C68D11FA0" action="add">
+    <aras_property>state</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras_current_state</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="DC9032C7C756494B9A18D5A6D8344786" action="add">
+    <aras_property>dna_enddate_string</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras_enddate</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="E1A63036D1AA4FB9989F2F5CD36BB815" action="add">
+    <aras_property>dna_startdate_string</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>Aras_startdate</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="4A9133119CA4428BB6058039E594E263" action="add">
+    <aras_property>dna_wp_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP1_Name</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="C31839FC80854378A58FFFD9AEAE6C3F" action="add">
+    <aras_property>dna_wp_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP2_Name</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A23FCFE067E44A4995DF0C8B04015A5E" action="add">
+    <aras_property>dna_wp_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP3_Name</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A7FEDD2CF68249EE9CA52C394B4D2DB6" action="add">
+    <aras_property>dna_wp_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP4_Name</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="72C08EF670DD45708EC1255FAD6656D4" action="add">
+    <aras_property>dna_wp_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP5_Name</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="8D19D180F0D84E52BFCBD570B2BAF6D1" action="add">
+    <aras_property>dna_wp_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP6_Name</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="4EB813A38C8040DEA736F8F3CCF56DB6" action="add">
+    <aras_property>dna_wp1_unit_price</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP1_Unit_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A5F5F9C32A4A45CCB8E369F9FD2667B2" action="add">
+    <aras_property>dna_wp2_unit_price</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP2_Unit_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F7EFF8301E2F4C1FBF706F980B0D3685" action="add">
+    <aras_property>dna_wp3_unit_price</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP3_Unit_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F88A1F5C2093480392C9D6EA9EE502C5" action="add">
+    <aras_property>dna_wp4_unit_price</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP4_Unit_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="C5CC5206662A4D13A9545A55AF20EE94" action="add">
+    <aras_property>dna_wp5_unit_price</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP5_Unit_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="5F2F23B8BE0B407193522569EFC9B6E7" action="add">
+    <aras_property>dna_wp6_unit_price</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP6_Unit_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="B936C2FA5D414286A45BD051B125B1A9" action="add">
+    <aras_property>dna_qty1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP1_Qty</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="840CD99FD9734F1FA3B0AA1A01886761" action="add">
+    <aras_property>dna_qty2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP2_Qty</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A2F5B71925F34A6C8F539BF12C2C3DAD" action="add">
+    <aras_property>dna_qty3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP3_Qty</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="42A7BDDD3429467FB00D6A0DACA3F5FB" action="add">
+    <aras_property>dna_qty4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP4_Qty</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0D544FAE6D5441AC989922163D96372A" action="add">
+    <aras_property>dna_qty5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP5_Qty</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="9AB0F36636A746CC9A782B45A384138C" action="add">
+    <aras_property>dna_qty6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP6_Qty</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="CB1EA118781A4C4EA3F39017CDC42820" action="add">
+    <aras_property>dna_price_wp1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP1_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="19A76A6B247B4BAC937EB9461B480F79" action="add">
+    <aras_property>dna_price_wp2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP2_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="322531D62E61402E870406CA4203BA58" action="add">
+    <aras_property>dna_price_wp3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP3_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0D78AF5CC3DB4802AE96DF7E6B90BAE8" action="add">
+    <aras_property>dna_price_wp4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP4_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="C4403B01BE514BB58A95E70CD88B4964" action="add">
+    <aras_property>dna_price_wp5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP5_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="BE51555DEA044D9F9D2E92677F8452AE" action="add">
+    <aras_property>dna_price_wp6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP6_Price</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="DB46973B36434D66A2D40947F23BFF38" action="add">
+    <aras_property>dna_total_cost</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Total_Order_Volume</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="CCBF3AA34B4C402C85EFE529CB86BA3E" action="add">
+    <aras_property>dna_deliverables_wp1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP1_Deliverables</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="79C094A3D12E42EA903150485E7C8079" action="add">
+    <aras_property>dna_deliverables_wp2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP2_Deliverables</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="3895803050C24AEF92DFFD3B16BD2F94" action="add">
+    <aras_property>dna_deliverables_wp3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP3_Deliverables</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="E4B01931A8B24B1CBB8F7B973B6DB708" action="add">
+    <aras_property>dna_deliverables_wp4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP4_Deliverables</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="BCE8E7DE3649416E8E46DE2DFCDEE5A7" action="add">
+    <aras_property>dna_deliverables_wp5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP5_Deliverables</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="3B26BB1C2EE54DA5A98BB09C946E7639" action="add">
+    <aras_property>dna_deliverables_wp6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP6_Deliverables</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="3A882210B88141749122320BAF0E5074" action="add">
+    <aras_property>dna_modified_on_string</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Last_Modified</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5248</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="93A1F42F42D74D3F824D9FBD9AF04AAF" action="add">
+    <aras_property>dna_focal_point</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Focal_Point</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="323FE0691EC5439D9E8FE4BB1FAC3FEE" action="add">
+    <aras_property>dna_focal_poin_phone</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Focal_Point_Phone</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="FD88F6F63BF94DC2819F36D599CE8FE8" action="add">
+    <aras_property>dna_focal_point_email</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Focal_Point_Email</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="85FE5932DE1B46129C5DD6CE0F2FEB01" action="add">
+    <aras_property>created_by_id</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Created_By</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5760</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="1AA5900E06B94345B2EBBEF7F80093FB" action="add">
+    <aras_property>dna_wp_gr1_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR1_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>5888</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0121ED08044D48CD8DE2043CFCD21E38" action="add">
+    <aras_property>dna_wp_gr1_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR1_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6016</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F1ED3610BEAA458CA6C2B594B1980E30" action="add">
+    <aras_property>dna_wp_gr1_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR1_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6144</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="9130C09EAECC4F9284D512B8E8849167" action="add">
+    <aras_property>dna_wp_gr1_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR1_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6272</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="D42590CA2CDB4C829D64CB2AF7F3B490" action="add">
+    <aras_property>dna_wp_gr1_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR1_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6400</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A8A1AA4C5DD14F6787B1E5C7AFD7C6DF" action="add">
+    <aras_property>dna_wp_gr1_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR1_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6528</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="D5ABB6295EE345F4AFF1F9BFBBEBDF1B" action="add">
+    <aras_property>dna_wp_gr2_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR2_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6656</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="123A61D590AB46BF82C13593B591DDE2" action="add">
+    <aras_property>dna_wp_gr2_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR2_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6784</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="4047456516594B44B681EF104FC8F808" action="add">
+    <aras_property>dna_wp_gr2_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR2_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>6912</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="7C046A2FE363422DA8ED6278EEEAC3F1" action="add">
+    <aras_property>dna_wp_gr2_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR2_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7040</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0D0AD58F04FF476280A6BEF14D5EAABD" action="add">
+    <aras_property>dna_wp_gr2_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR2_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7168</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="8C980F4A77BD47F0AE923855654A8183" action="add">
+    <aras_property>dna_wp_gr2_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR2_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7296</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="66E000C0F16047778C69F4D2714DC94D" action="add">
+    <aras_property>dna_wp_gr3_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR3_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7424</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="C2D32D183A8B4DE594F59D29367CF7A5" action="add">
+    <aras_property>dna_wp_gr3_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR3_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7552</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A5CDA8A8DDEE4D6787234E1C07AA1CBC" action="add">
+    <aras_property>dna_wp_gr3_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR3_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7680</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="9B5C92A1FC754AA78B22A2C4C2F0751E" action="add">
+    <aras_property>dna_wp_gr3_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR3_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7808</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="5A7CE9A2C4DF48D5A969D7E277B394AE" action="add">
+    <aras_property>dna_wp_gr3_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR3_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>7936</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="1F3CFB1E58F44B8B80EFA87569F13B08" action="add">
+    <aras_property>dna_wp_gr3_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR3_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8064</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="005252A80C9A409E89CA50B687D5A77E" action="add">
+    <aras_property>dna_wp_gr4_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR4_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8192</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F49C715214D54CB69DB407C873AC10F0" action="add">
+    <aras_property>dna_wp_gr4_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR4_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8320</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F0F38207BF61446DA3A7E724C54294D4" action="add">
+    <aras_property>dna_wp_gr4_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR4_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8448</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F4D736687CC944DFAC657A55121F6FC2" action="add">
+    <aras_property>dna_wp_gr4_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR4_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8576</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="17F044EC40754EC7B1BAF0F4CD08D5EF" action="add">
+    <aras_property>dna_wp_gr4_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR4_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8704</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="3E55BAEC99D0455DB091BEFBDB202466" action="add">
+    <aras_property>dna_wp_gr4_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR4_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8832</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="9BA6ED9BA8DB47BF9F0891A5DD14D8D8" action="add">
+    <aras_property>dna_wp_gr5_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR5_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>8960</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="D4BE92927D4C4A42B364B0ED0D692D78" action="add">
+    <aras_property>dna_wp_gr5_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR5_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9088</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="BDF69DC64A1D48F394BF7868124F1A9B" action="add">
+    <aras_property>dna_wp_gr5_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR5_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9216</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="6FE56F25B8E74A34BC889CC3A66BFD3D" action="add">
+    <aras_property>dna_wp_gr5_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR5_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9344</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="8EC21E0D3C894A9AA621A7F309E61A48" action="add">
+    <aras_property>dna_wp_gr5_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR5_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9472</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="185658E1671B4613A222697D5CC2EEC9" action="add">
+    <aras_property>dna_wp_gr5_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR5_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9600</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="AF5F05CC2FDA4872AA1D93A016B5BB0D" action="add">
+    <aras_property>dna_wp_gr6_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR6_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9728</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="AEAA00DC89A5469BAD94E2401E349D48" action="add">
+    <aras_property>dna_wp_gr6_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR6_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9856</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="50B23B8171364EF89E19306C5B2E58F4" action="add">
+    <aras_property>dna_wp_gr6_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR6_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>9984</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="16122118CC1542B2B0EDFFD0C99B9861" action="add">
+    <aras_property>dna_wp_gr6_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR6_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10112</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0A72019A598B4A98AFD7CF82B4F6AED7" action="add">
+    <aras_property>dna_wp_gr6_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR6_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10240</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="E8FCCF90CF124C1E9B382DBA6962DE0D" action="add">
+    <aras_property>dna_wp_gr6_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR6_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10368</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0ACBB0E2FD41461D9127EFCDAD0C206C" action="add">
+    <aras_property>dna_wp_gr7_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR7_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10496</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="CEAA45515C3D43D69778FD2A345F22C6" action="add">
+    <aras_property>dna_wp_gr7_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR7_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10624</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="60A35D05A3964B929D76480107C7908B" action="add">
+    <aras_property>dna_wp_gr7_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR7_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10752</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="294753447EAE4BDFA50B7E1DAA9169A0" action="add">
+    <aras_property>dna_wp_gr7_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR7_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>10880</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="5C572941AC234AEF8F0F9DF04DBF4384" action="add">
+    <aras_property>dna_wp_gr7_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR7_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11008</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="770FF645EDE84BA1BC4C9F0E50D9F21D" action="add">
+    <aras_property>dna_wp_gr7_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR7_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11136</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="25FE955527E7427EB1C5186A1F0FDE8A" action="add">
+    <aras_property>dna_wp_gr8_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR8_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11264</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="32BB3ED42BAE4022B4A0E96381164855" action="add">
+    <aras_property>dna_wp_gr8_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR8_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11392</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="034DB6E35CDF435AA171BAC61C6357EA" action="add">
+    <aras_property>dna_wp_gr8_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR8_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11520</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0825CCB33BE6472B8B18685B0CB19652" action="add">
+    <aras_property>dna_wp_gr8_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR8_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11648</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0947C65E93AC4180B391514DA9B13C54" action="add">
+    <aras_property>dna_wp_gr8_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR8_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11776</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="DB0AEB82BFED4396870403119B21A054" action="add">
+    <aras_property>dna_wp_gr8_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR8_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>11904</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="3FA40CB63D4A43A08CFC6BFA207B7DA1" action="add">
+    <aras_property>dna_wp_gr9_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR9_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12032</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A3F9766EE24C42E3B28811FED1C74498" action="add">
+    <aras_property>dna_wp_gr9_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR9_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12160</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="478A6DBEE1494A8BB827D5B18EB97489" action="add">
+    <aras_property>dna_wp_gr9_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR9_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12288</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="59C30B9C205546B08C1873AEE3D619CD" action="add">
+    <aras_property>dna_wp_gr9_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR9_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12416</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="B78254626CE348B1BB9248047E24FDC6" action="add">
+    <aras_property>dna_wp_gr9_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR9_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12544</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="9511DF021236411CBC227399B4C4685E" action="add">
+    <aras_property>dna_wp_gr9_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR9_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12672</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="49ED32584CF84A32BBF8EE7DE2483682" action="add">
+    <aras_property>dna_wp_gr10_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR10_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12800</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="873A1AA20EC14F3EBB2227CCB2265F4B" action="add">
+    <aras_property>dna_wp_gr10_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR10_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>12928</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="30CADE3945DD41ADA085932C9C3C2F19" action="add">
+    <aras_property>dna_wp_gr10_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR10_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13056</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="81A35161F6FB4E328983D2754557ED70" action="add">
+    <aras_property>dna_wp_gr10_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR10_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13184</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="0158B92AFFD44275B0391DE615A4D112" action="add">
+    <aras_property>dna_wp_gr10_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR10_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13312</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="6CFED38F047E45BC9A508C19117EECFF" action="add">
+    <aras_property>dna_wp_gr10_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR10_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13440</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="80D583CDA1E04825AA759F3D4BD2BCAF" action="add">
+    <aras_property>dna_wp_gr11_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR11_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13568</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="6EAF8F837E0046E4BAB1127603341FD1" action="add">
+    <aras_property>dna_wp_gr11_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR11_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13696</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="65B38E5F9B8D4FC2A6F665C4FE1396E2" action="add">
+    <aras_property>dna_wp_gr11_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR11_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13824</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="5F9DF575DDB4482D933ED3B831E4EFFA" action="add">
+    <aras_property>dna_wp_gr11_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR11_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>13952</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F5DDD266D49F43559D18AE146F385BA7" action="add">
+    <aras_property>dna_wp_gr11_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR11_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14080</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="407436E71E024E52B97C2929BED0BDE4" action="add">
+    <aras_property>dna_wp_gr11_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR11_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14208</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="F91ACFC4E9234ED7945EB27C3BDA6810" action="add">
+    <aras_property>dna_wp_gr12_1</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR12_1</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14336</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="530B34A5469B4C9C8139E1BC3FFFA927" action="add">
+    <aras_property>dna_wp_gr12_2</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR12_2</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14464</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="20A4379B9EC14C72A86488D45C609074" action="add">
+    <aras_property>dna_wp_gr12_3</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR12_3</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14592</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="DF45874C21164158B5A94AF7BD360CBE" action="add">
+    <aras_property>dna_wp_gr12_4</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR12_4</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14720</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="4F45D082CFC049B0803DF1567D76E83C" action="add">
+    <aras_property>dna_wp_gr12_5</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR12_5</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14848</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="1B91F0FA3430416490B035196096CFE6" action="add">
+    <aras_property>dna_wp_gr12_6</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_WP_GR12_6</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>14976</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="31D62C49FF9C43D88B2D53A854892D63" action="add">
+    <aras_property>dna_total_cost</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_Total_Cost</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15104</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="E063868EC48C438388A4447DBB3527E3" action="add">
+    <aras_property>dna_total_cost_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_total_cost_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15232</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="3941393CD4B649C9A361FE96D7F83EBA" action="add">
+    <aras_property>dna_qty1_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_qty1_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15360</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="54D0F9B328274CEE9AD0F0B86BEBEDC2" action="add">
+    <aras_property>dna_qty2_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_qty2_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15488</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="7541C06855DF468384BD88F5D26BF7EA" action="add">
+    <aras_property>dna_qty3_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_qty3_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15616</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="A8F50F4D24974C88A09D01AD9FC271DC" action="add">
+    <aras_property>dna_qty4_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_qty4_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15744</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="52B96C522CB944A697926D43683CAD73" action="add">
+    <aras_property>dna_price_wp1_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_price_wp1_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>15872</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="6CF74FB48B2A48C79B285A3CCEAFB14F" action="add">
+    <aras_property>dna_price_wp2_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_price_wp2_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>16000</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="1126A7DF58564E4889806D4A9C2EF398" action="add">
+    <aras_property>dna_price_wp3_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_price_wp3_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>16128</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="EE2E08230BD945B193582179179A69A8" action="add">
+    <aras_property>dna_price_wp4_discount</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_price_wp4_discount</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>16256</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+   <Item type="MSO_DocumentType PropertyMap" id="86E2B58A9A9E4FAC8823F8DACADDDBE8" action="add">
+    <aras_property>dna_discount_precentage</aras_property>
+    <direction>Aras to Office</direction>
+    <office_property>ARAS_discount_precentage</office_property>
+    <on_create>1</on_create>
+    <on_update>1</on_update>
+    <sort_order>16384</sort_order>
+    <source_id keyed_name="CRD_Prod / CRD" type="MSO_DocumentType">80E80731C8CC44F494F87422588A2434</source_id>
+    <use_template>0</use_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,22 @@
+﻿<AML>
+ <Item type="User" id="D0E2F4885C5D49DCAEDE35074F0FE831" action="add">
+  <company_name>CIMPA</company_name>
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>nathalie.carreau.external@airbus.com</email>
+  <last_login_date>2020-08-24T16:01:02</last_login_date>
+  <login_name>nathalie.carreau</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Nathalie CARREAU" type="Identity">7442943C170246D2A319CC8A7D760FD6</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:33:22</pwd_is_set_on>
+  <first_name>Nathalie</first_name>
+  <last_name>CARREAU</last_name>
+  <Relationships>
+   <Item type="Alias" id="FA59672AF6A9407A905D08A4E27B0602" action="add">
+    <from_date>2017-12-13T17:33:08</from_date>
+    <related_id keyed_name="Nathalie CARREAU" type="Identity">7442943C170246D2A319CC8A7D760FD6</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Nathalie CARREAU" type="User">D0E2F4885C5D49DCAEDE35074F0FE831</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

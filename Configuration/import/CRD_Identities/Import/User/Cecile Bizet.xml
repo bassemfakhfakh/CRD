@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="F211135390A64867B5E03160EDD292E1" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>cecile.bizet.external@airbus.com</email>
+  <login_name>cecile.bizet</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Cecile Bizet" type="Identity">6CE3DE08ED9A48EE9AF8290E5AA97DD7</owned_by_id>
+  <first_name>Cecile</first_name>
+  <last_name>Bizet</last_name>
+  <Relationships>
+   <Item type="Alias" id="1C140230743C4B98B5E4605ECC44AAF1" action="add">
+    <from_date>2019-09-10T14:43:37</from_date>
+    <related_id keyed_name="Cecile Bizet" type="Identity">6CE3DE08ED9A48EE9AF8290E5AA97DD7</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Cecile Bizet" type="User">F211135390A64867B5E03160EDD292E1</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

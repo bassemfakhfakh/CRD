@@ -1,0 +1,81 @@
+﻿<AML>
+ <Item type="Method" id="0634CC222B9247958EF8038ADE81BA19" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[//method who calculate the mission duration and displays the number of GR 
+var inn = top.aras.newIOMInnovator();
+
+var dateStart= new Date(document.thisItem.getProperty("dna_startdate"));
+var dateEnd= new Date(document.thisItem.getProperty("dna_enddate"));
+var missionTime= (dateEnd.getMonth()-dateStart.getMonth());
+//var date= new Date(missionTime);
+
+
+const monthNames = ["Jan.", "Feb.", "March", "Apr.", "May", "June",
+  "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+
+fieldNumber= missionTime +1;
+
+//displays Good Receipts with the mission time 
+if(dateEnd>=dateStart )
+{
+    resetGR();
+    
+    if(missionTime <0)
+    {
+        alert("Start date and end date are not in the same year");
+        resetGR();
+    }
+    
+                
+    if(dateStart !== null || dateEnd !==null )
+    {
+        for(var i=1; i<5; i++)
+        {
+            
+            var field= getFieldByName("dna_wp_"+ i);
+            if(field.style.visibility!="hidden")
+            {
+                    for(var j=1; j<fieldNumber+1;j++)
+                    {
+                        var grField= getFieldByName("dna_wp_gr"+(dateStart.getMonth()+j)+"_"+i);
+                        grField.getElementsByTagName("input")[0].disabled= false;
+                        grField.style.visibility="visible";
+                    }
+            }
+        }
+    }
+    else
+    {
+        resetGR();
+    }
+}
+else
+{
+    resetGR();
+}
+
+//reset good receipts
+function resetGR()
+{
+    for(var i=1; i<5; i++)
+        {
+            var field= getFieldByName("dna_wp_"+ i);
+            if(field.style.visibility!="hidden")
+            {
+                for(var j=1; j<13;j++)
+                {
+                    var grField= getFieldByName("dna_wp_gr"+(j)+"_"+i);
+                    if(grField!==null)
+                    {
+                        // grField.getElementsByTagName("input")[0].disabled= true;
+                        grField.style.visibility="hidden";
+                    }
+                    
+                }
+            }
+        }
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_crd_missionDate</name>
+ </Item>
+</AML>

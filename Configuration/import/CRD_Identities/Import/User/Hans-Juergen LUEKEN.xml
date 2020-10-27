@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="User" id="F8715D3F4140488EADF9C58694AE6FC7" action="add">
+  <company_name>CIMPA</company_name>
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>Hans-Juergen.lueken@cimpa.com</email>
+  <last_login_date>2020-08-31T10:47:02</last_login_date>
+  <login_name>hans-juergen.lueken</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Hans-Juergen LUEKEN" type="Identity">DF7207FF008E4798BCFA6973BC6CDC24</owned_by_id>
+  <pwd_is_set_on>2017-06-12T11:13:00</pwd_is_set_on>
+  <starting_page>InBasket Task</starting_page>
+  <team_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</team_id>
+  <working_directory>C:\Temp</working_directory>
+  <first_name>Hans-Juergen</first_name>
+  <last_name>LUEKEN</last_name>
+  <Relationships>
+   <Item type="Alias" id="32A0261E03F74C5D88764A5D13374749" action="add">
+    <from_date>2017-06-07T12:48:37</from_date>
+    <related_id keyed_name="Hans-Juergen LUEKEN" type="Identity">DF7207FF008E4798BCFA6973BC6CDC24</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Hans-Juergen LUEKEN" type="User">F8715D3F4140488EADF9C58694AE6FC7</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

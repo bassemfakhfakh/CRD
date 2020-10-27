@@ -1,0 +1,272 @@
+﻿<AML>
+ <Item type="Method" id="A395C130B98C4998AFB9018AF3D3FECC" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var inn= aras.newIOMInnovator();
+
+var number_res_cimpa= document.thisItem.getProperty("dna_rescimpa_number");
+var number_res_other= document.thisItem.getProperty("dna_resother_number");
+var cimpa_total_cost= document.thisItem.getProperty("dna_resourcecimpa_cost","0");
+cimpa_total_cost=0;
+var other_total_cost= document.thisItem.getProperty("dna_resourceother_cost","0");
+other_total_cost=0;
+var riskAlea=document.thisItem.getProperty("dna_risk_alea");
+var resource_total_cost= document.thisItem.getProperty("dna_resource_totalcost","0");
+resource_total_cost=0;
+
+for (var i=1; i< 11; i++)
+{
+   /**
+    * Resource Cimpa
+    **/
+        var price_value=0;
+        var selected_cat=document.thisItem.getProperty("dna_rescimpa"+i+"_category");
+        var qty= document.thisItem.getProperty("dna_rescimpa"+i+"_qty");
+        
+        price_value=selectedCat(selected_cat);
+        handleItemChange("dna_rescimpa"+i+"_unit_price",price_value.toString());
+        
+        var price_value_qty=0;
+        if (qty>0) 
+        {
+            price_value_qty=(price_value*qty).toFixed(2);
+        }
+        else{
+            price_value_qty=0;
+        } 
+        handleItemChange("dna_rescimpa"+i+"_cost",price_value_qty.toString());
+        
+        if(parseFloat(document.thisItem.getProperty("dna_rescimpa"+i+"_cost"))>0)
+        {
+            cimpa_total_cost= parseFloat(cimpa_total_cost)+ parseFloat(document.thisItem.getProperty("dna_rescimpa"+i+"_cost"));
+        }
+        else
+        {
+            cimpa_total_cost= parseFloat(cimpa_total_cost);
+        }
+        handleItemChange("dna_resourcecimpa_cost", parseFloat(cimpa_total_cost).toFixed(2).toString());
+    
+}    
+
+for (var j=1; j< 4; j++)
+{
+    
+    /**
+     * Resource other
+     **/
+        var price_value_other=document.thisItem.getProperty("dna_resother"+j+"_unit_price");
+        var selected_cat_other=document.thisItem.getProperty("dna_resother"+j+"_category");
+        var qty_other= document.thisItem.getProperty("dna_resother"+j+"_qty");
+    
+        var price_value_qty_other=0;
+        if (qty_other>0 && price_value_other >0) 
+        {
+            price_value_qty_other=(price_value_other*qty_other).toFixed(2);
+        }
+        else{
+            price_value_qty_other=0;
+        } 
+        handleItemChange("dna_resother"+j+"_cost",price_value_qty_other.toString());
+        
+        if(parseFloat(document.thisItem.getProperty("dna_resother"+j+"_cost")) >0)
+        {
+            other_total_cost= parseFloat(other_total_cost)+ parseFloat(document.thisItem.getProperty("dna_resother"+j+"_cost"));
+        }
+        else
+        {
+            other_total_cost= parseFloat(other_total_cost);
+        }
+        handleItemChange("dna_resourceother_cost", parseFloat(other_total_cost).toFixed(2).toString());
+   
+}
+
+/**
+ * Resource total cost & risk/alea
+ **/
+
+resource_total_cost=parseFloat(document.thisItem.getProperty("dna_resourcecimpa_cost"))+parseFloat(document.thisItem.getProperty("dna_resourceother_cost"));
+handleItemChange("dna_resource_totalcost", parseFloat(resource_total_cost).toFixed(2).toString());
+
+riskAlea= parseFloat(document.thisItem.getProperty("dna_resource_totalcost"))*0.02;
+handleItemChange("dna_risk_alea", parseFloat(riskAlea).toFixed(2).toString());
+
+/**
+ * Add resource cost and alea to the total cost
+ */
+var profitability_totalcost= parseFloat(document.thisItem.getProperty("dna_profitability_totalcost"));
+profitability_totalcost=0;
+var travel_cost=parseFloat(document.thisItem.getProperty("dna_travel_cost"));
+var transition_cost= parseFloat(document.thisItem.getProperty("dna_transition_cost"));
+var project_management_cost= parseFloat(document.thisItem.getProperty("dna_project_management_cost"));
+var subcalculation= 0;
+
+if(isNaN(travel_cost))
+{
+    travel_cost= document.thisItem.getProperty("dna_travel_cost","0");
+    travel_cost=0;
+}
+else{
+    travel_cost=travel_cost;
+}
+
+if(isNaN(transition_cost))
+{
+    transition_cost= document.thisItem.getProperty("dna_transition_cost","0");
+    transition_cost=0;
+}
+else
+{
+    transition_cost= transition_cost;
+}
+
+if(isNaN(project_management_cost))
+{
+    project_management_cost= document.thisItem.getProperty("dna_project_management_cost","0");
+    project_management_cost=0;
+}
+else{
+    project_management_cost= project_management_cost;
+}
+
+subcalculation= travel_cost
+                +transition_cost
+                +project_management_cost;
+
+if(resource_total_cost>0)
+{
+    profitability_totalcost= profitability_totalcost+ riskAlea+ resource_total_cost+ subcalculation;
+}
+else
+{
+    profitability_totalcost= profitability_totalcost + subcalculation;
+}
+
+handleItemChange("dna_profitability_totalcost", parseFloat(profitability_totalcost).toFixed(2).toString());
+
+function selectedCat(selected_cat){
+    
+    if(selected_cat =="FRA Category F00") selected_cat="F00";
+    if(selected_cat =="FRA Category F01") selected_cat="F01";
+    if(selected_cat =="FRA Category F02") selected_cat="F02";
+    if(selected_cat =="FRA Category F03") selected_cat="F03";
+    if(selected_cat =="FRA Category F04") selected_cat="F04";
+    if(selected_cat =="FRA Category F05") selected_cat="F05";
+    if(selected_cat =="FRA Category F06") selected_cat="F06";
+    if(selected_cat =="FRA Category F07") selected_cat="F07";
+    if(selected_cat =="FRA Category F08") selected_cat="F08";
+    if(selected_cat =="FRA Category F09") selected_cat="F09";
+    if(selected_cat =="FRA Category F10") selected_cat="F10";
+    if(selected_cat =="FRA Category F11") selected_cat="F11";
+    if(selected_cat =="FRA Category F12") selected_cat="F12";
+    if(selected_cat =="FRA Category F13") selected_cat="F13";
+    if(selected_cat =="FRA Category F14") selected_cat="F14";
+    if(selected_cat =="FRA Category F15") selected_cat="F15";
+    if(selected_cat =="FRA Category Y") selected_cat="FY";
+    if(selected_cat =="FRA Category Z") selected_cat="FZ";
+    
+    if(selected_cat =="GER Category G00") selected_cat="G00";
+    if(selected_cat =="GER Category G01") selected_cat="G01";
+    if(selected_cat =="GER Category G02") selected_cat="G02";
+    if(selected_cat =="GER Category G03") selected_cat="G03";
+    if(selected_cat =="GER Category G04") selected_cat="G04";
+    if(selected_cat =="GER Category G05") selected_cat="G05";
+    if(selected_cat =="GER Category G06") selected_cat="G06";
+    if(selected_cat =="GER Category G07") selected_cat="G07";
+    if(selected_cat =="GER Category G08") selected_cat="G08";
+    if(selected_cat =="GER Category G09") selected_cat="G09";
+    if(selected_cat =="GER Category G10") selected_cat="G10";
+    if(selected_cat =="GER Category G11") selected_cat="G11";
+    if(selected_cat =="GER Category G12") selected_cat="G12";
+    if(selected_cat =="GER Category Y") selected_cat="GY";
+    if(selected_cat =="GER Category Z") selected_cat="GZ";
+    
+    if(selected_cat =="UK Category U00") selected_cat="U00";
+    if(selected_cat =="UK Category U01") selected_cat="U01";
+    if(selected_cat =="UK Category U02") selected_cat="U02";
+    if(selected_cat =="UK Category U03") selected_cat="U03";
+    if(selected_cat =="UK Category U04") selected_cat="U04";
+    if(selected_cat =="UK Category U05") selected_cat="U05";
+    if(selected_cat =="UK Category U06") selected_cat="U06";
+    if(selected_cat =="UK Category U07") selected_cat="U07";
+    if(selected_cat =="UK Category U99") selected_cat="U99";
+    if(selected_cat =="UK Category Z") selected_cat="UZ";
+    
+    if(selected_cat =="SPA Category S00") selected_cat="S00";
+    if(selected_cat =="SPA Category S01") selected_cat="S01";
+    if(selected_cat =="SPA Category S02") selected_cat="S02";
+    if(selected_cat =="SPA Category S03") selected_cat="S03";
+    if(selected_cat =="SPA Category S04") selected_cat="S04";
+    if(selected_cat =="SPA Category Y") selected_cat="SY";
+    if(selected_cat =="SPA Category Z") selected_cat="SZ";
+    
+    var prices= [];
+    prices["F00"]=129.00;
+    prices["F01"]=203.00;
+    prices["F02"]=248.00;
+    prices["F03"]=274.00;
+    prices["F04"]=297.00;
+    prices["F05"]=322.00;
+    prices["F06"]=348.00
+    prices["F07"]=379.00;
+    prices["F08"]=405.00;
+    prices["F09"]=433.00;
+    prices["F10"]=479.00;
+    prices["F11"]=519.00;
+    prices["F12"]=568.00;
+    prices["F13"]=622.00;
+    prices["F14"]=686.00;
+    prices["F15"]=780.00;
+    prices["FY"]=140.00;
+    prices["FZ"]=385.00;
+    
+    prices["G00"]=77.00;
+    prices["G01"]=167.00;
+    prices["G02"]=197.00;
+    prices["G03"]=235.00;
+    prices["G04"]=268.00;
+    prices["G05"]=300.00;
+    prices["G06"]=342.00;
+    prices["G07"]=378.00;
+    prices["G08"]=419.00;
+    prices["G09"]=447.00;
+    prices["G10"]=490.00;
+    prices["G11"]=528.00;
+    prices["G12"]=582.00;
+    prices["GY"]=140.00
+    prices["GZ"]=385.00;
+    
+    prices["U00"]=140.00;
+    prices["U01"]=192.00;
+    prices["U02"]=232.00;
+    prices["U03"]=268.00;
+    prices["U04"]=305.00;
+    prices["U05"]=365.00;
+    prices["U06"]=397.00;
+    prices["U07"]=478.00;
+    prices["U99"]=91.00;
+    prices["UZ"]=385.00;
+    
+    prices["S00"]=138.00;
+    prices["S01"]=170.00;
+    prices["S02"]=204.00;
+    prices["S03"]=258.00;
+    prices["S04"]=357.00;
+    prices["SY"]=140.00;
+    prices["SZ"]=385.00;
+    
+    var unit_price=selected_cat;
+    var price_value=0;
+    
+    if(prices[unit_price]===undefined)
+    {
+         price_value=0;
+         return price_value;
+    }else{
+        price_value=parseFloat(prices [unit_price]).toFixed(2);
+        return price_value;
+    }
+    
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_profitability_cat_price</name>
+ </Item>
+</AML>

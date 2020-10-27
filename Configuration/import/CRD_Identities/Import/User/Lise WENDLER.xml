@@ -1,0 +1,22 @@
+﻿<AML>
+ <Item type="User" id="00D270ABDC57426A8655C4193EC5EBE8" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>lise.wendler@cimpa.com</email>
+  <last_login_date>2019-03-05T09:46:04</last_login_date>
+  <login_name>Lise.wendler</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Lise WENDLER" type="Identity">F6BBB067DC594310AC6D238E8BD93CBC</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:32:46</pwd_is_set_on>
+  <team_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</team_id>
+  <first_name>Lise</first_name>
+  <last_name>WENDLER</last_name>
+  <Relationships>
+   <Item type="Alias" id="7F226AE01D8841AD8A2D1590CCB1A47F" action="add">
+    <from_date>2018-01-23T10:28:07</from_date>
+    <related_id keyed_name="Lise WENDLER" type="Identity">F6BBB067DC594310AC6D238E8BD93CBC</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Lise WENDLER" type="User">00D270ABDC57426A8655C4193EC5EBE8</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

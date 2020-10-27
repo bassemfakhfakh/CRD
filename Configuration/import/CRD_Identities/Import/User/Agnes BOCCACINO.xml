@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="0F7D743134114FF2BDC63A010AB680F3" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>Agnes.Boccacino@cimpa.com</email>
+  <last_login_date>2020-09-03T10:25:48</last_login_date>
+  <login_name>agnes.boccacino</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Agnes BOCCACINO" type="Identity">33D7B04AF41C4DBAB8CD69B74CD60FD6</owned_by_id>
+  <telephone>+33647443558</telephone>
+  <first_name>Agnes</first_name>
+  <last_name>BOCCACINO</last_name>
+  <Relationships>
+   <Item type="Alias" id="DFCA0A3A0DE44B389B6FAC9DB2817396" action="add">
+    <from_date>2018-02-14T19:56:08</from_date>
+    <related_id keyed_name="Agnes BOCCACINO" type="Identity">33D7B04AF41C4DBAB8CD69B74CD60FD6</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Agnes BOCCACINO" type="User">0F7D743134114FF2BDC63A010AB680F3</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

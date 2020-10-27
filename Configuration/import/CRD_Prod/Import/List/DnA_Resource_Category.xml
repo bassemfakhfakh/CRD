@@ -1,0 +1,307 @@
+﻿<AML>
+ <Item type="List" id="96F882521C344A97AFCD145D4CDDD750" action="add">
+  <name>DnA_Resource_Category</name>
+  <Relationships>
+   <Item type="Value" id="AB053C3DF1AE4386AA9350B5AE205736" action="add">
+    <label xml:lang="en">FRA Category F00</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F00</value>
+   </Item>
+   <Item type="Value" id="2480318531D34009876075D3EA8BCBD3" action="add">
+    <label xml:lang="en">FRA Category F01</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F01</value>
+   </Item>
+   <Item type="Value" id="9B94C77EF4F14DA7A22E5F310C6A548F" action="add">
+    <label xml:lang="en">FRA Category F02</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F02</value>
+   </Item>
+   <Item type="Value" id="FFE729ED9F004805ADE85A895E815498" action="add">
+    <label xml:lang="en">FRA Category F03</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F03</value>
+   </Item>
+   <Item type="Value" id="ADDEC7372B134CA18B5A286364134221" action="add">
+    <label xml:lang="en">FRA Category F04</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F04</value>
+   </Item>
+   <Item type="Value" id="B420C53BDD4A493B8336ECE7F66F8C15" action="add">
+    <label xml:lang="en">FRA Category F05</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F05</value>
+   </Item>
+   <Item type="Value" id="E9E61764E3E84BB697C1A5123D4870F1" action="add">
+    <label xml:lang="en">FRA Category F06</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F06</value>
+   </Item>
+   <Item type="Value" id="5F4DC75C0D244EA586737A1D8FDCDC7F" action="add">
+    <label xml:lang="en">FRA Category F07</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F07</value>
+   </Item>
+   <Item type="Value" id="04A9DCB7BD0F43E49A0B7F95A69332A8" action="add">
+    <label xml:lang="en">FRA Category F08</label>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F08</value>
+   </Item>
+   <Item type="Value" id="F29F0A4B732646F6AFCCC2FB58FEC840" action="add">
+    <label xml:lang="en">FRA Category F09</label>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F09</value>
+   </Item>
+   <Item type="Value" id="9A8BCA9518604DDC8CAF9E0A11939772" action="add">
+    <label xml:lang="en">FRA Category F10</label>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F10</value>
+   </Item>
+   <Item type="Value" id="6CDE589A6A8C44CBAA0D77491C6A584F" action="add">
+    <label xml:lang="en">FRA Category F11</label>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F11</value>
+   </Item>
+   <Item type="Value" id="CA952068D1D647FABDA3FC6384F4E604" action="add">
+    <label xml:lang="en">FRA Category F12</label>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F12</value>
+   </Item>
+   <Item type="Value" id="45CF4F0C97454C499A75979D2CA61CB3" action="add">
+    <label xml:lang="en">FRA Category F13</label>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F13</value>
+   </Item>
+   <Item type="Value" id="C6B7763568C849B18543D4060F0228F0" action="add">
+    <label xml:lang="en">FRA Category F14</label>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F14</value>
+   </Item>
+   <Item type="Value" id="0E92FBA2D58D4B2185E231F166EA2FE3" action="add">
+    <label xml:lang="en">FRA Category F15</label>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category F15</value>
+   </Item>
+   <Item type="Value" id="8996E6431BE14E859FE2FF1C141C28AB" action="add">
+    <label xml:lang="en">FRA Category Y</label>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category Y</value>
+   </Item>
+   <Item type="Value" id="ED415FEA0A1D4F3FA67392EBA16DDD1E" action="add">
+    <label xml:lang="en">FRA Category Z</label>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>FRA Category Z</value>
+   </Item>
+   <Item type="Value" id="7366956DC6554188B97BD44F1FA8D661" action="add">
+    <label xml:lang="en">GER Category G00</label>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G00</value>
+   </Item>
+   <Item type="Value" id="6995CC54EED0434C81D82496E76ECBD3" action="add">
+    <label xml:lang="en">GER Category G01</label>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G01</value>
+   </Item>
+   <Item type="Value" id="DF7C829206E74D279DF07F176BF500BE" action="add">
+    <label xml:lang="en">GER Category G02</label>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G02</value>
+   </Item>
+   <Item type="Value" id="DB81167EC6284DAEBFCE14D5CC19193C" action="add">
+    <label xml:lang="en">GER Category G03</label>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G03</value>
+   </Item>
+   <Item type="Value" id="783B214BC35748ADB97E1ECADEA595F8" action="add">
+    <label xml:lang="en">GER Category G04</label>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G04</value>
+   </Item>
+   <Item type="Value" id="70ABACAAA51248358CFAE3DC9A0296B1" action="add">
+    <label xml:lang="en">GER Category G05</label>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G05</value>
+   </Item>
+   <Item type="Value" id="6966C169E0424B0DA207EE792F6AFBC3" action="add">
+    <label xml:lang="en">GER Category G06</label>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G06</value>
+   </Item>
+   <Item type="Value" id="2321868EF57F4A4492C91A6AC1FB1DFA" action="add">
+    <label xml:lang="en">GER Category G07</label>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G07</value>
+   </Item>
+   <Item type="Value" id="7BE247A67EA04E7A9522392D089446F9" action="add">
+    <label xml:lang="en">GER Category G08</label>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G08</value>
+   </Item>
+   <Item type="Value" id="09005E16ED2D457BA7205F71476DF57F" action="add">
+    <label xml:lang="en">GER Category G09</label>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G09</value>
+   </Item>
+   <Item type="Value" id="A470DA632AA6455DA9CE5C36918A00B2" action="add">
+    <label xml:lang="en">GER Category G10</label>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G10</value>
+   </Item>
+   <Item type="Value" id="0623F55B67364F37983D8B54AE7F5CB1" action="add">
+    <label xml:lang="en">GER Category G11</label>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G11</value>
+   </Item>
+   <Item type="Value" id="AA7D120D5CC644449BAEB063A618F11D" action="add">
+    <label xml:lang="en">GER Category G12</label>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category G12</value>
+   </Item>
+   <Item type="Value" id="DD4F69D686A74078A9925F627FD95AD7" action="add">
+    <label xml:lang="en">GER Category Y</label>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category Y</value>
+   </Item>
+   <Item type="Value" id="363FBB9C67FF47478481F026C0FBD4AA" action="add">
+    <label xml:lang="en">GER Category Z</label>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>GER Category Z</value>
+   </Item>
+   <Item type="Value" id="DFED622543D949ABA78FA3F611E2E611" action="add">
+    <label xml:lang="en">UK Category U00</label>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U00</value>
+   </Item>
+   <Item type="Value" id="DE45A23AD37849A6A15A2A483A54574A" action="add">
+    <label xml:lang="en">UK Category U01</label>
+    <sort_order>4480</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U01</value>
+   </Item>
+   <Item type="Value" id="21706D274B5942DDAB4B63BCD96310E1" action="add">
+    <label xml:lang="en">UK Category U02</label>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U02</value>
+   </Item>
+   <Item type="Value" id="3A2AED37D2AC492A8DD262038599CA71" action="add">
+    <label xml:lang="en">UK Category U03</label>
+    <sort_order>4736</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U03</value>
+   </Item>
+   <Item type="Value" id="7EA50DD49BD342F48310382C3B1F9B42" action="add">
+    <label xml:lang="en">UK Category U04</label>
+    <sort_order>4864</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U04</value>
+   </Item>
+   <Item type="Value" id="A362E7587AF44735B7B4F2770A0CEE36" action="add">
+    <label xml:lang="en">UK Category U05</label>
+    <sort_order>4992</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U05</value>
+   </Item>
+   <Item type="Value" id="2EE4E2E2DA094BCE9EC1ADE11EC4E504" action="add">
+    <label xml:lang="en">UK Category U06</label>
+    <sort_order>5120</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U06</value>
+   </Item>
+   <Item type="Value" id="7792F08599EF42F49D288D8A5C5DB20C" action="add">
+    <label xml:lang="en">UK Category U07</label>
+    <sort_order>5248</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U07</value>
+   </Item>
+   <Item type="Value" id="BCD0D62FB5B34BBBB9EDD39715640FA9" action="add">
+    <label xml:lang="en">UK Category U99</label>
+    <sort_order>5376</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category U99</value>
+   </Item>
+   <Item type="Value" id="443E0D8A1A104467911460CB15CD5449" action="add">
+    <label xml:lang="en">UK Category Z</label>
+    <sort_order>5504</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>UK Category Z</value>
+   </Item>
+   <Item type="Value" id="D4013F10461242B9B13D0B9FB127DF0B" action="add">
+    <label xml:lang="en">SPA Category S00</label>
+    <sort_order>5632</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category S00</value>
+   </Item>
+   <Item type="Value" id="72FB35FF5EA94B9BAFCF7EDAEA7C201B" action="add">
+    <label xml:lang="en">SPA Category S01</label>
+    <sort_order>5760</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category S01</value>
+   </Item>
+   <Item type="Value" id="F1ACABB0DDBA400995CA615F109C1546" action="add">
+    <label xml:lang="en">SPA Category S02</label>
+    <sort_order>5888</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category S02</value>
+   </Item>
+   <Item type="Value" id="DDFE7E29F04D47D18E0284395077BDB0" action="add">
+    <label xml:lang="en">SPA Category S03</label>
+    <sort_order>6016</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category S03</value>
+   </Item>
+   <Item type="Value" id="36CA307322554E35A87726793D3CB24E" action="add">
+    <label xml:lang="en">SPA Category S04</label>
+    <sort_order>6144</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category S04</value>
+   </Item>
+   <Item type="Value" id="562D6CD5FEC24E30826A2E3D5D0EC5EA" action="add">
+    <label xml:lang="en">SPA Category Y</label>
+    <sort_order>6272</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category Y</value>
+   </Item>
+   <Item type="Value" id="09AC867CBD3548D6B05725606AAABD4F" action="add">
+    <label xml:lang="en">SPA Category Z</label>
+    <sort_order>6400</sort_order>
+    <source_id keyed_name="DnA_Resource_Category" type="List">96F882521C344A97AFCD145D4CDDD750</source_id>
+    <value>SPA Category Z</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

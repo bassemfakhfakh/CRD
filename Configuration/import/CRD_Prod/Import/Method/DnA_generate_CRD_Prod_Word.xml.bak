@@ -1,0 +1,50 @@
+﻿<AML>
+ <Item type="Method" id="926143A4AC024716987218B9B69982CC" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+this function automatically add a word doc attacement relationship to the CRD.
+The word document is the CRD word template taken from the CRD template CRD-000001
+trigger: object on after add
+*/
+System.Diagnostics.Debugger.Launch();
+System.Diagnostics.Debugger.Break(); 
+Innovator innovator = this.getInnovator();
+var lifecyclestate =this.getProperty("dna_load_life_cycle_state");
+
+if (lifecyclestate== null) {
+//get the word template
+var crddoctemplate = innovator.newItem("DnA_CRD_Prod","get");
+crddoctemplate.setProperty("dna_number","CRD-000001");
+crddoctemplate.setProperty("is_current","1");
+//crddoctemplate.setProperty("id","F5611C0C3F0146DC97070DD50BE1EAD4");
+
+var TemplateFileItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","get");
+crddoctemplate.addRelationship(TemplateFileItem);
+
+
+crddoctemplate=crddoctemplate.apply();
+
+TemplateFileItem=crddoctemplate.getRelationships("DnA_CRD_Prod_File_Relationship");
+var TemplateFileItemNb1 = TemplateFileItem.getItemByIndex(0);
+var fileItem =TemplateFileItemNb1.getRelatedItem();
+
+// Duplicate File Item as files should be 1 to 1
+var newFile = fileItem.apply("copyAsNew");
+// Create the relationship between the Document and File
+var relItem = innovator.newItem("DnA_CRD_Prod_File_Relationship","add");
+
+//
+relItem.setRelatedItem(newFile);
+this.addRelationship(relItem);
+
+this.apply();
+
+var sqlrequest = "UPDATE [innovator].[FILE] SET [FILENAME] = '" + this.getProperty("dna_number") +" - "+ this.getProperty("dna_title")  +".docx' where [id]='" + newFile.getProperty("id")+ "'";
+var qry = innovator.applySQL(sqlrequest);
+}
+return this;
+]]></method_code>
+  <method_type>C#</method_type>
+  <name>DnA_generate_CRD_Prod_Word</name>
+ </Item>
+</AML>

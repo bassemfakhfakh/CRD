@@ -1,0 +1,131 @@
+﻿<AML>
+ <Item type="Method" id="1C51BD13022B4F0C9F0F80A9A47F9AB0" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[Innovator inn = this.getInnovator();
+
+    //get the domain manager role
+    var teamManager = inn.newItem("Identity","get");
+    
+    teamManager.setProperty("name","Team Manager");
+    teamManager=teamManager.apply();
+    
+    var related_domain_id = this.getProperty("team_id");
+    
+    var domain = inn.newItem("Team","get");
+    domain.setProperty("id",related_domain_id);
+
+    var teammember = inn.newItem("Team Identity","get");
+    teammember.setProperty("team_role",teamManager.getItemByIndex(0).getProperty("id"));
+    domain.addRelationship(teammember);
+    
+    if(related_domain_id == null) return inn.newError("Please fill the Domain Manager field! ");
+    domain=domain.apply();
+    
+    teammember=domain.getRelationships("Team Identity");
+     
+
+    for(var i=0;i<teammember.getItemCount();i++)
+    {
+        
+        var teammember_identityID = teammember.getItemByIndex(i).getProperty("related_id");
+        
+        var teammemberObject = inn.newItem("Identity","get");
+        var member = inn.newItem("Member","get");
+        
+        //member.setPropertyAttribute("end_date", "is_null", "1");
+        teammemberObject.setProperty("id",teammember_identityID);
+        
+        teammemberObject.addRelationship(member);
+        teammemberObject=teammemberObject.apply();
+        
+        member=teammemberObject.getRelationships("Member");
+        var teammeberName = teammemberObject.getItemByIndex(0).getProperty("name");
+        //get the first user of the group.. if the group has more than 1 user???
+        //top.aras.AlertSuccess(teammeberName);
+        //
+            
+
+        if(teammeberName != "DnA Bundle Manager"){
+            var userid="";
+            for (var j=0;j<member.getItemCount();j++){
+            
+                
+                var enddate=member.getItemByIndex(j).getProperty("end_date","");
+                //top.aras.AlertSuccess("enddate " + enddate);
+                if(enddate=="" ){
+                userid=member.getItemByIndex(j).getProperty("related_id");
+                break;
+                
+                }
+            
+            }
+            
+            this.setProperty("dna_dmanager",userid);
+            
+            //this.apply("merge");
+
+        }
+    }
+
+//variable dna_load_life_cycle_state is only used for uploading CRDs, it is a hidden variable, thererfore when a CRD is created via the API, the variable is null
+
+var isLocked=this.getLockStatus();
+
+
+var lifecyclestate =this.getProperty("dna_load_life_cycle_state");
+if (lifecyclestate== null) {
+
+if(isLocked==0)
+{
+    this.unlockItem();
+}
+ //this.promote("SCB Validation","CRD creation");
+ this.promote("WIP","CRD creation");
+
+ 
+Item itm = this.newItem("Workflow Map", "get");
+itm.setAttribute("select", "id");
+itm.setProperty("name", "DnA_CRD_Prod");
+itm = itm.apply();
+string wf_id = itm.getID();
+Item wf_process = this.instantiateWorkflow(wf_id);
+wf_process.apply("startWorkflow");
+ 
+}
+
+
+if (lifecyclestate!= null) {
+    //this.unlockItem();SCB Validation
+    this.promote(this.getProperty("dna_load_life_cycle_state"),"loaded lifecycle state");
+    
+    if (lifecyclestate== "WIP") 
+    {
+        Item itm = this.newItem("Workflow Map", "get");
+        itm.setAttribute("select", "id");
+        itm.setProperty("name", "DnA_CRD_Prod");
+        itm = itm.apply();
+        string wf_id = itm.getID();
+        Item wf_process = this.instantiateWorkflow(wf_id);
+        wf_process.apply("startWorkflow");
+        
+    }
+    
+    //this.promote("SCB Validation","loaded lifecycle state");
+    //this.promote("WIP","loaded lifecycle state");
+    
+    if(isLocked==1)
+    {
+        this.lockItem();
+    }
+}
+
+// var unLocked= this.getLockStatus();
+//  if(unLocked==0){ 
+//         this.lockItem();
+//     }
+
+return this;]]></method_code>
+  <method_type>C#</method_type>
+  <name>DnA_Load_CRD_Promote_State</name>
+ </Item>
+</AML>

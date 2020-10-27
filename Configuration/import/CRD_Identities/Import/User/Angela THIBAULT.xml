@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="DD7EF5EC6A314AB495A569CB91E79AB7" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>angela.thibault.external@airbus.com</email>
+  <last_login_date>2019-10-14T10:15:05</last_login_date>
+  <login_name>angela.thibault</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Angela THIBAULT" type="Identity">81C7C08301B74F82BE4FF397FD205FAC</owned_by_id>
+  <pwd_is_set_on>2018-02-14T17:31:07</pwd_is_set_on>
+  <first_name>Angela</first_name>
+  <last_name>THIBAULT</last_name>
+  <Relationships>
+   <Item type="Alias" id="3FC584DEEF24432BBFFBBBE4D727C18E" action="add">
+    <from_date>2017-12-13T17:40:46</from_date>
+    <related_id keyed_name="Angela THIBAULT" type="Identity">81C7C08301B74F82BE4FF397FD205FAC</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Angela THIBAULT" type="User">DD7EF5EC6A314AB495A569CB91E79AB7</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

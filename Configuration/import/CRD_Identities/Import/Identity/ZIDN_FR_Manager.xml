@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="Identity" id="BE82D0F3D40B409995F3BDDCF89C3C11" action="add">
+  <is_alias>0</is_alias>
+  <name>ZIDN_FR_Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="9FF9385F05F44D75B0F9D2BFC020A9B7" action="add">
+  <related_id keyed_name="Bertrand MARTEAU" type="Identity">8A3E8D4E10EF46FFAB8F62E18E460FF0</related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="ZIDN_FR_Manager" type="Identity">BE82D0F3D40B409995F3BDDCF89C3C11</source_id>
+ </Item>
+</AML>

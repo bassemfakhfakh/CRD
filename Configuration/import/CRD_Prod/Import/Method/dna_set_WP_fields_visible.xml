@@ -1,0 +1,96 @@
+﻿<AML>
+ <Item type="Method" id="ACA9AF845D494DFF98B58F5B67CFAFD3" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[/*
+This function manages the visibility of workpackage fields under CRD creation and update
+trigger: CRD form load
+*/
+
+var inn = top.aras.newIOMInnovator();
+
+
+
+
+var domainManagerName = document.thisItem.getProperty("dna_dmanager");
+var dateStart= new Date(document.thisItem.getProperty("dna_startdate"));
+const monthNames = ["Jan.", "Feb.", "March", "Apr.", "May", "June",
+  "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+
+//if domain manager exists, then set domain manager field to visible
+if ((domainManagerName !== undefined)&&(domainManagerName !== null)&& (domainManagerName !== "")){
+    getFieldByName("dna_dmanager").style.visibility="visible";
+}
+
+var startMonth=new Date(document.thisItem.getProperty("dna_startdate")).getMonth();
+var missionTime= (new Date(document.thisItem.getProperty("dna_enddate")).getMonth()-new Date(document.thisItem.getProperty("dna_startdate")).getMonth());
+
+var fieldNumber= missionTime +1;
+// if workpackqge quantity > 0, then fields are visible
+
+
+for (var i=1;i<5;i++)
+{
+    var qty_WP= document.thisItem.getProperty("dna_qty"+i);
+    if(parseFloat(qty_WP)>0)
+    {
+        var dna_wp_field=getFieldByName("dna_wp_" + i);
+        dna_wp_field.style.visibility="visible";
+        
+        var dna_wp_unit_price_field = getFieldByName("dna_wp" +i+"_unit_price");
+        dna_wp_unit_price_field.style.visibility="visible";
+    
+        var dna_qty_field = getFieldByName("dna_qty" +i);
+        dna_qty_field.style.visibility="visible";
+    
+        var dna_price_wp_field = getFieldByName("dna_price_wp" + i);
+        dna_price_wp_field.style.visibility="visible";
+        
+        var dna_qty_discount_field = getFieldByName("dna_qty"+i+"_discount");
+        dna_qty_discount_field.style.visibility="visible";
+        
+        
+        
+    
+        var dna_deliverables_wp_field = getFieldByName("dna_deliverables_wp" +i);
+        dna_deliverables_wp_field.style.visibility="visible";
+        
+        // if(startMonth!== null && missionTime>0)
+        // {
+            for(var j=1; j<fieldNumber+1; j++)
+            {
+                if(document.thisItem.getProperty("dna_wp_gr"+ (startMonth+j) +"_"+ i) !== null)
+                {
+                var dna_wp_gr_field= getFieldByName("dna_wp_gr"+ (startMonth+j) +"_"+ i);
+                dna_wp_gr_field.style.visibility="visible";
+                
+                 var label =dna_wp_gr_field.getElementsByClassName("sys_f_label");
+                label[0].innerHTML= monthNames[dateStart.getMonth() +j-1];
+                }
+            }
+        // }
+    }
+}
+
+//Profitability, INACTIVE FOR NOW
+// var profitabilities= inn.newItem("DnA_CRD_Profitability","get");
+// var CRDname=document.thisItem.getProperty("dna_number");
+// var html= getFieldByName("dna_attach_profitability");
+// profitabilities.setProperty("dna_prof_number", CRDname+"_Profitability");
+// profitability= profitabilities.apply();
+
+// if (profitability.isError())
+// {
+//   html.style.visibility="hidden";
+// }
+// else{
+//     html.getElementsByTagName("input")[0].value= "Profitability of "+ CRDname;
+//     html.style.visibility="visible";
+// }
+
+
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>dna_set_WP_fields_visible</name>
+ </Item>
+</AML>

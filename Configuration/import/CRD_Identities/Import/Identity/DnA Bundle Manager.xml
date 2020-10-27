@@ -1,0 +1,41 @@
+﻿<AML>
+ <Item type="Identity" id="DB14CA9960C24702AB8298103F6CBBE4" action="add">
+  <is_alias>0</is_alias>
+  <name>DnA Bundle Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="0AF7BBC48DC84EB9B6FCB521DD860CD3" action="add">
+  <related_id keyed_name="Bertrand MARTEAU" type="Identity">8A3E8D4E10EF46FFAB8F62E18E460FF0</related_id>
+  <sort_order>1408</sort_order>
+  <source_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</source_id>
+ </Item>
+ <Item type="Member" id="74ACB6B23122428D9972E6A78103735A" action="add">
+  <related_id keyed_name="Karine DECRETTE" type="Identity">57663444224549DDA0511735E264D272</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</source_id>
+ </Item>
+ <Item type="Member" id="7E5AEF95376240C28AA27F1759C0396E" action="add">
+  <related_id keyed_name="Agnes BOCCACINO" type="Identity">33D7B04AF41C4DBAB8CD69B74CD60FD6</related_id>
+  <sort_order>1024</sort_order>
+  <source_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</source_id>
+ </Item>
+ <Item type="Member" id="8E85E37CC34C48879F219D9DCC952E88" action="add">
+  <related_id keyed_name="chirag jain" type="Identity">B767266AF91F40F9B970F2BBA635F189</related_id>
+  <sort_order>1152</sort_order>
+  <source_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</source_id>
+ </Item>
+ <Item type="Member" id="9A4651D6066A440B999497F9110952D7" action="add">
+  <related_id keyed_name="Hans-Juergen LUEKEN" type="Identity">DF7207FF008E4798BCFA6973BC6CDC24</related_id>
+  <sort_order>1280</sort_order>
+  <source_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</source_id>
+ </Item>
+ <Item type="Member" id="DB9BA6149B9144CC8E8FD43AD2440CD7" action="add">
+  <related_id keyed_name="Innovator Admin" type="Identity">
+   <Item type="Identity" action="get" select="id">
+    <name>Innovator Admin</name>
+   </Item>
+  </related_id>
+  <sort_order>768</sort_order>
+  <source_id keyed_name="DnA Bundle Manager" type="Identity">DB14CA9960C24702AB8298103F6CBBE4</source_id>
+ </Item>
+</AML>

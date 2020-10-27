@@ -1,0 +1,26 @@
+﻿<AML>
+ <Item type="User" id="A367C60C6F06425F9F5E7BB144E39B41" action="add">
+  <company_name>CIMPA</company_name>
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>karine.decrette@cimpa.com</email>
+  <last_login_date>2019-05-20T14:33:32</last_login_date>
+  <login_name>46519374</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Karine DECRETTE" type="Identity">57663444224549DDA0511735E264D272</owned_by_id>
+  <pwd_is_set_on>2017-08-23T15:34:03</pwd_is_set_on>
+  <starting_page>InBasket Task</starting_page>
+  <team_id keyed_name="ZIDA" type="Team">F036436716ED4550B795D0C60E4EDF1C</team_id>
+  <telephone>+33532110191</telephone>
+  <working_directory>C:\temp</working_directory>
+  <first_name>Karine</first_name>
+  <last_name>DECRETTE</last_name>
+  <Relationships>
+   <Item type="Alias" id="48A0158646614AF2A90C91EAC34CDF77" action="add">
+    <from_date>2017-06-07T12:47:38</from_date>
+    <related_id keyed_name="Karine DECRETTE" type="Identity">57663444224549DDA0511735E264D272</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Karine DECRETTE" type="User">A367C60C6F06425F9F5E7BB144E39B41</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

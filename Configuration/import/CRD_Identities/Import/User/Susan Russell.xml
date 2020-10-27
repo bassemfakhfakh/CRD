@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="03DE5AFFC68646BA865F72B1BE6E3CBB" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>susan.russell.external@airbus.com</email>
+  <last_login_date>2019-10-04T11:21:33</last_login_date>
+  <login_name>susan.russell</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Susan Russell" type="Identity">0FEAC77296D34736A0F15EFA0187FEBA</owned_by_id>
+  <pwd_is_set_on>2019-02-20T12:34:14</pwd_is_set_on>
+  <first_name>Susan</first_name>
+  <last_name>Russell</last_name>
+  <Relationships>
+   <Item type="Alias" id="F81E9858120E42E5A478C1FDE93A168B" action="add">
+    <from_date>2019-02-20T12:18:43</from_date>
+    <related_id keyed_name="Susan Russell" type="Identity">0FEAC77296D34736A0F15EFA0187FEBA</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Susan Russell" type="User">03DE5AFFC68646BA865F72B1BE6E3CBB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

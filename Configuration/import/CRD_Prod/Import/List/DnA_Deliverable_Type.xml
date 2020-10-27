@@ -1,0 +1,70 @@
+﻿<AML>
+ <Item type="List" id="803BCC1BF7874ADCB935159F4CCA08FC" action="add">
+  <description>Type of Deliverable</description>
+  <name>DnA_Deliverable_Type</name>
+  <Relationships>
+   <Item type="Filter Value" id="CEDDED69C08F475983EB95F8873A5E7D" action="add">
+    <filter>WP1</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP1DO</value>
+   </Item>
+   <Item type="Filter Value" id="1DE1216F3C314E2BB72D7CAC1916C406" action="add">
+    <filter>WP2</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP2DO</value>
+   </Item>
+   <Item type="Filter Value" id="9F783BDA35A2474B9020E7DE5458149C" action="add">
+    <filter>WP3</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP3DO</value>
+   </Item>
+   <Item type="Filter Value" id="31A0CDEB24404D0FA86EA2A9F577F4DD" action="add">
+    <filter>WP4</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP4DO</value>
+   </Item>
+   <Item type="Filter Value" id="16E691329C75476F95327C573518EF8B" action="add">
+    <filter>WP5</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP5DO</value>
+   </Item>
+   <Item type="Filter Value" id="4FD8B49776C74B31B8F0D9A1F495DE61" action="add">
+    <filter>WP6</filter>
+    <label xml:lang="en">Document</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP6DO</value>
+   </Item>
+   <Item type="Filter Value" id="EF8FAC49C77140DDBAD688A3A7C33F01" action="add">
+    <filter>WP5</filter>
+    <label xml:lang="en">Quality Gate</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP5QG</value>
+   </Item>
+   <Item type="Filter Value" id="F2B65F1E3B034F3AB9C2FC691ECD98A4" action="add">
+    <filter>WP5</filter>
+    <label xml:lang="en">Milestone</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>WP5MI</value>
+   </Item>
+   <Item type="Value" id="8E84FD32A760444CA50F7950EC4FEB13" action="add">
+    <label xml:lang="en">Other</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="DnA_Deliverable_Type" type="List">803BCC1BF7874ADCB935159F4CCA08FC</source_id>
+    <value>Other</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

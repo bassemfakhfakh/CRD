@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="User" id="FEEA583218CB4CA0B3B4DE73D440446A" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>aled.evans.external@airbus.com</email>
+  <last_login_date>2020-01-02T10:51:05</last_login_date>
+  <login_name>aled.evans</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Aled EVANS" type="Identity">A29960404D2749F381D2F09AAB0100BE</owned_by_id>
+  <pwd_is_set_on>2018-02-14T11:26:19</pwd_is_set_on>
+  <first_name>Aled</first_name>
+  <last_name>EVANS</last_name>
+  <Relationships>
+   <Item type="Alias" id="1C0EE8FCCD6D4ECC9A1653D2A88BE68D" action="add">
+    <from_date>2017-12-13T17:35:16</from_date>
+    <related_id keyed_name="Aled EVANS" type="Identity">A29960404D2749F381D2F09AAB0100BE</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Aled EVANS" type="User">FEEA583218CB4CA0B3B4DE73D440446A</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,92 @@
+﻿<AML>
+ <Item type="Identity" id="3ED4DAA5501F422F9A4CE58D3CEE0D50" action="add">
+  <is_alias>0</is_alias>
+  <name>DnA Domain Manager</name>
+  <Relationships />
+ </Item>
+ <Item type="Member" id="007B6709795E41E8BAA231764ADE7A6B" action="add">
+  <related_id keyed_name="ZIDDB_GE_Manager" type="Identity">2B3678A61173473EBE19F1B800F409EE</related_id>
+  <sort_order>768</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="28B030748D5546F3B2085E9335EED9E2" action="add">
+  <related_id keyed_name="ZIDN_FR_Manager" type="Identity">BE82D0F3D40B409995F3BDDCF89C3C11</related_id>
+  <sort_order>1664</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="37C25A49ECC849BA8936D5C712436102" action="add">
+  <related_id keyed_name="DnA Reader" type="Identity">E448CAB14A564D5981F56CF5A9456B37</related_id>
+  <sort_order>2304</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="43ED6D91FFD4406C9EEF17F6391288C0" action="add">
+  <related_id keyed_name="ZIDDA_Manager" type="Identity">D6762C8C2483450C8B25B602AADF9A1F</related_id>
+  <sort_order>512</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="4D72E2CD6C9342E6A6F962B61A9D1AED" action="add">
+  <related_id keyed_name="ZIDCC - SSI_Manager" type="Identity">479EA99D6A614DAEAADB242B4C8746FA</related_id>
+  <sort_order>2432</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="4FBF2E713F3841D585D82416CDE0516D" action="add">
+  <related_id keyed_name="ZIDDX_Manager" type="Identity">9FC27066B3914487816537FB30F4DEF9</related_id>
+  <sort_order>1152</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="5BFE5A6E7E344D2B98863DD6E2FC3BD2" action="add">
+  <related_id keyed_name="ZIDSC_FR_Manager" type="Identity">489EE90CE7B44189A8B43712ACF31162</related_id>
+  <sort_order>1280</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="5ED229361F924E319E036A1287B29551" action="add">
+  <related_id keyed_name="ZIDDB_FR_Manager" type="Identity">637FE41FFC5241ADA8EDABCA9BAF8BD3</related_id>
+  <sort_order>640</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="6693A9A72DAF464782D0116CCFE68180" action="add">
+  <related_id keyed_name="ZIDSA_UK_Manager" type="Identity">4DF9562A9CD64653A127784A1B93224A</related_id>
+  <sort_order>1536</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="69EBD7287611447AA91E57BA0A543464" action="add">
+  <related_id keyed_name="ZIDA_Manager" type="Identity">6C235BB97D694E03B92DF0A05A29A614</related_id>
+  <sort_order>256</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="7571C930FEBB4C94B1B70160D6B4A3C0" action="add">
+  <related_id keyed_name="ZIDCC Conf Service CPAO ZIDAI ZIDCD_Manager" type="Identity">67EF6E77E5344039ABF8AE095F214254</related_id>
+  <sort_order>2048</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="76565F1E8FBB4442AF9FC86F51F5C506" action="add">
+  <related_id keyed_name="ZIDDB_GE_Manager" type="Identity">2B3678A61173473EBE19F1B800F409EE</related_id>
+  <sort_order>1792</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="7ECA34E3B9534575B64FC8C07410750D" action="add">
+  <related_id keyed_name="ZILO_Manager" type="Identity">C07CE7F94BD8480485412CAF7B5FE7DA</related_id>
+  <sort_order>2176</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="AC0DCFC590764EADBCB541CF2F2483EC" action="add">
+  <related_id keyed_name="ZIDN_GE_Manager" type="Identity">D4D379EAC64F4A8E8C4B209B2038E82A</related_id>
+  <sort_order>1920</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="D85E1200D58641D1AB1AAC1618110E3A" action="add">
+  <related_id keyed_name="ZIDCC SSI 3DX_Manager" type="Identity">CCF37115501044098536099836DA1495</related_id>
+  <sort_order>384</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="DD97A2355F054CD08D6FA6619A4586DA" action="add">
+  <related_id keyed_name="ZIDS_GE_Manager" type="Identity">95B1094B04A240588C9BCF38E6728036</related_id>
+  <sort_order>1408</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+ <Item type="Member" id="DEAC42DD580141F19BC9651CD2B999C4" action="add">
+  <related_id keyed_name="IDDS_Manager" type="Identity">0C30FA12D4E14583BABE1D7A96D2C7AD</related_id>
+  <sort_order>896</sort_order>
+  <source_id keyed_name="DnA Domain Manager" type="Identity">3ED4DAA5501F422F9A4CE58D3CEE0D50</source_id>
+ </Item>
+</AML>

@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="Method" id="BA2E85BA2E8242759C010ED34EC95002" action="add">
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[//document.thisItem.getProperty("dna_status","");
+//document.thisItem.getProperty("dna_typedeliverable","");
+//document.thisItem.getProperty("dna_remark","");
+handleItemChange("dna_status","");
+handleItemChange("dna_typedeliverable","");
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>DnA_reset_deliv_status</name>
+ </Item>
+</AML>
