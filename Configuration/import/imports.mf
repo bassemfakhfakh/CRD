@@ -4,8 +4,6 @@
   </package>
 
   <package name="CRD_Prod" path="CRD_Prod\Import">
-    <dependson name="com.aras.innovator.preferences" />
-    <dependson name="com.aras.innovator.core" />
   </package>
   <package name="CRD_Template" path="CRD_Template\Import" />
   <package name="MSO_References" path="MSO_References\Import">
